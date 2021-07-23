@@ -9,9 +9,19 @@ module.exports = {
     nav: [
       {
         text: "Topics",
+        link: "/topics/",
+      },
+      {
+        text: "Posts",
         items: [
-          { text: "LeetCode", link: "/topics/LeetCode/" },
-          { text: "VuePress", link: "/topics/VuePress/" },
+          { text: "All Posts", link: "/posts/" },
+          {
+            text: "By Topic",
+            items: [
+              { text: "LeetCode", link: "/topics/LeetCode/" },
+              { text: "VuePress", link: "/topics/VuePress/" },
+            ],
+          },
         ],
       },
       {

@@ -4,7 +4,7 @@ h1 {
 
 h2 {
   font-size 2.25rem
-  border-bottom 0.125rem solid #754d34
+  border-bottom 0.125rem solid $borderColor
 }
 
 .theme-default-content:not(.custom) > h1 {
@@ -12,7 +12,8 @@ h2 {
 }
 
 .theme-default-content:not(.custom) > h2 {
-  padding-top 4.453rem
+  padding-top 0
+  margin-top 2rem
 }
 
 .MJX-TEX {
@@ -28,15 +29,22 @@ html
       align-items center
       height 4.5rem
       background-color #1f2229
-      border-bottom 0.125rem solid #754d34
+      border-bottom 0.125rem solid $borderColor
       .dropdown-title
         font-size 1.25rem
       .nav-dropdown
+        text-align center
         background-color #1f2229
-        border 0.125rem solid #754d34
+        border 0.125rem solid $borderColor
         padding 0.8rem 0
         .dropdown-item
           padding-bottom 0.4rem
+          h4
+            border-top 0.0625rem solid $borderColor
+            cursor initial
+            margin 0.45rem 0.375rem 0
+          a.router-link-active::after
+            left 0.75rem
       .site-name
         font-size 1.5rem
       div.links
@@ -47,12 +55,12 @@ html
           margin-right 1.5rem
           input
             background-color transparent
-            border 0.125rem solid #69452f
-            color #e6e6e6
+            border 0.125rem solid $borderColor
+            color $textColor
             font-size 1rem
           ul.suggestions
             background-color #1f2229
-            border 0.125rem solid #69452f
+            border 0.125rem solid $borderColor
           ul:hover
             background-color #1f2229
             li:hover
@@ -63,15 +71,28 @@ html
             margin-left 0
           .nav-item
             margin-left 1.75rem
+            a:not(.external).router-link-active 
+              border-bottom 0
+          .nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-exact-active
+            border-bottom 0.125rem solid #ed7c42
     .sidebar
-      background-color #1f2229
       background-image linear-gradient(90deg, #21242c, #1f2229)
-      border-right 0.125rem solid #754d34
-      font-size 1.188rem
+      border-right 0.125rem solid $borderColor
       .nav-links
         border-bottom 0
         .nav-item:first-child
           margin-top 1.15rem
+        .nav-item
+          font-size 1.035rem
+          .mobile-dropdown-title
+            font-size 1.035rem
+        .dropdown-item
+          a
+            font-size 1rem
+          h4
+            font-size 1 rem
+        .dropdown-subitem > a
+          font-size 1rem
     .home
       padding 8rem 2rem 0
       .hero
@@ -84,8 +105,8 @@ html
       .hero:hover
         box-shadow 0.125rem 0.5rem 1rem 0.125rem #0b0c0f
       .features
-        border-top 0.125rem solid #754d34
-        border-bottom 0.125rem solid #754d34
+        border-top 0.125rem solid $borderColor
+        border-bottom 0.125rem solid $borderColor
         .feature
           text-align center
 

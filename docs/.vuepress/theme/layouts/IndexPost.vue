@@ -57,7 +57,7 @@ p {
   margin-top: 3.625rem;
   padding: 0 2rem;
   border: 0.125rem solid #16181d;
-  border-radius: 1.875;
+  border-radius: 1.875rem;
   box-shadow: 0 0.5rem 1rem 0 #16181d;
   transition: 0.2s;
   background-image: radial-gradient(circle at center center, #2c303a, #1f2229);

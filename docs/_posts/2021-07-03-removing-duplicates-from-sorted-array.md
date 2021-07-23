@@ -12,6 +12,8 @@ sidebar: auto
 
 # Removing Duplicates from Sorted Array
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ApBQCp1RfnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Assumptions
 
 - We have an <span style="color:#ffcc00">_integer_</span> array <span style="color:#ffcc00">_nums_</span>
@@ -128,7 +130,7 @@ console.log("k =", removeDuplicates(nums), "nums =", nums);
 </code-group>
 
 <style scoped>
-li {
+li, p {
   font-size: 1.25rem;
 }
 
@@ -138,10 +140,14 @@ li {
 
 .theme-code-group {
   font-size: 1.25rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 pre.language-js {
   margin-bottom: 0;
+}
+
+iframe {
+  margin-top: 2rem;
 }
 </style>
