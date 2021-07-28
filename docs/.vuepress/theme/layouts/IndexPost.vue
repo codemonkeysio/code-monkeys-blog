@@ -2,7 +2,9 @@
   <Layout>
     <template #page-top>
       <div class="theme-default-content content__default">
-        <h1>{{ $pagination.pages[0].frontmatter.topicDescription }}</h1>
+        <h1>
+          {{ $pagination.pages[0].frontmatter.topicDescription }}
+        </h1>
         <div
           class="post-card"
           :key="post.key"
@@ -14,7 +16,9 @@
                 {{ post.title }}
               </router-link>
             </h2>
-            <p>{{ post.frontmatter.description }}</p>
+            <p>
+              {{ post.frontmatter.description }}
+            </p>
           </div>
           <div class="post-pic">
             <img
@@ -37,24 +41,24 @@
 </template>
 
 <script>
-import Layout from "@parent-theme/layouts/Layout.vue";
+import Layout from '@parent-theme/layouts/Layout.vue';
 
 export default {
   components: {
-    Layout,
-  },
+    Layout
+  }
 };
 </script>
 
 <style scoped>
-p {
-  font-size: 1.25rem;
+h2 {
+  margin: 1.875rem 0;
 }
 
 .post-card {
   display: flex;
   align-items: center;
-  margin-top: 3.625rem;
+  margin-top: 3.5rem;
   padding: 0 2rem;
   border: 0.125rem solid #16181d;
   border-radius: 1.875rem;
@@ -82,6 +86,5 @@ p {
   display: flex;
   justify-content: space-between;
   padding-top: 2.719rem;
-  font-size: 1.25rem;
 }
 </style>

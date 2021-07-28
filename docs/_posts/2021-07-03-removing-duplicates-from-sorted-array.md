@@ -123,31 +123,20 @@ var removeDuplicates = function(nums) {
 };
 
 nums = [1, 1, 1, 2, 2];
-console.log("k =", removeDuplicates(nums), "nums =", nums);
+console.log('k =', removeDuplicates(nums), 'nums =', nums);
 ```
 
 </code-block>
 </code-group>
 
-<style scoped>
-li, p {
-  font-size: 1.25rem;
-}
+<style lang="stylus" scoped>
+iframe 
+  margin-top 2rem
 
-.language-text {
-  height: 0;
-}
-
-.theme-code-group {
-  font-size: 1.25rem;
-  margin-top: 2rem;
-}
-
-pre.language-js {
-  margin-bottom: 0;
-}
-
-iframe {
-  margin-top: 2rem;
-}
+.theme-code-group
+  margin-top 2rem
+  div.extra-class::before
+    font-size 1rem
+    pre
+      margin-bottom 0
 </style>

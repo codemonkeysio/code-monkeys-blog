@@ -1,24 +1,44 @@
-h1 {
-  font-size 2.5rem
-}
+@import "~rfs/stylus"
 
-h2 {
-  font-size 2.25rem
+.site-name
+  rfs-font-size(1.5rem)
+
+h1
+  rfs-font-size(2.5rem)
+
+h2
+  rfs-font-size(2.25rem)
+
+p, span, li, button, #pagination, .theme-code-block
+    rfs-font-size(1.25rem)
+
+.sidebar-heading > span
+  rfs-font-size(1.1875rem)
+
+.sidebar-group-items > li
+  rfs-font-size(1.1875rem)
+
+.theme-code-group__li
+  rfs-font-size(1.625rem)
+
+span.abbreviation, .footer
+  rfs-font-size(1.125rem)
+
+.icons
+  rfs-font-size(2rem)
+
+.icons :not(:last-child) .icon
+  rfs-margin-right(4.6875rem)
+
+h2
   border-bottom 0.125rem solid $borderColor
-}
 
-.theme-default-content:not(.custom) > h1 {
-  padding-top 7.625rem
-}
+.theme-default-content:not(.custom) > h1
+  padding-top 7.5rem
 
-.theme-default-content:not(.custom) > h2 {
+.theme-default-content:not(.custom) > h2
   padding-top 0
   margin-top 2rem
-}
-
-.MJX-TEX {
-  font-size 1.25rem
-}
 
 html
   background-color #1f2229
@@ -31,7 +51,7 @@ html
       background-color #1f2229
       border-bottom 0.125rem solid $borderColor
       .dropdown-title
-        font-size 1.25rem
+        rfs-font-size(1.25rem)
       .nav-dropdown
         text-align center
         background-color #1f2229
@@ -46,7 +66,7 @@ html
           a.router-link-active::after
             left 0.75rem
       .site-name
-        font-size 1.5rem
+        rfs-font-size(1.5rem)
       div.links
         background-color transparent
         height 3rem
@@ -57,7 +77,7 @@ html
             background-color transparent
             border 0.125rem solid $borderColor
             color $textColor
-            font-size 1rem
+            rfs-font-size(1.125rem)
           ul.suggestions
             background-color #1f2229
             border 0.125rem solid $borderColor
@@ -66,7 +86,7 @@ html
             li:hover
               background-color #1f2229
         .nav-links
-          font-size 1.25rem
+          rfs-font-size(1.25rem)
           .nav-item:first-child
             margin-left 0
           .nav-item
@@ -84,15 +104,17 @@ html
           margin-top 1.15rem
         .nav-item
           font-size 1.035rem
+          rfs-font-size(1.1875rem)
           .mobile-dropdown-title
             font-size 1.035rem
+            rfs-font-size(1.1875rem)
         .dropdown-item
           a
-            font-size 1rem
+            rfs-font-size(1.15625rem)
           h4
-            font-size 1 rem
+            rfs-font-size(1.15625rem)
         .dropdown-subitem > a
-          font-size 1rem
+          rfs-font-size(1.15625rem)
     .home
       padding 8rem 2rem 0
       .hero
@@ -102,6 +124,12 @@ html
         border-radius 5.625rem
         margin-bottom 0.625rem
         background-image radial-gradient(circle at center center, #2c303a, #1f2229)
+        h1
+          rfs-font-size(3rem)
+        .description
+          rfs-font-size(1.6rem)
+        .action-button
+          rfs-font-size(1.2rem)
       .hero:hover
         box-shadow 0.125rem 0.5rem 1rem 0.125rem #0b0c0f
       .features
@@ -109,6 +137,8 @@ html
         border-bottom 0.125rem solid $borderColor
         .feature
           text-align center
+          h2
+            rfs-font-size(1.4rem)
 
 main.home
   height 90vh
@@ -119,10 +149,24 @@ main.page
   .content-wrapper
     min-height calc(100vh - 10rem)
 
-.theme-default-content:not(.custom) {
-  max-width 69.531rem
-}
+.theme-default-content:not(.custom)
+  max-width 69.53125rem
+  padding-bottom 1.125rem
 
-footer.page-edit {
-  padding 0
-}
+footer.page-edit
+  padding-top 1.5rem
+  padding-bottom 1.125rem
+
+.footer
+  display flex
+  flex-direction column
+  align-items center
+  padding 2.5rem 2.5rem 2rem
+  border-top 0
+  color lighten($textColor, 25%)
+  .icons
+    display flex
+    padding-bottom 1.75rem
+    min-width 12.5rem
+    /* .icon:hover
+      color $accentColor */

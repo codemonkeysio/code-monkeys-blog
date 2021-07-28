@@ -31,27 +31,27 @@
 </template>
 
 <script>
-import Layout from "@parent-theme/layouts/Layout.vue";
+import Layout from '@parent-theme/layouts/Layout.vue';
 
 export default {
   components: {
-    Layout,
+    Layout
   },
 
   computed: {
     topicDetails() {
       const topicsPage = this.$site.pages.filter(
-        (page) => page.path === "/topics/"
+        (page) => page.path === '/topics/'
       );
       return topicsPage[0].frontmatter.topicDetails;
-    },
-  },
+    }
+  }
 };
 </script>
 
 <style scoped>
-p {
-  font-size: 1.25rem;
+h2 {
+  margin: 1.875rem 0;
 }
 
 .topic-card {
@@ -61,7 +61,7 @@ p {
   box-shadow: 0 0.5rem 1rem 0 #16181d;
   transition: 0.2s;
   border-radius: 1.875rem;
-  margin-top: 3.625rem;
+  margin-top: 3.5rem;
   padding: 0 2rem;
   background-image: radial-gradient(circle at center center, #2c303a, #1f2229);
 }
