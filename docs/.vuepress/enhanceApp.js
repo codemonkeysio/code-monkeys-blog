@@ -1,4 +1,4 @@
-import VueClipboard from "vue-clipboard2";
+import VueClipboard from 'vue-clipboard2';
 
 // async function is also supported, too
 export default ({
