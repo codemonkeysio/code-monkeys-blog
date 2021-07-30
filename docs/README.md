@@ -11,7 +11,7 @@ features:
 ---
 
 <style lang="stylus">
-@import "~rfs/stylus"
+@import "../node_modules/rfs/stylus.styl"
 
 h1
   rfs-font-size(2.5rem)
