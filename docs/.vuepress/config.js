@@ -6,10 +6,6 @@ module.exports = {
   description: 'Learn to Code like a Monkey',
   base: '/code-monkeys-blog/',
 
-  chainWebpack: (config, isServer) => {
-    config.resolveLoader.modules.add(path.resolve(__dirname, './node_modules'));
-  },
-
   themeConfig: {
     logo: '/images/code-monkeys-temp-logo.png',
     nav: [
