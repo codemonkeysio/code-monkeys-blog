@@ -8,12 +8,11 @@
     "@vuepress/plugin-back-to-top": "^1.8.2",
     "@vuepress/plugin-blog": "^1.9.4",
     "@vuepress/plugin-medium-zoom": "^1.8.2",
-    "async-validator": "^1.11.5",
+    "vue-clipboard2": "^0.3.1",
     "vuepress": "^1.8.2",
     "vuepress-plugin-mathjax": "^1.2.8"
   },
   "dependencies": {
-    "rfs": "^9.0.4",
-    "vue-clipboard2": "^0.3.1"
+    "rfs": "^9.0.4"
   }
 }
