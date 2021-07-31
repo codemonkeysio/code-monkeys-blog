@@ -1,4 +1,4 @@
-import { resolve } from 'path';
+const path = require('path');
 
 module.exports = {
   lang: 'en-US',
@@ -6,7 +6,7 @@ module.exports = {
   description: 'Learn to Code like a Monkey',
   base: '/code-monkeys-blog/',
 
-  enhanceAppFiles: resolve(__dirname, 'vue-clipboard2'),
+  enhanceAppFiles: path.resolve(__dirname, 'vue-clipboard2'),
 
   themeConfig: {
     logo: '/images/code-monkeys-temp-logo.png',
