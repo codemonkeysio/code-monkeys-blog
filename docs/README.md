@@ -11,7 +11,7 @@ features:
 ---
 
 <style lang="stylus">
-@require '~rfs/stylus.styl'
+@require './.vuepress/theme/styles/stylus.styl'
 
 h1
   rfs-font-size(2.5rem)
