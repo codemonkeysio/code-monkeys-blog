@@ -41,6 +41,15 @@ module.exports = {
     '@goy/svg-icons',
     'vuepress-plugin-mathjax',
     [
+      'vuepress-plugin-code-copy',
+      {
+        color: '#eb7132',
+        backgroundColor: '#eb7132',
+        successText: 'Copied to Clipboard!',
+        staticIcon: true
+      }
+    ],
+    [
       '@vuepress/blog',
       {
         directories: [

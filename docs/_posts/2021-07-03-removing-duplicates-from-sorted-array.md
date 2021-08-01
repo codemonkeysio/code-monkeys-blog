@@ -137,6 +137,6 @@ iframe
   margin-top 2rem
   div.extra-class::before
     font-size 1rem
-    pre
-      margin-bottom 0
+  pre
+    margin-bottom 0
 </style>
