@@ -3,7 +3,7 @@
     <div class="crypto" v-for="(crypto, index) in cryptos" :key="crypto.name">
       <div class="name-and-abbreviation">
         <span>{{ crypto.name }}</span>
-        <span>{{ crypto.abbr }}</span>
+        <span class="abbreviation">{{ crypto.abbr }}</span>
       </div>
       <div class="address-wrapper">
         <span class="left-address">{{
