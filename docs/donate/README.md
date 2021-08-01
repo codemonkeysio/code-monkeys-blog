@@ -4,7 +4,7 @@ description: Donations are Appreciated
 sidebar: auto
 ---
 
-# Thanks for the Bannanas!!! 🍌
+# Thanks for the Bananas!!! 🍌
 
 <div class="topic-card">
 

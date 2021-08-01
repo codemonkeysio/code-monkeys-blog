@@ -1,5 +1,35 @@
+@import '~rfs/stylus'
+
+h1
+  rfs-font-size(2.5rem)
+
 h2
+  rfs-font-size(2.25rem)
   border-bottom 0.125rem solid $borderColor
+
+p, span, li, button, #pagination
+  rfs-font-size(1.25rem)
+
+.sidebar-heading > span
+  rfs-font-size(1.1875rem)
+
+.sidebar-group-items > li
+  rfs-font-size(1.15625rem)
+
+.theme-code-group__li
+  rfs-font-size(1.625rem)
+
+.theme-code-block
+  rfs-font-size(1.4375rem)
+
+.icons
+  rfs-font-size(2rem)
+
+.icons :not(:last-child) .icon
+  rfs-margin-right(4.6875rem)
+
+span.abbreviation, .footer
+  rfs-font-size(1.125rem)
 
 .theme-default-content:not(.custom) > h1
   padding-top 7.5rem
@@ -18,6 +48,8 @@ html
       height 4.5rem
       background-color #1f2229
       border-bottom 0.125rem solid $borderColor
+      span.site-name
+        rfs-font-size(1.5rem)
       .nav-dropdown
         text-align center
         background-color #1f2229
@@ -38,23 +70,30 @@ html
         .search-box
           margin-right 1.5rem
           input
+            rfs-font-size(1.125rem)
             background-color transparent
             border 0.125rem solid $borderColor
             color $textColor
           ul.suggestions
             background-color #1f2229
             border 0.125rem solid $borderColor
+          // For Search Box Suggestions
+          /* ul.suggestions > a
+            rfs-font-size(1.25rem) */
           ul:hover
             background-color #1f2229
             li:hover
               background-color #1f2229
         .nav-links
+          rfs-font-size(1.25rem)
           .nav-item:first-child
             margin-left 0
           .nav-item
             margin-left 1.75rem
             a:not(.external).router-link-active
               border-bottom 0
+            .dropdown-title
+              rfs-font-size(1.25rem)
           .nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-exact-active
             border-bottom 0.125rem solid #ed7c42
     .sidebar
@@ -64,6 +103,18 @@ html
         border-bottom 0
         .nav-item:first-child
           margin-top 1.15rem
+        .nav-item
+          .nav-link
+            rfs-font-size(1.1875rem)
+          .mobile-dropdown-title
+            rfs-font-size(1.1875rem)
+          .dropdown-item
+            a
+              rfs-font-size(1.15625rem)
+            h4
+              rfs-font-size(1.15625rem)
+            .dropdown-subitem > a
+              rfs-font-size(1.15625rem)
     .home
       padding 8rem 2rem 0
       .hero
@@ -73,6 +124,12 @@ html
         border-radius 5.625rem
         margin-bottom 0.625rem
         background-image radial-gradient(circle at center center, #2c303a, #1f2229)
+        h1
+          rfs-font-size(3rem)
+        .description
+          rfs-font-size(1.6rem)
+        .action-button
+          rfs-font-size(1.2rem)
       .hero:hover
         box-shadow 0.125rem 0.5rem 1rem 0.125rem #0b0c0f
       .features
@@ -80,6 +137,8 @@ html
         border-bottom 0.125rem solid $borderColor
         .feature
           text-align center
+          h2
+            rfs-font-size(1.4rem)
 
 main.home
   height 90vh
