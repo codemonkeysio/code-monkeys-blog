@@ -2,8 +2,11 @@
   <Layout>
     <template #page-top>
       <div class="theme-default-content content__default">
-        <h1>
+        <h1 v-if="$route.path !== '/posts/'">
           {{ $pagination.pages[0].frontmatter.topicDescription }}
+        </h1>
+        <h1 v-else>
+          The Scribblings of a Monkey!!! 📝 🐒
         </h1>
         <div
           class="post-card"
@@ -50,6 +53,10 @@ import Layout from '@parent-theme/layouts/Layout.vue';
 export default {
   components: {
     Layout
+  },
+
+  mounted() {
+    console.log('this.$route', this.$route);
   }
 };
 </script>
