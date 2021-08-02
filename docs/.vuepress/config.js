@@ -2,7 +2,7 @@ module.exports = {
   lang: 'en-US',
   title: 'Code Monkeys',
   description: 'Learn to Code like a Monkey',
-  base: '/code-monkeys-blog/',
+  base: '/',
 
   themeConfig: {
     logo: '/images/code-monkeys-temp-logo.png',
