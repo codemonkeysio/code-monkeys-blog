@@ -2,7 +2,7 @@
   <Layout>
     <template #page-top>
       <div class="theme-default-content content__default">
-        <h1 v-if="$route.path !== '/posts/'">
+        <h1 v-if="!$route.path.includes('/posts/')">
           {{ $pagination.pages[0].frontmatter.topicDescription }}
         </h1>
         <h1 v-else>
