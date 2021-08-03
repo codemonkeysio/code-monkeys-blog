@@ -22,7 +22,7 @@ sidebar: auto
 
 ## Fiat 💵
 
-Support your fellow Code Monkeys by becoming a <a href="https://www.patreon.com/codemonkeys">Patron!</a>
+Support your fellow Code Monkeys by becoming a <a href="https://www.patreon.com/codemonkeys?fan_landing=true">Patron!</a>
 
 </div>
 
