@@ -22,7 +22,7 @@ sidebar: auto
 
 ## Fiat 💵
 
-I'm setting up a Patreon account soon...
+Support your fellow Code Monkeys by becoming a <a href="https://www.patreon.com/codemonkeys">Patron!</a>
 
 </div>
 
