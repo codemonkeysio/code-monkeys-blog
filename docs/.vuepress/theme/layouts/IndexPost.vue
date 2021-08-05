@@ -53,10 +53,6 @@ import Layout from '@parent-theme/layouts/Layout.vue';
 export default {
   components: {
     Layout
-  },
-
-  mounted() {
-    console.log('this.$route', this.$route);
   }
 };
 </script>

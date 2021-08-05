@@ -168,7 +168,7 @@ module.exports = {
             itemPermalink: '/posts/:year/:month/:day/:slug',
             layout: 'IndexPost',
             pagination: {
-              lengthPerPage: 2,
+              lengthPerPage: 5, // default value
               layout: 'IndexPost' // layout for the index page when page != 1
             }
           }
@@ -206,7 +206,7 @@ module.exports = {
             // Layout of the `scope page` (list of posts with this tag)
             scopeLayout: 'IndexPost',
             pagination: {
-              lengthPerPage: 2,
+              lengthPerPage: 5,
               layout: 'IndexPost'
             }
           }

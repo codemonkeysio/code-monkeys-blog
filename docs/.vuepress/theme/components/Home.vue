@@ -37,36 +37,18 @@
 
       <Content class="theme-default-content custom" />
     </div>
-    <footer class="footer">
-      <div class="icons">
-        <a href="https://github.com/codemonkeysio"
-          ><vp-icon name="GitHub" class="icon"></vp-icon
-        ></a>
-        <a href="https://www.youtube.com/channel/UCteut5f1PHW8vP29o66z-kg"
-          ><vp-icon name="YouTube" class="icon"></vp-icon
-        ></a>
-        <a href="https://discord.gg/mh9rQmwJ8H"
-          ><vp-icon name="Discord" class="icon"></vp-icon
-        ></a>
-        <a href="https://www.linkedin.com/in/jason-chiarulli-321358143/"
-          ><vp-icon name="LinkedIn" class="icon"></vp-icon
-        ></a>
-        <a href="https://www.patreon.com/codemonkeys?fan_landing=true"
-          ><vp-icon name="Patreon" class="icon"></vp-icon
-        ></a>
-      </div>
-      <div>Made by & for Code Monkeys 🐵</div>
-    </footer>
+    <Footer />
   </main>
 </template>
 
 <script>
 import NavLink from '@parent-theme/components/NavLink.vue';
+import Footer from '../../components/Footer.vue';
 
 export default {
   name: 'Home',
 
-  components: { NavLink },
+  components: { NavLink, Footer },
 
   computed: {
     data() {
