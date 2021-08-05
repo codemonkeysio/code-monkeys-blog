@@ -4,6 +4,114 @@ module.exports = {
   description: 'Learn to Code like a Monkey',
   base: '/',
 
+  head: [
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon-16x16.png',
+        sizes: '16x16'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon-32x32.png',
+        sizes: '32x32'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon-precomposed',
+        href: '/apple-touch-icon-180x180-precomposed.png',
+        sizes: '180x180'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon-precomposed',
+        href: '/apple-touch-icon-152x152-precomposed.png',
+        sizes: '152x152'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon-precomposed',
+        href: '/apple-touch-icon-144x144-precomposed.png',
+        sizes: '144x144'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon-precomposed',
+        href: '/apple-touch-icon-120x120-precomposed.png',
+        sizes: '120x120'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon-precomposed',
+        href: '/apple-touch-icon-114x114-precomposed.png',
+        sizes: '114x114'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon-precomposed',
+        href: '/apple-touch-icon-76x76-precomposed.png',
+        sizes: '76x76'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon-precomposed',
+        href: '/apple-touch-icon-72x72-precomposed.png',
+        sizes: '72x72'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon-precomposed',
+        href: '/apple-touch-icon-60x60-precomposed.png',
+        sizes: '60x60'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon-precomposed',
+        href: '/apple-touch-icon-57x57-precomposed.png',
+        sizes: '57x57'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'manifest',
+        href: '/site.webmanifest'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'mask-icon',
+        href: '/safari-pinned-tab.svg',
+        color: '#1f2229'
+      }
+    ]
+  ],
+
   themeConfig: {
     logo: '/images/code-monkeys-temp-logo.png',
     nav: [
@@ -104,7 +212,7 @@ module.exports = {
           }
         ],
         sitemap: {
-          hostname: 'https://codemonkeys.io'
+          hostname: 'https://codemonkeys.tech'
         }
       }
     ]
