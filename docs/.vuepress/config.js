@@ -109,6 +109,34 @@ module.exports = {
         href: '/safari-pinned-tab.svg',
         color: '#1f2229'
       }
+    ],
+    [
+      'meta',
+      {
+        name: 'msapplication-TileColor',
+        content: '#1f2229'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'msapplication-TileImage',
+        content: '/mstile-144x144.png'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'theme-color',
+        content: '#1f2229'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'msapplication-config',
+        content: '/browserconfig.xml'
+      }
     ]
   ],
 
