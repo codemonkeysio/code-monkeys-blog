@@ -26,6 +26,13 @@ module.exports = {
     [
       'link',
       {
+        rel: 'shortcut icon',
+        href: '/favicon.ico'
+      }
+    ],
+    [
+      'link',
+      {
         rel: 'apple-touch-icon-precomposed',
         href: '/apple-touch-icon-180x180-precomposed.png',
         sizes: '180x180'
