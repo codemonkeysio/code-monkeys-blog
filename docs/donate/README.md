@@ -26,7 +26,7 @@ Support your fellow Code Monkeys by becoming a <a href="https://www.patreon.com/
 
 Buy us a banana using <a href="https://paypal.me/codemonkeystech?locale.x=en_US">PayPal!</a>
 
-For more monkey business subscribe on <a href="https://www.subscribestar.com/code-monkeys">SubscribeStar!</a>
+Subscribe for more monkey business on <a href="https://www.subscribestar.com/code-monkeys">SubscribeStar!</a>
 
 </div>
 
