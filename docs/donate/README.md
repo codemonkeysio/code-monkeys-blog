@@ -24,6 +24,8 @@ sidebar: auto
 
 Support your fellow Code Monkeys by becoming a <a href="https://www.patreon.com/codemonkeys?fan_landing=true">Patron!</a>
 
+Buy us a banana using <a href="https://paypal.me/codemonkeystech?locale.x=en_US">PayPal!</a>
+
 </div>
 
 <style scoped>
