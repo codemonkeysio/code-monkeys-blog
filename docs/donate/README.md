@@ -28,6 +28,8 @@ Buy us a banana using <a href="https://paypal.me/codemonkeystech?locale.x=en_US"
 
 Subscribe for more monkey business on <a href="https://www.subscribestar.com/code-monkeys">SubscribeStar!</a>
 
+Sponsor Jay the Code Monkey on <a href="https://github.com/sponsors/jchiarulli">GitHub!</a>
+
 </div>
 
 <style scoped>
