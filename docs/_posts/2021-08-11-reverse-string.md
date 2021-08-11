@@ -217,7 +217,7 @@ Ex 2) Input: <span class="post-term-one">s</span> = ["H", "a", "n", "n", "a", "h
 
   - Using the model we described above we can come up with the following implementation:
 
-## Implmentation
+## Implementation
 
 <code-group>
 <code-block title="Reverse String">
