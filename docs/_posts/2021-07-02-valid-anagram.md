@@ -22,65 +22,65 @@ sidebar: auto
 
 ## Problem Description
 
-Given two strings <span style="color:#33eb61">_s_</span> and <span style="color:#33ebeb">_t_</span>, return <span style="color:#ebeb33">_true_</span>
-if <span style="color:#33ebeb">_t_</span> is an <span style="color:#ebeb33">_anagram_</span> of <span style="color:#33eb61">_s_</span>, and <span style="color:#ebeb33">_false_</span> otherwise.
+Given two strings <span class="post-term-two">s</span> and <span class="post-term-three">t</span>, return <span class="post-term-one">true</span>
+if <span class="post-term-three">t</span> is an <span class="post-term-one">anagram</span> of <span class="post-term-two">s</span>, and <span class="post-term-one">false</span> otherwise.
 
 ## Examples
 
-Ex 1) Input: <span style="color:#33eb61">_s_</span> = "anagram", <span style="color:#33ebeb">_t_</span> = "nagaram" $\implies$ Output: <span style="color:#ebeb33">_true_</span>
+Ex 1) Input: <span class="post-term-two">s</span> = "anagram", <span class="post-term-three">t</span> = "nagaram" $\implies$ Output: <span class="post-term-one">true</span>
 
-Ex 2) Input: <span style="color:#33eb61">_s_</span> = "rat", <span style="color:#33ebeb">_t_</span> = "car" $\implies$ Output: <span style="color:#ebeb33">_false_</span>
+Ex 2) Input: <span class="post-term-two">s</span> = "rat", <span class="post-term-three">t</span> = "car" $\implies$ Output: <span class="post-term-one">false</span>
 
 ## Constraints
 
 - $1 \leq \color{#33eb61}{s.length}, \color{#33ebeb}{t.length} \leq 5*10^4$
-- <span style="color:#33eb61">_s_</span> and <span style="color:#33ebeb">_t_</span> consist of lowercase English letters
+- <span class="post-term-two">s</span> and <span class="post-term-three">t</span> consist of lowercase English letters
 
 ## What is an Anagram?
 
-- A word or a phrase that is formed by <span style="color:#ebeb33">rearranging</span> the letters of a different word or phrase typically using all of the original letters exactly <span style="color:#ebeb33">once</span>.
+- A word or a phrase that is formed by <span class="post-term-one">rearranging</span> the letters of a different word or phrase typically using all of the original letters exactly <span class="post-term-one">once</span>.
 
 ## Assumptions
 
-- To clarify the provided constraints we're also assuming <span style="color:#33eb61">_s_</span> and <span style="color:#33ebeb">_t_</span> contain no spaces, and we're only able to use each letter <span style="color:#ebeb33">once</span>.
+- To clarify the provided constraints we're also assuming <span class="post-term-two">s</span> and <span class="post-term-three">t</span> contain no spaces, and we're only able to use each letter <span class="post-term-one">once</span>.
 
-## How to Check if _t_ is an Anagram of _s_?
+## How to Check if t is an Anagram of s?
 
-- Since we're assuming we can only use each letter in <span style="color:#33eb61">_s_</span> and <span style="color:#33ebeb">_t_</span> once, then for <span style="color:#33ebeb">_t_</span> to be an anagram of <span style="color:#33eb61">_s_</span> they must be the same length.
+- Since we're assuming we can only use each letter in <span class="post-term-two">s</span> and <span class="post-term-three">t</span> once, then for <span class="post-term-three">t</span> to be an anagram of <span class="post-term-two">s</span> they must be the same length.
 
-- We can first check that <span style="color:#33eb61">_s_</span> and <span style="color:#33ebeb">_t_</span> are the same length, and if they aren't we can return false.
+- We can first check that <span class="post-term-two">s</span> and <span class="post-term-three">t</span> are the same length, and if they aren't we can return false.
 
-- Now, if <span style="color:#33eb61">_s_</span> and <span style="color:#33ebeb">_t_</span> are the same length, they must also contain the same letters.
+- Now, if <span class="post-term-two">s</span> and <span class="post-term-three">t</span> are the same length, they must also contain the same letters.
 
-### How to Check if _s_ and _t_ contain the same letters?
+### How to Check if s and t contain the same letters?
 
-- We're given <span style="color:#33eb61">_s_</span> and <span style="color:#33ebeb">_t_</span> as strings, but we care about being able to examine each character in the strings. So, what we can do is create an array of characters for <span style="color:#33eb61">_s_</span> and <span style="color:#33ebeb">_t_</span>.
+- We're given <span class="post-term-two">s</span> and <span class="post-term-three">t</span> as strings, but we care about being able to examine each character in the strings. So, what we can do is create an array of characters for <span class="post-term-two">s</span> and <span class="post-term-three">t</span>.
 
-  - Ex 1) <span style="color:#33eb61">_s_</span> = "anagram" $\implies$ <span style="color:#33eb61">_sArray_</span> = ["a", "n", "a", "g", "r", "a", "m"]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color:#33ebeb">_t_</span> = "nagaram" $\implies$ <span style="color:#33ebeb">_tArray_</span> = ["n", "a", "g", "a", "r", "a", "m"]
+  - Ex 1) <span class="post-term-two">s</span> = "anagram" $\implies$ <span class="post-term-two">sArray</span> = ["a", "n", "a", "g", "r", "a", "m"]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="post-term-three">t</span> = "nagaram" $\implies$ <span class="post-term-three">tArray</span> = ["n", "a", "g", "a", "r", "a", "m"]
 
-  - Ex 2) <span style="color:#33eb61">_s_</span> = "rat" $\implies$ <span style="color:#33eb61">sArray</span> = ["r", "a", "t"]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color:#33ebeb">_t_</span> = "car" $\implies$ <span style="color:#33ebeb">tArray</span> = ["c", "a", "r"]
+  - Ex 2) <span class="post-term-two">s</span> = "rat" $\implies$ <span class="post-term-two">sArray</span> = ["r", "a", "t"]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="post-term-three">t</span> = "car" $\implies$ <span class="post-term-three">tArray</span> = ["c", "a", "r"]
 
-- We can use the <span style="color:#ebeb33">_split()_</span> method, and pass it a pattern of <span style="color:#ebeb33">_""_</span>.
+- We can use the <span class="post-term-one">split()</span> method, and pass it a pattern of <span class="post-term-one">""</span>.
 
-- This tells <span style="color:#ebeb33">_split()_</span> to split our strings into substrings where a <span style="color:#ebeb33">_""_</span> pattern occurs which is between each character in our strings.
+- This tells <span class="post-term-one">split()</span> to split our strings into substrings where a <span class="post-term-one">""</span> pattern occurs which is between each character in our strings.
 
-- <span style="color:#ebeb33">_split()_</span> will then return an array of these substrings.
+- <span class="post-term-one">split()</span> will then return an array of these substrings.
 
-- Now, we need a way to compare the letters of <span style="color:#33eb61">_sArray_</span> with the letters of <span style="color:#33ebeb">_tArray_</span>.
+- Now, we need a way to compare the letters of <span class="post-term-two">sArray</span> with the letters of <span class="post-term-three">tArray</span>.
 
-- We could take the first value of <span style="color:#33eb61">_sArray_</span> and compare it with each value of <span style="color:#33ebeb">_tArray_</span>. Then break when the letters are the same, and keep track of which index the match occurred at. This will allow us to not use the value at the matched index again on the next comparison.
+- We could take the first value of <span class="post-term-two">sArray</span> and compare it with each value of <span class="post-term-three">tArray</span>. Then break when the letters are the same, and keep track of which index the match occurred at. This will allow us to not use the value at the matched index again on the next comparison.
 
-- A simplier solution though is to realize that we can sort our arrays, and if <span style="color:#33ebeb">_t_</span> is an anagram of <span style="color:#33eb61">_s_</span>, then our arrays will have all the same letters in the same order.
+- A simplier solution though is to realize that we can sort our arrays, and if <span class="post-term-three">t</span> is an anagram of <span class="post-term-two">s</span>, then our arrays will have all the same letters in the same order.
 
-  - Ex 1) <span style="color:#33eb61">_sArray.sort()_</span> = ["a", "a", "a", "g", "m", "n", "r"]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color:#33ebeb">_tArray.sort()_</span> = ["a", "a", "a", "g", "m", "n", "r"]
+  - Ex 1) <span class="post-term-two">sArray.sort()</span> = ["a", "a", "a", "g", "m", "n", "r"]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="post-term-three">tArray.sort()</span> = ["a", "a", "a", "g", "m", "n", "r"]
 
-  - Ex 2) <span style="color:#33eb61">_sArray.sort()_</span> = ["a", "r", "t"]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color:#33ebeb">_tArray.sort()_</span> = ["a", "c", "r"]
+  - Ex 2) <span class="post-term-two">sArray.sort()</span> = ["a", "r", "t"]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="post-term-three">tArray.sort()</span> = ["a", "c", "r"]
 
-- Then we can check if the letters in the arrays are equal by comparing each value at index <span style="color:#ebeb33">_i_</span> of <span style="color:#33eb61">_sArray_</span> with each value at index <span style="color:#ebeb33">_i_</span> of <span style="color:#33ebeb">_tArray_</span>.
+- Then we can check if the letters in the arrays are equal by comparing each value at index <span class="post-term-one">i</span> of <span class="post-term-two">sArray</span> with each value at index <span class="post-term-one">i</span> of <span class="post-term-three">tArray</span>.
 
-- To do this we can loop over the length of one of the arrays, and if the values of our arrays at index <span style="color:#ebeb33">_i_</span> are <span style="color:#ebeb33">not</span> equal, then we can break the loop by returning false.
+- To do this we can loop over the length of one of the arrays, and if the values of our arrays at index <span class="post-term-one">i</span> are <span class="post-term-one">not</span> equal, then we can break the loop by returning false.
 
-- If the arrays are <span style="color:#ebeb33">equal</span>, then we'll loop over the entire length of our array and return true.
+- If the arrays are <span class="post-term-one">equal</span>, then we'll loop over the entire length of our array and return true.
 
 ## Implementation
 

@@ -72,7 +72,7 @@ Ex 3) Input: <span class="post-term-one">nums</span> = [1] $\implies$ Output: <s
 
 - Here's a visualization of creating our <span class="post-term-one">hash table</span> which we'll denote as <span class="post-term-one">myObj</span> for <span class="post-term-one">nums</span> = [2, 2, 1]:
 
-  - <span class="post-term-one">_1st Iteration:_</span>
+  - <span class="post-term-one">1<sup>st</sup> Iteration:</span>
 
   $$\color{#33eb61}{nums[0]} = 2$$
 
@@ -82,7 +82,7 @@ Ex 3) Input: <span class="post-term-one">nums</span> = [1] $\implies$ Output: <s
 
     $$\color{#ebeb33}{myObj} = \{ 2: true \}$$
 
-  - <span class="post-term-one">_2nd Iteration:_</span>
+  - <span class="post-term-one">2<sup>nd</sup> Iteration:</span>
 
   $$\color{#33ebeb}{nums[1]} = 2$$
 
@@ -92,7 +92,7 @@ Ex 3) Input: <span class="post-term-one">nums</span> = [1] $\implies$ Output: <s
 
     $$\color{#ebeb33}{myObj} = \{ \}$$
 
-  - <span class="post-term-one">_3rd Iteration:_</span>
+  - <span class="post-term-one">3<sup>rd</sup> Iteration:</span>
 
   $$\color{#cc99ff}{nums[2]} = 1$$
 
