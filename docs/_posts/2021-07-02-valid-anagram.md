@@ -56,9 +56,9 @@ Ex 2) Input: <span class="post-term-two">s</span> = "rat", <span class="post-ter
 
 - We're given <span class="post-term-two">s</span> and <span class="post-term-three">t</span> as strings, but we care about being able to examine each character in the strings. So, what we can do is create an array of characters for <span class="post-term-two">s</span> and <span class="post-term-three">t</span>.
 
-  - Ex 1) <span class="post-term-two">s</span> = "anagram" $\implies$ <span class="post-term-two">sArray</span> = ["a", "n", "a", "g", "r", "a", "m"]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="post-term-three">t</span> = "nagaram" $\implies$ <span class="post-term-three">tArray</span> = ["n", "a", "g", "a", "r", "a", "m"]
+  - Ex 1) <span class="post-term-two">s</span> = "anagram" $\implies$ <span class="post-term-two">sArray</span> = ["a", "n", "a", "g", "r", "a", "m"]<br><span class="post-term-three post-example">t</span> = "nagaram" $\implies$ <span class="post-term-three">tArray</span> = ["n", "a", "g", "a", "r", "a", "m"]
 
-  - Ex 2) <span class="post-term-two">s</span> = "rat" $\implies$ <span class="post-term-two">sArray</span> = ["r", "a", "t"]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="post-term-three">t</span> = "car" $\implies$ <span class="post-term-three">tArray</span> = ["c", "a", "r"]
+  - Ex 2) <span class="post-term-two">s</span> = "rat" $\implies$ <span class="post-term-two">sArray</span> = ["r", "a", "t"]<br><span class="post-term-three post-example">t</span> = "car" $\implies$ <span class="post-term-three">tArray</span> = ["c", "a", "r"]
 
 - We can use the <span class="post-term-one">split()</span> method, and pass it a pattern of <span class="post-term-one">""</span>.
 
@@ -72,9 +72,9 @@ Ex 2) Input: <span class="post-term-two">s</span> = "rat", <span class="post-ter
 
 - A simplier solution though is to realize that we can sort our arrays, and if <span class="post-term-three">t</span> is an anagram of <span class="post-term-two">s</span>, then our arrays will have all the same letters in the same order.
 
-  - Ex 1) <span class="post-term-two">sArray.sort()</span> = ["a", "a", "a", "g", "m", "n", "r"]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="post-term-three">tArray.sort()</span> = ["a", "a", "a", "g", "m", "n", "r"]
+  - Ex 1) <span class="post-term-two">sArray.sort()</span> = ["a", "a", "a", "g", "m", "n", "r"]<br><span class="post-term-three post-example">tArray.sort()</span> = ["a", "a", "a", "g", "m", "n", "r"]
 
-  - Ex 2) <span class="post-term-two">sArray.sort()</span> = ["a", "r", "t"]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="post-term-three">tArray.sort()</span> = ["a", "c", "r"]
+  - Ex 2) <span class="post-term-two">sArray.sort()</span> = ["a", "r", "t"]<br><span class="post-term-three post-example">tArray.sort()</span> = ["a", "c", "r"]
 
 - Then we can check if the letters in the arrays are equal by comparing each value at index <span class="post-term-one">i</span> of <span class="post-term-two">sArray</span> with each value at index <span class="post-term-one">i</span> of <span class="post-term-three">tArray</span>.
 
