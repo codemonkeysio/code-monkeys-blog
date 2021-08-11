@@ -132,7 +132,7 @@ $-10^9 \leq \color{#ebeb33}{nums[i]} \leq 10^9$
 
     $$\color{#ebeb33}{obj} = \{ 1: true \} \implies \color{#33ebeb}{nums[1]} \;{is} \;{not} \;{a} \;{key}$$
 
-    - So, we'll store the value of <span class="post-term-two">nums[1]</span> as a key in our <span class="post-term-one">hash table</span> with a value of true.
+    - So, we'll store the value of <span class="post-term-three">nums[1]</span> as a key in our <span class="post-term-one">hash table</span> with a value of true.
 
       $$\color{#ebeb33}{obj} = \{ 1: true, 2: true \}$$
 
