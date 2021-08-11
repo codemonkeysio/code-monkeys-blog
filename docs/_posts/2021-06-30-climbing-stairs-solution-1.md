@@ -41,3 +41,32 @@ Explanation: There are <span class="post-term-one">three</span> ways to climb to
 ## Constraints
 
 - $1 \leq \color{#ebeb33}{n} \leq 45$
+
+## Implementation
+
+<code-group>
+<code-block title="Climbing Stairs Solution 1">
+
+```js
+var climbStairs = function(n) {
+  return wayToClimb(0, n);
+};
+
+var wayToClimb = function(stepsTaken, n) {
+  if (stepsTaken > n) {
+    return 0;
+  }
+
+  if (stepsTaken === n) {
+    return 1;
+  }
+
+  return wayToClimb(stepsTaken + 1, n) + wayToClimb(stepsTaken + 2, n);
+};
+
+let n = 4;
+console.log(climbStairs(n));
+```
+
+</code-block>
+</code-group>
