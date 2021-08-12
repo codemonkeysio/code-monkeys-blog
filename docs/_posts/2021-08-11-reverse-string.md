@@ -12,6 +12,8 @@ sidebar: auto
 
 # Reverse String
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ue3XmMvLwsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Links
 
 <p><a href="https://leetcode.com/problems/reverse-string/">Reverse String Problem</a> 💡</p>
