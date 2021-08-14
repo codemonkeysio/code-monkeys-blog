@@ -26,8 +26,15 @@ module.exports = {
     [
       'link',
       {
-        rel: 'shortcut icon',
-        href: '/favicon.ico'
+        rel: 'apple-touch-icon',
+        href: '/apple-touch-icon.png'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon-precomposed',
+        href: '/apple-touch-icon-precomposed.png'
       }
     ],
     [
@@ -120,6 +127,20 @@ module.exports = {
     [
       'meta',
       {
+        name: 'apple-mobile-web-app-title',
+        content: 'Code Monkeys'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'application-name',
+        content: 'Code Monkeys'
+      }
+    ],
+    [
+      'meta',
+      {
         name: 'msapplication-TileColor',
         content: '#1f2229'
       }
@@ -148,7 +169,7 @@ module.exports = {
   ],
 
   themeConfig: {
-    logo: '/images/code-monkeys-temp-logo.png',
+    logo: '/images/code-monkeys-face-logo.png',
     nav: [
       {
         text: 'Topics',

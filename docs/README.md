@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/code-monkeys-temp-logo.png
+heroImage: /images/code-monkeys-full-logo.png
 tagline: Let's get down to Monkey Business
 actionText: Learn to Code like a Monkey →
 actionLink: /topics/
