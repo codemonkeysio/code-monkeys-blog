@@ -1,19 +1,34 @@
 <template>
   <footer class="footer">
     <div class="icons">
-      <a href="https://github.com/codemonkeysio"
+      <a
+        href="https://github.com/codemonkeysio"
+        target="_blank"
+        rel="noopener noreferrer"
         ><vp-icon name="GitHub" class="icon"></vp-icon
       ></a>
-      <a href="https://www.youtube.com/channel/UCteut5f1PHW8vP29o66z-kg"
+      <a
+        href="https://www.youtube.com/channel/UCteut5f1PHW8vP29o66z-kg"
+        target="_blank"
+        rel="noopener noreferrer"
         ><vp-icon name="YouTube" class="icon"></vp-icon
       ></a>
-      <a href="https://discord.gg/mh9rQmwJ8H"
+      <a
+        href="https://discord.gg/mh9rQmwJ8H"
+        target="_blank"
+        rel="noopener noreferrer"
         ><vp-icon name="Discord" class="icon"></vp-icon
       ></a>
-      <a href="https://www.linkedin.com/in/jason-chiarulli-321358143/"
+      <a
+        href="https://www.linkedin.com/in/jason-chiarulli-321358143/"
+        target="_blank"
+        rel="noopener noreferrer"
         ><vp-icon name="LinkedIn" class="icon"></vp-icon
       ></a>
-      <a href="https://www.patreon.com/codemonkeys?fan_landing=true"
+      <a
+        href="https://www.patreon.com/codemonkeys?fan_landing=true"
+        target="_blank"
+        rel="noopener noreferrer"
         ><vp-icon name="Patreon" class="icon"></vp-icon
       ></a>
     </div>

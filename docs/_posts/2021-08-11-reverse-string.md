@@ -16,9 +16,9 @@ sidebar: auto
 
 ## Links
 
-<p><a href="https://leetcode.com/problems/reverse-string/">Reverse String Problem</a> 💡</p>
-<p><a href="https://github.com/codemonkeysio/LeetCode">Get the code & notes on GitHub</a> 💻</p>
-<p><a href="https://discord.gg/mh9rQmwJ8H">Ask Questions & Share Solutions in Discord</a> 🤖</p>
+<p><a href="https://leetcode.com/problems/reverse-string/" target="_blank" rel="noopener noreferrer">Reverse String Problem</a> 💡</p>
+<p><a href="https://github.com/codemonkeysio/LeetCode" target="_blank" rel="noopener noreferrer">Get the code & notes on GitHub</a> 💻</p>
+<p><a href="https://discord.gg/mh9rQmwJ8H" target="_blank" rel="noopener noreferrer">Ask Questions & Share Solutions in Discord</a> 🤖</p>
 
 ## Problem Description
 
@@ -42,7 +42,7 @@ Ex 2) Input: <span class="post-term-one">s</span> = ["H", "a", "n", "n", "a", "h
 
 - ASCII stands for American Standard Code for Information Interchange and it consists of 33 non-printable and 95 printable characters.
 
-- You can check out the non-printable, printable, and extended ASCII characters <a href="https://www.ascii-code.com/">here</a>.
+- You can check out the non-printable, printable, and extended ASCII characters <a href="https://www.ascii-code.com/" target="_blank" rel="noopener noreferrer">here</a>.
 
 - For this problem we only care about the printable ASCII characters.
 

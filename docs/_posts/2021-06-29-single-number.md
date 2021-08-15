@@ -16,9 +16,9 @@ sidebar: auto
 
 ## Links
 
-<p><a href="https://leetcode.com/problems/single-number/">Single Number Problem</a> 💡</p>
-<p><a href="https://github.com/codemonkeysio/LeetCode">Get the code & notes on GitHub</a> 💻</p>
-<p><a href="https://discord.gg/mh9rQmwJ8H">Ask Questions & Share Solutions in Discord</a> 🤖</p>
+<p><a href="https://leetcode.com/problems/single-number/" target="_blank" rel="noopener noreferrer">Single Number Problem</a> 💡</p>
+<p><a href="https://github.com/codemonkeysio/LeetCode" target="_blank" rel="noopener noreferrer">Get the code & notes on GitHub</a> 💻</p>
+<p><a href="https://discord.gg/mh9rQmwJ8H" target="_blank" rel="noopener noreferrer">Ask Questions & Share Solutions in Discord</a> 🤖</p>
 
 ## Problem Description
 

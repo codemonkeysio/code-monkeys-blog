@@ -22,15 +22,15 @@ sidebar: auto
 
 ## Fiat 💵
 
-Support your fellow Code Monkeys by becoming a <a href="https://www.patreon.com/codemonkeys?fan_landing=true">Patron!</a>
+Support your fellow Code Monkeys by becoming a <a href="https://www.patreon.com/codemonkeys?fan_landing=true" target="_blank" rel="noopener noreferrer">Patron!</a>
 
-Buy us a banana using <a href="https://paypal.me/codemonkeystech?locale.x=en_US">PayPal!</a>
+Buy us a banana using <a href="https://paypal.me/codemonkeystech?locale.x=en_US" target="_blank" rel="noopener noreferrer">PayPal!</a>
 
-Subscribe for more monkey business on <a href="https://www.subscribestar.com/code-monkeys">SubscribeStar!</a>
+Subscribe for more monkey business on <a href="https://www.subscribestar.com/code-monkeys" target="_blank" rel="noopener noreferrer">SubscribeStar!</a>
 
-Buy us more bananas using <a href="https://venmo.com/u/codemonkeys">Venmo!</a>
+Buy us more bananas using <a href="https://venmo.com/u/codemonkeys" target="_blank" rel="noopener noreferrer">Venmo!</a>
 
-Sponsor Jay the Code Monkey on <a href="https://github.com/sponsors/jchiarulli">GitHub!</a>
+Sponsor Jay the Code Monkey on <a href="https://github.com/sponsors/jchiarulli" target="_blank" rel="noopener noreferrer">GitHub!</a>
 
 </div>
 
