@@ -20,6 +20,12 @@
         ><vp-icon name="Discord" class="icon"></vp-icon
       ></a>
       <a
+        href="https://twitter.com/codemonkeystech"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><vp-icon name="Twitter" class="icon"></vp-icon
+      ></a>
+      <a
         href="https://www.linkedin.com/in/jason-chiarulli-321358143/"
         target="_blank"
         rel="noopener noreferrer"
