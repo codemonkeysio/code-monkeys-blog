@@ -204,6 +204,7 @@ module.exports = {
     '@vuepress/plugin-medium-zoom',
     '@goy/svg-icons',
     'vuepress-plugin-mathjax',
+    'mermaidjs',
     [
       'vuepress-plugin-code-copy',
       {

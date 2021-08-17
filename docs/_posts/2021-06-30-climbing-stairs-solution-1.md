@@ -12,8 +12,6 @@ sidebar: auto
 
 # Climbing Stairs Solution 1
 
-## 🚧 This post is under construction! 🚧
-
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jUP9BAs2GbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Links
@@ -41,6 +39,64 @@ Explanation: There are <span class="post-term-one">three</span> ways to climb to
 ## Constraints
 
 - $1 \leq \color{#ebeb33}{n} \leq 45$
+
+## Thought Process
+
+- Let's start by diagramming the different ways we can climb the steps to see if we can find a pattern.
+
+  - When <span class="post-term-one">n</span> = 3 we have:
+
+```mermaid
+graph TD
+  1([Bottom of the Staircase])--+1--> 2([1 out of 3]);
+  1--+2--> 3([2 out of 3]);
+  2--+1--> 4([2 out of 3]);
+  2--+2--> 5([3 out of 3]);
+  3--+1--> 6([3 out of 3]);
+  3--+2--> 7([4 out of 3]);
+  4--+1--> 8([3 out of 3]);
+  4--+2--> 9([4 out of 3]);
+```
+
+- From the diagram we can see there are 3 distinct ways to climb to the top when <span class="post-term-one">n</span> = 3 since we can ignore the scenarios where we take extra steps.
+
+- To help you see a pattern try drawing out more diagrams for larger values of <span class="post-term-one">n</span> or creating a generalized diagram for any value of <span class="post-term-one">n</span>.
+
+- The diagram is an example of a <span class="post-term-one">recursion tree</span>.
+
+- So, one way to solve this problem is to come up with a <span class="post-term-one">recursive formula</span> that represents how many distinct ways we can climb the stairs.
+
+- Let's use the diagram to help us come up with our <span class="post-term-one">recursive formula</span>.
+
+- We know we can either add <span class="post-term-one">1</span> step or <span class="post-term-one">2</span> steps each time we climb up the stairs, and we want to hit our target of <span class="post-term-one">n</span> steps.
+
+- So, we need to keep track of how many steps we have taken which we can represent with the variable $\color{#33eb61}{stepsTaken}$.
+
+- Initially, $\color{#33eb61}{stepsTaken} = 0$
+
+- Each time we climb the stairs:
+
+$$\color{#33eb61}{stepsTaken} = \color{#33eb61}{stepsTaken} + 1$$
+
+$$or$$
+
+$$\color{#33eb61}{stepsTaken} = \color{#33eb61}{stepsTaken} + 2$$
+
+- Now, we'll let $\color{#33ebeb}{wayToClimb}$ denote our function for climbing the stairs.
+
+- Here's how we can represent the different scenarios fo climbing the stairs:
+
+$$\color{#33ebeb}{wayToClimb}(\color{#33eb61}{stepsTaken} + 1, \color{#ebeb33}{n}) + \color{#33ebeb}{wayToClimb}(\color{#33eb61}{stepsTaken} + 2, \color{#ebeb33}{n})$$
+
+- We're passing the $\color{#33eb61}{stepsTaken}$ + $\color{#33eb61}{nextStepSize}$ and our target value of $\color{#ebeb33}{n}$ steps to our function $\color{#33ebeb}{wayToClimb}$.
+
+- Now, we need to determine how many times we need to to call $\color{#33ebeb}{wayToClimb}$.
+
+- We know from the diagram if $\color{#33eb61}{stepsTaken} > \color{#ebeb33}{n}$, then we can ignore that way of climbing the stairs
+
+- We also know if $\color{#33eb61}{stepsTaken} = \color{#ebeb33}{n}$, then we have found a valid way to climb the steps.
+
+- Using this knowledge we can come up with the following:
 
 ## Implementation
 
@@ -70,3 +126,17 @@ console.log(climbStairs(n));
 
 </code-block>
 </code-group>
+
+## Downsides
+
+- Our solution will work, but it's not efficient.
+
+- We'll actually get a time limit exceeded error on LeetCode if we submit this.
+
+- This is because the <span class="post-term-one">time complexity</span> of our solution is <span class="post-term-one">O(2<sup>n</sup>)</span>.
+
+- We can look at our <span class="post-term-one">recursion tree</span> above and count the number of nodes to determine the <span class="post-term-one">time complexity</span>.
+
+- Now, we won't count exactly <span class="post-term-one">2<sup>n</sup></span> nodes since our <span class="post-term-one">recursive formula</span> isn't exactly <span class="post-term-one">2<sup>n</sup></span>, but when dealing with <span class="post-term-one">Big-Oh</span> we only care about the behavior as <span class="post-term-one">n</span> becomes very large.
+
+- We'll be improving this in the next post by drawing out <span class="post-term-one">recursion trees</span> for larger values of <span class="post-term-one">n</span> which will allow us to see an interesting pattern.

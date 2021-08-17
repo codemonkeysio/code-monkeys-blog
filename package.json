@@ -9,7 +9,8 @@
     "@vuepress/plugin-blog": "^1.9.4",
     "@vuepress/plugin-medium-zoom": "^1.8.2",
     "vuepress": "^1.8.2",
-    "vuepress-plugin-mathjax": "^1.2.8"
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-mermaidjs": "^1.8.1"
   },
   "dependencies": {
     "rfs": "^9.0.4",
