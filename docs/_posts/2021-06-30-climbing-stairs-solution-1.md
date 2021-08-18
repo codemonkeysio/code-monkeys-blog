@@ -28,11 +28,11 @@ Each time you can either climb <span class="post-term-one">1</span> or <span cla
 
 ## Examples
 
-Ex 1) Input: <span class="post-term-one">n</span> = 2 $\implies$ Output: <span class="post-term-one">2</span>
+Ex 1) Input: <span class="post-term-one">n = 2</span> $\implies$ Output: <span class="post-term-one">2</span>
 
 Explanation: There are <span class="post-term-one">two</span> ways to climb to the top.<br>1. 1 step + 1 step<br>2. 2 steps
 
-Ex 1) Input: <span class="post-term-one">n</span> = 3 $\implies$ Output: <span class="post-term-one">3</span>
+Ex 2) Input: <span class="post-term-one">n = 3</span> $\implies$ Output: <span class="post-term-one">3</span>
 
 Explanation: There are <span class="post-term-one">three</span> ways to climb to the top.<br>1. 1 step + 1 step + 1 step<br>2. 1 step + 2 steps<br>3. 2 steps + 1 step
 
@@ -44,7 +44,7 @@ Explanation: There are <span class="post-term-one">three</span> ways to climb to
 
 - Let's start by diagramming the different ways we can climb the steps to see if we can find a pattern.
 
-  - When <span class="post-term-one">n</span> = 3 we have:
+  - When <span class="post-term-one">n = 3</span> we have:
 
 ```mermaid
 graph TD
@@ -58,11 +58,11 @@ graph TD
   4--+2--> 9([4 out of 3]);
 ```
 
-- From the diagram we can see there are 3 distinct ways to climb to the top when <span class="post-term-one">n</span> = 3 since we can ignore the scenarios where we take extra steps.
+- From the diagram we can see there are <span class="post-term-one">3</span> distinct ways to climb to the top when <span class="post-term-one">n = 3</span> since we can ignore the scenarios where we take extra steps.
 
 - To help you see a pattern try drawing out more diagrams for larger values of <span class="post-term-one">n</span> or creating a generalized diagram for any value of <span class="post-term-one">n</span>.
 
-- The diagram is an example of a <span class="post-term-one">recursion tree</span>.
+- The diagram above is an example of a <span class="post-term-one">recursion tree</span>.
 
 - So, one way to solve this problem is to come up with a <span class="post-term-one">recursive formula</span> that represents how many distinct ways we can climb the stairs.
 
