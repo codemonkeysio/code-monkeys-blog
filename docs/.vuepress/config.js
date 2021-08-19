@@ -165,6 +165,57 @@ module.exports = {
         name: 'msapplication-config',
         content: '/browserconfig.xml'
       }
+    ],
+    // Open Graph
+    [
+      'meta',
+      {
+        property: 'og:title',
+        content: 'Code Monkeys'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'og:type',
+        content: 'website'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'og:image',
+        content:
+          'https://codemonkeys.tech/images/code-monkeys-og-website-logo.png'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'og:image:alt',
+        content: 'Code Monkeys Website Logo'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'og:url',
+        content: 'https://www.codemonkeys.tech'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'og:description',
+        content: 'Lets get down to Monkey Business! 🐒'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'og:site_name',
+        content: 'Code Monkeys'
+      }
     ]
   ],
 
