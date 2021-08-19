@@ -212,7 +212,7 @@ module.exports = {
       'meta',
       {
         property: 'og:image:alt',
-        content: 'Code Monkeys Website Logo'
+        content: 'Code Monkeys Blog Image'
       }
     ],
     [
@@ -227,7 +227,7 @@ module.exports = {
       {
         property: 'og:description',
         content:
-          'Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos, tutorials, blog posts, etc. to help others learn about code and other tech related topics! Start monkeying around today! 🐵'
+          'Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos, tutorials, blog posts, etc. to help others learn about code and other tech related topics! Start Monkeying Around Today!!! 🐵'
       }
     ],
     [
@@ -235,6 +235,64 @@ module.exports = {
       {
         property: 'og:site_name',
         content: 'Code Monkeys'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'twitter:title',
+        content: 'Code Monkeys'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'twitter:description',
+        content:
+          'Learn to Code like a Monkey by joining the Code Monkeys Community!!! Check out our Videos and Blog Posts to Start Monkeying Around Today!!! 🐵'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'twitter:url',
+        content: 'https://codemonkeys.tech'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'twitter:site',
+        content: '@codemonkeystech'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'twitter:image',
+        content:
+          'https://codemonkeys.tech/images/code-monkeys-twitter-summary-large-image.png'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'twitter:image:alt',
+        content: 'Code Monkeys Blog Large Twitter Image'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'twitter:creator',
+        content: '@codemonkeystech'
       }
     ]
   ],
