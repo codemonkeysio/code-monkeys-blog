@@ -177,14 +177,14 @@ module.exports = {
     [
       'meta',
       {
-        name: 'og:type',
+        property: 'og:type',
         content: 'website'
       }
     ],
     [
       'meta',
       {
-        name: 'og:image',
+        property: 'og:image',
         content:
           'https://codemonkeys.tech/images/code-monkeys-og-website-logo.png'
       }
@@ -192,28 +192,28 @@ module.exports = {
     [
       'meta',
       {
-        name: 'og:image:alt',
+        property: 'og:image:alt',
         content: 'Code Monkeys Website Logo'
       }
     ],
     [
       'meta',
       {
-        name: 'og:url',
+        property: 'og:url',
         content: 'https://www.codemonkeys.tech'
       }
     ],
     [
       'meta',
       {
-        name: 'og:description',
+        property: 'og:description',
         content: 'Lets get down to Monkey Business! 🐒'
       }
     ],
     [
       'meta',
       {
-        name: 'og:site_name',
+        property: 'og:site_name',
         content: 'Code Monkeys'
       }
     ]
