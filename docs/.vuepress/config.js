@@ -3,8 +3,14 @@ module.exports = {
   title: 'Code Monkeys',
   description: 'Learn to Code like a Monkey',
   base: '/',
-
   head: [
+    [
+      'meta',
+      {
+        name: 'author',
+        content: 'Jay the Code Monkey'
+      }
+    ],
     [
       'link',
       {
@@ -166,7 +172,6 @@ module.exports = {
         content: '/browserconfig.xml'
       }
     ],
-    // Open Graph
     [
       'meta',
       {
@@ -192,6 +197,20 @@ module.exports = {
     [
       'meta',
       {
+        property: 'og:image:width',
+        content: '1200'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'og:image:height',
+        content: '630'
+      }
+    ],
+    [
+      'meta',
+      {
         property: 'og:image:alt',
         content: 'Code Monkeys Website Logo'
       }
@@ -207,7 +226,8 @@ module.exports = {
       'meta',
       {
         property: 'og:description',
-        content: 'Lets get down to Monkey Business! 🐒'
+        content:
+          'Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos, tutorials, blog posts, etc. to help others learn about code and other tech related topics! Start monkeying around today! 🐵'
       }
     ],
     [
