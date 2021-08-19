@@ -255,8 +255,7 @@ module.exports = {
       'meta',
       {
         name: 'twitter:description',
-        content:
-          'Learn to Code like a Monkey by joining the Code Monkeys Community!!! Check out our Videos and Blog Posts to Start Monkeying Around Today!!! 🐵'
+        content: 'Start Monkeying Around Today!!! 🐵'
       }
     ],
     [
