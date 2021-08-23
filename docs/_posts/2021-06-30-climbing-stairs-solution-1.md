@@ -4,7 +4,7 @@ date: 2021-06-30
 topic: LeetCode
 topicDescription: Solutions for LeetCode Problems Enjoy!!! 🍌 🐒
 description: The First Solution & Notes for the LeetCode problem Climbing Staris.
-img: LeetCodeLogo.png
+img: 02-climbing-stairs-solution-1.png
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto

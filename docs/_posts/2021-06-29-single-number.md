@@ -4,11 +4,13 @@ date: 2021-06-29
 topic: LeetCode
 topicDescription: Solutions for LeetCode Problems Enjoy!!! 🍌 🐒
 description: Solution & Notes for the LeetCode problem Single Number.
-img: LeetCodeLogo.png
+img: 01-single-number.png
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
 ---
+
+<meta property='og:title' content='Single Number'/>
 
 # Single Number
 

@@ -26,7 +26,7 @@
         ><vp-icon name="Twitter" class="icon"></vp-icon
       ></a>
       <a
-        href="https://www.linkedin.com/in/jason-chiarulli-321358143/"
+        href="https://www.linkedin.com/in/jason-chiarulli/"
         target="_blank"
         rel="noopener noreferrer"
         ><vp-icon name="LinkedIn" class="icon"></vp-icon

@@ -375,16 +375,12 @@ module.exports = {
                 {
                   summary:
                     "You'll find detailed LeetCode solutions here including code, notes, links, diagrams, animations, & anything else that may be helpful!",
-                  logo: 'LeetCodeLogo.png'
+                  logo: 'leetcode-logo.png'
                 },
                 {
                   summary:
                     'Learn how to use VuePress by following along with these tutorials!',
-                  logo: 'VuePressLogo.png'
-                },
-                {
-                  summary: 'Testing',
-                  logo: 'LeetCodeLogo.png'
+                  logo: 'vuepress-logo.png'
                 }
               ]
             },
