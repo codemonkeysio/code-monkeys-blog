@@ -12,28 +12,28 @@ meta:
   - property: 'og:title'
     content: 'Single Number'
 meta:
-  - property: 'og:type',
+  - property: 'og:type'
     content: 'website'
 meta:
-  - property: 'og:image',
+  - property: 'og:image'
     content: 'https://codemonkeys.tech/images/leetcode/social/01-single-number-link-post.png'
 meta:
-  - property: 'og:image:width',
+  - property: 'og:image:width'
     content: '1200'
 meta:
-  - property: 'og:image:height',
+  - property: 'og:image:height'
     content: '628'
 meta:
-  - property: 'og:image:alt',
+  - property: 'og:image:alt'
     content: 'Single Number Image'
 meta:
-  - property: 'og:url',
+  - property: 'og:url'
     content: 'https://www.codemonkeys.tech/posts/2021/06/29/single-number/'
 meta:
-  - property: 'og:description',
+  - property: 'og:description'
     content: 'Check out the Solution & Notes for the LeetCode problem Single Number!!! 🐵'
 meta:
-  - property: 'og:site_name',
+  - property: 'og:site_name'
     content: 'Code Monkeys'
 ---
 
