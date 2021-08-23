@@ -8,9 +8,34 @@ img: 01-single-number.png
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
+meta:
+  - property: 'og:title'
+    content: 'Single Number'
+meta:
+  - property: 'og:type',
+    content: 'website'
+meta:
+  - property: 'og:image',
+    content: 'https://codemonkeys.tech/images/leetcode/social/01-single-number-link-post.png'
+meta:
+  - property: 'og:image:width',
+    content: '1200'
+meta:
+  - property: 'og:image:height',
+    content: '628'
+meta:
+  - property: 'og:image:alt',
+    content: 'Single Number Image'
+meta:
+  - property: 'og:url',
+    content: 'https://www.codemonkeys.tech/posts/2021/06/29/single-number/'
+meta:
+  - property: 'og:description',
+    content: 'Check out the Solution & Notes for the LeetCode problem Single Number!!! 🐵'
+meta:
+  - property: 'og:site_name',
+    content: 'Code Monkeys'
 ---
-
-<meta property='og:title' content='Single Number'/>
 
 # Single Number
 
