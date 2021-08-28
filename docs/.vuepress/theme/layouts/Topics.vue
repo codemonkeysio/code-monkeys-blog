@@ -93,10 +93,12 @@ h2 {
   }
 
   h2 {
+    text-align: center;
     margin: 0;
   }
 
   p {
+    text-align: center;
     margin-top: 0.875rem;
     margin-bottom: 1.25rem;
   }

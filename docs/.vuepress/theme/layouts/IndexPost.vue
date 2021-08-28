@@ -96,8 +96,10 @@ h2
     flex-direction: column-reverse
     .post-title-and-summary
       h2
+        text-align: center
         margin: 0
       p
+        text-align: center
         margin-top: 0.875rem
         margin-bottom: 1.25rem
     .post-pic
