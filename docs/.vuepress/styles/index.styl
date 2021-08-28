@@ -5,7 +5,7 @@ h1
 
 h2
   rfs-font-size(2.25rem)
-  border-bottom 0.125rem solid $borderColor
+  border-bottom: 0.125rem solid $borderColor
 
 p, span, li, button, #pagination
   rfs-font-size(1.25rem)
@@ -32,77 +32,79 @@ span.abbreviation, span.prefix, span.time, .footer
   rfs-font-size(1.125rem)
 
 .theme-default-content:not(.custom) > h1
-  padding-top 7.5rem
+  padding-top: 7.5rem
 
 .theme-default-content:not(.custom) > h2
-  padding-top 0
-  margin-top 2rem
+  padding-top: 0
+  margin-top: 2rem
 
 html
-  background-color #1f2229
+  background-color: #1f2229
   body
-    background-color #1f2229
+    background-color: #1f2229
     .navbar
-      display flex
-      align-items center
-      height 4.5rem
-      background-color #1f2229
-      border-bottom 0.125rem solid $borderColor
+      display: flex
+      align-items: center
+      height: 4.5rem
+      background-color: #1f2229
+      border-bottom: 0.125rem solid $borderColor
+      .sidebar-button
+        margin-top: 0.375rem
       span.site-name
         rfs-font-size(1.5rem)
       .nav-dropdown
-        text-align center
-        background-color #1f2229
-        border 0.125rem solid $borderColor
-        padding 0.8rem 0
+        text-align: center
+        background-color: #1f2229
+        border: 0.125rem solid $borderColor
+        padding: 0.8rem 0
         .dropdown-item
-          padding-bottom 0.4rem
+          padding-bottom: 0.4rem
           h4
-            border-top 0.0625rem solid $borderColor
-            cursor initial
-            margin 0.45rem 0.375rem 0
+            border-top: 0.0625rem solid $borderColor
+            cursor: initial
+            margin: 0.45rem 0.375rem 0
           a.router-link-active::after
-            left 0.75rem
+            left: 0.75rem
       .links
-        background-color transparent
-        height 3rem
-        align-items center
+        background-color: transparent
+        height: 3rem
+        align-items: center
         .search-box
-          margin-right 1.5rem
+          margin-right: 1.5rem
           input
             rfs-font-size(1.125rem)
-            background-color transparent
-            border 0.125rem solid $borderColor
-            color $textColor
+            background-color: transparent
+            border: 0.125rem solid $borderColor
+            color: $textColor
           ul.suggestions
-            background-color #1f2229
-            border 0.125rem solid $borderColor
+            background-color: #1f2229
+            border: 0.125rem solid $borderColor
           // For Search Box Suggestions
           /* ul.suggestions > a
             rfs-font-size(1.25rem) */
           ul:hover
-            background-color #1f2229
+            background-color: #1f2229
             li:hover
-              background-color #1f2229
+              background-color: #1f2229
         .nav-links
           rfs-font-size(1.25rem)
           .nav-item:first-child
-            margin-left 0
+            margin-left: 0
           .nav-item
-            margin-left 1.75rem
+            margin-left: 1.75rem
             a:not(.external).router-link-active
-              border-bottom 0
+              border-bottom: 0
             .dropdown-title
               rfs-font-size(1.25rem)
           .nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-exact-active
-            border-bottom 0.125rem solid #ed7c42
+            border-bottom: 0.125rem solid #ed7c42
     .sidebar
-      background-image linear-gradient(90deg, #21242c, #1f2229)
-      border-right 0.125rem solid $borderColor
+      background-image: linear-gradient(90deg, #21242c, #1f2229)
+      border-right: 0.125rem solid $borderColor
       .nav-links
-        border-bottom 0
+        border-bottom: 0
         .nav-item:first-child
-          margin-top 1.15rem
+          margin-top: 1.15rem
         .nav-item
           .nav-link
             rfs-font-size(1.1875rem)
@@ -116,14 +118,14 @@ html
             .dropdown-subitem > a
               rfs-font-size(1.15625rem)
     .home
-      padding 8rem 2rem 0
+      padding: 8rem 2rem 0
       .hero
-        border 0.125rem solid #16181d
-        box-shadow 0 0.5rem 1rem 0 #16181d
-        transition 0.2s
-        border-radius 5.625rem
-        margin-bottom 0.625rem
-        background-image radial-gradient(circle at center center, #2c303a, #1f2229)
+        border: 0.125rem solid #16181d
+        box-shadow: 0 0.5rem 1rem 0 #16181d
+        transition: 0.2s
+        border-radius: 5.625rem
+        margin-bottom: 0.625rem
+        background-image: radial-gradient(circle at center center, #2c303a, #1f2229)
         h1
           rfs-font-size(3rem)
         .description
@@ -131,27 +133,27 @@ html
         .action-button
           rfs-font-size(1.2rem)
       .hero:hover
-        box-shadow 0.125rem 0.5rem 1rem 0.125rem #0b0c0f
+        box-shadow: 0.125rem 0.5rem 1rem 0.125rem #0b0c0f
       .features
-        border-top 0.125rem solid $borderColor
-        border-bottom 0.125rem solid $borderColor
+        border-top: 0.125rem solid $borderColor
+        border-bottom: 0.125rem solid $borderColor
         .feature
-          text-align center
+          text-align: center
           h2
             rfs-font-size(1.4rem)
 
 main.home
-  height 90vh
+  height: 90vh
   .content-wrapper
-    min-height calc(90vh - 10rem)
+    min-height: calc(90vh - 10rem)
 main.page
-  height 100vh
+  height: 100vh
   .content-wrapper
-    min-height calc(100vh - 10rem)
+    min-height: calc(100vh - 10rem)
 
 .theme-default-content:not(.custom)
-  max-width 69.53125rem
-  padding-bottom 1.125rem
+  max-width: 69.53125rem
+  padding-bottom: 1.125rem
 
 @media (max-width: 39.9375rem)
   .video-wrapper
@@ -187,7 +189,7 @@ main.page
     max-height: 19.6875rem
 
 iframe.embedded-video
-  margin-top 2rem
+  margin-top: 2rem
 
 .post-term-one
   color: $postColorOne
@@ -231,12 +233,12 @@ iframe.embedded-video
 // Code Blocks
 .theme-default-content
   .theme-code-group
-    margin-top 2rem
+    margin-top: 2rem
     div.extra-class::before
-      font-size 1rem
+      font-size: 1rem
     pre
       margin-bottom: 0
 
 footer.page-edit
-  padding-top 1.5rem
-  padding-bottom 1.125rem
+  padding-top: 1.5rem
+  padding-bottom: 1.125rem
