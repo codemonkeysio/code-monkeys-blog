@@ -80,8 +80,11 @@ h2
     padding-top: 1.125rem
     padding-left: 1.125rem
     padding-bottom: 1.125rem
+    transition: transform 0.2s;
 .post-card:hover
   box-shadow: 0.125rem 0.5rem 1rem 0.125rem #0b0c0f
+  .post-pic
+    transform: scale(1.1);
 
 #pagination
   display: flex
@@ -94,14 +97,13 @@ h2
 
   .post-card
     flex-direction: column-reverse
-    .post-title-and-summary
-      h2
-        text-align: center
-        margin: 0
-      p
-        text-align: center
-        margin-top: 0.875rem
-        margin-bottom: 1.25rem
+    h2
+      text-align: center
+      margin: 0
+    p
+      text-align: center
+      margin-top: 0.875rem
+      margin-bottom: 1.25rem
     .post-pic
       padding-top: 1.25rem 0 0.875rem 0
 </style>
