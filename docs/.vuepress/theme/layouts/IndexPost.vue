@@ -10,6 +10,7 @@
         </h1>
         <div
           class="post-card"
+          @click="$router.push(`${post.path}`)"
           :key="post.key"
           v-for="post in $pagination.pages"
         >
@@ -59,30 +60,46 @@ export default {
 
 <style lang="stylus" scoped>
 h2
-  margin 1.875rem 0
+  margin: 1.875rem 0
 
 .post-card
-  display flex
-  align-items center
-  margin-top 3.5rem
-  padding 0 2rem
-  border 0.125rem solid #16181d
-  border-radius 1.875rem
-  box-shadow 0 0.5rem 1rem 0 #16181d
-  transition 0.2s
-  background-image radial-gradient(circle at center center, #2c303a, #1f2229)
+  display: flex
+  align-items: center
+  margin-top: 3.5rem
+  padding: 0 2rem
+  border: 0.125rem solid #16181d
+  border-radius: 1.875rem
+  box-shadow: 0 0.5rem 1rem 0 #16181d
+  transition: 0.2s
+  background-image: radial-gradient(circle at center center, #2c303a, #1f2229)
+  cursor: pointer
   .post-title-and-summary
-    flex 8.5
+    flex: 8.5
   .post-pic
-    flex 1.5
-    padding-top 1.125rem
-    padding-left 1.125rem
-    padding-bottom 1.125rem
+    flex: 1.5
+    padding-top: 1.125rem
+    padding-left: 1.125rem
+    padding-bottom: 1.125rem
 .post-card:hover
-  box-shadow 0.125rem 0.5rem 1rem 0.125rem #0b0c0f
+  box-shadow: 0.125rem 0.5rem 1rem 0.125rem #0b0c0f
 
 #pagination
-  display flex
-  justify-content space-between
-  padding-top 2.719rem
+  display: flex
+  justify-content: space-between
+  padding-top: 2.719rem
+
+@media (max-width: 54.6875rem)
+  h1
+    text-align: center
+
+  .post-card
+    flex-direction: column-reverse
+    .post-title-and-summary
+      h2
+        margin: 0
+      p
+        margin-top: 0.875rem
+        margin-bottom: 1.25rem
+    .post-pic
+      padding-top: 1.25rem 0 0.875rem 0
 </style>

@@ -329,7 +329,6 @@ module.exports = {
 
   plugins: [
     '@vuepress/back-to-top',
-    '@vuepress/plugin-medium-zoom',
     '@goy/svg-icons',
     'vuepress-plugin-mathjax',
     'mermaidjs',

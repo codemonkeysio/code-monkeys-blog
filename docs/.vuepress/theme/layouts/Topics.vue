@@ -5,6 +5,7 @@
         <h1>👋 Hey Start Monkeying Around!!!</h1>
         <div
           class="topic-card"
+          @click="$router.push(`${topic.path}`)"
           :key="topic.name"
           v-for="(topic, index) in $topics.list"
         >
@@ -64,6 +65,7 @@ h2 {
   margin-top: 3.5rem;
   padding: 0 2rem;
   background-image: radial-gradient(circle at center center, #2c303a, #1f2229);
+  cursor: pointer;
 }
 
 .topic-card:hover {
@@ -79,5 +81,30 @@ h2 {
   padding-top: 1.125rem;
   padding-left: 1.125rem;
   padding-bottom: 1.125rem;
+}
+
+@media (max-width: 54.6875rem) {
+  h1 {
+    text-align: center;
+  }
+
+  .topic-card {
+    flex-direction: column-reverse;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  p {
+    margin-top: 0.875rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .logo {
+    padding-top: 1.25rem 0 0.875rem 0;
+    width: 9.6875rem;
+    height: 11.5625rem;
+  }
 }
 </style>
