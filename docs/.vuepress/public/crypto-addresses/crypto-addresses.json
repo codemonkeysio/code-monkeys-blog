@@ -34,6 +34,11 @@
       "name": "Dero",
       "abbr": "DERO",
       "address": "dERoSuaxKdgG6ZYuaw3dJyK3P9cZDFDXb3Ssjqt7fyXEPCBtofw1VMfEw5juDCyDQMG6sjhqSGNszjaiCtSAgikc9QSgDRdcow"
+    },
+    {
+      "name": "Dogecoin",
+      "abbr": "DOGE",
+      "address": "DBE6pQQspZ5CsM3UZMJzhHJUJ8kcREwoce"
     }
   ]
 }
