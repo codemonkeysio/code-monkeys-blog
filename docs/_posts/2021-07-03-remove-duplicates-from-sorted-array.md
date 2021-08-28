@@ -47,7 +47,9 @@ meta:
 
 # Remove Duplicates from Sorted Array
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ApBQCp1RfnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="embedded-video"></iframe>
+<div class="video-wrapper">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ApBQCp1RfnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="embedded-video"></iframe>
+</div>
 
 ## Links
 

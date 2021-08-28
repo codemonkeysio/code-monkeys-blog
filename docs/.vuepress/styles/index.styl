@@ -153,6 +153,39 @@ main.page
   max-width 69.53125rem
   padding-bottom 1.125rem
 
+@media (max-width: 39.9375rem)
+  .video-wrapper
+    position: relative
+    padding-bottom: 56.25%
+    height: 0
+    iframe
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+
+@media (min-width: 40rem)
+  iframe
+    width: 35rem
+    height: 19.6875rem
+
+@media (min-width: 45rem)
+  .video-wrapper
+    position: relative
+    padding-bottom: 56.25%
+    iframe
+      position: absolute
+      width: 100%
+      height: 100%
+
+@media (min-width: 56.3125rem)
+  .video-wrapper
+    padding-bottom: 19.6875rem
+  iframe
+    max-width: 35rem
+    max-height: 19.6875rem
+
 iframe.embedded-video
   margin-top 2rem
 
@@ -191,7 +224,7 @@ iframe.embedded-video
   rect
     fill: #282c34 !important
     stroke: #16181d !important
-    stroke-width: 2px !important
+    stroke-width: 0.125rem !important
   .label
     color: #e6e6e6 !important
 

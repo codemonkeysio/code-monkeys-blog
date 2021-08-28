@@ -47,7 +47,9 @@ meta:
 
 # Climbing Stairs Solution 1
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jUP9BAs2GbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-wrapper">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jUP9BAs2GbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Links
 
