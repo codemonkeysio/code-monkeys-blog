@@ -10,9 +10,9 @@ sidebar: auto
 
 ## Crypto Addresses
 
-⚠️ Sending Crypto to the Wrong Address will Result in Loss of Funds! ⚠️
+⚠️ Sending Crypto to the Wrong Address will Result in Loss of <span class="emoji-wrap">Funds! ⚠️</span>
 
-✅ Always double check the address & amount before sending! ✅
+✅ Always double check the address & amount before <span class="emoji-wrap">sending! ✅</span>
 
 <CryptoAddresses />
 
@@ -53,6 +53,16 @@ h2 {
 
 .topic-card:hover {
     box-shadow: 0.125rem 0.5rem 1rem 0.125rem #0b0c0f;
+}
+
+.emoji-wrap {
+    display: inline-flex;
+}
+
+@media (max-width: 54.6875rem) {
+    h1, h2, p {
+        text-align: center;
+    }
 }
 
 @media (max-width: 26.3125rem) {

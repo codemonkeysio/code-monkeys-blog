@@ -126,6 +126,8 @@ html
         border-radius: 5.625rem
         margin-bottom: 0.625rem
         background-image: radial-gradient(circle at center center, #2c303a, #1f2229)
+        img
+          transition: transform 0.2s
         h1
           rfs-font-size(3rem)
         .description
@@ -134,6 +136,8 @@ html
           rfs-font-size(1.2rem)
       .hero:hover
         box-shadow: 0.125rem 0.5rem 1rem 0.125rem #0b0c0f
+        img
+          transform: scale(1.1)
       .features
         border-top: 0.125rem solid $borderColor
         border-bottom: 0.125rem solid $borderColor

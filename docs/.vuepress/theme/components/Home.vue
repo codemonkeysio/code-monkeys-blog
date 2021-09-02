@@ -120,6 +120,7 @@ export default {
   .home
     .features
       flex-direction column
+      align-items: center
     .feature
       max-width 100%
       padding 0 2.5rem
