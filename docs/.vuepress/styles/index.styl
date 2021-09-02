@@ -126,6 +126,7 @@ html
         border-radius: 5.625rem
         margin-bottom: 0.625rem
         background-image: radial-gradient(circle at center center, #2c303a, #1f2229)
+        padding: 2rem
         img
           transition: transform 0.2s
         h1
@@ -145,6 +146,15 @@ html
           text-align: center
           h2
             rfs-font-size(1.4rem)
+    @media (max-width: $MQMobile)
+      .home
+        .hero
+          border-radius: 3.75rem
+    @media (max-width: $MQMobileNarrow)
+      .home
+        .hero
+          border-radius: 2.8125rem
+
 
 main.home
   height: 90vh

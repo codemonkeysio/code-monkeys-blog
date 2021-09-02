@@ -118,6 +118,11 @@ export default {
 
 @media (max-width: $MQMobile)
   .home
+    .hero
+      img
+        width: 44%
+        height: auto
+        min-width: 9.375rem
     .features
       flex-direction column
       align-items: center
