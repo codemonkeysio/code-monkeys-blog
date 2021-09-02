@@ -30,6 +30,8 @@ Subscribe for more monkey business on <a href="https://www.subscribestar.com/cod
 
 Buy us more bananas using <a href="https://venmo.com/u/codemonkeys" target="_blank" rel="noopener noreferrer">Venmo!</a>
 
+Sponsor Code Monkeys on <a href="https://github.com/sponsors/codemonkeysio" target="_blank" rel="noopener noreferrer">GitHub!</a>
+
 Sponsor Jay the Code Monkey on <a href="https://github.com/sponsors/jchiarulli" target="_blank" rel="noopener noreferrer">GitHub!</a>
 
 </div>
