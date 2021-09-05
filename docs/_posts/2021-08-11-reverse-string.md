@@ -2,7 +2,7 @@
 title: Reverse String
 date: 2021-08-11
 topic: LeetCode
-topicDescription: Solutions for LeetCode Problems Enjoy!!! 🍌 🐒
+topicDescription: Solutions for LeetCode Problems Enjoy!!! 🍌🐒
 description: Solution & Notes for the LeetCode problem Reverse String.
 img: 07-reverse-string.png
 mathjax:

@@ -2,7 +2,7 @@
 title: Climbing Stairs Solution 2
 date: 2021-07-01
 topic: LeetCode
-topicDescription: Solutions for LeetCode Problems Enjoy!!! 🍌 🐒
+topicDescription: Solutions for LeetCode Problems Enjoy!!! 🍌🐒
 description: The Second Solution & Notes for the LeetCode problem Climbing Staris.
 img: 03-climbing-stairs-solution-2.png
 mathjax:

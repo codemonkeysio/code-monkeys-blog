@@ -2,7 +2,7 @@
 title: VuePress Tutorial 1 - Why Create a Blog?
 date: 2021-08-07
 topic: VuePress
-topicDescription: VuePress Tutorials Enjoy!!! 🍌 🐒
+topicDescription: VuePress Tutorials Enjoy!!! 🍌🐒
 description: Discusses the benefits of creating a blog in general & why VuePress is a great choice.
 img: vuepress-logo.png
 mathjax:

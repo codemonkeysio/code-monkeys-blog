@@ -6,7 +6,8 @@
           {{ $pagination.pages[0].frontmatter.topicDescription }}
         </h1>
         <h1 v-else>
-          The Scribblings of a Monkey!!! 📝 🐒
+          The Scribblings of a
+          <div class="emoji-wrap">Monkey!!! 📝 🐒</div>
         </h1>
         <div
           class="post-card"

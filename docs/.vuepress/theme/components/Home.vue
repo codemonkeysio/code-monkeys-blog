@@ -120,9 +120,10 @@ export default {
   .home
     .hero
       img
-        width: 44%
+        width: 45%
         height: auto
-        min-width: 9.375rem
+        min-width: 10.9375rem
+        margin-top: 1.8rem
     .features
       flex-direction column
       align-items: center
@@ -130,16 +131,30 @@ export default {
       max-width 100%
       padding 0 2.5rem
 
+@media (max-width: 32.5rem)
+  .home
+    .hero
+      img
+        margin-top: 1.5rem
+      h1, .description, .action
+        margin: 1.5rem auto
+
 @media (max-width: $MQMobileNarrow)
   .home
-    padding-left 1.5rem
-    padding-right 1.5rem
     .hero
       img
         max-height 13.125rem
-        margin 2rem auto 1.2rem
+        margin 1.2rem auto
       h1, .description, .action
         margin 1.2rem auto
       .action-button
-        padding 0.6rem 1.2rem
+        max-width: 14.0625rem
+        padding 0.5rem 0.5rem
+
+@media (max-width: 19.375rem)
+  .home
+    .hero
+      img
+        width: 98%
+        min-width: 9.375rem
 </style>

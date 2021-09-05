@@ -22,11 +22,19 @@ p, span, li, button, #pagination
 .theme-code-block
   rfs-font-size(1.4375rem)
 
-.icons
+.no-wrap-icons, .wrap-icons
   rfs-font-size(2rem)
 
-.icons > a:not(:last-child)
+.no-wrap-icons > a:not(:last-child)
   rfs-margin-right(4.6875rem)
+
+@media (min-width: 421px)
+  .wrap-icons > a
+    rfs-margin-left(4.6875rem)
+
+@media (max-width: 26.25rem)
+  .wrap-icons > a:not(:first-child)
+    rfs-margin-left(4.6875rem)
 
 span.abbreviation, span.prefix, span.time, .footer
   rfs-font-size(1.125rem)
@@ -118,8 +126,10 @@ html
             .dropdown-subitem > a
               rfs-font-size(1.15625rem)
     .home
-      padding: 8rem 2rem 0
+      padding: 8rem 0
       .hero
+        margin-left: 2rem
+        margin-right: 2rem
         border: 0.125rem solid #16181d
         box-shadow: 0 0.5rem 1rem 0 #16181d
         transition: 0.2s
@@ -140,6 +150,8 @@ html
         img
           transform: scale(1.1)
       .features
+        margin-left: 2rem
+        margin-right: 2rem
         border-top: 0.125rem solid $borderColor
         border-bottom: 0.125rem solid $borderColor
         .feature
@@ -169,6 +181,11 @@ main.page
   max-width: 69.53125rem
   padding-bottom: 1.125rem
 
+// Emoji Wrapping
+.emoji-wrap
+  display: inline-flex
+
+// Videos
 @media (max-width: 39.9375rem)
   .video-wrapper
     position: relative
@@ -205,6 +222,7 @@ main.page
 iframe.embedded-video
   margin-top: 2rem
 
+// Posts
 .post-term-one
   color: $postColorOne
   font-style: italic
@@ -253,6 +271,7 @@ iframe.embedded-video
     pre
       margin-bottom: 0
 
+// Footer
 footer.page-edit
   padding-top: 1.5rem
   padding-bottom: 1.125rem

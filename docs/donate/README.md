@@ -4,7 +4,7 @@ description: Donations are Appreciated
 sidebar: auto
 ---
 
-# Thanks for the Bananas!!! 🍌
+# Thanks for the <div class="emoji-wrap">Bananas!!! 🍌</div>
 
 <div class="topic-card">
 
@@ -53,10 +53,6 @@ h2 {
 
 .topic-card:hover {
     box-shadow: 0.125rem 0.5rem 1rem 0.125rem #0b0c0f;
-}
-
-.emoji-wrap {
-    display: inline-flex;
 }
 
 @media (max-width: 54.6875rem) {
