@@ -1,7 +1,7 @@
 <template>
-  <div class="sidebar-button" @click="toggleSidebar">
-    <vp-icon v-show="!showSideBar" class="icon" name="menu"></vp-icon>
-    <vp-icon v-show="showSideBar" class="icon" name="cross"></vp-icon>
+  <div class="sidebar-button" @click="$emit('toggle-sidebar')">
+    <vp-icon v-show="!value" class="icon" name="menu"></vp-icon>
+    <vp-icon v-show="value" class="icon" name="cross"></vp-icon>
   </div>
 </template>
 
@@ -9,15 +9,11 @@
 export default {
   name: 'SidebarButton',
 
-  data: function() {
-    return {
-      showSideBar: false
-    };
-  },
-  methods: {
-    toggleSidebar() {
-      this.showSideBar = !this.showSideBar;
-      this.$emit('toggle-sidebar');
+  props: {
+    value: {
+      type: Boolean,
+      required: true,
+      default: false
     }
   }
 };

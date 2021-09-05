@@ -11,7 +11,18 @@
         </h1>
         <div
           class="post-card"
-          @click="$router.push(`${post.path}`)"
+          @click="
+            $router.push(`${post.path}`).catch((err) => {
+              if (
+                err.name !== 'NavigationDuplicated' &&
+                !err.message.includes(
+                  'Avoided redundant navigation to current location'
+                )
+              ) {
+                console.log(err);
+              }
+            })
+          "
           :key="post.key"
           v-for="post in $pagination.pages"
         >
@@ -50,7 +61,7 @@
 </template>
 
 <script>
-import Layout from '@parent-theme/layouts/Layout.vue';
+import Layout from './Layout.vue';
 
 export default {
   components: {

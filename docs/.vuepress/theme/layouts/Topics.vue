@@ -5,7 +5,18 @@
         <h1>👋 Hey Start Monkeying Around!!!</h1>
         <div
           class="topic-card"
-          @click="$router.push(`${topic.path}`)"
+          @click="
+            $router.push(`${topic.path}`).catch((err) => {
+              if (
+                err.name !== 'NavigationDuplicated' &&
+                !err.message.includes(
+                  'Avoided redundant navigation to current location'
+                )
+              ) {
+                console.log(err);
+              }
+            })
+          "
           :key="topic.name"
           v-for="(topic, index) in $topics.list"
         >
@@ -32,7 +43,7 @@
 </template>
 
 <script>
-import Layout from '@parent-theme/layouts/Layout.vue';
+import Layout from './Layout.vue';
 
 export default {
   components: {
