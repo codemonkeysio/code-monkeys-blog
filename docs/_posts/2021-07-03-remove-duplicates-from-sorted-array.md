@@ -2,7 +2,8 @@
 title: Remove Duplicates from Sorted Array
 date: 2021-07-03
 topic: LeetCode
-topicDescription: Solutions for LeetCode Problems Enjoy!!! 🍌🐒
+topicDescription: Solutions for LeetCode Problems
+topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
 description: Solution & Notes for the LeetCode problem Remove Duplicates from Sorted Array.
 img: 05-remove-duplicates-from-sorted-array.png
 mathjax:

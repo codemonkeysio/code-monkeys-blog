@@ -2,7 +2,8 @@
 title: Single Number
 date: 2021-06-29
 topic: LeetCode
-topicDescription: Solutions for LeetCode Problems Enjoy!!! 🍌🐒
+topicDescription: Solutions for LeetCode Problems
+topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
 description: Solution & Notes for the LeetCode problem Single Number.
 img: 01-single-number.png
 mathjax:

@@ -2,7 +2,8 @@
 title: Valid Anagram
 date: 2021-07-02
 topic: LeetCode
-topicDescription: Solutions for LeetCode Problems Enjoy!!! 🍌🐒
+topicDescription: Solutions for LeetCode Problems
+topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
 description: Solution & Notes for the LeetCode problem Valid Anagram.
 img: 04-valid-anagram.png
 mathjax:

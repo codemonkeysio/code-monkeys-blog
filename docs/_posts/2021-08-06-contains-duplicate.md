@@ -2,7 +2,8 @@
 title: Contains Duplicate
 date: 2021-08-06
 topic: LeetCode
-topicDescription: Solutions for LeetCode Problems Enjoy!!! 🍌🐒
+topicDescription: Solutions for LeetCode Problems
+topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
 description: Solution & Notes for the LeetCode problem Contains Duplicate.
 img: 06-contains-duplicate.png
 mathjax:

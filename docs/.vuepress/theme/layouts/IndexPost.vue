@@ -4,10 +4,13 @@
       <div class="theme-default-content content__default">
         <h1 v-if="!$route.path.includes('/posts/')">
           {{ $pagination.pages[0].frontmatter.topicDescription }}
+          <div class="emoji-wrap">
+            {{ $pagination.pages[0].frontmatter.topicDescriptionEmojiWrap }}
+          </div>
         </h1>
         <h1 v-else>
           The Scribblings of a
-          <div class="emoji-wrap">Monkey!!! 📝 🐒</div>
+          <div class="emoji-wrap">Monkey!!! 📝🐒</div>
         </h1>
         <div
           class="post-card"
