@@ -4,7 +4,7 @@
     :aria-labelledby="data.heroText !== null ? 'main-title' : null"
   >
     <div class="content-wrapper">
-      <header class="hero">
+      <header class="hero" @click="$router.push(`${data.actionLink}`)">
         <img
           v-if="data.heroImage"
           :src="$withBase(data.heroImage)"
@@ -20,7 +20,7 @@
         </p>
 
         <p v-if="data.actionText && data.actionLink" class="action">
-          <NavLink class="action-button" :item="actionLink" />
+          <span class="nav-link action-button">{{ data.actionText }}</span>
         </p>
       </header>
 
@@ -67,54 +67,56 @@ export default {
 
 <style lang="stylus">
 .home
-  padding $navbarHeight 2rem 0
-  max-width $homePageWidth
-  margin 0 auto
-  display block
+  padding: $navbarHeight 2rem 0
+  max-width: $homePageWidth
+  margin: 0 auto
+  display: block
   .hero
-    text-align center
+    text-align: center
+    cursor: pointer
     img
       max-width: 100%
-      max-height 17.5rem
-      display block
-      margin 3rem auto 1.5rem
+      max-height: 17.5rem
+      display: block
+      margin: 3rem auto 1.5rem
     h1, .description, .action
-      margin 1.8rem auto
+      margin: 1.8rem auto
     .description
-      max-width 35rem
-      line-height 1.3
-      color lighten($textColor, 40%)
+      max-width: 35rem
+      line-height: 1.3
+      color: lighten($textColor, 40%)
     .action-button
-      display inline-block
-      color #fff
-      background-color $accentColor
-      padding 0.8rem 1.6rem
-      border-radius 0.25rem
-      transition background-color .1s ease
-      box-sizing border-box
-      border-bottom 0.063rem solid darken($accentColor, 10%)
+      display: inline-block
+      color: #fff
+      background-color: $accentColor
+      padding: 0.8rem 1.6rem
+      border-radius: 0.25rem
+      transition: background-color .1s ease
+      box-sizing: border-box
+      border-bottom: 0.063rem solid darken($accentColor, 10%)
+      font-weight: 500
       &:hover
-        background-color lighten($accentColor, 10%)
+        background-color: lighten($accentColor, 10%)
   .features
-    border-top 0.063rem solid $borderColor
-    padding 1.2rem 0
-    margin-top 2.5rem
-    display flex
-    flex-wrap wrap
-    align-items flex-start
-    align-content stretch
-    justify-content space-between
+    border-top: 0.063rem solid $borderColor
+    padding: 1.2rem 0
+    margin-top: 2.5rem
+    display: flex
+    flex-wrap: wrap
+    align-items: flex-start
+    align-content: stretch
+    justify-content: space-between
   .feature
-    flex-grow 1
-    flex-basis 30%
-    max-width 30%
+    flex-grow: 1
+    flex-basis: 30%
+    max-width: 30%
     h2
-      font-weight 500
-      border-bottom none
-      padding-bottom 0
-      color lighten($textColor, 10%)
+      font-weight: 500
+      border-bottom: none
+      padding-bottom: 0
+      color: lighten($textColor, 10%)
     p
-      color lighten($textColor, 25%)
+      color: lighten($textColor, 25%)
 
 @media (max-width: $MQMobile)
   .home
@@ -125,11 +127,11 @@ export default {
         min-width: 10.9375rem
         margin-top: 1.8rem
     .features
-      flex-direction column
+      flex-direction: column
       align-items: center
     .feature
-      max-width 100%
-      padding 0 2.5rem
+      max-width: 100%
+      padding: 0 2.5rem
 
 @media (max-width: 32.5rem)
   .home
@@ -143,13 +145,13 @@ export default {
   .home
     .hero
       img
-        max-height 13.125rem
-        margin 1.2rem auto
+        max-height: 13.125rem
+        margin: 1.2rem auto
       h1, .description, .action
-        margin 1.2rem auto
+        margin: 1.2rem auto
       .action-button
         max-width: 14.0625rem
-        padding 0.5rem 0.5rem
+        padding: 0.5rem 0.5rem
 
 @media (max-width: 19.375rem)
   .home
