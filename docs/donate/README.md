@@ -8,7 +8,7 @@ sidebar: auto
 
 <div class="topic-card">
 
-## Crypto <div class="emoji-wrap">Addresses 🔗</div>
+## Crypto Addresses 🔗
 
 ⚠️ Sending Crypto to the Wrong Address will Result in Loss of <span class="emoji-wrap">Funds! ⚠️</span>
 
