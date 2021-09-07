@@ -15,16 +15,16 @@
           ><vp-icon name="YouTube"></vp-icon
         ></a>
         <a
-          href="https://t.me/codemonkeystech"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><vp-icon name="Telegram"></vp-icon
-        ></a>
-        <a
           href="https://discord.gg/mh9rQmwJ8H"
           target="_blank"
           rel="noopener noreferrer"
           ><vp-icon name="Discord"></vp-icon
+        ></a>
+        <a
+          href="https://t.me/codemonkeystech"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><vp-icon name="Telegram"></vp-icon
         ></a>
       </div>
       <div class="wrap-icons">
@@ -92,4 +92,6 @@ export default {
       justify-content: space-between
     .wrap-icons
       padding-top 1.75rem
+      width: 100%
+      justify-content: space-evenly
 </style>
