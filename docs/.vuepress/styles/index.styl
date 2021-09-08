@@ -87,13 +87,10 @@ html
           ul.suggestions
             background-color: #1f2229
             border: 0.125rem solid $borderColor
-          // For Search Box Suggestions
-          /* ul.suggestions > a
-            rfs-font-size(1.25rem) */
-          ul:hover
-            background-color: #1f2229
-            li:hover
-              background-color: #1f2229
+            .suggestion
+              &.focused
+                background-color #1f2229
+
         .nav-links
           rfs-font-size(1.25rem)
           .nav-item:first-child
