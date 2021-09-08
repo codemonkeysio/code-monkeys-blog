@@ -5,7 +5,7 @@
   >
     <div class="content-wrapper">
       <header class="hero" @click="$router.push(`${data.actionLink}`)">
-        <img
+        <img-lazy
           v-if="data.heroImage"
           :src="$withBase(data.heroImage)"
           :alt="data.heroAlt || 'hero'"

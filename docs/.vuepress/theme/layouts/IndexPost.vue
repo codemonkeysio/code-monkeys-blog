@@ -40,7 +40,7 @@
             </p>
           </div>
           <div class="post-pic">
-            <img
+            <img-lazy
               :src="require(`../../public/images/${post.frontmatter.img}`)"
               alt="Post Pic"
             />

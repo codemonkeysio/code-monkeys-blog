@@ -31,7 +31,7 @@
             </p>
           </div>
           <div class="logo">
-            <img
+            <img-lazy
               :src="require(`../../public/images/${topicDetails[index].logo}`)"
               alt="Logo"
             />

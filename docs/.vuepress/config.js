@@ -332,6 +332,7 @@ module.exports = {
     '@goy/svg-icons',
     'vuepress-plugin-mathjax',
     'mermaidjs',
+    'img-lazy',
     [
       'vuepress-plugin-code-copy',
       {
