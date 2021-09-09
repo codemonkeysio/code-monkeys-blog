@@ -181,6 +181,12 @@ main.page
 // Emoji Wrapping
 .emoji-wrap
   display: inline-flex
+.theme-default-content:not(.custom)
+  div.emoji-wrap
+    text-decoration: inherit
+    display: inline-block
+    span
+      display: inline-block
 
 // Videos
 @media (max-width: 39.9375rem)
