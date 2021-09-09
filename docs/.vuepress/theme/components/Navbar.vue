@@ -3,7 +3,7 @@
     <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" v-model="value" />
 
     <RouterLink :to="$localePath" class="home-link">
-      <img-lazy
+      <img
         v-if="$site.themeConfig.logo"
         class="logo"
         :src="$withBase($site.themeConfig.logo)"

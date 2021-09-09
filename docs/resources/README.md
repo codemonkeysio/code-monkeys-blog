@@ -7,6 +7,6 @@ description: Useful Resources for Learning & Coding
 
 <style lang="stylus" scoped>
 @media (max-width: 54.6875rem)
-  h1, h2, p
+  p
     text-align: center
 </style>

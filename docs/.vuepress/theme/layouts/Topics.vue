@@ -31,7 +31,7 @@
             </p>
           </div>
           <div class="logo">
-            <img-lazy
+            <img
               :src="require(`../../public/images/${topicDetails[index].logo}`)"
               alt="Logo"
             />
@@ -90,13 +90,9 @@ h2
     transform: scale(1.1)
 
 @media (max-width: 54.6875rem)
-  h1
-    text-align: center
-
   .topic-card
     flex-direction: column-reverse
     h2
-      text-align: center
       margin: 0
     p
       text-align: center

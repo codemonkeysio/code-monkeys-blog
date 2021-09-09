@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <footer class="footer" :class="checkSidebarAuto">
     <div class="icons">
       <div class="no-wrap-icons">
         <a
@@ -56,11 +56,29 @@
 
 <script>
 export default {
-  name: 'Footer'
+  name: 'Footer',
+
+  created() {
+    console.log(this.$route);
+  },
+
+  computed: {
+    checkSidebarAuto: function() {
+      console.log(this.$route.path.includes('/donate/'));
+      let postPattern = /\/posts\/[0-9]/;
+      return {
+        'is-sidebar-active':
+          this.$route.path.includes('/donate/') ||
+          this.$route.path.match(postPattern)
+      };
+    }
+  }
 };
 </script>
 
 <style lang="stylus" scoped>
+@import '~rfs/stylus'
+
 .footer
   display flex
   flex-direction column
@@ -83,10 +101,9 @@ export default {
     text-align: center
     margin: 0
 
-@media (max-width: 26.25rem)
+@media (max-width: 32.1875rem)
   .icons
     flex-wrap: wrap
-    justify-content: center
     .no-wrap-icons
       width: 100%
       justify-content: space-between
@@ -94,4 +111,26 @@ export default {
       padding-top 1.75rem
       width: 100%
       justify-content: space-evenly
+      a:nth-child(1)
+        margin-left: 0
+        rfs-margin-right(4.6875rem)
+      a:nth-child(2)
+        margin-left: 0
+
+@media (min-width: 45rem) and (max-width: 62.8125rem)
+  .is-sidebar-active
+      .icons
+        flex-wrap: wrap
+        .no-wrap-icons
+          width: 100%
+          justify-content: space-between
+        .wrap-icons
+          padding-top 1.75rem
+          width: 100%
+          justify-content: space-evenly
+          a:nth-child(1)
+            margin-left: 0
+            rfs-margin-right(4.6875rem)
+          a:nth-child(2)
+            margin-left: 0
 </style>

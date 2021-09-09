@@ -40,7 +40,7 @@
             </p>
           </div>
           <div class="post-pic">
-            <img-lazy
+            <img
               :src="require(`../../public/images/${post.frontmatter.img}`)"
               alt="Post Pic"
             />
@@ -108,12 +108,9 @@ h2
 
 @media (max-width: 54.6875rem)
   h1
-    text-align: center
-
   .post-card
     flex-direction: column-reverse
     h2
-      text-align: center
       margin: 0
     p
       text-align: center

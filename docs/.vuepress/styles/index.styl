@@ -39,13 +39,6 @@ p, span, li, button, #pagination
 span.abbreviation, span.prefix, span.time, .footer
   rfs-font-size(1.125rem)
 
-.theme-default-content:not(.custom) > h1
-  padding-top: 7.5rem
-
-.theme-default-content:not(.custom) > h2
-  padding-top: 0
-  margin-top: 2rem
-
 html
   background-color: #1f2229
   body
@@ -164,6 +157,14 @@ html
         .hero
           border-radius: 2.8125rem
 
+// Emoji Wrapping
+.emoji-wrap
+  display: inline-flex
+
+// Posts
+.theme-default-content:not(.custom) > h2
+  padding-top: 0
+  margin-top: 2rem
 
 main.home
   height: 90vh
@@ -173,20 +174,30 @@ main.page
   height: 100vh
   .content-wrapper
     min-height: calc(100vh - 10rem)
-
-.theme-default-content:not(.custom)
-  max-width: 69.53125rem
-  padding-bottom: 1.125rem
-
-// Emoji Wrapping
-.emoji-wrap
-  display: inline-flex
-.theme-default-content:not(.custom)
-  div.emoji-wrap
-    text-decoration: inherit
-    display: inline-block
-    span
-      display: inline-block
+    .theme-default-content
+      max-width: 69.53125rem
+      padding-bottom: 1.125rem
+      h1
+        padding-top: 7.5rem
+      @media (max-width: 54.6875rem)
+        h1, h2
+          text-align: center
+      div.emoji-wrap
+        text-decoration: inherit
+        display: inline-block
+        span
+          display: inline-block
+      // Code Blocks
+      .theme-code-group
+        margin-top: 2rem
+        div.extra-class::before
+          font-size: 1rem
+          top: 0.1rem
+        pre
+          margin-bottom: 0
+      @media (max-width: 26.1875rem)
+        div[class*="language-"]
+          margin: 0
 
 // Videos
 @media (max-width: 39.9375rem)
@@ -206,10 +217,15 @@ main.page
     width: 35rem
     height: 19.6875rem
 
+@media (max-width: 44.9375rem)
+  .video-wrapper
+    text-align: center
+
 @media (min-width: 45rem)
   .video-wrapper
     position: relative
     padding-bottom: 56.25%
+    text-align: left
     iframe
       position: absolute
       width: 100%
@@ -264,20 +280,6 @@ iframe.embedded-video
     stroke-width: 0.125rem !important
   .label
     color: #e6e6e6 !important
-
-// Code Blocks
-.theme-default-content
-  .theme-code-group
-    margin-top: 2rem
-    div.extra-class::before
-      font-size: 1rem
-      top: 0.1rem
-    pre
-      margin-bottom: 0
-
-@media (max-width: 26.1875rem)
-  .theme-default-content div[class*="language-"]
-    margin: 0
 
 // Footer
 footer.page-edit

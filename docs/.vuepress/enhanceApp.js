@@ -1,5 +1,4 @@
 import VueClipboard from 'vue-clipboard2';
-import ImgLazy from 'vuepress-plugin-img-lazy/ImgLazy';
 
 // async function is also supported, too
 export default ({
@@ -11,5 +10,4 @@ export default ({
 }) => {
   // ...apply enhancements to the app
   Vue.use(VueClipboard);
-  Vue.component(ImgLazy.name, ImgLazy);
 };
