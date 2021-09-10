@@ -118,7 +118,7 @@ export default {
     p
       color: lighten($textColor, 25%)
 
-@media (max-width: $MQMobile)
+@media (max-width: 44.9375rem)
   .home
     .hero
       img
@@ -141,7 +141,7 @@ export default {
       h1, .description, .action
         margin: 1.5rem auto
 
-@media (max-width: $MQMobileNarrow)
+@media (max-width: 26.1875rem)
   .home
     .hero
       img

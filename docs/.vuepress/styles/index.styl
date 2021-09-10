@@ -77,13 +77,19 @@ html
             background-color: transparent
             border: 0.125rem solid $borderColor
             color: $textColor
-          ul.suggestions
+          .suggestions
             background-color: #1f2229
             border: 0.125rem solid $borderColor
             .suggestion
               &.focused
                 background-color #1f2229
-
+        @media (max-width: $MQMobile)
+          .search-box
+            margin-right: 0
+            input
+              left 0
+            .suggestions
+              left: initial
         .nav-links
           rfs-font-size(1.25rem)
           .nav-item:first-child
@@ -148,11 +154,11 @@ html
           text-align: center
           h2
             rfs-font-size(1.4rem)
-    @media (max-width: $MQMobile)
+    @media (max-width: 44.9375rem)
       .home
         .hero
           border-radius: 3.75rem
-    @media (max-width: $MQMobileNarrow)
+    @media (max-width: 26.1875rem)
       .home
         .hero
           border-radius: 2.8125rem
@@ -182,6 +188,8 @@ main.page
       @media (max-width: 54.6875rem)
         h1, h2
           text-align: center
+        a.header-anchor
+          float: none
       div.emoji-wrap
         text-decoration: inherit
         display: inline-block
@@ -217,11 +225,11 @@ main.page
     width: 35rem
     height: 19.6875rem
 
-@media (max-width: 44.9375rem)
+@media (max-width: 53.125rem)
   .video-wrapper
     text-align: center
 
-@media (min-width: 45rem)
+@media (min-width: 53.1875rem)
   .video-wrapper
     position: relative
     padding-bottom: 56.25%

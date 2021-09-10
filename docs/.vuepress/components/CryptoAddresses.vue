@@ -190,7 +190,7 @@ button:hover {
   }
 }
 
-@media (min-width: 45rem) {
+@media (min-width: 53.1875rem) {
   .name-and-abbreviation {
     min-width: 13.875rem;
   }

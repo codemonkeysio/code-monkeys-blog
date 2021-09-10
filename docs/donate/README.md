@@ -1,5 +1,5 @@
 ---
-title: Donate
+title: Thanks for the Bananas!
 description: Donations are Appreciated
 sidebar: auto
 ---

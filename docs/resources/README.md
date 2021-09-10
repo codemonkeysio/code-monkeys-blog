@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: Giving Credit to the Great Apes!
 description: Useful Resources for Learning & Coding
 ---
 

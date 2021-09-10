@@ -117,7 +117,7 @@ export default {
       a:nth-child(2)
         margin-left: 0
 
-@media (min-width: 45rem) and (max-width: 62.8125rem)
+@media (min-width: 53.1875rem) and (max-width: 62.8125rem)
   .is-sidebar-active
       .icons
         flex-wrap: wrap
