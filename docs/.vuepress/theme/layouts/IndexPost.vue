@@ -49,13 +49,14 @@
         <div id="pagination">
           <div>
             <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink"
+              ><vp-icon name="left-arrow" class="left-arrow"></vp-icon
               >Prev</router-link
             >
           </div>
           <div>
             <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink"
-              >Next</router-link
-            >
+              >Next<vp-icon name="right-arrow" class="right-arrow"></vp-icon
+            ></router-link>
           </div>
         </div>
       </div>
@@ -107,6 +108,10 @@ h2
     display: flex
     justify-content: space-between
     padding-top: 2rem
+    .left-arrow
+      padding-right: 0.25rem
+    .right-arrow
+      padding-left: 0.25rem
 
 @media (max-width: 54.6875rem)
   .post-card
