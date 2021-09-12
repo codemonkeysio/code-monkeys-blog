@@ -56,3 +56,9 @@ export function resolveSidebarItems(page, regularPath, site, localePath) {
     return config ? config.map((item) => resolveItem(item, pages, base)) : [];
   }
 }
+
+export function resolveNavLinkItem(linkItem) {
+  return Object.assign(linkItem, {
+    type: linkItem.items && linkItem.items.length ? 'links' : 'link'
+  });
+}

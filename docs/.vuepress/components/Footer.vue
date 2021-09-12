@@ -58,13 +58,8 @@
 export default {
   name: 'Footer',
 
-  created() {
-    console.log(this.$route);
-  },
-
   computed: {
     checkSidebarAuto: function() {
-      console.log(this.$route.path.includes('/donate/'));
       let postPattern = /\/posts\/[0-9]/;
       return {
         'is-sidebar-active':
