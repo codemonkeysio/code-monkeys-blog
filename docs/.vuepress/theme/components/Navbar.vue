@@ -44,7 +44,7 @@
 import AlgoliaSearchBox from '@AlgoliaSearchBox';
 import SearchBox from '@SearchBox';
 import SidebarButton from './SidebarButton.vue';
-import NavLinks from '@parent-theme/components/NavLinks.vue';
+import NavLinks from './NavLinks.vue';
 
 export default {
   name: 'Navbar',
