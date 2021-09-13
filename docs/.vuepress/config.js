@@ -352,7 +352,7 @@ module.exports = {
             itemPermalink: '/posts/:year/:month/:day/:slug',
             layout: 'IndexPost',
             pagination: {
-              lengthPerPage: 5, // default value
+              lengthPerPage: 5, // 5 is the default value
               layout: 'IndexPost' // layout for the index page when page != 1
             }
           }

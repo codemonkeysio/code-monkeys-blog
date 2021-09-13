@@ -48,15 +48,14 @@
         </div>
         <div id="pagination">
           <div>
-            <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink"
-              ><vp-icon name="left-arrow" class="left-arrow"></vp-icon
-              >Prev</router-link
-            >
+            <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">
+              <PaginationButtons :prevButton="true" />
+            </router-link>
           </div>
           <div>
-            <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink"
-              >Next<vp-icon name="right-arrow" class="right-arrow"></vp-icon
-            ></router-link>
+            <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink">
+              <PaginationButtons />
+            </router-link>
           </div>
         </div>
       </div>
@@ -66,10 +65,12 @@
 
 <script>
 import Layout from './Layout.vue';
+import PaginationButtons from '../../components/PaginationButtons.vue';
 
 export default {
   components: {
-    Layout
+    Layout,
+    PaginationButtons
   }
 };
 </script>
@@ -108,10 +109,6 @@ h2
     display: flex
     justify-content: space-between
     padding-top: 2rem
-    .left-arrow
-      padding-right: 0.25rem
-    .right-arrow
-      padding-left: 0.25rem
 
 @media (max-width: 54.6875rem)
   .post-card
