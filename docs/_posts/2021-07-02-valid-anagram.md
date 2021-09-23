@@ -122,10 +122,8 @@ Ex 2) Input: <span class="post-term-two">s</span> = "rat", <span class="post-ter
 
 ## Implementation
 
-<code-group>
-<code-block title="Valid Anagram">
-
-```js
+<code-fence lang="js" heading="Valid Anagram">
+<pre vue-slot="code">
 var isAnagram = function(s, t) {
   if (s.length === t.length) {
     let sArray = s.split('');
@@ -150,7 +148,5 @@ let s = 'rat';
 let t = 'car';
 
 console.log(isAnagram(s, t));
-```
-
-</code-block>
-</code-group>
+</pre>
+</code-fence>

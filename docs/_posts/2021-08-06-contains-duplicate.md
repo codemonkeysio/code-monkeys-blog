@@ -184,10 +184,8 @@ $-10^9 \leq \color{#ebeb33}{nums[i]} \leq 10^9$
 
 ## Implementation
 
-<code-group>
-<code-block title="Contains Duplicate">
-
-```js
+<code-fence lang="js" heading="Contains Duplicate">
+<pre vue-slot="code">
 var containsDuplicate = function(nums) {
   const obj = {};
   for (let i = 0; i < nums.length; i++) {
@@ -201,7 +199,6 @@ var containsDuplicate = function(nums) {
 
 nums = [1, 2, 3, 1];
 console.log(containsDuplicate(nums));
-```
 
-</code-block>
-</code-group>
+</pre>
+</code-fence>

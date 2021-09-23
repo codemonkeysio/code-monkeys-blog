@@ -142,10 +142,8 @@ Ex 3) Input: <span class="post-term-one">nums</span> = [1] $\implies$ Output: <s
 
 ## Implementation
 
-<code-group>
-<code-block title="Single Number">
-
-```js
+<code-fence lang="js" heading="Single Number">
+<pre vue-slot="code">
 var singleNumber = function(nums) {
   const myObj = {};
   for (let i = 0; i < nums.length; i++) {
@@ -160,7 +158,5 @@ var singleNumber = function(nums) {
 
 nums = [2, 2, 1];
 console.log(singleNumber(nums));
-```
-
-</code-block>
-</code-group>
+</pre>
+</code-fence>

@@ -138,10 +138,8 @@ $$\color{#33ebeb}{wayToClimb}(\color{#33eb61}{stepsTaken} + 1, \color{#ebeb33}{n
 
 ## Implementation
 
-<code-group>
-<code-block title="Climbing Stairs Solution 1">
-
-```js
+<code-fence lang="js" heading="Climbing Stairs Solution 1">
+<pre vue-slot="code">
 var climbStairs = function(n) {
   return wayToClimb(0, n);
 };
@@ -160,10 +158,8 @@ var wayToClimb = function(stepsTaken, n) {
 
 let n = 4;
 console.log(climbStairs(n));
-```
-
-</code-block>
-</code-group>
+</pre>
+</code-fence>
 
 ## Downsides
 

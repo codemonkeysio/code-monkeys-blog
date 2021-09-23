@@ -259,10 +259,8 @@ Ex 2) Input: <span class="post-term-one">s</span> = ["H", "a", "n", "n", "a", "h
 
 ## Implementation
 
-<code-group>
-<code-block title="Reverse String">
-
-```js
+<code-fence lang="js" heading="Reverse String">
+<pre vue-slot="code">
 var reverseString = function(s) {
   let temp;
   let i = 0;
@@ -272,7 +270,6 @@ var reverseString = function(s) {
     temp = s[i];
     s[i] = s[j];
     s[j] = temp;
-
     i++;
     j--;
   }
@@ -287,7 +284,5 @@ console.log(s);
 s = ['H', 'a', 'n', 'n', 'a', 'h'];
 reverseString(s);
 console.log(s);
-```
-
-</code-block>
-</code-group>
+</pre>
+</code-fence>

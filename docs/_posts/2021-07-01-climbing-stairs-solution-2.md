@@ -192,10 +192,8 @@ $$\color{#33ebeb}{waysToClimb_1} = \color{#33ebeb}{1}, \color{#33ebeb}{waysToCli
 
 ## Implementation
 
-<code-group>
-<code-block title="Climbing Stairs Solution 2">
-
-```js
+<code-fence lang="js" heading="Climbing Stairs Solution 2">
+<pre vue-slot="code">
 var climbStairs = function(n) {
   if (n === 1) {
     return 1;
@@ -220,10 +218,8 @@ var climbStairs = function(n) {
 
 let n = 4;
 console.log(climbStairs(n));
-```
-
-</code-block>
-</code-group>
+</pre>
+</code-fence>
 
 ## Analysis
 

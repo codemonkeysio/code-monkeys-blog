@@ -67,7 +67,7 @@ html
             &.router-link-exact-active
               color: $accentColor
             &.router-link-exact-active::after
-              border-left: 5px solid $accentColor
+              border-left: 0.3125rem solid $accentColor
           h4
             border-top: 0.0625rem solid $borderColor
             cursor: initial
@@ -136,7 +136,7 @@ html
               &.router-link-exact-active
                 color: $accentColor
               &.router-link-exact-active::after
-                border-left: 5px solid $accentColor
+                border-left: 0.3125rem solid $accentColor
             a
               rfs-font-size(1.15625rem)
               &:hover
@@ -230,6 +230,97 @@ main.page
         div[class*="language-"]
           margin: 0
 
+      // codefence
+      .codefence
+        color: #e6e6e6
+        margin-top: 2rem
+        margin-bottom: 0
+        border: 0.0625rem solid #0b0c0e
+        rfs-font-size(1.625rem)
+        .heading
+          background-color: #21252b
+          font-size: 0.85em
+          padding: 0.75rem
+        .heading:after
+          opacity: 0.95
+          rfs-font-size(2.25rem)
+          margin: 0.375rem 0.75rem 0 0.75rem
+          background-size: 0.85em 0.605em
+          width: 0.85em
+          height: 0.605em
+        .CodeMirror
+          background-color: #282c34
+          .CodeMirror-lines
+            padding: 0.5rem 0
+            .CodeMirror-linenumber
+              rfs-font-size(1.25rem)
+              color: #4e5565
+              padding: 0.125rem 0.25rem 0.125rem 0.375rem
+            
+            .CodeMirror-line
+              padding: 0.125rem 0.375rem
+              .cm-keyword
+                color: #cc99cd
+              .cm-def
+                color: #f08d49
+              .cm-operator
+                color: #67cdcc
+              .cm-number
+                color: #f28779
+              .cm-variable-2
+                color: #99c7ff
+              .cm-property
+                color: #dbd56e
+              .cm-comment
+                color: #999
+              .cm-variable
+                color: #e6e6e6
+              .cm-string
+                color: #7ec699
+              .cm-atom
+                color: #9898cd
+          .CodeMirror-gutters
+            background-color: #282c34
+        .compiler
+          background-color: #21252b
+          rfs-font-size(1.625rem)
+          code
+            rfs-font-size(1.25rem)
+            color: #e6e6e6
+          .idle
+            border-top: 0.125rem solid #373d48
+            font-size: 0.85em
+            padding: 0.75rem
+            svg
+              opacity: 0.9
+              width: 1em
+              height: 1em
+          .running
+            font-size: 0.85em
+            border-top-color: #429ab8
+            padding: 0.75rem
+            svg
+              width: 0.85em
+              height: 0.85em
+          .redo
+            font-size: 0.85em
+            svg
+              width: 1em
+              height: 1em
+          .stdout
+            border-top-color: #42b983
+            padding: 0.75rem
+          .stderr
+            border-top-color: #b84242
+            padding: 0.75rem
+          .error
+            font-size: 0.85em
+            border-top-color: #b84242
+            padding: 0.75rem
+            svg
+              width: 0.85em 
+              height: 0.85em
+ 
 // Videos
 @media (max-width: 39.9375rem)
   .video-wrapper
@@ -323,5 +414,3 @@ footer.page-edit
 
   @media (max-width: 26.1875rem)
     padding: 0 1.5rem
-
-

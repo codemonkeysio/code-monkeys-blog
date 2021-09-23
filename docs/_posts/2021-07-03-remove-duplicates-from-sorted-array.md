@@ -170,10 +170,8 @@ $$\color{#33eb61}{nums[3]} \equiv \color{#33ebeb}{nums[4]} \implies \color{#33eb
 
 ## Implementation
 
-<code-group>
-<code-block title="Remove Duplicates from Sorted Array">
-
-```js
+<code-fence lang="js" heading="Remove Duplicates from Sorted Array">
+<pre vue-slot="code">
 var removeDuplicates = function(nums) {
   const numsLength = nums.length;
 
@@ -194,7 +192,5 @@ var removeDuplicates = function(nums) {
 
 nums = [1, 1, 1, 2, 2];
 console.log('k =', removeDuplicates(nums), 'nums =', nums);
-```
-
-</code-block>
-</code-group>
+</pre>
+</code-fence>
