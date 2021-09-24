@@ -4,7 +4,7 @@ date: 2021-06-29
 topic: LeetCode
 topicDescription: Solutions for LeetCode Problems
 topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
-description: Solution & Notes for the LeetCode problem Single Number.
+description: Given a non-empty array of integers nums, every element appears twice excepet for one. Find that single...
 img: 01-single-number.png
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
@@ -60,7 +60,7 @@ meta:
 
 ## Problem Description
 
-Given a <span class="post-term-one post-term-bold">non-empty</span> array of integers <span class="post-term-one">nums</span>, every element appears <span class="post-term-one">twice</span> excpet for one. Find that single one.
+Given a <span class="post-term-one post-term-bold">non-empty</span> array of integers <span class="post-term-one">nums</span>, every element appears <span class="post-term-one">twice</span> excepet for one. Find that single one.
 
 You must implement a solution with a <span class="post-term-one">linear runtime</span> complexity and use only <span class="post-term-one">constant extra space</span>.
 

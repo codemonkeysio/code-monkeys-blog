@@ -4,7 +4,7 @@ date: 2021-07-02
 topic: LeetCode
 topicDescription: Solutions for LeetCode Problems
 topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
-description: Solution & Notes for the LeetCode problem Valid Anagram.
+description: Given two strings s and t, return true if t is an anagram of s, and false otherwise. Ex 1) Input...
 img: 04-valid-anagram.png
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'

@@ -4,7 +4,7 @@ date: 2021-07-01
 topic: LeetCode
 topicDescription: Solutions for LeetCode Problems
 topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
-description: The Second Solution & Notes for the LeetCode problem Climbing Staris.
+description: You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps...
 img: 03-climbing-stairs-solution-2.png
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'

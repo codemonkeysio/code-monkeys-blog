@@ -4,7 +4,7 @@ date: 2021-08-07
 topic: VuePress
 topicDescription: VuePress Tutorials
 topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
-description: Discusses the benefits of creating a blog in general & why VuePress is a great choice.
+description: Welcome to our VuePress series! In these tutorials we'll be building out this blog starting from the basics...
 img: vuepress-logo.png
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
@@ -15,4 +15,4 @@ sidebar: auto
 
 ## 🚧 This post is under construction! 🚧
 
-Document your thoughts, code, and projects
+Welcome to our VuePress series! In these tutorials we'll be building out this blog starting from the basics.

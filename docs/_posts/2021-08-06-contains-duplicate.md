@@ -4,7 +4,7 @@ date: 2021-08-06
 topic: LeetCode
 topicDescription: Solutions for LeetCode Problems
 topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
-description: Solution & Notes for the LeetCode problem Contains Duplicate.
+description: Given an integer array nums, return true if any value appears at least twice, and return false if every...
 img: 06-contains-duplicate.png
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'

@@ -4,7 +4,7 @@ date: 2021-08-11
 topic: LeetCode
 topicDescription: Solutions for LeetCode Problems
 topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
-description: Solution & Notes for the LeetCode problem Reverse String.
+description: Write a function that reverses a string. The input string is given as an array of characters. Ex) 1 Input...
 img: 07-reverse-string.png
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
