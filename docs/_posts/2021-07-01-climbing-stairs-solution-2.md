@@ -1,6 +1,7 @@
 ---
 title: Climbing Stairs Solution 2
-date: 2021-07-01
+author: Jay the Code Monkey
+date: 2021-07-01T15:45:32.000Z
 topic: LeetCode
 topicDescription: Solutions for LeetCode Problems
 topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
@@ -47,6 +48,8 @@ meta:
 ---
 
 # Climbing Stairs Solution 2
+
+<PostDetails :author="$frontmatter.author" :posted="$frontmatter.date" :updated="$page.lastUpdated" />
 
 <div class="video-wrapper">
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_dhZdGNFV-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -218,6 +221,7 @@ var climbStairs = function(n) {
 
 let n = 4;
 console.log(climbStairs(n));
+
 </pre>
 </code-fence>
 

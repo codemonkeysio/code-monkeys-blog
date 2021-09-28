@@ -1,6 +1,7 @@
 ---
 title: Contains Duplicate
-date: 2021-08-06
+author: Jay the Code Monkey
+date: 2021-08-06T18:24:00.000Z
 topic: LeetCode
 topicDescription: Solutions for LeetCode Problems
 topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
@@ -47,6 +48,8 @@ meta:
 ---
 
 # Contains Duplicate
+
+<PostDetails :author="$frontmatter.author" :posted="$frontmatter.date" :updated="$page.lastUpdated" />
 
 <div class="video-wrapper">
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P_SCtMIgZJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -194,6 +197,7 @@ var containsDuplicate = function(nums) {
     }
     obj[nums[i]] = true;
   }
+
   return false;
 };
 

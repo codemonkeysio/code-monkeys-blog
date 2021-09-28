@@ -30,12 +30,17 @@
           v-for="post in $pagination.pages"
         >
           <div class="post-title-and-summary">
-            <h2>
+            <h2 class="title">
               <router-link :to="post.path">
                 {{ post.title }}
               </router-link>
             </h2>
-            <p>
+            <PostDetails
+              :author="post.frontmatter.author"
+              :posted="post.frontmatter.date"
+              :updated="post.lastUpdated"
+            />
+            <p class="preview">
               {{ post.frontmatter.description }}
             </p>
           </div>
@@ -65,20 +70,15 @@
 
 <script>
 import Layout from './Layout.vue';
-import PaginationButtons from '../../components/PaginationButtons.vue';
 
 export default {
   components: {
-    Layout,
-    PaginationButtons
+    Layout
   }
 };
 </script>
 
 <style lang="stylus" scoped>
-h2
-  margin: 1.875rem 0
-
 .theme-default-content
   padding-bottom: 0
   .post-card
@@ -94,6 +94,10 @@ h2
     cursor: pointer
     .post-title-and-summary
       flex: 8.5
+      .title
+        margin: 1.875rem 0 1.5rem 0
+      .preview
+        margin-top: 1rem
     .post-pic
       flex: 1.5
       padding-top: 1.125rem
@@ -113,11 +117,11 @@ h2
 @media (max-width: 54.6875rem)
   .post-card
     flex-direction: column-reverse
-    h2
+    .title
       margin: 0
-    p
+    .preview
       text-align: center
-      margin-top: 0.875rem
+      margin-top: 0.5rem
       margin-bottom: 1.25rem
     .post-pic
       padding-top: 1.25rem 0 0.875rem 0

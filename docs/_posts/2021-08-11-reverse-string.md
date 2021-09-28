@@ -1,6 +1,7 @@
 ---
 title: Reverse String
-date: 2021-08-11
+author: Jay the Code Monkey
+date: 2021-08-11T15:35:00.000Z
 topic: LeetCode
 topicDescription: Solutions for LeetCode Problems
 topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
@@ -47,6 +48,8 @@ meta:
 ---
 
 # Reverse String
+
+<PostDetails :author="$frontmatter.author" :posted="$frontmatter.date" :updated="$page.lastUpdated" />
 
 <div class="video-wrapper">
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ue3XmMvLwsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -284,5 +287,6 @@ console.log(s);
 s = ['H', 'a', 'n', 'n', 'a', 'h'];
 reverseString(s);
 console.log(s);
+
 </pre>
 </code-fence>

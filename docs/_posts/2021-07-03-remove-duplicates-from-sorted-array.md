@@ -1,6 +1,7 @@
 ---
 title: Remove Duplicates from Sorted Array
-date: 2021-07-03
+author: Jay the Code Monkey
+date: 2021-07-03T17:25:34.000Z
 topic: LeetCode
 topicDescription: Solutions for LeetCode Problems
 topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
@@ -47,6 +48,8 @@ meta:
 ---
 
 # Remove Duplicates from Sorted Array
+
+<PostDetails :author="$frontmatter.author" :posted="$frontmatter.date" :updated="$page.lastUpdated" />
 
 <div class="video-wrapper">
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ApBQCp1RfnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="embedded-video"></iframe>
@@ -192,5 +195,6 @@ var removeDuplicates = function(nums) {
 
 nums = [1, 1, 1, 2, 2];
 console.log('k =', removeDuplicates(nums), 'nums =', nums);
+
 </pre>
 </code-fence>

@@ -36,7 +36,7 @@ p, span, li, button, #pagination
   .wrap-icons > a:not(:first-child)
     rfs-margin-left(4.6875rem)
 
-span.abbreviation, span.prefix, span.time, .footer
+span.abbreviation, .footer
   rfs-font-size(1.125rem)
 
 html
@@ -196,6 +196,12 @@ html
   padding-top: 0
   margin-top: 2rem
 
+@media (max-width: 54.6875rem)
+  .post-details
+    justify-content: center
+    .posted-updated-wrapper
+      justify-content: center
+
 main.home
   height: 90vh
   .content-wrapper
@@ -206,6 +212,7 @@ main.page
     min-height: calc(100vh - 10rem)
     .theme-default-content
       max-width: 69.53125rem
+      padding-bottom: 0
       h1
         padding-top: 7.5rem
       @media (max-width: 54.6875rem)
@@ -218,6 +225,7 @@ main.page
         display: inline-block
         span
           display: inline-block
+
       // Code Blocks
       .theme-code-group
         margin-top: 2rem
@@ -256,7 +264,6 @@ main.page
               rfs-font-size(1.25rem)
               color: #4e5565
               padding: 0.125rem 0.25rem 0.125rem 0.375rem
-            
             .CodeMirror-line
               padding: 0.125rem 0.375rem
               .cm-keyword
@@ -360,10 +367,10 @@ main.page
     max-width: 35rem
     max-height: 19.6875rem
 
-iframe.embedded-video
-  margin-top: 2rem
+.video-wrapper
+  margin-top: 1.25rem
 
-// Posts
+// Post
 .post-term-one
   color: $postColorOne
   font-style: italic
@@ -402,15 +409,3 @@ iframe.embedded-video
     stroke-width: 0.125rem !important
   .label
     color: #e6e6e6 !important
-
-// Footer
-footer.page-edit
-  padding 0 2.5rem
-
-  @media (max-width: 59.9375rem)
-    padding: 0 2rem
-    .last-updated
-      float: right
-
-  @media (max-width: 26.1875rem)
-    padding: 0 1.5rem

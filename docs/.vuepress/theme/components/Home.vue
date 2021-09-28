@@ -43,12 +43,11 @@
 
 <script>
 import NavLink from '@parent-theme/components/NavLink.vue';
-import Footer from '../../components/Footer.vue';
 
 export default {
   name: 'Home',
 
-  components: { NavLink, Footer },
+  components: { NavLink },
 
   computed: {
     data() {

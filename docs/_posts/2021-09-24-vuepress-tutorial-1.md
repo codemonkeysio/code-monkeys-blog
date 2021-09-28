@@ -1,6 +1,7 @@
 ---
 title: VuePress Tutorial 1 - Why Create a Blog?
-date: 2021-08-07
+author: Jay the Code Monkey
+date: 2021-09-24T16:26:30.000Z
 topic: VuePress
 topicDescription: VuePress Tutorials
 topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
@@ -12,6 +13,8 @@ sidebar: auto
 ---
 
 # VuePress Tutorial 1 - Why Create a Blog?
+
+<PostDetails :author="$frontmatter.author" :posted="$frontmatter.date" :updated="$page.lastUpdated" />
 
 ## 🚧 This post is under construction! 🚧
 

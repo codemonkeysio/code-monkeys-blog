@@ -1,6 +1,7 @@
 ---
 title: Single Number
-date: 2021-06-29
+author: Jay the Code Monkey
+date: 2021-06-29T17:23:42.000Z
 topic: LeetCode
 topicDescription: Solutions for LeetCode Problems
 topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
@@ -47,6 +48,8 @@ meta:
 ---
 
 # Single Number
+
+<PostDetails :author="$frontmatter.author" :posted="$frontmatter.date" :updated="$page.lastUpdated" />
 
 <div class="video-wrapper">
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/K6TuMWpnmqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -153,10 +156,12 @@ var singleNumber = function(nums) {
       myObj[nums[i]] = true;
     }
   }
+
   return Object.keys(myObj)[0];
 };
 
 nums = [2, 2, 1];
 console.log(singleNumber(nums));
+
 </pre>
 </code-fence>

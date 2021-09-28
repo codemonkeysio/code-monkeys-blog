@@ -246,3 +246,11 @@ function resolveItem(item, pages, base, groupDepth = 1) {
     };
   }
 }
+
+export function formatDate(dateStr) {
+  const date = new Date(dateStr);
+  let options = { month: 'short', day: 'numeric', year: 'numeric' };
+  let formattedDate = date.toLocaleString(this.$lang, options);
+
+  return formattedDate;
+}
