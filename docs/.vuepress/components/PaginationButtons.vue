@@ -34,41 +34,20 @@ export default {
     };
   },
 
-  watch: {
-    $route: {
-      handler() {
-        if (this.pagination.hasOwnProperty('prevLink')) {
-          this.prevLink = this.pagination.prevLink;
-          this.nextLink = this.pagination.nextLink;
-        } else {
-          const pageKey = this.pagination.pageKey;
-          let links = {};
-          if (typeof window !== `undefined`) {
-            if (sessionStorage.getItem('allPosts') === 'false') {
-              const topic = this.pagination.topic;
-              links = this.$postPagination[topic][pageKey];
-            } else {
-              links = this.$postPagination.allPosts[pageKey];
-            }
+  created() {
+    const pageKey = this.pagination.pageKey;
+    let links = {};
+    if (typeof window !== `undefined`) {
+      if (sessionStorage.getItem('allPosts') === 'false') {
+        const topic = this.pagination.topic;
+        links = this.$postPagination[topic][pageKey];
+      } else {
+        links = this.$postPagination.allPosts[pageKey];
+      }
 
-            this.prevLink = links.prevLink;
-            this.nextLink = links.nextLink;
-          }
-        }
-      },
-      immediate: true
+      this.prevLink = links.prevLink;
+      this.nextLink = links.nextLink;
     }
   }
 };
 </script>
-
-<style lang="stylus" scoped>
-#pagination
-  display: flex
-  justify-content: space-between
-  padding-top: 2rem
-  .left-arrow
-      padding-right: 0.25rem
-  .right-arrow
-      padding-left: 0.25rem
-</style>

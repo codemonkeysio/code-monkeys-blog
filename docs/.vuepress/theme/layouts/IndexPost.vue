@@ -49,12 +49,18 @@
             />
           </div>
         </div>
-        <PaginationButtons
-          :pagination="{
-            prevLink: $pagination.prevLink,
-            nextLink: $pagination.nextLink
-          }"
-        />
+        <div id="pagination">
+          <div>
+            <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">
+              <vp-icon name="leftArrow" class="left-arrow"></vp-icon>Prev
+            </router-link>
+          </div>
+          <div>
+            <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink">
+              Next<vp-icon name="rightArrow" class="right-arrow"></vp-icon>
+            </router-link>
+          </div>
+        </div>
       </div>
     </template>
   </Layout>
