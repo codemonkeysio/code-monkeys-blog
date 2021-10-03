@@ -79,9 +79,9 @@ export default {
       immediate: true,
       handler() {
         if (this.$route.path.includes('/topics/')) {
-          sessionStorage.setItem('allPosts', 'false');
+          window.sessionStorage.setItem('allPosts', 'false');
         } else {
-          sessionStorage.setItem('allPosts', 'true');
+          window.sessionStorage.setItem('allPosts', 'true');
         }
       }
     }

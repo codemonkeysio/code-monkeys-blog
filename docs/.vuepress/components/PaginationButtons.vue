@@ -43,7 +43,7 @@ export default {
         } else {
           const pageKey = this.pagination.pageKey;
           let links = {};
-          if (sessionStorage.getItem('allPosts') === 'false') {
+          if (window.sessionStorage.getItem('allPosts') === 'false') {
             const topic = this.pagination.topic;
             links = this.$postPagination[topic][pageKey];
           } else {
