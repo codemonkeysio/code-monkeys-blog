@@ -287,6 +287,12 @@ console.log(s);
 s = ['H', 'a', 'n', 'n', 'a', 'h'];
 reverseString(s);
 console.log(s);
-
 </pre>
 </code-fence>
+
+<PaginationButtons
+  :pagination="{
+    pageKey: $page.key,
+    topic: $page.frontmatter.topic,
+  }"
+/>

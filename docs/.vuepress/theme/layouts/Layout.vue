@@ -36,6 +36,7 @@
 </template>
 
 <script>
+import Vue from 'vue';
 import Home from '../components/Home.vue';
 import Navbar from '../components/Navbar.vue';
 import Page from '../components/Page.vue';
@@ -50,6 +51,16 @@ export default {
     Page,
     Sidebar,
     Navbar
+  },
+
+  created() {
+    if (this.$postPagination === undefined) {
+      this.postPagination();
+    }
+
+    if (!sessionStorage.getItem('allPosts')) {
+      sessionStorage.setItem('allPosts', 'false');
+    }
   },
 
   data() {
@@ -135,6 +146,70 @@ export default {
           this.toggleSidebar(false);
         }
       }
+    },
+
+    sortPostsByDate(posts) {
+      return posts.sort(
+        (post1, post2) => new Date(post2.posted) - new Date(post1.posted)
+      );
+    },
+
+    prevAndNextLinks(posts) {
+      const postsPrevAndNextLinks = {};
+      let prevLink;
+      let nextLink;
+      posts.forEach((post, index) => {
+        if (index !== 0) {
+          prevLink = posts[index - 1].path;
+        } else {
+          prevLink = null;
+        }
+
+        if (index !== posts.length - 1) {
+          nextLink = posts[index + 1].path;
+        } else {
+          nextLink = null;
+        }
+
+        postsPrevAndNextLinks[post.key] = {
+          prevLink,
+          nextLink
+        };
+      });
+
+      return postsPrevAndNextLinks;
+    },
+
+    postPagination() {
+      Vue.prototype.$postPagination = {};
+
+      const allPosts = [];
+      let postsByTopic = [];
+
+      this.$topics.list.forEach((topic) => {
+        topic.pages.forEach((page) => {
+          allPosts.push({
+            path: page.path,
+            posted: page.frontmatter.date,
+            key: page.key
+          });
+          postsByTopic.push({
+            path: page.path,
+            posted: page.frontmatter.date,
+            key: page.key
+          });
+        });
+
+        this.$postPagination[topic.name] = this.prevAndNextLinks(
+          this.sortPostsByDate(postsByTopic)
+        );
+
+        postsByTopic = [];
+      });
+
+      this.$postPagination.allPosts = this.prevAndNextLinks(
+        this.sortPostsByDate(allPosts)
+      );
     }
   }
 };

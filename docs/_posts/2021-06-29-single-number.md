@@ -165,3 +165,10 @@ console.log(singleNumber(nums));
 
 </pre>
 </code-fence>
+
+<PaginationButtons
+  :pagination="{
+    pageKey: $page.key,
+    topic: $page.frontmatter.topic,
+  }"
+/>

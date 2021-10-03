@@ -198,3 +198,10 @@ console.log('k =', removeDuplicates(nums), 'nums =', nums);
 
 </pre>
 </code-fence>
+
+<PaginationButtons
+  :pagination="{
+    pageKey: $page.key,
+    topic: $page.frontmatter.topic,
+  }"
+/>

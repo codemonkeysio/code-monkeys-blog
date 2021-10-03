@@ -21,10 +21,8 @@
           v-for="(topic, index) in $topics.list"
         >
           <div class="title-and-summary">
-            <h2>
-              <router-link :to="topic.path">
-                {{ topic.name }}
-              </router-link>
+            <h2 class="title">
+              {{ topic.name }}
             </h2>
             <p>
               {{ topicDetails[index].summary }}
@@ -80,6 +78,12 @@ h2
     cursor: pointer
     .title-and-summary
       flex: 8.5
+      .title
+        font-weight: 500
+        color: $accentColor
+        margin: 1.875rem 0 1.5rem 0
+      .title:hover
+        text-decoration: underline
     .logo
       flex: 1.5
       padding-top: 1.125rem

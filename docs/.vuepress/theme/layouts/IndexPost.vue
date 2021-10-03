@@ -2,7 +2,7 @@
   <Layout>
     <template #page-top>
       <div class="theme-default-content content__default">
-        <h1 v-if="!$route.path.includes('/posts/')">
+        <h1 v-if="!allPosts()">
           {{ $pagination.pages[0].frontmatter.topicDescription }}
           <div class="emoji-wrap">
             {{ $pagination.pages[0].frontmatter.topicDescriptionEmojiWrap }}
@@ -31,9 +31,7 @@
         >
           <div class="post-title-and-summary">
             <h2 class="title">
-              <router-link :to="post.path">
-                {{ post.title }}
-              </router-link>
+              {{ post.title }}
             </h2>
             <PostDetails
               :author="post.frontmatter.author"
@@ -51,18 +49,12 @@
             />
           </div>
         </div>
-        <div id="pagination">
-          <div>
-            <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">
-              <PaginationButtons :prevButton="true" />
-            </router-link>
-          </div>
-          <div>
-            <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink">
-              <PaginationButtons />
-            </router-link>
-          </div>
-        </div>
+        <PaginationButtons
+          :pagination="{
+            prevLink: $pagination.prevLink,
+            nextLink: $pagination.nextLink
+          }"
+        />
       </div>
     </template>
   </Layout>
@@ -74,6 +66,25 @@ import Layout from './Layout.vue';
 export default {
   components: {
     Layout
+  },
+
+  methods: {
+    allPosts() {
+      return this.$route.path.includes('/posts/');
+    }
+  },
+
+  watch: {
+    $route: {
+      immediate: true,
+      handler() {
+        if (this.$route.path.includes('/topics/')) {
+          sessionStorage.setItem('allPosts', 'false');
+        } else {
+          sessionStorage.setItem('allPosts', 'true');
+        }
+      }
+    }
   }
 };
 </script>
@@ -95,7 +106,11 @@ export default {
     .post-title-and-summary
       flex: 8.5
       .title
+        font-weight: 500
+        color: $accentColor
         margin: 1.875rem 0 1.5rem 0
+      .title:hover
+        text-decoration: underline
       .preview
         margin-top: 1rem
     .post-pic
@@ -108,11 +123,6 @@ export default {
     box-shadow: 0.125rem 0.5rem 1rem 0.125rem #0b0c0f
     .post-pic
       transform: scale(1.1);
-
-  #pagination
-    display: flex
-    justify-content: space-between
-    padding-top: 2rem
 
 @media (max-width: 54.6875rem)
   .post-card

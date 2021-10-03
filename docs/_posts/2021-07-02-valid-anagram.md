@@ -155,3 +155,10 @@ console.log(isAnagram(s, t));
 
 </pre>
 </code-fence>
+
+<PaginationButtons
+  :pagination="{
+    pageKey: $page.key,
+    topic: $page.frontmatter.topic,
+  }"
+/>
