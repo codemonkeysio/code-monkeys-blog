@@ -78,10 +78,12 @@ export default {
     $route: {
       immediate: true,
       handler() {
-        if (this.$route.path.includes('/topics/')) {
-          window.sessionStorage.setItem('allPosts', 'false');
-        } else {
-          window.sessionStorage.setItem('allPosts', 'true');
+        if (typeof window !== `undefined`) {
+          if (this.$route.path.includes('/topics/')) {
+            sessionStorage.setItem('allPosts', 'false');
+          } else {
+            sessionStorage.setItem('allPosts', 'true');
+          }
         }
       }
     }

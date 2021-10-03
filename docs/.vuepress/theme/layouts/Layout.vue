@@ -58,8 +58,10 @@ export default {
       this.postPagination();
     }
 
-    if (!window.sessionStorage.getItem('allPosts')) {
-      window.sessionStorage.setItem('allPosts', 'false');
+    if (typeof window !== `undefined`) {
+      if (!sessionStorage.getItem('allPosts')) {
+        sessionStorage.setItem('allPosts', 'false');
+      }
     }
   },
 

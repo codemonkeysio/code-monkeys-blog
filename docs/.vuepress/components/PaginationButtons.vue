@@ -43,15 +43,17 @@ export default {
         } else {
           const pageKey = this.pagination.pageKey;
           let links = {};
-          if (window.sessionStorage.getItem('allPosts') === 'false') {
-            const topic = this.pagination.topic;
-            links = this.$postPagination[topic][pageKey];
-          } else {
-            links = this.$postPagination.allPosts[pageKey];
-          }
+          if (typeof window !== `undefined`) {
+            if (sessionStorage.getItem('allPosts') === 'false') {
+              const topic = this.pagination.topic;
+              links = this.$postPagination[topic][pageKey];
+            } else {
+              links = this.$postPagination.allPosts[pageKey];
+            }
 
-          this.prevLink = links.prevLink;
-          this.nextLink = links.nextLink;
+            this.prevLink = links.prevLink;
+            this.nextLink = links.nextLink;
+          }
         }
       },
       immediate: true
