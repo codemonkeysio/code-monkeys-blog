@@ -156,4 +156,4 @@ console.log(isAnagram(s, t));
 </pre>
 </code-fence>
 
-<pagination-buttons :pageKey="$page.key" :topic="$frontmatter.topic"></pagination-buttons>
+<pagination-buttons :pageKey="$page.key" :topic="$frontmatter.topic" />

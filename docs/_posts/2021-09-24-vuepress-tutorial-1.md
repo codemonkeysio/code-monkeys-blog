@@ -32,4 +32,4 @@ yarn dev
 </code-block>
 </code-group>
 
-<pagination-buttons :pageKey="$page.key" :topic="$frontmatter.topic"></pagination-buttons>
+<pagination-buttons :pageKey="$page.key" :topic="$frontmatter.topic" />
