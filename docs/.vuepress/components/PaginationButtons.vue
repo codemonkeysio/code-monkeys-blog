@@ -1,5 +1,5 @@
 <template>
-  <div v-if="$postPagination" id="pagination">
+  <div id="pagination">
     <div>
       <router-link v-if="prevLink" :to="prevLink">
         <vp-icon name="leftArrow" class="left-arrow"></vp-icon>Prev
@@ -38,17 +38,19 @@ export default {
   },
 
   created() {
-    let links = {};
-    if (typeof window !== `undefined`) {
-      if (sessionStorage.getItem('allPosts') === 'false') {
-        links = this.$postPagination[this.topic][this.pageKey];
-      } else {
-        links = this.$postPagination.allPosts[this.pageKey];
-      }
+    this.$router.onReady(() => {
+      let links = {};
+      if (typeof window !== `undefined`) {
+        if (sessionStorage.getItem('allPosts') === 'false') {
+          links = this.$postPagination[this.topic][this.pageKey];
+        } else {
+          links = this.$postPagination.allPosts[this.pageKey];
+        }
 
-      this.prevLink = links.prevLink;
-      this.nextLink = links.nextLink;
-    }
+        this.prevLink = links.prevLink;
+        this.nextLink = links.nextLink;
+      }
+    })
   }
 };
 </script>
