@@ -32,4 +32,35 @@ yarn dev
 </code-block>
 </code-group>
 
-<pagination-buttons :pageKey="$page.key" :topic="$frontmatter.topic" />
+<div id="pagination">
+  <div>
+    <router-link v-if="prevLink" :to="prevLink">
+      <vp-icon name="leftArrow" class="left-arrow"></vp-icon>Prev
+    </router-link>
+  </div>
+  <div>
+    <router-link v-if="nextLink" :to="nextLink">
+      Next<vp-icon name="rightArrow" class="right-arrow"></vp-icon>
+    </router-link>
+  </div>
+</div>
+
+<script>
+import { prevAndNextLinks } from '../.vuepress/theme/util'
+
+export default {
+
+  data() {
+    return {
+      prevLink: '',
+      nextLink: ''
+    }
+  },
+
+  created() {
+    let links = prevAndNextLinks(this.$page.key, this.$frontmatter.topic, this.$postPagination)
+    this.prevLink = links.prevLink
+    this.nextLink = links.nextLink
+  }
+}
+</script>

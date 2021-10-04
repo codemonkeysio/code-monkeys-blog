@@ -254,3 +254,12 @@ export function formatDate(dateStr) {
 
   return formattedDate;
 }
+
+export function prevAndNextLinks(pageKey, topic, postPagination) {
+  if (typeof window !== `undefined`) {
+    if (sessionStorage.getItem('allPosts') === 'false') {
+      return postPagination[topic][pageKey];
+    }
+    return postPagination.allPosts[pageKey];
+  }
+}

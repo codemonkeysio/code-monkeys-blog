@@ -30,24 +30,24 @@ export default {
     }
   },
 
-  methods: {
-    prevAndNextLink() {
-      if (typeof window !== `undefined`) {
-        if (sessionStorage.getItem('allPosts') === 'false') {
-          return this.$postPagination[this.topic][this.pageKey];
-        }
-
-        return this.$postPagination.allPosts[this.pageKey];
-      }
-    }
+  data() {
+    return {
+      prevLink: '',
+      nextLink: ''
+    };
   },
 
-  computed: {
-    prevLink: function() {
-      return this.prevAndNextLink().prevLink;
-    },
-    nextLink: function() {
-      return this.prevAndNextLink().nextLink;
+  created() {
+    let links = {};
+    if (typeof window !== `undefined`) {
+      if (sessionStorage.getItem('allPosts') === 'false') {
+        links = this.$postPagination[this.topic][this.pageKey];
+      } else {
+        links = this.$postPagination.allPosts[this.pageKey];
+      }
+
+      this.prevLink = links.prevLink;
+      this.nextLink = links.nextLink;
     }
   }
 };
