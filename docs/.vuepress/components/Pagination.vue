@@ -1,14 +1,14 @@
 <template>
   <div id="pagination">
     <div>
-      <router-link v-if="prevLink" :to="prevLink">
+      <a v-if="prevLink" :href="prevLink">
         <vp-icon name="leftArrow" class="left-arrow"></vp-icon>Prev
-      </router-link>
+      </a>
     </div>
     <div>
-      <router-link v-if="nextLink" :to="nextLink">
+      <a v-if="nextLink" :href="nextLink">
         Next<vp-icon name="rightArrow" class="right-arrow"></vp-icon>
-      </router-link>
+      </a>
     </div>
   </div>
 </template>
