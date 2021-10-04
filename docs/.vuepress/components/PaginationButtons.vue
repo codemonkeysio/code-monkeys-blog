@@ -32,31 +32,23 @@ export default {
 
   data() {
     return {
-      prevLink: null,
-      nextLink: null
+      prevLink: '',
+      nextLink: ''
     };
   },
 
   created() {
-    console.log('this.$route.name before', this.$route.name);
-    console.log('this.pageKey before', this.pageKey);
-    this.$router.onReady(() => {
-      console.log('this.$route.name', this.$route.name);
-      console.log('this.pageKey', this.pageKey);
-      if (this.$route.name === this.pageKey) {
-        let links = {};
-        if (typeof window !== `undefined`) {
-          if (sessionStorage.getItem('allPosts') === 'false') {
-            links = this.$postPagination[this.topic][this.pageKey];
-          } else {
-            links = this.$postPagination.allPosts[this.pageKey];
-          }
-
-          this.prevLink = links.prevLink;
-          this.nextLink = links.nextLink;
-        }
+    let links = {};
+    if (typeof window !== `undefined`) {
+      if (sessionStorage.getItem('allPosts') === 'false') {
+        links = this.$postPagination[this.topic][this.pageKey];
+      } else {
+        links = this.$postPagination.allPosts[this.pageKey];
       }
-    });
+
+      this.prevLink = links.prevLink;
+      this.nextLink = links.nextLink;
+    }
   }
 };
 </script>
