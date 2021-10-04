@@ -18,7 +18,7 @@ sidebar: auto
 
 ## 🚧 This post is under construction! 🚧
 
-Welcome to our VuePress series! In these tutorials we'll be building out this blog starting from the basics.
+<p>Welcome to our VuePress series! In these tutorials we'll be building out this blog starting from the basics.</p>
 
 <PaginationButtons
   :pagination="{
