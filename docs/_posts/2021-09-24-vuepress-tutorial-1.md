@@ -18,31 +18,18 @@ sidebar: auto
 
 ## 🚧 This post is under construction! 🚧
 
-<p>Welcome to our VuePress series! In these tutorials we'll be building out this blog starting from the basics.</p>
+Welcome to our VuePress series! In these tutorials we'll be building out this blog starting from the basics.
 
 <code-group>
 <code-block title="Installing">
+
 ```sh
 cd docs
 yarn install
 yarn dev
 ```
+
 </code-block>
 </code-group>
 
-<PaginationButtons
-  :pagination="{
-    pageKey: $page.key,
-    topic: $frontmatter.topic
-  }"
-/>
-
-<script>
-import PaginationButtons from '../.vuepress/components/PaginationButtons.vue';
-
-export default {
-  components: {
-    PaginationButtons
-  }
-}
-</script>
+<pagination-buttons :pageKey="$page.key" :topic="$frontmatter.topic"></pagination-buttons>

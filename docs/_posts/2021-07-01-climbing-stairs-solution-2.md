@@ -231,9 +231,4 @@ console.log(climbStairs(n));
 
 - See if you can come up with an even more efficient solution using more properties of the <span class="post-term-one">Fibonnaci</span> sequence!
 
-<PaginationButtons
-  :pagination="{
-    pageKey: $page.key,
-    topic: $frontmatter.topic
-  }"
-/>
+<pagination-buttons :pageKey="$page.key" :topic="$frontmatter.topic"></pagination-buttons>

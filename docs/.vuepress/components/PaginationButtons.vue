@@ -1,12 +1,12 @@
 <template>
   <div id="pagination">
     <div>
-      <router-link v-if="hasPrev" :to="prevLink">
+      <router-link v-if="prevLink" :to="prevLink">
         <vp-icon name="leftArrow" class="left-arrow"></vp-icon>Prev
       </router-link>
     </div>
     <div>
-      <router-link v-if="hasNext" :to="nextLink">
+      <router-link v-if="nextLink" :to="nextLink">
         Next<vp-icon name="rightArrow" class="right-arrow"></vp-icon>
       </router-link>
     </div>
@@ -18,11 +18,14 @@ export default {
   name: 'PaginationButtons',
 
   props: {
-    pagination: {
-      type: Object,
-      default() {
-        return {};
-      },
+    pageKey: {
+      type: String,
+      default: '',
+      required: true
+    },
+    topic: {
+      type: String,
+      default: '',
       required: true
     }
   },
@@ -30,37 +33,21 @@ export default {
   data() {
     return {
       prevLink: null,
-      nextLink: null,
-      hasPrev: false,
-      hasNext: false
+      nextLink: null
     };
   },
 
   created() {
-    console.log('this.pagination', this.pagination)
-    const pageKey = this.pagination.pageKey;
     let links = {};
     if (typeof window !== `undefined`) {
       if (sessionStorage.getItem('allPosts') === 'false') {
-        const topic = this.pagination.topic;
-        links = this.$postPagination[topic][pageKey];
+        links = this.$postPagination[this.topic][this.pageKey];
       } else {
-        links = this.$postPagination.allPosts[pageKey];
+        links = this.$postPagination.allPosts[this.pageKey];
       }
 
       this.prevLink = links.prevLink;
       this.nextLink = links.nextLink;
-
-      if (this.prevLink) {
-        this.hasPrev = true
-      }
-
-      if (this.nextLink) {
-        this.hasNext = true
-      }
-
-      console.log(this.prevLink, this.nextLink)
-      console.log(this.hasPrev, this.hasNext)
     }
   }
 };

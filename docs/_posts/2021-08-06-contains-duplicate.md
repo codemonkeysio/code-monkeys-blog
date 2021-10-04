@@ -206,9 +206,4 @@ console.log(containsDuplicate(nums));
 </pre>
 </code-fence>
 
-<PaginationButtons
-  :pagination="{
-    pageKey: $page.key,
-    topic: $frontmatter.topic
-  }"
-/>
+<pagination-buttons :pageKey="$page.key" :topic="$frontmatter.topic"></pagination-buttons>

@@ -179,9 +179,4 @@ console.log(climbStairs(n));
 
 - We'll be improving this in the next post by drawing out <span class="post-term-one">recursion trees</span> for larger values of <span class="post-term-one">n</span> which will allow us to see an interesting pattern.
 
-<PaginationButtons
-  :pagination="{
-    pageKey: $page.key,
-    topic: $frontmatter.topic
-  }"
-/>
+<pagination-buttons :pageKey="$page.key" :topic="$frontmatter.topic"></pagination-buttons>
