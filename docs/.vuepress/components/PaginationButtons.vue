@@ -1,5 +1,5 @@
 <template>
-  <div id="pagination">
+  <div id="pagination" v-if="loaded">
     <div>
       <router-link v-if="prevLink" :to="prevLink">
         <vp-icon name="leftArrow" class="left-arrow"></vp-icon>Prev
@@ -30,7 +30,8 @@ export default {
   data() {
     return {
       prevLink: null,
-      nextLink: null
+      nextLink: null,
+      loaded: false
     };
   },
 
@@ -47,6 +48,8 @@ export default {
 
       this.prevLink = links.prevLink;
       this.nextLink = links.nextLink;
+
+      this.loaded = true;
     }
   }
 };
