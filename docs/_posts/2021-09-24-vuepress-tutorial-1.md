@@ -20,6 +20,18 @@ sidebar: auto
 
 <p>Welcome to our VuePress series! In these tutorials we'll be building out this blog starting from the basics.</p>
 
+<code-group>
+<code-block title="Installing">
+
+```sh
+cd docs
+yarn install
+yarn dev
+```
+
+</code-block>
+</code-group>
+
 <PaginationButtons
   :pagination="{
     pageKey: $page.key,
