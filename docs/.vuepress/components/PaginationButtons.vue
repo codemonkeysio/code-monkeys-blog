@@ -1,12 +1,12 @@
 <template>
   <div id="pagination">
     <div>
-      <router-link v-if="prevLink" :to="prevLink">
+      <router-link v-if="hasPrev" :to="prevLink">
         <vp-icon name="leftArrow" class="left-arrow"></vp-icon>Prev
       </router-link>
     </div>
     <div>
-      <router-link v-if="nextLink" :to="nextLink">
+      <router-link v-if="hasNext" :to="nextLink">
         Next<vp-icon name="rightArrow" class="right-arrow"></vp-icon>
       </router-link>
     </div>
@@ -30,7 +30,9 @@ export default {
   data() {
     return {
       prevLink: null,
-      nextLink: null
+      nextLink: null,
+      hasPrev: false,
+      hasNext: false
     };
   },
 
@@ -49,7 +51,16 @@ export default {
       this.prevLink = links.prevLink;
       this.nextLink = links.nextLink;
 
+      if (this.prevLink) {
+        this.hasPrev = true
+      }
+
+      if (this.nextLink) {
+        this.hasNext = true
+      }
+
       console.log(this.prevLink, this.nextLink)
+      console.log(this.hasPrev, this.hasNext)
     }
   }
 };
