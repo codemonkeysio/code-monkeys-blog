@@ -23,6 +23,6 @@ Welcome to our VuePress series! In these tutorials we'll be building out this bl
 <PaginationButtons
   :pagination="{
     pageKey: $page.key,
-    topic: $page.frontmatter.topic,
+    topic: $frontmatter.topic
   }"
 />

@@ -182,6 +182,6 @@ console.log(climbStairs(n));
 <PaginationButtons
   :pagination="{
     pageKey: $page.key,
-    topic: $page.frontmatter.topic,
+    topic: $frontmatter.topic
   }"
 />

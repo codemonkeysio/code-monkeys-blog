@@ -159,6 +159,6 @@ console.log(isAnagram(s, t));
 <PaginationButtons
   :pagination="{
     pageKey: $page.key,
-    topic: $page.frontmatter.topic,
+    topic: $frontmatter.topic
   }"
 />
