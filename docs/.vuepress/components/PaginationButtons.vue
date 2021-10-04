@@ -35,6 +35,7 @@ export default {
   },
 
   created() {
+    console.log('this.pagination', this.pagination)
     const pageKey = this.pagination.pageKey;
     let links = {};
     if (typeof window !== `undefined`) {
@@ -47,6 +48,8 @@ export default {
 
       this.prevLink = links.prevLink;
       this.nextLink = links.nextLink;
+
+      console.log(this.prevLink, this.nextLink)
     }
   }
 };
