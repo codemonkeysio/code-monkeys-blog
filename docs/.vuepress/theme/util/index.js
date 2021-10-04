@@ -261,5 +261,7 @@ export function prevAndNextLinks(pageKey, topic, postPagination) {
       return postPagination[topic][pageKey];
     }
     return postPagination.allPosts[pageKey];
+  } else {
+    return { prevLink: '', nextLink: '' };
   }
 }
