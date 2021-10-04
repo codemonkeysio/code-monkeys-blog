@@ -22,13 +22,11 @@ sidebar: auto
 
 <code-group>
 <code-block title="Installing">
-
 ```sh
 cd docs
 yarn install
 yarn dev
 ```
-
 </code-block>
 </code-group>
 
@@ -38,3 +36,13 @@ yarn dev
     topic: $frontmatter.topic
   }"
 />
+
+<script>
+import PaginationButtons from '../.vuepress/components/PaginationButtons.vue';
+
+export default {
+  components: {
+    PaginationButtons
+  }
+}
+</script>
