@@ -32,7 +32,7 @@ yarn dev
 </code-block>
 </code-group>
 
-<pagination :prevLink="prevLink" :nextLink="nextLink" />
+<pagination v-if="!loading" :prevLink="prevLink" :nextLink="nextLink" />
 
 <script>
 import { prevAndNextLinks } from '../.vuepress/theme/util'
@@ -42,7 +42,8 @@ export default {
   data() {
     return {
       prevLink: '',
-      nextLink: ''
+      nextLink: '',
+      loading: true
     }
   },
 
@@ -50,6 +51,7 @@ export default {
     let links = prevAndNextLinks(this.$page.key, this.$frontmatter.topic, this.$postPagination)
     this.prevLink = links.prevLink
     this.nextLink = links.nextLink
+    this.loading = false
   }
 }
 </script>
