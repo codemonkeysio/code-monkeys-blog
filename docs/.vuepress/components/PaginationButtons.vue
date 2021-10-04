@@ -30,24 +30,24 @@ export default {
     }
   },
 
-  data() {
-    return {
-      prevLink: '',
-      nextLink: ''
-    };
+  methods: {
+    prevAndNextLink() {
+      if (typeof window !== `undefined`) {
+        if (sessionStorage.getItem('allPosts') === 'false') {
+          return this.$postPagination[this.topic][this.pageKey];
+        }
+
+        return this.$postPagination.allPosts[this.pageKey];
+      }
+    }
   },
 
-  created() {
-    let links = {};
-    if (typeof window !== `undefined`) {
-      if (sessionStorage.getItem('allPosts') === 'false') {
-        links = this.$postPagination[this.topic][this.pageKey];
-      } else {
-        links = this.$postPagination.allPosts[this.pageKey];
-      }
-
-      this.prevLink = links.prevLink;
-      this.nextLink = links.nextLink;
+  computed: {
+    prevLink: function() {
+      return this.prevAndNextLink().prevLink;
+    },
+    nextLink: function() {
+      return this.prevAndNextLink().nextLink;
     }
   }
 };
