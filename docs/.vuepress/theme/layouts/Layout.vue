@@ -164,13 +164,13 @@ export default {
         if (index !== 0) {
           prevLink = posts[index - 1].path;
         } else {
-          prevLink = null;
+          prevLink = '';
         }
 
         if (index !== posts.length - 1) {
           nextLink = posts[index + 1].path;
         } else {
-          nextLink = null;
+          nextLink = '';
         }
 
         postsPrevAndNextLinks[post.key] = {

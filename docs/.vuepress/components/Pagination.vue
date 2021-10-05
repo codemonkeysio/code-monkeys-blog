@@ -39,7 +39,7 @@ export default {
     };
   },
 
-  created() {
+  mounted() {
     let links = {};
     if (typeof window !== `undefined`) {
       if (sessionStorage.getItem('allPosts') === 'false') {
@@ -48,11 +48,11 @@ export default {
         links = this.$postPagination.allPosts[this.pageKey];
       }
 
-      if (links.prevLink !== null) {
+      if (links.prevLink !== '') {
         this.hasPrev = true;
       }
 
-      if (links.nextLink !== null) {
+      if (links.nextLink !== '') {
         this.hasNext = true;
       }
 
