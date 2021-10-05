@@ -1,14 +1,18 @@
 <template>
   <div id="pagination">
     <div>
-      <router-link v-if="prevLink" :to="prevLink">
-        <PaginationButtons :prevButton="true" />
-      </router-link>
+      <div v-if="prevLink">
+        <router-link :to="prevLink">
+          <PaginationButtons :prevButton="true" />
+        </router-link>
+      </div>
     </div>
     <div>
-      <router-link v-if="nextLink" :to="nextLink">
-        <PaginationButtons />
-      </router-link>
+      <div v-if="nextLink">
+        <router-link :to="nextLink">
+          <PaginationButtons />
+        </router-link>
+      </div>
     </div>
   </div>
 </template>
