@@ -199,4 +199,4 @@ console.log('k =', removeDuplicates(nums), 'nums =', nums);
 </pre>
 </code-fence>
 
-<pagination :pageKey="$page.key" :topic="$frontmatter.topic" />
+<post-pagination :pageKey="$page.key" :topic="$frontmatter.topic" />

@@ -206,4 +206,4 @@ console.log(containsDuplicate(nums));
 </pre>
 </code-fence>
 
-<pagination :pageKey="$page.key" :topic="$frontmatter.topic" />
+<post-pagination :pageKey="$page.key" :topic="$frontmatter.topic" />
