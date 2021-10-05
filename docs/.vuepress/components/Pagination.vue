@@ -1,18 +1,14 @@
 <template>
   <div id="pagination">
     <div>
-      <div v-if="prevLink">
-        <router-link :to="prevLink">
-          <PaginationButtons :prevButton="true" />
-        </router-link>
-      </div>
+      <router-link v-if="hasPrev" :to="prevLink">
+        <PaginationButtons :prevButton="true" />
+      </router-link>
     </div>
     <div>
-      <div v-if="nextLink">
-        <router-link :to="nextLink">
-          <PaginationButtons />
-        </router-link>
-      </div>
+      <router-link v-if="hasNext" :to="nextLink">
+        <PaginationButtons />
+      </router-link>
     </div>
   </div>
 </template>
@@ -36,7 +32,9 @@ export default {
 
   data() {
     return {
+      hasPrev: false,
       prevLink: '',
+      hasNext: false,
       nextLink: ''
     };
   },
@@ -48,6 +46,14 @@ export default {
         links = this.$postPagination[this.topic][this.pageKey];
       } else {
         links = this.$postPagination.allPosts[this.pageKey];
+      }
+
+      if (links.prevLink !== null) {
+        this.hasPrev = true;
+      }
+
+      if (links.nextLink !== null) {
+        this.hasNext = true;
       }
 
       this.prevLink = links.prevLink;
