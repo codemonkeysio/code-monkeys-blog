@@ -290,4 +290,4 @@ console.log(s);
 </pre>
 </code-fence>
 
-<pagination-buttons :pageKey="$page.key" :topic="$frontmatter.topic" />
+<pagination :pageKey="$page.key" :topic="$frontmatter.topic" />

@@ -1,14 +1,14 @@
 <template>
   <div id="pagination">
     <div>
-      <a v-if="prevLink" :href="prevLink">
-        <vp-icon name="leftArrow" class="left-arrow"></vp-icon>Prev
-      </a>
+      <router-link v-if="prevLink" :to="prevLink">
+        <PaginationButtons :prevButton="true" />
+      </router-link>
     </div>
     <div>
-      <a v-if="nextLink" :href="nextLink">
-        Next<vp-icon name="rightArrow" class="right-arrow"></vp-icon>
-      </a>
+      <router-link v-if="nextLink" :to="nextLink">
+        <PaginationButtons />
+      </router-link>
     </div>
   </div>
 </template>
@@ -18,13 +18,36 @@ export default {
   name: 'Pagination',
 
   props: {
-    prevLink: {
-      default: null,
+    pageKey: {
+      type: String,
+      default: '',
       required: true
     },
-    nextLink: {
-      default: null,
+    topic: {
+      type: String,
+      default: '',
       required: true
+    }
+  },
+
+  data() {
+    return {
+      prevLink: '',
+      nextLink: ''
+    };
+  },
+
+  created() {
+    let links = {};
+    if (typeof window !== `undefined`) {
+      if (sessionStorage.getItem('allPosts') === 'false') {
+        links = this.$postPagination[this.topic][this.pageKey];
+      } else {
+        links = this.$postPagination.allPosts[this.pageKey];
+      }
+
+      this.prevLink = links.prevLink;
+      this.nextLink = links.nextLink;
     }
   }
 };
