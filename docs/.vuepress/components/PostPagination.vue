@@ -37,7 +37,7 @@ export default {
     };
   },
 
-  created() {
+  mounted() {
     let links = {};
     if (typeof window !== `undefined`) {
       if (sessionStorage.getItem('allPosts') === 'false') {
