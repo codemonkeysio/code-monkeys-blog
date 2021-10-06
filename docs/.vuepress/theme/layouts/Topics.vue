@@ -29,7 +29,7 @@
             </p>
           </div>
           <div class="logo">
-            <img
+            <v-lazy-image
               :src="require(`../../public/images/${topicDetails[index].logo}`)"
               alt="Logo"
             />
@@ -41,10 +41,12 @@
 </template>
 
 <script>
+import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js';
 import Layout from './Layout.vue';
 
 export default {
   components: {
+    VLazyImage,
     Layout
   },
 

@@ -5,7 +5,7 @@
   >
     <div class="content-wrapper">
       <header class="hero" @click="$router.push(`${data.actionLink}`)">
-        <img
+        <v-lazy-image
           v-if="data.heroImage"
           :src="$withBase(data.heroImage)"
           :alt="data.heroAlt || 'hero'"
@@ -42,12 +42,13 @@
 </template>
 
 <script>
+import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js';
 import NavLink from '@parent-theme/components/NavLink.vue';
 
 export default {
   name: 'Home',
 
-  components: { NavLink },
+  components: { VLazyImage, NavLink },
 
   computed: {
     data() {

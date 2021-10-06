@@ -3,7 +3,7 @@
     <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" v-model="value" />
 
     <RouterLink :to="$localePath" class="home-link">
-      <img
+      <v-lazy-image
         v-if="$site.themeConfig.logo"
         class="logo"
         :src="$withBase($site.themeConfig.logo)"
@@ -41,6 +41,7 @@
 </template>
 
 <script>
+import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js';
 import AlgoliaSearchBox from '@AlgoliaSearchBox';
 import SearchBox from '@SearchBox';
 import SidebarButton from './SidebarButton.vue';
@@ -50,6 +51,7 @@ export default {
   name: 'Navbar',
 
   components: {
+    VLazyImage,
     SidebarButton,
     NavLinks,
     SearchBox,

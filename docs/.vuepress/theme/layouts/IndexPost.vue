@@ -43,7 +43,7 @@
             </p>
           </div>
           <div class="post-pic">
-            <img
+            <v-lazy-image
               :src="require(`../../public/images/${post.frontmatter.img}`)"
               alt="Post Pic"
             />
@@ -67,10 +67,12 @@
 </template>
 
 <script>
+import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js';
 import Layout from './Layout.vue';
 
 export default {
   components: {
+    VLazyImage,
     Layout
   },
 
