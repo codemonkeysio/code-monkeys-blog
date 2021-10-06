@@ -21,9 +21,10 @@
           v-for="(topic, index) in $topics.list"
         >
           <div class="title-and-summary">
-            <h2 class="title">
-              {{ topic.name }}
-            </h2>
+            <div class="title-wrapper">
+              <h2 class="title">{{ topic.name }}</h2>
+              <h2 class="number-of-posts">({{ topic.pages.length }})</h2>
+            </div>
             <p>
               {{ topicDetails[index].summary }}
             </p>
@@ -62,9 +63,6 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-h2
-  margin: 1.875rem 0
-
 .theme-default-content
   padding-bottom: 0
   .topic-card
@@ -80,12 +78,20 @@ h2
     cursor: pointer
     .title-and-summary
       flex: 8.5
-      .title
+      .title-wrapper
+        display: flex
         font-weight: 500
         color: $accentColor
+        border-bottom: 0.125rem solid $borderColor
         margin: 1.875rem 0 1.5rem 0
-      .title:hover
-        text-decoration: underline
+        .title
+          border-bottom: 0
+          margin: 0 0.5rem 0 0
+        .title:hover
+          text-decoration: underline
+        .number-of-posts
+          border-bottom: 0
+          margin: 0
     .logo
       flex: 1.5
       padding-top: 1.125rem
@@ -98,16 +104,18 @@ h2
       transform: scale(1.1)
 
 @media (max-width: 54.6875rem)
-  .topic-card
-    flex-direction: column-reverse
-    h2
-      margin: 0
-    p
-      text-align: center
-      margin-top: 0.875rem
-      margin-bottom: 1.25rem
-    .logo
-      padding-top: 1.25rem 0 0.875rem 0
-      width: 9.6875rem
-      height: 11.5625rem
+  .theme-default-content
+    .topic-card
+      flex-direction: column-reverse
+      .title-and-summary
+        .title-wrapper
+          justify-content: center
+          margin: 0
+        p
+          text-align: center
+          margin-top: 0.875rem
+          margin-bottom: 1.25rem
+      .logo
+        padding: 1.25rem 0 0.875rem 0
+        width: 9.6875rem
 </style>
