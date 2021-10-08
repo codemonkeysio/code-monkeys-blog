@@ -135,14 +135,17 @@ export default {
       transform: scale(1.1);
 
 @media (max-width: 54.6875rem)
-  .post-card
-    flex-direction: column-reverse
-    .title
-      margin: 0
-    .preview
-      text-align: center
-      margin-top: 0.5rem
-      margin-bottom: 1.25rem
-    .post-pic
-      padding-top: 1.25rem 0 0.875rem 0
+  .theme-default-content
+    .post-card
+      flex-direction: column-reverse
+      .post-title-and-summary
+        .title
+          margin: 0
+        .preview
+          text-align: center
+          margin-top: 0.875rem
+          margin-bottom: 1.25rem
+      .post-pic
+        padding: 1.25rem 0 0.875rem 0
+        width: 9.6875rem
 </style>

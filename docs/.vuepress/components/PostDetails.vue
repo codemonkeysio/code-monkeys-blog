@@ -49,7 +49,7 @@ export default {
   font-style: italic
   color: #748E54
   margin-top: 0.25rem
-  margin-top: 0.5rem
+  margin-top: 0.625rem
   .author
     rfs-font-size(1.125rem)
     text-align: center
