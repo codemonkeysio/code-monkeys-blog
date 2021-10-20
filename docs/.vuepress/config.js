@@ -412,9 +412,21 @@ module.exports = {
           service: 'vssue',
           platform: 'github-v4',
           owner: 'codemonkeysio',
-          repo: 'code-monkeys-blog-comments',
-          clientId: `${process.env.CLIENT_ID_GITHUB}`,
-          clientSecret: `${process.env.CLIENT_SECRET_GITHUB}`,
+          repo: `${
+            process.env.NODE_ENV !== 'development'
+              ? 'code-monkeys-blog-comments'
+              : 'code-monkeys-blog-comments-dev'
+          }`,
+          clientId: `${
+            process.env.NODE_ENV !== 'development'
+              ? '70480748c9fd241c5495'
+              : '37238bd6abc87129b51d'
+          }`,
+          clientSecret: `${
+            process.env.NODE_ENV !== 'development'
+              ? process.env.CLIENT_SECRET_GITHUB
+              : process.env.CLIENT_SECRET_GITHUB_DEV
+          }`,
           labels: [':monkey_face:comments'],
           prefix: '[Post] ',
           admins: ['jchiarulli'],
