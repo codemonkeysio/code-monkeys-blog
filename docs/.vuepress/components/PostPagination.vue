@@ -55,8 +55,20 @@ export default {
 
 <style lang="stylus" scoped>
 #pagination
-  margin: 0 auto
   max-width: 69.53125rem
+  margin: 0 auto
+  padding-left: 2.5rem
+  padding-right: 2.5rem
   a:hover
     text-decoration: underline
+
+@media (max-width: $MQNarrow)
+  #pagination
+    padding-left: 2rem
+    padding-right: 2rem
+
+@media (max-width: $MQMobileNarrow)
+  #pagination
+    padding-left: 1.5rem
+    padding-right: 1.5rem
 </style>
