@@ -52,3 +52,11 @@ export default {
   }
 };
 </script>
+
+<style lang="stylus" scoped>
+#pagination
+  margin: 0 auto
+  max-width: 69.53125rem
+  a:hover
+    text-decoration: underline
+</style>

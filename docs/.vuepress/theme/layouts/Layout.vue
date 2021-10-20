@@ -28,6 +28,12 @@
       <template #top>
         <slot name="page-top" />
       </template>
+      <template #post-pagination>
+        <slot name="post-pagination" />
+      </template>
+      <template #post-comments>
+        <slot name="post-comments" />
+      </template>
       <template #bottom>
         <slot name="page-bottom" />
       </template>

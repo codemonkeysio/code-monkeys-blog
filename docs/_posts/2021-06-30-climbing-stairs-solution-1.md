@@ -178,5 +178,3 @@ console.log(climbStairs(n));
 - Now, we won't count exactly <span class="post-term-one">2<sup>n</sup></span> nodes since our <span class="post-term-one">recursive formula</span> isn't exactly <span class="post-term-one">2<sup>n</sup></span>, but when dealing with <span class="post-term-one">Big-Oh</span> we only care about the behavior as <span class="post-term-one">n</span> becomes very large.
 
 - We'll be improving this in the next post by drawing out <span class="post-term-one">recursion trees</span> for larger values of <span class="post-term-one">n</span> which will allow us to see an interesting pattern.
-
-<post-pagination :pageKey="$page.key" :topic="$frontmatter.topic" />

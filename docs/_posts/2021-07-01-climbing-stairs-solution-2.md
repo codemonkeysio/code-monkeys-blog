@@ -230,5 +230,3 @@ console.log(climbStairs(n));
 - Since we're looping over the length of <span class="post-term-one">n - 1</span> our <span class="post-term-one">time complexity</span> is <span class="post-term-one">O(n)</span> which is a much more efficient solution!
 
 - See if you can come up with an even more efficient solution using more properties of the <span class="post-term-one">Fibonnaci</span> sequence!
-
-<post-pagination :pageKey="$page.key" :topic="$frontmatter.topic" />

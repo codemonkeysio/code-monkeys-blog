@@ -289,5 +289,3 @@ reverseString(s);
 console.log(s);
 </pre>
 </code-fence>
-
-<post-pagination :pageKey="$page.key" :topic="$frontmatter.topic" />

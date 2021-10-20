@@ -31,5 +31,3 @@ yarn dev
 
 </code-block>
 </code-group>
-
-<post-pagination :pageKey="$page.key" :topic="$frontmatter.topic" />

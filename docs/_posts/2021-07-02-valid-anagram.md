@@ -155,5 +155,3 @@ console.log(isAnagram(s, t));
 
 </pre>
 </code-fence>
-
-<post-pagination :pageKey="$page.key" :topic="$frontmatter.topic" />

@@ -12,6 +12,7 @@
     "vuepress-plugin-mermaidjs": "^1.8.1"
   },
   "dependencies": {
+    "@vssue/api-github-v4": "^1.4.7",
     "dotenv-safe": "^8.2.0",
     "rfs": "^9.0.4",
     "v-lazy-image": "^2.0.1",

@@ -1,3 +1,5 @@
+require('dotenv-safe').config();
+
 module.exports = {
   lang: 'en-US',
   title: 'Code Monkeys',
@@ -406,6 +408,18 @@ module.exports = {
             }
           }
         ],
+        comment: {
+          service: 'vssue',
+          platform: 'github-v4',
+          owner: 'codemonkeysio',
+          repo: `${process.env.NODE_ENV !== 'development' ? 'code-monkeys-blog-comments' : 'code-monkeys-blog-comments-dev'}`,
+          clientId: `${process.env.NODE_ENV !== 'development' ? process.env.GITHUB_CLIENT_ID : process.env.GITHUB_CLIENT_ID_DEV}`,
+          clientSecret: `${process.env.NODE_ENV !== 'development' ? process.env.GITHUB_CLIENT_SECRET : process.env.GITHUB_CLIENT_SECRET_DEV}`,
+          labels: [':monkey_face:comments'],
+          prefix: '[Post] ',
+          admins: ['jchiarulli'],
+          perPage: 10 // 10 is the default value
+        },
         sitemap: {
           hostname: 'https://codemonkeys.tech'
         }

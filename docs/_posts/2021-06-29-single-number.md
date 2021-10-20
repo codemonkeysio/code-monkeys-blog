@@ -165,5 +165,3 @@ console.log(singleNumber(nums));
 
 </pre>
 </code-fence>
-
-<post-pagination :pageKey="$page.key" :topic="$frontmatter.topic" />

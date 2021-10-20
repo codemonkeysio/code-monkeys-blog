@@ -2,7 +2,7 @@
   <Layout>
     <template #page-top>
       <div class="theme-default-content content__default">
-        <h1 v-if="!allPosts()">
+        <h1 v-if="!allPosts">
           {{ $pagination.pages[0].frontmatter.topicDescription }}
           <div class="emoji-wrap">
             {{ $pagination.pages[0].frontmatter.topicDescriptionEmojiWrap }}
@@ -30,9 +30,11 @@
           v-for="post in $pagination.pages"
         >
           <div class="post-title-and-summary">
-            <h2 class="title">
-              {{ post.title }}
-            </h2>
+            <div class="title-wrapper">
+              <h2 class="title">
+                {{ post.title }}
+              </h2>
+            </div>
             <PostDetails
               :author="post.frontmatter.author"
               :posted="post.frontmatter.date"
@@ -76,7 +78,7 @@ export default {
     Layout
   },
 
-  methods: {
+  computed: {
     allPosts() {
       return this.$route.path.includes('/posts/');
     }
@@ -115,12 +117,16 @@ export default {
     cursor: pointer
     .post-title-and-summary
       flex: 8.5
-      .title
-        font-weight: 500
+      .title-wrapper
+        display: flex
         color: $accentColor
+        border-bottom: 0.125rem solid $borderColor
         margin: 1.875rem 0 1.5rem 0
-      .title:hover
-        text-decoration: underline
+        .title
+          border-bottom: 0
+          margin: 0
+        .title:hover
+          text-decoration: underline
       .preview
         margin-top: 1rem
     .post-pic
@@ -139,7 +145,8 @@ export default {
     .post-card
       flex-direction: column-reverse
       .post-title-and-summary
-        .title
+        .title-wrapper
+          justify-content: center
           margin: 0
         .preview
           text-align: center

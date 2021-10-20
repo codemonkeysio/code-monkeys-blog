@@ -80,7 +80,6 @@ export default {
       flex: 8.5
       .title-wrapper
         display: flex
-        font-weight: 500
         color: $accentColor
         border-bottom: 0.125rem solid $borderColor
         margin: 1.875rem 0 1.5rem 0

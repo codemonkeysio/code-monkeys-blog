@@ -198,5 +198,3 @@ console.log('k =', removeDuplicates(nums), 'nums =', nums);
 
 </pre>
 </code-fence>
-
-<post-pagination :pageKey="$page.key" :topic="$frontmatter.topic" />

@@ -7,6 +7,10 @@
 
       <PageNav v-bind="{ sidebarItems }" />
 
+      <slot name="post-pagination" />
+
+      <slot name="post-comments" />
+
       <slot name="bottom" />
     </div>
     <Footer />
