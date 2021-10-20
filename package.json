@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@vssue/api-github-v4": "^1.4.7",
-    "dotenv-safe": "^8.2.0",
+    "dotenv": "^10.0.0",
     "rfs": "^9.0.4",
     "v-lazy-image": "^2.0.1",
     "vue-clipboard2": "^0.3.1",
