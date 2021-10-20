@@ -1,4 +1,4 @@
-require('dotenv-safe').config();
+require('dotenv-safe').config({ allowEmptyValues: true });
 
 module.exports = {
   lang: 'en-US',
