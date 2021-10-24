@@ -412,7 +412,11 @@ module.exports = {
           service: 'vssue',
           platform: 'github-v4',
           owner: 'codemonkeysio',
-          repo: 'code-monkeys-blog-comments',
+          repo: `${
+            process.env.NODE_ENV !== 'development'
+              ? 'code-monkeys-blog-comments'
+              : 'code-monkeys-blog-comments-dev'
+          }`,
           clientId: `${
             process.env.NODE_ENV !== 'development'
               ? '70480748c9fd241c5495'
