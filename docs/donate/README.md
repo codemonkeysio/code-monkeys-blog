@@ -22,17 +22,17 @@ sidebar: auto
 
 ## Fiat 💵
 
-Support your fellow Code Monkeys by becoming a <a href="https://www.patreon.com/codemonkeys?fan_landing=true" target="_blank" rel="noopener noreferrer">Patron!</a>
+Support your fellow Code Monkeys by becoming a [Patron!](https://www.patreon.com/codemonkeys?fan_landing=true)
 
-Buy us a banana using <a href="https://paypal.me/codemonkeystech?locale.x=en_US" target="_blank" rel="noopener noreferrer">PayPal!</a>
+Buy us a banana using [PayPal!](https://paypal.me/codemonkeystech?locale.x=en_US)
 
-Subscribe for more monkey business on <a href="https://www.subscribestar.com/code-monkeys" target="_blank" rel="noopener noreferrer">SubscribeStar!</a>
+Subscribe for more monkey business on [SubscribeStar!](https://www.subscribestar.com/code-monkeys)
 
-Buy us more bananas using <a href="https://venmo.com/u/codemonkeys" target="_blank" rel="noopener noreferrer">Venmo!</a>
+Buy us more bananas using [Venmo!](https://venmo.com/u/codemonkeys)
 
-Become a <a href="https://github.com/sponsors/codemonkeysio" target="_blank" rel="noopener noreferrer">Code Monkeys Sponsor!</a>
+Become a [Code Monkeys Sponsor!](https://github.com/sponsors/codemonkeysio)
 
-Sponsor Jay the Code Monkey on <a href="https://github.com/sponsors/jchiarulli" target="_blank" rel="noopener noreferrer">GitHub!</a>
+Sponsor Jay the Code Monkey on [GitHub!](https://github.com/sponsors/jchiarulli)
 
 </div>
 
