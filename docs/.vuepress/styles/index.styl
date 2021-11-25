@@ -7,6 +7,12 @@ h2
   rfs-font-size(2.25rem)
   border-bottom: 0.125rem solid $borderColor
 
+h3
+  rfs-font-size(2rem)
+
+h4
+  rfs-font-size(1.75rem)
+
 p, span, li, button, #pagination
   rfs-font-size(1.25rem)
 
@@ -18,6 +24,9 @@ a
 
 .sidebar-group-items > li
   rfs-font-size(1.15625rem)
+
+.sidebar-sub-headers > li
+  rfs-font-size(1.125rem)
 
 .theme-code-group__li
   rfs-font-size(1.625rem)
@@ -72,6 +81,7 @@ html
             &.router-link-exact-active::after
               border-left: 0.3125rem solid $accentColor
           h4
+            rfs-font-size(1.25rem)
             border-top: 0.0625rem solid $borderColor
             cursor: initial
             margin: 0.45rem 0.375rem 0
@@ -149,7 +159,7 @@ html
             .dropdown-subitem > a
               rfs-font-size(1.15625rem)
     .home
-      padding: 8rem 0 0
+      padding: 0
       .hero
         margin-left: 2rem
         margin-right: 2rem
@@ -191,10 +201,15 @@ html
           border-radius: 2.8125rem
 
 // External Links
-.external-link-wrap
-  display: inline-flex
 svg.icon.outbound
   color: $accentColor
+.external-link-wrap
+  display: inline-flex
+.external-link-headers
+  rfs-font-size(1.75rem)
+  line-height: 1.25
+  span
+    rfs-font-size(1.75rem)
 
 // Emoji Wrapping
 .emoji-wrap
@@ -202,28 +217,30 @@ svg.icon.outbound
 
 // Posts
 .theme-default-content:not(.custom) > h2
-  padding-top: 0
-  margin-top: 2rem
-
-@media (max-width: 54.6875rem)
-  .post-details
-    justify-content: center
-    .posted-updated-wrapper
-      justify-content: center
+  margin-top: -3.85rem
+.theme-default-content:not(.custom) > h3
+  margin-top: -3.85rem
+.theme-default-content:not(.custom) > h4
+  margin-top: -3.85rem
 
 main.home
-  height: 90vh
-  .content-wrapper
-    min-height: calc(90vh - 10rem)
+  height: 100vh
+  .home-content-wrapper
+    min-height: calc(100vh - 10.8125rem)
+    .home-content
+      padding-top: 8rem
 main.page
   height: 100vh
-  .content-wrapper
-    min-height: calc(100vh - 10rem)
+  .page-content-wrapper
+    min-height: calc(100vh - 10.8125rem)
+    .theme-default-content:not(.custom) > *:first-child
+      margin-top: -5rem
     .theme-default-content
       max-width: 69.53125rem
       padding-bottom: 0
       h1
-        padding-top: 7.5rem
+        padding-top: 11rem
+        margin-bottom: -1rem
       @media (max-width: 54.6875rem)
         h1, h2
           text-align: center
@@ -336,48 +353,6 @@ main.page
             svg
               width: 0.85em 
               height: 0.85em
- 
-// Videos
-@media (max-width: 39.9375rem)
-  .video-wrapper
-    position: relative
-    padding-bottom: 56.25%
-    height: 0
-    iframe
-      position: absolute
-      top: 0
-      left: 0
-      width: 100%
-      height: 100%
-
-@media (min-width: 40rem)
-  iframe
-    width: 35rem
-    height: 19.6875rem
-
-@media (max-width: 53.125rem)
-  .video-wrapper
-    text-align: center
-
-@media (min-width: 53.1875rem)
-  .video-wrapper
-    position: relative
-    padding-bottom: 56.25%
-    text-align: left
-    iframe
-      position: absolute
-      width: 100%
-      height: 100%
-
-@media (min-width: 56.3125rem)
-  .video-wrapper
-    padding-bottom: 19.6875rem
-  iframe
-    max-width: 35rem
-    max-height: 19.6875rem
-
-.video-wrapper
-  margin-top: 1.25rem
 
 // Post
 .post-term-one
@@ -392,11 +367,18 @@ main.page
 .post-term-four
   color: $postColorFour
   font-style: italic
+.post-term-five
+  color: $postColorFive
+  font-style: italic
 
 .post-term-bold
   font-weight: bold
 .post-example
   margin-left: 2.8125rem
+
+.website-diagrams
+  display: flex
+  justify-content: center
 
 // Flow Charts
 .edgePath 

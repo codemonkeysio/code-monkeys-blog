@@ -3,10 +3,9 @@ title: Contains Duplicate
 author: Jay the Code Monkey
 date: 2021-08-06T18:24:00.000Z
 topic: LeetCode
-topicDescription: Solutions for LeetCode Problems
-topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
 description: Given an integer array nums, return true if any value appears at least twice, and return false if every...
-img: 06-contains-duplicate.png
+img: leetcode/06-contains-duplicate/post.png
+videoURL: 'https://www.youtube-nocookie.com/embed/P_SCtMIgZJs'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -16,7 +15,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/leetcode/social/06-contains-duplicate-link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/06-contains-duplicate/link-post.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -40,20 +39,18 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/leetcode/social/06-contains-duplicate-link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/06-contains-duplicate/link-post.png'
   - name: 'twitter:image:alt'
     content: 'LeetCode - Contains Duplicate Solution Image'
   - name: 'twitter:creator'
     content: '@codemonkeystech'
 ---
 
+::: slot header
+
 # Contains Duplicate
 
-<PostDetails :author="$frontmatter.author" :posted="$frontmatter.date" :updated="$page.lastUpdated" />
-
-<div class="video-wrapper">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P_SCtMIgZJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+:::
 
 ## Links
 

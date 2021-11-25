@@ -31,7 +31,7 @@
           </div>
           <div class="logo">
             <v-lazy-image
-              :src="require(`../../public/images/${topicDetails[index].logo}`)"
+              :src="$withBase(`/images/${topicDetails[index].logo}`)"
               alt="Logo"
             />
           </div>

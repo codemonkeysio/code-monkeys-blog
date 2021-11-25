@@ -26,7 +26,7 @@
 </template>
 
 <script>
-const cryptos = require('../public/crypto-addresses/crypto-addresses.json');
+import cryptos from '../data/crypto-addresses/crypto-addresses.json';
 
 export default {
   name: 'CryptoAddresses',

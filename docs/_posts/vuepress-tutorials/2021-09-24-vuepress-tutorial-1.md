@@ -3,18 +3,53 @@ title: VuePress Tutorial 1 - Introduction
 author: Jay the Code Monkey
 date: 2021-09-24T16:26:30.000Z
 topic: VuePress
-topicDescription: VuePress Tutorials
-topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
 description: Welcome to our VuePress series! In this series we'll be developing the Code Monkeys Blog starting from the basics...
-img: vuepress-logo.png
+img: vuepress-tutorials/tutorial-1/post.png
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
+meta:
+  - property: 'og:title'
+    content: 'VuePress Tutorial 1 - Introduction'
+  - property: 'og:type'
+    content: 'website'
+  - property: 'og:image'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-1/link-post.png'
+  - property: 'og:image:width'
+    content: '1200'
+  - property: 'og:image:height'
+    content: '628'
+  - property: 'og:image:alt'
+    content: 'VuePress Tutorial 1 - Introduction Image'
+  - property: 'og:url'
+    content: 'https://www.codemonkeys.tech/posts/2021/09/24/vuepress-tutorial-1/'
+  - property: 'og:description'
+    content: "Hey fellow Code Monkeys!!! 🐵 If you're interested in learning Vuepress, then check out VuePress Tutorial 1 - Introduction! 🍌🐒"
+  - property: 'og:site_name'
+    content: 'Code Monkeys'
+  - name: 'twitter:card'
+    content: 'summary_large_image'
+  - name: 'twitter:title'
+    content: 'VuePress Tutorial 1 - Introduction'
+  - name: 'twitter:description'
+    content: "Hey fellow Code Monkeys!!! 🐵 If you're interested in learning Vuepress, then check out VuePress Tutorial 1 - Introduction! 🍌🐒"
+  - name: 'twitter:url'
+    content: 'https://www.codemonkeys.tech/posts/2021/09/24/vuepress-tutorial-1/'
+  - name: 'twitter:site'
+    content: '@codemonkeystech'
+  - name: 'twitter:image'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-1/link-post.png'
+  - name: 'twitter:image:alt'
+    content: 'VuePress Tutorial 1 - Introduction Image'
+  - name: 'twitter:creator'
+    content: '@codemonkeystech'
 ---
+
+::: slot header
 
 # VuePress Tutorial 1 - Introduction
 
-<PostDetails :author="$frontmatter.author" :posted="$frontmatter.date" :updated="$page.lastUpdated" />
+:::
 
 ## What We'll be Developing
 
@@ -50,7 +85,7 @@ Now grab a 🍌 and let's get to it!
   - Using Vue in Markdown
   - Deploying (Specifically to <span class="external-link-wrap">[GitHub Pages](https://pages.github.com/))</span>
   - Frontmatter
-  - Various Plugins: <span class="external-link-wrap">[@vuepress/plugin-blog](https://v1.vuepress.vuejs.org/plugin/official/plugin-blog.html),</span> <span class="external-link-wrap">[vuepress-plugin-mathjax](https://vuepress-community.netlify.app/plugins/mathjax/),</span> <span class="external-link-wrap">[vuepress-plugin-code-copy](https://github.com/znicholasbrown/vuepress-plugin-code-copy),</span> & more!
+  - Various Plugins: <span class="external-link-wrap">[@vuepress/plugin-blog](https://vuepress-plugin-blog.billyyyyy3320.com/),</span> <span class="external-link-wrap">[vuepress-plugin-mathjax](https://vuepress-community.netlify.app/plugins/mathjax/),</span> <span class="external-link-wrap">[vuepress-plugin-code-copy](https://github.com/znicholasbrown/vuepress-plugin-code-copy),</span> & more!
 
 - More general Web Dev topics & tools including:
 

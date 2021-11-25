@@ -1,7 +1,13 @@
 <template>
   <main class="page">
-    <div class="content-wrapper">
+    <div class="page-content-wrapper">
       <slot name="top" />
+
+      <Content slot-key="header" class="theme-default-content" />
+
+      <slot name="post-details" />
+
+      <slot name="embedded-video" />
 
       <Content class="theme-default-content" />
 

@@ -3,10 +3,9 @@ title: Valid Anagram
 author: Jay the Code Monkey
 date: 2021-07-02T18:15:23.000Z
 topic: LeetCode
-topicDescription: Solutions for LeetCode Problems
-topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
 description: Given two strings s and t, return true if t is an anagram of s, and false otherwise. Ex 1) Input...
-img: 04-valid-anagram.png
+img: leetcode/04-valid-anagram/post.png
+videoURL: 'https://www.youtube-nocookie.com/embed/Bh4f8Ui1gOU'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -16,7 +15,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/leetcode/social/04-valid-anagram-link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/04-valid-anagram/link-post.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -40,20 +39,18 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/leetcode/social/04-valid-anagram-link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/04-valid-anagram/link-post.png'
   - name: 'twitter:image:alt'
     content: 'LeetCode - Valid Anagram Solution Image'
   - name: 'twitter:creator'
     content: '@codemonkeystech'
 ---
 
+::: slot header
+
 # Valid Anagram
 
-<PostDetails :author="$frontmatter.author" :posted="$frontmatter.date" :updated="$page.lastUpdated" />
-
-<div class="video-wrapper">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Bh4f8Ui1gOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+:::
 
 ## Links
 

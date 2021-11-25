@@ -28,6 +28,12 @@
       <template #top>
         <slot name="page-top" />
       </template>
+      <template #post-details>
+        <slot name="post-details" />
+      </template>
+      <template #embedded-video>
+        <slot name="embedded-video" />
+      </template>
       <template #post-pagination>
         <slot name="post-pagination" />
       </template>

@@ -3,9 +3,12 @@
     <template #page-top>
       <div class="theme-default-content content__default">
         <h1 v-if="!allPosts">
-          {{ $pagination.pages[0].frontmatter.topicDescription }}
+          {{ topicHeaders[$pagination.pages[0].frontmatter.topic].description }}
           <div class="emoji-wrap">
-            {{ $pagination.pages[0].frontmatter.topicDescriptionEmojiWrap }}
+            {{
+              topicHeaders[$pagination.pages[0].frontmatter.topic]
+                .descriptionEmoji
+            }}
           </div>
         </h1>
         <h1 v-else>
@@ -46,7 +49,7 @@
           </div>
           <div class="post-pic">
             <v-lazy-image
-              :src="require(`../../public/images/${post.frontmatter.img}`)"
+              :src="$withBase(`/images/${post.frontmatter.img}`)"
               alt="Post Pic"
             />
           </div>
@@ -71,11 +74,18 @@
 <script>
 import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js';
 import Layout from './Layout.vue';
+import byTopicHeaders from '../../data/index-post/by-topic-headers.json';
 
 export default {
   components: {
     VLazyImage,
     Layout
+  },
+
+  data: function() {
+    return {
+      topicHeaders: byTopicHeaders.topicHeaders
+    };
   },
 
   computed: {

@@ -4,7 +4,11 @@ description: Donations are Appreciated
 sidebar: auto
 ---
 
+::: slot header
+
 # Thanks for the <div class="emoji-wrap">Bananas!!! 🍌</div>
+
+:::
 
 <div class="topic-card">
 
@@ -37,6 +41,10 @@ Sponsor Jay the Code Monkey on [GitHub!](https://github.com/sponsors/jchiarulli)
 </div>
 
 <style scoped>
+h1 {
+    padding-bottom: 5rem;
+}
+
 h2 {
     color: #eb7132;
     margin: 1.875rem 0;

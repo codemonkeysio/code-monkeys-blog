@@ -3,10 +3,9 @@ title: Climbing Stairs Solution 2
 author: Jay the Code Monkey
 date: 2021-07-01T15:45:32.000Z
 topic: LeetCode
-topicDescription: Solutions for LeetCode Problems
-topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
 description: You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps...
-img: 03-climbing-stairs-solution-2.png
+img: leetcode/03-climbing-stairs-solution-2/post.png
+videoURL: 'https://www.youtube-nocookie.com/embed/_dhZdGNFV-g'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -16,7 +15,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/leetcode/social/03-climbing-stairs-solution-2-link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/03-climbing-stairs-solution-2/link-post.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -40,20 +39,18 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/leetcode/social/03-climbing-stairs-solution-2-link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/03-climbing-stairs-solution-2/link-post.png'
   - name: 'twitter:image:alt'
     content: 'LeetCode - Climbing Stairs Solution 2 Image'
   - name: 'twitter:creator'
     content: '@codemonkeystech'
 ---
 
+::: slot header
+
 # Climbing Stairs Solution 2
 
-<PostDetails :author="$frontmatter.author" :posted="$frontmatter.date" :updated="$page.lastUpdated" />
-
-<div class="video-wrapper">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_dhZdGNFV-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+:::
 
 ## Links
 

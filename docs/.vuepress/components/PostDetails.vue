@@ -48,12 +48,10 @@ export default {
   flex-wrap: wrap
   font-style: italic
   color: #748E54
-  margin-top: 0.25rem
   margin-top: 0.625rem
   .author
     rfs-font-size(1.125rem)
     text-align: center
-    margin-top: 0.625rem
     margin-top: 0.25rem
     margin-right: 0.375rem
     line-height: 1.5
@@ -62,14 +60,18 @@ export default {
     flex-wrap: wrap
     text-align: center
     .posted-wrapper
-      margin-top: 0.625rem
       margin-top: 0.25rem
     .updated-wrapper
-      margin-top: 0.625rem
       margin-top: 0.25rem
     .bullet, .posted, .updated
       rfs-font-size(1.125rem)
       line-height: 1.5
     .bullet, .posted
       margin-right: 0.375rem
+
+@media (max-width: 54.6875rem)
+  .post-details
+    justify-content: center
+    .posted-updated-wrapper
+      justify-content: center
 </style>

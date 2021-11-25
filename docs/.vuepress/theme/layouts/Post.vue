@@ -1,5 +1,25 @@
 <template>
   <Layout>
+    <template #post-details>
+      <div class="wrapper post-details-in-post">
+        <post-details
+          :key="$route.name"
+          :pageKey="$page.key"
+          :author="$frontmatter.author"
+          :posted="$frontmatter.date"
+          :updated="$page.lastUpdated"
+        />
+      </div>
+    </template>
+    <template #embedded-video>
+      <div v-if="$frontmatter.videoURL" class="wrapper embedded-video">
+        <embedded-video
+          :key="$route.name"
+          :pageKey="$page.key"
+          :videoURL="$frontmatter.videoURL"
+        />
+      </div>
+    </template>
     <template #post-pagination>
       <post-pagination
         :key="$route.name"
@@ -31,7 +51,34 @@ export default {
 
 <style lang="stylus">
 @import '~rfs/stylus'
+.wrapper
+  max-width: 69.53125rem
+  padding-left: 2.5rem
+  padding-right: 2.5rem
 
+@media (max-width: $MQNarrow)
+  .wrapper
+    padding-left: 2rem
+    padding-right: 2rem
+
+@media (max-width: $MQMobileNarrow)
+  .wrapper
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+// Post Details
+.post-details-in-post
+  margin: 1.625rem auto 0
+
+// Embedded Video
+.embedded-video
+  margin: 2rem auto 0
+
+@media (max-width: $MQMobileNarrow)
+  .embedded-video
+    margin-top: 1.5rem
+
+// Comments
 .comments-wrapper
   padding: 2rem 2.5rem 0
   margin: 0 auto

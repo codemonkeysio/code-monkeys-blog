@@ -1,4 +1,5 @@
 require('dotenv').config();
+const topicDetails = require('./data/config/blog/topics-page-details.json');
 
 module.exports = {
   lang: 'en-US',
@@ -193,7 +194,7 @@ module.exports = {
       {
         property: 'og:image',
         content:
-          'https://codemonkeys.tech/images/code-monkeys-og-website-logo.png'
+          'https://codemonkeys.tech/images/code-monkeys-logos/og-website.png'
       }
     ],
     [
@@ -279,7 +280,7 @@ module.exports = {
       {
         name: 'twitter:image',
         content:
-          'https://codemonkeys.tech/images/code-monkeys-twitter-summary-large-image.png'
+          'https://codemonkeys.tech/images/code-monkeys-logos/twitter-summary-large-image.png'
       }
     ],
     [
@@ -314,7 +315,7 @@ module.exports = {
   ],
 
   themeConfig: {
-    logo: '/images/code-monkeys-face-logo.png',
+    logo: '/images/code-monkeys-logos/face.png',
     nav: [
       {
         text: 'Topics',
@@ -387,18 +388,8 @@ module.exports = {
             frontmatter: {
               title: 'Topics',
               description: 'Start learning & coding',
-              topicDetails: [
-                {
-                  summary:
-                    "You'll find detailed LeetCode solutions here including code, notes, links, diagrams, animations, & anything else that may be helpful!",
-                  logo: 'leetcode-logo.png'
-                },
-                {
-                  summary:
-                    'Learn how to use VuePress by following along with these tutorials!',
-                  logo: 'vuepress-logo.png'
-                }
-              ]
+              topicDetails: JSON.parse(JSON.stringify(topicDetails))
+                .topicsPageDetails
             },
             // Layout of the `scope page` (list of posts with this tag)
             scopeLayout: 'IndexPost',

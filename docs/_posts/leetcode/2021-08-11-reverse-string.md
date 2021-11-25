@@ -3,10 +3,9 @@ title: Reverse String
 author: Jay the Code Monkey
 date: 2021-08-11T15:35:00.000Z
 topic: LeetCode
-topicDescription: Solutions for LeetCode Problems
-topicDescriptionEmojiWrap: Enjoy!!! 🍌🐒
 description: Write a function that reverses a string. The input string is given as an array of characters. Ex) 1 Input...
-img: 07-reverse-string.png
+img: leetcode/07-reverse-string/post.png
+videoURL: 'https://www.youtube-nocookie.com/embed/Ue3XmMvLwsY'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -16,7 +15,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/leetcode/social/07-reverse-string-link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/07-reverse-string/link-post.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -40,20 +39,18 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/leetcode/social/07-reverse-string-link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/07-reverse-string/link-post.png'
   - name: 'twitter:image:alt'
     content: 'LeetCode - Reverse String Solution Image'
   - name: 'twitter:creator'
     content: '@codemonkeystech'
 ---
 
+::: slot header
+
 # Reverse String
 
-<PostDetails :author="$frontmatter.author" :posted="$frontmatter.date" :updated="$page.lastUpdated" />
-
-<div class="video-wrapper">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ue3XmMvLwsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+:::
 
 ## Links
 
