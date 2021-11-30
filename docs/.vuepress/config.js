@@ -1,5 +1,5 @@
 require('dotenv').config();
-const topicDetails = require('./data/config/blog/topics-page-details.json');
+const topicDetails = require('./data/config/blog/topics-page-details');
 
 module.exports = {
   lang: 'en-US',
@@ -392,8 +392,7 @@ module.exports = {
             frontmatter: {
               title: 'Topics',
               description: 'Start learning & coding',
-              topicDetails: JSON.parse(JSON.stringify(topicDetails))
-                .topicsPageDetails
+              topicDetails: topicDetails.topicsPageDetails
             },
             // Layout of the `scope page` (list of posts with this tag)
             scopeLayout: 'IndexPost',

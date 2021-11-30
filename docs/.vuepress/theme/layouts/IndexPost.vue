@@ -74,7 +74,7 @@
 <script>
 import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js';
 import Layout from './Layout.vue';
-import byTopicHeaders from '../../data/index-post/by-topic-headers.json';
+import byTopicHeaders from '../../data/index-post/by-topic-headers';
 
 export default {
   components: {

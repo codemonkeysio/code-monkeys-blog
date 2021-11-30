@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import cryptos from '../data/crypto-addresses/crypto-addresses.json';
+import cryptos from '../data/crypto-addresses/crypto-addresses';
 
 export default {
   name: 'CryptoAddresses',
