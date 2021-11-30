@@ -53,15 +53,15 @@ meta:
 
 ## What is VuePress?
 
-[VuePress](https://v1.vuepress.vuejs.org/) is a minimalistic <span class="post-term-two">static site generator (SSG)</span> with a Vue-powered [theming system](https://v1.vuepress.vuejs.org/theme/) and <span class="external-link-wrap">[Plugin API](https://v1.vuepress.vuejs.org/plugin/).</span>
+[VuePress](https://v1.vuepress.vuejs.org/) is a minimalistic <span class="post-term-two">static site generator (SSG)</span> with a Vue-powered [theming system](https://v1.vuepress.vuejs.org/theme/) and [Plugin API](https://v1.vuepress.vuejs.org/plugin/).
 
 Originally, it was created to serve the documentation needs of [Vue's](https://vuejs.org/) own sub projects, so it comes with a [default theme](https://v1.vuepress.vuejs.org/theme/default-theme-config.html) optimized for writing technical documentation.
 
 As well has being useful for writing technical documentation, it also has a [blog plugin](https://vuepress-plugin-blog.billyyyyy3320.com/) which we'll be looking at in more detail in future tutorials.
 
-Now, to clear up any confusion we'll define what an <span class="post-term-two">SSG</span> is, then we'll talk more about the [theming system](https://v1.vuepress.vuejs.org/theme/) and the <span class="external-link-wrap">[Plugin API](https://v1.vuepress.vuejs.org/plugin/).</span>
+Now, to clear up any confusion we'll define what an <span class="post-term-two">SSG</span> is, then we'll talk more about the [theming system](https://v1.vuepress.vuejs.org/theme/) and the [Plugin API](https://v1.vuepress.vuejs.org/plugin/).
 
-After that we'll provide a list of some of the features of <span class="external-link-wrap">[VuePress](https://v1.vuepress.vuejs.org/),</span> and then we'll give some quick comparisons with similar technologies.
+After that we'll provide a list of some of the features of [VuePress](https://v1.vuepress.vuejs.org/), and then we'll give some quick comparisons with similar technologies.
 
 ## Different Types of Websites
 
@@ -179,13 +179,13 @@ Since <span class="post-term-two">SSGs</span> create static HTML pages at build-
 
 Like other <span class="post-term-two">SSGs</span>, the static HTML pages are rendered at build-time. Then the static HTML pages are deployed to the web.
 
-Once the page is loaded, [Vue](https://vuejs.org/) takes control of the static content and the site behaves like an <span class="post-term-three">SPA</span>. The <span class="post-term-three">SPA</span> is powered by <span class="external-link-wrap">[Vue](https://vuejs.org/),</span> <span class="external-link-wrap">[Vue Router](https://router.vuejs.org/),</span> and <span class="external-link-wrap">[webpack](https://webpack.js.org/).</span>
+Once the page is loaded, [Vue](https://vuejs.org/) takes control of the static content and the site behaves like an <span class="post-term-three">SPA</span>. The <span class="post-term-three">SPA</span> is powered by [Vue](https://vuejs.org/), [Vue Router](https://router.vuejs.org/), and [webpack](https://webpack.js.org/).
 
 Each Markdown file gets compiled into HTML with [markdown-it](https://markdown-it.github.io/) which is then processed as the template of a [Vue](https://vuejs.org/) component. This is what enables you to use [Vue](https://vuejs.org/) directly in your Markdown files and also makes it possible to embed dynamic content.
 
 ## Theming
 
-A theme in [VuePress](https://v1.vuepress.vuejs.org/) allows you to control how your project is structured. You can simply use the provided <span class="external-link-wrap">[default theme](https://v1.vuepress.vuejs.org/theme/default-theme-config.html),</span> use [theme inheritance](https://v1.vuepress.vuejs.org/theme/inheritance.html) to create a child theme based on a parent theme, or <span class="external-link-wrap">[write your own theme](https://v1.vuepress.vuejs.org/theme/writing-a-theme.html).</span>
+A theme in [VuePress](https://v1.vuepress.vuejs.org/) allows you to control how your project is structured. You can simply use the provided [default theme](https://v1.vuepress.vuejs.org/theme/default-theme-config.html), use [theme inheritance](https://v1.vuepress.vuejs.org/theme/inheritance.html) to create a child theme based on a parent theme, or [write your own theme](https://v1.vuepress.vuejs.org/theme/writing-a-theme.html).
 
 Within a theme you are able to create directories that handle <span class="post-term-one">global components</span>, <span class="post-term-one">components</span>, <span class="post-term-one">layouts</span>, <span class="post-term-one">styles</span>, and <span class="post-term-one">templates</span>. You can also create files for <span class="post-term-one">theme configurations</span> and <span class="post-term-one">app level enhancements</span>. When writing your own theme the only file that is necessary is Layout.vue, everything else is up to. You can also publish your theme as an [npm](https://www.npmjs.com/) package which allows other people to easily install it.
 
@@ -194,66 +194,66 @@ The [Code Monkeys Blog](/) is currently a child theme inherited from the default
 We'll go over the directory structure, what each directory in a theme is used for, theme configuration, app level enhancement, and [theme inheritance](https://v1.vuepress.vuejs.org/theme/inheritance.html) in future tutorials.
 
 - Example themes you can check out:
-  - [vuepress-theme-meteorlxy](https://vuepress-theme-meteorlxy.meteorlxy.cn/)
-  - [vuepress-theme-modern-blog](https://vp-modern.z3by.com/)
-  - [vuepress-theme-succinct](https://succinct.mflash.dev/)
-  - [vuepress-theme-hope](https://vuepress-theme-hope.github.io/)
-  - [vuepress-theme-mini](https://vuepress-theme-mini.wxsm.space/)
+  - <span class="external-link-wrap">[vuepress-theme-meteorlxy](https://vuepress-theme-meteorlxy.meteorlxy.cn/)</span>
+  - <span class="external-link-wrap">[vuepress-theme-modern-blog](https://vp-modern.z3by.com/)</span>
+  - <span class="external-link-wrap">[vuepress-theme-succinct](https://succinct.mflash.dev/)</span>
+  - <span class="external-link-wrap">[vuepress-theme-hope](https://vuepress-theme-hope.github.io/)</span>
+  - <span class="external-link-wrap">[vuepress-theme-mini](https://vuepress-theme-mini.wxsm.space/)</span>
 
 ## Plugin API
 
-[Plugins](https://v1.vuepress.vuejs.org/plugin/) allow you to add <span class="post-term-one">global-level functionality</span> to <span class="external-link-wrap">[VuePress](https://v1.vuepress.vuejs.org/).</span> You can configure them by passing in options. It's also possible to write your own and publish them as [npm](https://www.npmjs.com/) packages.
+[Plugins](https://v1.vuepress.vuejs.org/plugin/) allow you to add <span class="post-term-one">global-level functionality</span> to [VuePress](https://v1.vuepress.vuejs.org/). You can configure them by passing in options. It's also possible to write your own and publish them as [npm](https://www.npmjs.com/) packages.
 
 We'll go over installing and configuring [plugins](https://v1.vuepress.vuejs.org/plugin/) in future tutorials.
 
 - Examples of some plugins:
-  - [@vuepress/plugin-blog](https://vuepress-plugin-blog.billyyyyy3320.com/)
-  - [@vuepress/plugin-active-header-links](https://v1.vuepress.vuejs.org/plugin/official/plugin-active-header-links.html)
-  - [@vuepress/plugin-back-to-top](https://v1.vuepress.vuejs.org/plugin/official/plugin-back-to-top.html)
-  - [@vuepress/plugin-search](https://v1.vuepress.vuejs.org/plugin/official/plugin-search.html)
-  - [@goy/vuepress-plugin-svg-icons](https://vp-icon.goyfe.com/)
+  - <span class="external-link-wrap">[@vuepress/plugin-blog](https://vuepress-plugin-blog.billyyyyy3320.com/)</span>
+  - <span class="external-link-wrap">[@vuepress/plugin-active-header-links](https://v1.vuepress.vuejs.org/plugin/official/plugin-active-header-links.html)</span>
+  - <span class="external-link-wrap">[@vuepress/plugin-back-to-top](https://v1.vuepress.vuejs.org/plugin/official/plugin-back-to-top.html)</span>
+  - <span class="external-link-wrap">[@vuepress/plugin-search](https://v1.vuepress.vuejs.org/plugin/official/plugin-search.html)</span>
+  - <span class="external-link-wrap">[@goy/vuepress-plugin-svg-icons](https://vp-icon.goyfe.com/)</span>
 
 ## Features
 
-Here are some of the features that come with <span class="external-link-wrap">[VuePress](https://v1.vuepress.vuejs.org/):</span>
+Here are some of the features that come with [VuePress](https://v1.vuepress.vuejs.org/):
 
 Built-in Markdown Extensions
 
-- [Table of Contents](https://v1.vuepress.vuejs.org/guide/markdown.html#table-of-contents)
-- [Custom Containers](https://v1.vuepress.vuejs.org/guide/markdown.html#custom-containers)
-- [Line Highlighting](https://v1.vuepress.vuejs.org/guide/markdown.html#line-highlighting-in-code-blocks)
-- [Line Numbers](https://v1.vuepress.vuejs.org/guide/markdown.html#line-numbers)
-- [Import Code Snippets](https://v1.vuepress.vuejs.org/guide/markdown.html#import-code-snippets)
+- <span class="external-link-wrap">[Table of Contents](https://v1.vuepress.vuejs.org/guide/markdown.html#table-of-contents)</span>
+- <span class="external-link-wrap">[Custom Containers](https://v1.vuepress.vuejs.org/guide/markdown.html#custom-containers)</span>
+- <span class="external-link-wrap">[Line Highlighting](https://v1.vuepress.vuejs.org/guide/markdown.html#line-highlighting-in-code-blocks)</span>
+- <span class="external-link-wrap">[Line Numbers](https://v1.vuepress.vuejs.org/guide/markdown.html#line-numbers)</span>
+- <span class="external-link-wrap">[Import Code Snippets](https://v1.vuepress.vuejs.org/guide/markdown.html#import-code-snippets)</span>
 
 Ability to Use Vue In Markdown Files
 
-- [Templating](https://v1.vuepress.vuejs.org/guide/using-vue.html#templating)
-- [Using Components](https://v1.vuepress.vuejs.org/guide/using-vue.html#using-components)
+- <span class="external-link-wrap">[Templating](https://v1.vuepress.vuejs.org/guide/using-vue.html#templating)</span>
+- <span class="external-link-wrap">[Using Components](https://v1.vuepress.vuejs.org/guide/using-vue.html#using-components)</span>
 
 Vue-powered Custom Theme System
 
-- [Metadata](https://v1.vuepress.vuejs.org/theme/writing-a-theme.html#site-and-page-metadata)
-- [Content Excerpt](https://v1.vuepress.vuejs.org/theme/writing-a-theme.html#content-excerpt)
+- <span class="external-link-wrap">[Metadata](https://v1.vuepress.vuejs.org/theme/writing-a-theme.html#site-and-page-metadata)</span>
+- <span class="external-link-wrap">[Content Excerpt](https://v1.vuepress.vuejs.org/theme/writing-a-theme.html#content-excerpt)</span>
 
 A Default Theme with
 
 - Responsive layout
-- [Optional Homepage](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#homepage)
+- <span class="external-link-wrap">[Optional Homepage](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#homepage)</span>
 - Customizable [Navbar](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#navbar) and [Sidebar](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#sidebar)
-- [Simple Out-of-the-Box Header-Based Search](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#built-in-search)
-- [Algolia Search](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#algolia-search)
-- [Last Updated](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#last-updated)
-- [Git Repository and Edit Links](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#git-repository-and-edit-links)
-- [Custom Layout for Specific Pages](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#custom-layout-for-specific-pages)
-- [Code Groups and Code Blocks](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#default-code-block)
+- <span class="external-link-wrap">[Simple Out-of-the-Box Header-Based Search](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#built-in-search)</span>
+- <span class="external-link-wrap">[Algolia Search](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#algolia-search)</span>
+- <span class="external-link-wrap">[Last Updated](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#last-updated)</span>
+- <span class="external-link-wrap">[Git Repository and Edit Links](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#git-repository-and-edit-links)</span>
+- <span class="external-link-wrap">[Custom Layout for Specific Pages](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#custom-layout-for-specific-pages)</span>
+- <span class="external-link-wrap">[Code Groups and Code Blocks](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#default-code-block)</span>
 
 It also has a [blog theme](https://vuepress-theme-blog.billyyyyy3320.com/), numerous community themes, official plugins, and community plugins.
 
-You can find a list of these themes, plugins, and more resources at <span class="external-link-wrap">[Awesome VuePress](https://github.com/vuepress/awesome-vuepress).</span>
+You can find a list of these themes, plugins, and more resources at [Awesome VuePress](https://github.com/vuepress/awesome-vuepress).
 
 ## Comparisons
 
-Here are some similar technologies and how they compare with <span class="external-link-wrap">[VuePress](https://v1.vuepress.vuejs.org/):</span>
+Here are some similar technologies and how they compare with [VuePress](https://v1.vuepress.vuejs.org/):
 
 <span class="external-link-headers">[Nuxt](https://nuxtjs.org/)</span>
 

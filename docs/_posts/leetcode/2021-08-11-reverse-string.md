@@ -80,7 +80,7 @@ Ex 2) Input: <span class="post-term-one">s</span> = ["H", "a", "n", "n", "a", "h
 
 - ASCII stands for American Standard Code for Information Interchange and it consists of 33 non-printable and 95 printable characters.
 
-- You can check out the non-printable, printable, and extended ASCII characters <span class="external-link-wrap">[here](https://www.ascii-code.com/).</span>
+- You can check out the non-printable, printable, and extended ASCII characters [here](https://www.ascii-code.com/).
 
 - For this problem we only care about the printable ASCII characters.
 

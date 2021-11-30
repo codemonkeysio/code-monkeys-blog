@@ -314,6 +314,10 @@ module.exports = {
     ]
   ],
 
+  markdown: {
+    lineNumbers: true
+  },
+
   themeConfig: {
     logo: '/images/code-monkeys-logos/face.png',
     nav: [
