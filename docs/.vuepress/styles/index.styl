@@ -13,6 +13,9 @@ h3
 h4
   rfs-font-size(1.75rem)
 
+h5
+  rfs-font-size(1.5rem)
+
 p, span, li, button, #pagination
   rfs-font-size(1.25rem)
 
@@ -250,6 +253,8 @@ svg.icon.outbound
   margin-top: -3.85rem
 .theme-default-content:not(.custom) > h4
   margin-top: -3.85rem
+.theme-default-content:not(.custom) > h5
+  margin-top: -3.85rem
 
 main.home
   height: 100vh
@@ -287,7 +292,11 @@ main.page
           font-size: 1rem
           top: 0.03125rem
         pre
-          margin-bottom: 0
+          margin-bottom: 2rem
+          code
+            span
+              font-size: 1em
+              height: 100%
         .highlighted
           background-color: #16181d
         .highlighted:before
@@ -412,11 +421,13 @@ main.page
   display: flex
   justify-content: center
 
-// Inline Code Block
-.theme-default-content code
-  color: #fff
-  background-color: #373c49
-  border-radius: 0.1875rem
+// Inline Code Blocks
+.theme-default-content
+  .inline-code-block
+    word-break: break-word
+    color: #fff
+    background-color: #373c49
+    border-radius: 0.1875rem
 
 // Flow Charts
 .edgePath 

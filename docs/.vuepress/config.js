@@ -333,6 +333,7 @@ module.exports = {
             text: 'By Topic',
             items: [
               { text: 'LeetCode', link: '/topics/LeetCode/' },
+              { text: 'Node.js', link: '/topics/Node.js/' },
               { text: 'VuePress', link: '/topics/VuePress/' }
             ]
           }
