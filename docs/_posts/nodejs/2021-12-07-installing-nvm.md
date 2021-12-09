@@ -155,7 +155,7 @@ When using [nvm](https://github.com/nvm-sh/nvm), you don't need to use <code cla
 Finally, if you're using a different node version manager like [fnm](https://github.com/Schniz/fnm), then you may run into issues with your installed versions from [nvm](https://github.com/nvm-sh/nvm). If this is the case, then uninstall the node version manager you will not be using to resolve the issues.
 
 :::tip Preferred Node Manager
-My preferred way to manage my node versions is with [fnm](https://github.com/Schniz/fnm). Check out [Installing Fast Node Manager (fnm)](/posts/2021/12/06/installing-fnm/) to learn more about it.
+My preferred way to manage my node versions is with [fnm](https://github.com/Schniz/fnm). Check out [Installing Fast Node Manager (fnm)](/posts/2021/12/08/installing-fnm/) to learn more about it.
 :::
 
 ### Install and Update Script
