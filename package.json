@@ -1,4 +1,17 @@
 {
+  "name": "code-monkeys-blog",
+  "version": "1.0.0",
+  "description": "Learn How to Code Like a Monkey by Checking Out the Code Monkeys Blog Theme!!!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codemonkeysio/code-monkeys-blog"
+  },
+  "author": {
+    "name": "Jay the Code Monkey",
+    "email": "c0dem0nkeys@pm.me",
+    "url": "https://www.codemonkeys.tech/"
+  },
+  "license": "GPL-3.0-or-later",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
