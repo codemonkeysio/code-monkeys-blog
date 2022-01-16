@@ -68,7 +68,6 @@ A <span class="post-term-one">package manager</span> handles the following for y
 - Uninstalling
 - Configuring
 
-
 ## What is Yarn?
 
 [Yarn](https://yarnpkg.com/) is a <span class="post-term-one">package manager</span> designed with three main goals in mind:
@@ -84,10 +83,10 @@ Like other <span class="post-term-one">package managers</span>, [Yarn](https://y
 This post will cover the installation and some commands for [Yarn 1](https://classic.yarnpkg.com/en/).
 
 ::: tip Yarn 1 Maintenance Mode
-[Yarn 1](https://classic.yarnpkg.com/en/) is officially in maintenance mode, so no further updates will be released unless they are needed to patch vulnerabilities. If you're starting a new project, it's recommended to use the latest stable version which at the time of this writing is [Yarn 3](https://yarnpkg.com/). 
+[Yarn 1](https://classic.yarnpkg.com/en/) is officially in maintenance mode, so no further updates will be released unless they are needed to patch vulnerabilities. If you're starting a new project, it's recommended to use the latest stable version which at the time of this writing is [Yarn 3](https://yarnpkg.com/).
 :::
 
-If you're interested in learning more about the release history of [Yarn](https://yarnpkg.com/) and [npm](https://www.npmjs.com/), then check out the section below. 
+If you're interested in learning more about the release history of [Yarn](https://yarnpkg.com/) and [npm](https://www.npmjs.com/), then check out the section below.
 
 ## Timeline of Yarn and npm Development
 
@@ -99,7 +98,7 @@ In 2018, [npm](https://www.npmjs.com/) addressed its security issues with the re
 
 [Yarn 2](https://yarnpkg.com/) and [npm 7](https://www.npmjs.com/package/npm/v/7.0.0) were both released in 2020 with improved performance and some new features as well.
 
-In 2021, [Yarn 3](https://yarnpkg.com/) and [npm 8](https://www.npmjs.com/package/npm/v/7.0.0) were released which again introduced improved performance and some new features.  
+In 2021, [Yarn 3](https://yarnpkg.com/) and [npm 8](https://www.npmjs.com/package/npm/v/7.0.0) were released which again introduced improved performance and some new features.
 
 Today, the performance and features of [Yarn](https://yarnpkg.com/) and [npm](https://www.npmjs.com/) are very similar, so which one to use mainly depends on a developer's preference.
 
@@ -121,7 +120,7 @@ npm install --global yarn
 </code-block>
 </code-group>
 
-This will install [Yarn 1](https://classic.yarnpkg.com/en/) globally. We'll see how to install a specific <span class="post-term-one">local version</span> of <code class="inline-code-block">yarn</code> in the root of a project directory when looking at the usage of <code class="inline-code-block">yarn</code>. 
+This will install [Yarn 1](https://classic.yarnpkg.com/en/) globally. We'll see how to install a specific <span class="post-term-one">local version</span> of <code class="inline-code-block">yarn</code> in the root of a project directory when looking at the usage of <code class="inline-code-block">yarn</code>.
 
 ::: tip Resolving Permissions Error
 If you're using a <span class="post-term-one">system version</span>, you may get a permissions error when attempting to install with [npm](https://www.npmjs.com/). To resolve this check out the [installation](https://classic.yarnpkg.com/en/docs/install) documentation for <span class="post-term-one">platform-specific</span> methods for Linux, macOS, and Windows. Alternatively, you can uninstall your <span class="post-term-one">system version</span> and use a <span class="post-term-one">node version manager</span> instead.
@@ -141,7 +140,7 @@ Now we'll be discussing some useful and common commands to get you started with 
 
 ### Help Commands
 
-Here's how to access the help documentation for the <code class="inline-code-block">yarn</code> command which is always useful and recommended to do for any installed tool. 
+Here's how to access the help documentation for the <code class="inline-code-block">yarn</code> command which is always useful and recommended to do for any installed tool.
 
 Run the following command to see a list of commands, flags, and descriptions for <code class="inline-code-block">yarn</code>:
 
@@ -216,6 +215,7 @@ yarn policies set-version [version]
 </code-group>
 
 There are multiple ways to specify which version you want to use:
+
 - <code class="inline-code-block">yarn policies set-version</code> downloads the latest stable release
 - <code class="inline-code-block">yarn policies set-version --rc</code> downloads the latest rc release
 - <code class="inline-code-block">yarn policies set-version 1.22.4</code> downloads a specific version
@@ -258,6 +258,21 @@ This will ignore the entire <code class="inline-code-block">.yarn</code> directo
 
 The <code class="inline-code-block">yarn.lock</code> and <code class="inline-code-block">.yarnrc</code> files should always be checked into version control.
 
+### Adding a .gitattributes File
+
+If you're using a <span class="post-term-one">local version</span> of <code class="inline-code-block">yarn</code>, then it's recommended to add a <code class="inline-code-block">.gitattributes</code> file to your project which will prevent <code class="inline-code-block">git</code> from showing large diffs when you add or update releases and plugins:
+
+<code-group>
+<code-block title=".gitattributes File for Yarn">
+```sh
+.yarn/releases/** binary
+.yarn/plugins/** binary
+```
+</code-block>
+</code-group>
+
+This is accomplished by identifying the release and plugin directories as binary content.
+
 ### Creating a New Project
 
 To create a new project first create and navigate to the project directory. See the commands above for creating and navigating to a project directory.
@@ -294,17 +309,18 @@ Done in 34.11s.
 After answering all of the questions, a <code class="inline-code-block">package.json</code> file containing the answers will be created. The <code class="inline-code-block">package.json</code> file contains metadata about your project. This metadata includes information used to identify and describe your project and the packages you install which follow [semantic versioning (semver)](https://semver.org/).
 
 Now, let's describe each property in a little more detail:
+
 - <code class="inline-code-block">name</code> is the name given to your project
   - Must be less than or equal to 214 characters including the <code class="inline-code-block">@scope/</code> for [scoped packages](https://docs.npmjs.com/cli/v8/using-npm/scope)
   - Cannot start with a dot or an underscore
-  - Must contain only lowercase letters and URL-safe characters 
-  - If the project is published to [npm](https://www.npmjs.com/), it gets a URL based on the given value which is the reason for the requirements given above  
+  - Must contain only lowercase letters and URL-safe characters
+  - If the project is published to [npm](https://www.npmjs.com/), it gets a URL based on the given value which is the reason for the requirements given above
   - The default value is the same name as the directory you're in when running the <code class="inline-code-block">yarn init</code> command
 - <code class="inline-code-block">version</code> indicates the current version of your project
-  - The versioning follows [semver](https://semver.org/) notation 
+  - The versioning follows [semver](https://semver.org/) notation
   - The default value is 1.0.0
 - <code class="inline-code-block">description</code> is used to describe and provide more information about your project
-  - Especially useful to include if you plan on publishing your project to [npm](https://www.npmjs.com/) 
+  - Especially useful to include if you plan on publishing your project to [npm](https://www.npmjs.com/)
   - If no value is given, it will not be set
 - <code class="inline-code-block">entry point</code> is a JavaScript file that starts the execution of your project
   - This property is called <code class="inline-code-block">main</code> in the <code class="inline-code-block">package.json</code> file
@@ -318,7 +334,7 @@ Now, let's describe each property in a little more detail:
   - You can explicitly set the author name, email, and website in the <code class="inline-code-block">package.json</code> file by adding, e.g., <code class="inline-code-block">"author": { "name": "Your Name", "email": "youremail@example.com", "url": "https://your-website.com" }</code>
   - If no value is given, it will not be set
 - <code class="inline-code-block">license</code> indicates the type of license being used by the project
-  - Allows users to know how they're permitted to use the project 
+  - Allows users to know how they're permitted to use the project
   - Check out [Choose a License](https://choosealicense.com/) if you need help determining how you should license your project
   - The default value is MIT
 - <code class="inline-code-block">private</code> indicates whether or not the project can be published to [npm](https://www.npmjs.com/)
@@ -372,7 +388,6 @@ yarn add <package-name>
 </code-block>
 </code-group>
 
-
 To add a <span class="post-term-one">specific version</span> of a package run the following command:
 
 <code-group>
@@ -393,7 +408,7 @@ yarn add <package-name>@"^1.2.3"
 </code-block>
 </code-group>
 
-The <span class="post-term-one">latest version</span> within the given version range is determined by the range specifier and the version number. 
+The <span class="post-term-one">latest version</span> within the given version range is determined by the range specifier and the version number.
 
 In the example above the range specifier is the caret symbol, i.e., <code class="inline-code-block">^</code>. You can use any desired range specifier, and the added package will be the <span class="post-term-one">latest version</span> within the given version range.
 
@@ -409,11 +424,11 @@ yarn add <package-name>@tag
 
 Tags are a way to mark published versions of a package with a label. Check out the [yarn tag](https://classic.yarnpkg.com/en/docs/cli/tag) documentation for more information about them.
 
-To add a package to your development dependencies, i.e., <code class="inline-code-block">devDependencies</code> you can add either the <code class="inline-code-block">--dev</code> or <code class="inline-code-block">-D</code> flag to the end of the command. 
+To add a package to your development dependencies, i.e., <code class="inline-code-block">devDependencies</code> you can add either the <code class="inline-code-block">--dev</code> or <code class="inline-code-block">-D</code> flag to the end of the command.
 
 Development dependencies are dependencies that you need for the development workflow, e.g., [Babel](https://babeljs.io/), but not while running the project.
 
-Here's an example of adding the <span class="post-term-one">latest version</span> of a package to your <code class="inline-code-block">devDependencies</code>: 
+Here's an example of adding the <span class="post-term-one">latest version</span> of a package to your <code class="inline-code-block">devDependencies</code>:
 
 <code-group>
 <code-block title="Add to Development Dependencies">
@@ -436,7 +451,7 @@ yarn global add <package-name>
 </code-group>
 
 :::tip When to Use Global
-In general you should be adding packages locally because anyone else using your project will then get the same packages. If you install a package globally it will be available globally on your operating system, but it won't be available to anyone else using your project. You should only install a package globally if it's for developer tooling that isn't used for only a specific project, e.g., [nodemon](https://nodemon.io/). See the [yarn global](https://classic.yarnpkg.com/en/docs/cli/global) documentation for more details. 
+In general you should be adding packages locally because anyone else using your project will then get the same packages. If you install a package globally it will be available globally on your operating system, but it won't be available to anyone else using your project. You should only install a package globally if it's for developer tooling that isn't used for only a specific project, e.g., [nodemon](https://nodemon.io/). See the [yarn global](https://classic.yarnpkg.com/en/docs/cli/global) documentation for more details.
 :::
 
 Check out the [yarn add](https://classic.yarnpkg.com/en/docs/cli/add) documentation for more information about adding packages.
@@ -549,7 +564,7 @@ yarn upgrade <package-name>"@^1.2.3"
 </code-block>
 </code-group>
 
-The <span class="post-term-one">latest version</span> within the given version range is again determined by the range specifier and the version number. 
+The <span class="post-term-one">latest version</span> within the given version range is again determined by the range specifier and the version number.
 
 In the example above the range specifier is the caret symbol, i.e., <code class="inline-code-block">^</code>. You can again use any desired range specifier, and the package will be upgraded to the <span class="post-term-one">latest version</span> within the given version range.
 
@@ -593,7 +608,7 @@ See the [Types of dependencies](https://classic.yarnpkg.com/en/docs/dependency-t
 
 ### Installing All Project Packages
 
-The following command should be run when checking out code for a new project and when another developer adds or removes a package. 
+The following command should be run when checking out code for a new project and when another developer adds or removes a package.
 
 Run the following command to install all of a project's packages specified in the <code class="inline-code-block">package.json</code> file:
 
@@ -618,6 +633,7 @@ yarn
 After running either one of the commands above, a <code class="inline-code-block">node_modules</code> directory will be created in the current directory which contains all of the code for the installed packages.
 
 Here's how the <code class="inline-code-block">yarn.lock</code> file is used:
+
 - If the <code class="inline-code-block">yarn.lock</code> file is present and if it contains all of the packages speccified in the <code class="inline-code-block">package.json</code> file, then the exact versions specified in the <code class="inline-code-block">yarn.lock</code> file will be installed.
 - If there is no <code class="inline-code-block">yarn.lock</code> file or there is one that doesn't contain all of the packages in the <code class="inline-code-block">package.json</code> file, then the newest versions within the version ranges specified in the <code class="inline-code-block">package.json</code> file will be installed. This will then update the <code class="inline-code-block">yarn.lock</code> file.
 
@@ -635,15 +651,15 @@ For more information about installing all the packages in a project check out th
 
 ### Running Scripts
 
-To run a script you need to first add a <code class="inline-code-block">scripts</code> object to your <code class="inline-code-block">package.json</code> file. Then you can add each script as a key-value pair where the key is the name of the script you want to run, and the value is a command that gets run in your shell.  
+To run a script you need to first add a <code class="inline-code-block">scripts</code> object to your <code class="inline-code-block">package.json</code> file. Then you can add each script as a key-value pair where the key is the name of the script you want to run, and the value is a command that gets run in your shell.
 
 <code-group>
 <code-block title="Scripts Object in package.json">
 ```json
-  "scripts": {
-    "test": "test-script",
-    "build": "build-script"
-  }
+"scripts": {
+  "test": "test-script",
+  "build": "build-script"
+}
 ```
 </code-block>
 </code-group>
@@ -671,7 +687,7 @@ yarn [script-name]
 </code-group>
 
 ::: tip Potential Shorthand Issue
-Built-in CLI commands will have preference over your scripts if they share the same name. To avoid running a built-in CLI command you can always include the <code class="inline-code-block">run</code> subcommand when running your scripts. 
+Built-in CLI commands will have preference over your scripts if they share the same name. To avoid running a built-in CLI command you can always include the <code class="inline-code-block">run</code> subcommand when running your scripts.
 :::
 
 It's also possible to list all of the scripts available to run in your project by running the following:

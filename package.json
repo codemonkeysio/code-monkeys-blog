@@ -2,9 +2,10 @@
   "name": "code-monkeys-blog",
   "version": "1.0.0",
   "description": "Learn How to Code Like a Monkey by Checking Out the Code Monkeys Blog Theme!!!",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codemonkeysio/code-monkeys-blog"
+    "url": "https://github.com/codemonkeysio/code-monkeys-blog.git"
   },
   "author": {
     "name": "Jay the Code Monkey",
