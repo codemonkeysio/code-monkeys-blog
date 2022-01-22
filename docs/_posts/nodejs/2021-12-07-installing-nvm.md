@@ -51,7 +51,6 @@ meta:
 
 :::
 
-
 ## Why use a Node Version Manager?
 
 A Node version manager allows you to <span class="post-term-one">easily install and switch</span> between numerous versions of [Node.js](https://nodejs.org/en/). This is useful when a project you’re working on requires a different version of [Node.js](https://nodejs.org/en/) than what you currently have installed.
@@ -130,12 +129,14 @@ brew install wget
 </code-block>
 </code-group>
 
-If you're using OS X 10.9 or newer, you'll need to install [Xcode](https://developer.apple.com/xcode/whats-new/) or just the <code class="inline-code-block">Command Line Tools</code>. 
+If you're using OS X 10.9 or newer, you'll need to install [Xcode](https://developer.apple.com/xcode/whats-new/) or just the <code class="inline-code-block">Command Line Tools</code>.
 
 Here's a good post explaining how to install [Xcode](https://developer.apple.com/xcode/whats-new/):
+
 - <span class="external-link-wrap">[How to Download Xcode and Install it on Your Mac – and Update it for iOS Development](https://www.freecodecamp.org/news/how-to-download-and-install-xcode/)</span>
 
 If you don't want to install [Xcode](https://developer.apple.com/xcode/whats-new/), then you can install only the <code class="inline-code-block">Command Line Tools</code> by following along with this post:
+
 - <span class="external-link-wrap">[How to Install Command Line Tools in OS X Mavericks & Yosemite (Without Xcode)](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)</span>
 
 ### System Version
@@ -159,6 +160,7 @@ My preferred way to manage my node versions is with [fnm](https://github.com/Sch
 :::
 
 ### Install and Update Script
+
 After installing the necessary dependencies, you can install or update [nvm](https://github.com/nvm-sh/nvm) by using <code class="inline-code-block">curl</code> or <code class="inline-code-block">wget</code> on Linux or macOS:
 
 <code-group>
@@ -243,7 +245,7 @@ source ~/.zshrc
 </code-block>
 </code-group>
 
-After running the command for your shell, try verifying the installation again. 
+After running the command for your shell, try verifying the installation again.
 
 If you're still experiencing issues verifying your installtion for Linux, then check out [Troubleshooting on Linux](https://github.com/nvm-sh/nvm#troubleshooting-on-linux).
 
@@ -252,7 +254,7 @@ For macOS check out [Troubleshooting on macOS](https://github.com/nvm-sh/nvm#tro
 For more general issues check out the [Problems](https://github.com/nvm-sh/nvm#problems) section.
 
 :::tip Other Installation Methods
-Instead of using the script above, you can also perform a [git install](https://github.com/nvm-sh/nvm#git-install) or a [manual install](https://github.com/nvm-sh/nvm#manual-install) as well as a [manaul upgrade](https://github.com/nvm-sh/nvm#manual-upgrade). The minimum required [git](https://git-scm.com/) version for the installation methods is v1.7.10. 
+Instead of using the script above, you can also perform a [git install](https://github.com/nvm-sh/nvm#git-install) or a [manual install](https://github.com/nvm-sh/nvm#manual-install) as well as a [manaul upgrade](https://github.com/nvm-sh/nvm#manual-upgrade). The minimum required [git](https://git-scm.com/) version for the installation methods is v1.7.10.
 :::
 
 ## Usage
@@ -261,7 +263,7 @@ Here are some useful commands to get started with [nvm](https://github.com/nvm-s
 
 ### Check nvm Version
 
-The following command will display the version of [nvm](https://github.com/nvm-sh/nvm): 
+The following command will display the version of [nvm](https://github.com/nvm-sh/nvm):
 
 <code-group>
 <code-block title="Check nvm Version">
@@ -455,7 +457,7 @@ nvm alias nickname 16.11.1
 </code-block>
 </code-group>
 
-The <span class="post-term-one">default version</span> is the active version when opening new shells. The first installed version will get set as the <span class="post-term-one">default version</span>. To change the <span class="post-term-one">default version</span> run the command below. 
+The <span class="post-term-one">default version</span> is the active version when opening new shells. The first installed version will get set as the <span class="post-term-one">default version</span>. To change the <span class="post-term-one">default version</span> run the command below.
 
 Here, we're setting the <span class="post-term-one">default version</span> to be 17.1.0:
 
