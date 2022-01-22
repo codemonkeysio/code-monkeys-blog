@@ -384,7 +384,7 @@ Here's the contents of the <code class="inline-code-block">package.json</code> f
 </code-block>
 </code-group>
 
-We'll be covering the contents of the <code class="inline-code-block">package.json</code> file in a future tutorial. If you're interested in learning more now, then check out the [package.json guide](https://nodejs.dev/learn/the-package-json-guide).
+We'll be covering the contents of the <code class="inline-code-block">package.json</code> file in the next tutorial. If you're interested in learning more now, then check out the [package.json guide](https://nodejs.dev/learn/the-package-json-guide).
 
 2. To see your newly created site, navigate to the <code class="inline-code-block">docs</code> directory:
 
@@ -416,7 +416,7 @@ npm install
 The above command will install the latest version. If you want to install the same version being used in the tutorials and blog, then run <code class="inline-code-block">yarn upgrade vuepress@1.8.2</code>.
 :::
 
-4. Start the local development server:
+4. Start the hot reloading local development server:
 
 <code-group>
 <code-block title="Yarn">
@@ -495,7 +495,6 @@ Here's the contents of the <code class="inline-code-block">package.json</code> f
 
 <code-group>
 <code-block title="package.json">
-
 ```json
 {
   "name": "project-directory",
@@ -507,13 +506,12 @@ Here's the contents of the <code class="inline-code-block">package.json</code> f
   "license": "MIT"
 }
 ```
-
 </code-block>
 </code-group>
 
-We'll be covering the contents of the <code class="inline-code-block">package.json</code> file in a future tutorial. If you're interested in learning more now, then check out the [package.json guide](https://nodejs.dev/learn/the-package-json-guide).
+We'll be covering the contents of the <code class="inline-code-block">package.json</code> file in the next tutorial. If you're interested in learning more now, then check out the [package.json guide](https://nodejs.dev/learn/the-package-json-guide).
 
-1. Install [VuePress](https://vuepress.vuejs.org/):
+3. Install [VuePress](https://vuepress.vuejs.org/):
 
 <code-group>
 <code-block title="Yarn">
@@ -581,7 +579,7 @@ Here's the contents of the <code class="inline-code-block">package.json</code> f
 </code-block>
 </code-group>
 
-1. Start the local development server:
+6. Start the hot reloading local development server:
 
 <code-group>
 <code-block title="Yarn">
@@ -601,4 +599,4 @@ Your site should now be running at [http://localhost:8080/](http://localhost:808
 
 ## Next Steps
 
-In the next tutorial we'll be going over each directory and file in more detail as well as the recommended [directory structure](https://vuepress.vuejs.org/guide/directory-structure.html) for a [VuePress](https://vuepress.vuejs.org/) site.
+In the next tutorial we'll be summarizing our current directory structure as well as going over the recommended [directory structure](https://vuepress.vuejs.org/guide/directory-structure.html) for a [VuePress](https://vuepress.vuejs.org/) site.

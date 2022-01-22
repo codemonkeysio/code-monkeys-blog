@@ -304,6 +304,14 @@ main.page
       @media (max-width: 26.1875rem)
         div[class*="language-"]
           margin: 0
+      .remove-code-group-line-numbers
+        div[class*="language-"].line-numbers-mode
+          pre
+            padding-left: 1.5rem
+          .line-numbers-wrapper
+            display: none
+        div[class*="language-"].line-numbers-mode::after
+          display: none
 
       // codefence
       .codefence
