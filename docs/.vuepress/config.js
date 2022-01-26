@@ -4,7 +4,8 @@ const topicDetails = require('./data/config/blog/topics-page-details');
 module.exports = {
   lang: 'en-US',
   title: 'Code Monkeys',
-  description: 'Learn to Code like a Monkey',
+  description:
+    'Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos, tutorials, blog posts, etc. to help others learn about code and other tech related topics! Start Monkeying Around Today!!! 🐵',
   base: '/',
   head: [
     [

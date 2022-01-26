@@ -194,7 +194,7 @@ Now that we have a good understanding or our current directory structure and the
 
 Here's the recommended directory structure for a [VuePress](https://vuepress.vuejs.org/) site. Many of the directories and files are optional, and we'll be adding the directories and files we need as we go through the development of the site.
 
-Be sure to check out the [directory structure](https://vuepress.vuejs.org/guide/directory-structure.html) documentation if you have any questions.
+Be sure to check out the [Directory Structure](https://vuepress.vuejs.org/guide/directory-structure.html) documentation if you have any questions.
 
 <code-group class="remove-code-group-line-numbers">
 <code-block title="Recommended Directory Structure">
@@ -244,7 +244,7 @@ When creating these directories and files be sure to follow the capitalization t
 
 ## Default Page Routing
 
-In the directory structure above we used the <code class="inline-code-block">docs</code> directory as the <code class="inline-code-block">targetDir</code>. If you want to learn more about how the <code class="inline-code-block">targetDir</code> is used, then take a look at the [command-line Interface](https://vuepress.vuejs.org/api/cli.html) documentation.
+In the directory structure above we used the <code class="inline-code-block">docs</code> directory as the <code class="inline-code-block">targetDir</code>. If you want to learn more about how the <code class="inline-code-block">targetDir</code> is used, then take a look at the [Command-line Interface](https://vuepress.vuejs.org/api/cli.html) documentation.
 
 To see an example of the <code class="inline-code-block">docs</code> directory being used as the <code class="inline-code-block">targetDir</code> we can take a look at the <code class="inline-code-block">scripts</code> object we defined in the <code class="inline-code-block">package.json</code> file which is in the root directory of the project. Notice the <code class="inline-code-block">targetDir</code> gets set as the <code class="inline-code-block">docs</code> directory for the <code class="inline-code-block">docs:dev</code> and <code class="inline-code-block">docs:build</code> scripts:
 
@@ -263,4 +263,4 @@ All the relative paths are relative to the <code class="inline-code-block">docs<
 
 ## Next Steps
 
-In the next tutorial we'll discuss the basics of [configuration](https://vuepress.vuejs.org/guide/basic-config.html), and we'll start taking a look at how to use and customize the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html).
+In the next tutorial we'll discuss the basics of [Configuration](https://vuepress.vuejs.org/guide/basic-config.html).
