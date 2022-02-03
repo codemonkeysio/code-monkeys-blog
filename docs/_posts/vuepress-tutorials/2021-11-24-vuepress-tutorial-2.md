@@ -189,7 +189,7 @@ A theme in [VuePress](https://v1.vuepress.vuejs.org/) allows you to control how 
 
 Within a theme you are able to create directories that handle <span class="post-term-one">global components</span>, <span class="post-term-one">components</span>, <span class="post-term-one">layouts</span>, <span class="post-term-one">styles</span>, and <span class="post-term-one">templates</span>. You can also create files for <span class="post-term-one">theme configurations</span> and <span class="post-term-one">app level enhancements</span>. When writing your own theme the only file that is necessary is Layout.vue, everything else is up to. You can also publish your theme as an [npm](https://www.npmjs.com/) package which allows other people to easily install it.
 
-The [Code Monkeys Blog](/) is currently a child theme inherited from the default theme. Eventually, I would like to look into publishing it as an [npm](https://www.npmjs.com/) pacakage.
+The [Code Monkeys Blog](/) is currently a child theme inherited from the default theme. Eventually, I would like to look into publishing it as an [npm](https://www.npmjs.com/) package.
 
 We'll go over the directory structure, what each directory in a theme is used for, theme configuration, app level enhancement, and [theme inheritance](https://v1.vuepress.vuejs.org/theme/inheritance.html) in future tutorials.
 

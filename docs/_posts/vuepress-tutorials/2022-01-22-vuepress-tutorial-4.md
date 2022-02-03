@@ -65,7 +65,7 @@ Here's the current directory structure of the project:
 .
 ├── .yarn (Optional)
 │   ├── releases
-│       └── yarn-1.22.17.cjs
+│   │   └── yarn-1.22.17.cjs
 ├── docs
 │   └── README.md
 ├── node_modules

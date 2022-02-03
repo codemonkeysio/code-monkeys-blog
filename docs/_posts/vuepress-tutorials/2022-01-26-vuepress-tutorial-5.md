@@ -22,7 +22,7 @@ meta:
   - property: 'og:image:alt'
     content: 'VuePress Tutorial 5 - Configuration Basics Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/posts/2022/01/6/vuepress-tutorial-5/'
+    content: 'https://www.codemonkeys.tech/posts/2022/01/26/vuepress-tutorial-5/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn about the configuration basics for VuePress, then check out VuePress Tutorial 5 - Configuration Basics! 🍌🐒'
   - property: 'og:site_name'
@@ -71,7 +71,7 @@ The directory structure for your site should now look something like this:
 .
 ├── .yarn (Optional)
 │   ├── releases
-│       └── yarn-1.22.17.cjs
+│   │   └── yarn-1.22.17.cjs
 ├── docs
 │   ├── .vuepress
 │   └── README.md
@@ -97,7 +97,7 @@ After adding the <code class="inline-code-block">config.js</code> file, the dire
 .
 ├── .yarn (Optional)
 │   ├── releases
-│       └── yarn-1.22.17.cjs
+│   │   └── yarn-1.22.17.cjs
 ├── docs
 │   ├── .vuepress
 │   │   └── config.js
@@ -164,9 +164,9 @@ You can also inspect the page, go to the Elements tab, open the <code class="inl
 <code-block title="Viewing the Title">
 ```html
 <head>
-...
-<title>Hello VuePress | Code Monkeys</title>
-...
+  ...
+  <title>Hello VuePress | Code Monkeys</title>
+  ...
 </head>
 ```
 </code-block>
@@ -202,9 +202,9 @@ After adding the <code class="inline-code-block">description</code> and saving t
 <code-block title="Viewing the Description">
 ```html
 <head>
-...
-<meta name="description" content="Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos, tutorials, blog posts, etc. to help others learn about code and other tech related topics! Start Monkeying Around Today!!! 🐵">
-...
+  ...
+  <meta name="description" content="Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos, tutorials, blog posts, etc. to help others learn about code and other tech related topics! Start Monkeying Around Today!!! 🐵">
+  ...
 </head>
 ```
 </code-block>
@@ -256,9 +256,9 @@ After adding the <code class="inline-code-block">author</code> and saving the fi
 <code-block title="Viewing the Author">
 ```html
 <head>
-...
-<meta name="author" content="Jay the Code Monkey">
-...
+  ...
+  <meta name="author" content="Jay the Code Monkey">
+  ...
 </head>
 ```
 </code-block>
@@ -295,4 +295,4 @@ Be sure to substitute the values with the preferred values for your site.
 
 ## Next Steps
 
-In the next tutorial we'll discuss the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html) in more detail, specifically the homepage layout and the navbar.
+In the next tutorial we'll discuss the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html) in more detail, specifically the homepage layout.
