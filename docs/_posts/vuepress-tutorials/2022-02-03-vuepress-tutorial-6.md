@@ -514,7 +514,7 @@ Here's the HTML with the action button highlighted:
 </code-group>
 
 ::: tip 404 When Clicking the Action Button
-If you click the action button, it will show the 404 layout because we haven't set up the route to <code class="inline-code-block">/topics/</code>. In the next tutorial we'll be configuring the navbar which will fix this issue.
+If you click the action button, it will show the 404 layout because we haven't set up the route to <code class="inline-code-block">/topics/</code>. In a future tutorial we'll create the <code class="inline-code-block">Topics</code> page which will fix this issue.
 :::
 
 ### Adding Features
