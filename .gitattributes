@@ -1,2 +1,2 @@
-.yarn/releases/*.js linguist-vendored
+.yarn/releases/*.cjs linguist-vendored
 .yarn/plugins/*.js linguist-vendored
