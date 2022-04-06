@@ -41,7 +41,6 @@
         <Content class="theme-default-content custom" />
       </div>
     </div>
-    <Footer />
   </main>
 </template>
 

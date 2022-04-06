@@ -621,7 +621,7 @@ footer: Your Site's License | Copyright © 2022-present Your Name
 </code-block>
 </code-group>
 
-We're not going to be adding a footer using the frontmatter in the homepage for the site. Instead we're going to be creating a Footer component in a future tutuorial that sticks to the bottom of the page.
+We're not going to be adding a footer using the frontmatter in the homepage for the site. Instead we're going to be creating a Footer component in a future tutorial that sticks to the bottom of the page.
 
 If you do decide to add a footer using the frontmatter in the homepage, then the HTML will look like this:
 

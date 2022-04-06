@@ -19,7 +19,6 @@
 
       <slot name="bottom" />
     </div>
-    <Footer />
   </main>
 </template>
 

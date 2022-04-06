@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer" :class="checkSidebarAuto">
+  <footer v-if="$page.path" class="footer" :class="checkSidebarAuto">
     <div class="icons">
       <div class="no-wrap-icons">
         <a
@@ -93,6 +93,33 @@ export default {
   .made-by
     text-align: center
     margin: 0
+.is-sidebar-active
+  padding-left: 22.5rem
+
+@media (max-width: $MQNarrow)
+  .is-sidebar-active
+    padding-left: 18.9rem
+
+@media (max-width: $MQMobile)
+  .is-sidebar-active
+    padding-left: 2.5rem
+
+@media (min-width: 53.1875rem) and (max-width: 62.8125rem)
+  .is-sidebar-active
+    .icons
+      flex-wrap: wrap
+      .no-wrap-icons
+        width: 100%
+        justify-content: space-between
+      .wrap-icons
+        padding-top: 1.75rem
+        width: 100%
+        justify-content: space-evenly
+        a:nth-child(1)
+          margin-left: 0
+          rfs-margin-right(4.6875rem)
+        a:nth-child(2)
+          margin-left: 0
 
 @media (max-width: 32.1875rem)
   .icons
@@ -109,21 +136,4 @@ export default {
         rfs-margin-right(4.6875rem)
       a:nth-child(2)
         margin-left: 0
-
-@media (min-width: 53.1875rem) and (max-width: 62.8125rem)
-  .is-sidebar-active
-      .icons
-        flex-wrap: wrap
-        .no-wrap-icons
-          width: 100%
-          justify-content: space-between
-        .wrap-icons
-          padding-top: 1.75rem
-          width: 100%
-          justify-content: space-evenly
-          a:nth-child(1)
-            margin-left: 0
-            rfs-margin-right(4.6875rem)
-          a:nth-child(2)
-            margin-left: 0
 </style>
