@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: codemonkeys.tech
+Token: 5990c6a1c4b454a13b50190dd61757186088106a9ee0de0fc4b2eaf1c91d8b36
