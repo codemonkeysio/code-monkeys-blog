@@ -74,7 +74,7 @@ export default {
     border-radius: 1.875rem
     margin-top: 3.5rem
     padding: 0 2rem
-    background-image: radial-gradient(circle at center center, #2c303a, #1f2229)
+    background-image: radial-gradient(circle at center center, #2c303a, $backgroundColor)
     cursor: pointer
     .title-and-summary
       flex: 8.5

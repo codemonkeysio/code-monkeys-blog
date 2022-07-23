@@ -53,7 +53,7 @@ h2
   box-shadow: 0 0.5rem 1rem 0 #16181d
   transition: 0.2s
   border-radius: 1.875rem
-  background-image: radial-gradient(circle at center center, #2c303a, #1f2229)
+  background-image: radial-gradient(circle at center center, #2c303a, $backgroundColor)
 
 .topic-card:hover
   box-shadow: 0.125rem 0.5rem 1rem 0.125rem #0b0c0f
