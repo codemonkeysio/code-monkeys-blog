@@ -115,11 +115,11 @@ export default {
           .vssue-new-comment-input
             margin-left: 0.75rem
             border: 0.125rem solid #16181d
-            background-image: radial-gradient(circle at center center, #2c303a, #21242c)
+            background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColorTwo)
             rfs-font-size(1.25rem)
             color: $textColor
           .vssue-new-comment-input:disabled
-            color: #aaaaaa
+            color: $disabledColor
           .vssue-new-comment-input:enabled::placeholder
             color: $textColor
           .vssue-new-comment-input:enabled:hover
@@ -139,7 +139,7 @@ export default {
             text-align: left
             float: none
             .vssue-logout
-              color: #aaaaaa
+              color: $disabledColor
               text-decoration: none
               font-weight: 500
             .vssue-logout:hover
@@ -151,12 +151,12 @@ export default {
               border: 0.125rem solid #16181d
               color: $textColor
               font-weight: 500
-              background-color: #21242c
+              background-color: $backgroundColorTwo
             .vssue-button:hover
-              background-image: radial-gradient(circle at center center, #2c303a, #21242c)
+              background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColorTwo)
               color: $accentColor
             .vssue-button:disabled
-              color: #aaaaaa
+              color: $disabledColor
             .vssue-button:disabled:hover
               background-image: none
       .vssue-status
@@ -172,7 +172,7 @@ export default {
           rfs-font-size(1.25rem)
           text-align: center
           border-color: #16181d
-          background-image: radial-gradient(circle at center center, #2c303a, #21242c)
+          background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColorTwo)
           box-shadow: 0 0.25rem 0.25rem 0 #16181d
       .vssue-comments
         .vssue-pagination
@@ -191,9 +191,9 @@ export default {
             -moz-appearance: none
             -webkit-appearance: none
             appearance: none
-            background-color: #21242c
+            background-color: $backgroundColorTwo
             background-image: url("../../../icons/arrowDown.svg"),
-              linear-gradient(180deg, #373c49, #21242c)
+              linear-gradient(180deg, $backgroundColorFour, $backgroundColorTwo)
             background-repeat: no-repeat
             background-position: right 0.35em top 60%, 0 0
             background-size: 0.7em auto, 100%

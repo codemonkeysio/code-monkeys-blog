@@ -99,7 +99,7 @@ export default {
       cursor: pointer
       transition: 0.3s ease
     button:hover
-      background-image: radial-gradient(circle at center center, #2c303a, #21242c)
+      background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColorTwo)
       color: $accentColor
 
 @media (max-width: 26.3125rem)

@@ -123,7 +123,7 @@ export default {
     border-radius: 1.875rem
     box-shadow: 0 0.5rem 1rem 0 #16181d
     transition: 0.2s
-    background-image: radial-gradient(circle at center center, #2c303a, $backgroundColor)
+    background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColor)
     cursor: pointer
     .post-title-and-summary
       flex: 8.5
