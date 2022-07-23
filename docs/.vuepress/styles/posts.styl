@@ -64,7 +64,7 @@ main.page
 
       // codefence
       .codefence
-        color: #e6e6e6
+        color: $textColor
         margin-top: 2rem
         margin-bottom: 0
         border: 0.0625rem solid #0b0c0e
@@ -81,7 +81,7 @@ main.page
           width: 0.85em
           height: 0.605em
         .CodeMirror
-          background-color: #282c34
+          background-color: $codeBackgroundColor
           .CodeMirror-lines
             padding: 0.5rem 0
             .CodeMirror-linenumber
@@ -105,19 +105,19 @@ main.page
               .cm-comment
                 color: #999
               .cm-variable
-                color: #e6e6e6
+                color: $textColor
               .cm-string
                 color: #7ec699
               .cm-atom
                 color: #9898cd
           .CodeMirror-gutters
-            background-color: #282c34
+            background-color: $codeBackgroundColor
         .compiler
           background-color: #21252b
           rfs-font-size(1.625rem)
           code
             rfs-font-size(1.25rem)
-            color: #e6e6e6
+            color: $textColor
           .idle
             border-top: 0.125rem solid #373d48
             font-size: 0.85em

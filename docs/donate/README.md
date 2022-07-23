@@ -45,7 +45,7 @@ h1
   padding-bottom: 5rem
 
 h2
-  color: #eb7132
+  color: $accentColor
   margin: 1.875rem 0
 
 .topic-card

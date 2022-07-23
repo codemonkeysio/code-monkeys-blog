@@ -80,7 +80,7 @@ export default {
     .address-wrapper
       display: flex
       flex: 7.75
-      color: #e6e6e6
+      color: $textColor 
       border: 0.125rem solid #16181d
       user-select: none
       .left-address
@@ -93,14 +93,14 @@ export default {
         flex-shrink: 0
     button
       flex: 1
-      color: #e6e6e6
+      color: $textColor 
       background-color: inherit
       border: 0.125rem solid #16181d
       cursor: pointer
       transition: 0.3s ease
     button:hover
       background-image: radial-gradient(circle at center center, #2c303a, #21242c)
-      color: #eb7132
+      color: $accentColor
 
 @media (max-width: 26.3125rem)
   .cryptos-wrapper

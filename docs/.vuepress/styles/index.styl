@@ -87,9 +87,9 @@ html
             color: inherit
             &.router-link-active::after
               border-left: 0
-            &.router-link-exact-active
+            &.router-link-active
               color: $accentColor
-            &.router-link-exact-active::after
+            &.router-link-active::after
               border-left: 0.3125rem solid $accentColor
           h4
             rfs-font-size(1.25rem)
@@ -134,7 +134,7 @@ html
               border-bottom: 0
             .dropdown-title
               rfs-font-size(1.25rem)
-          .nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-exact-active
+          .nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active
             border-bottom: 0.125rem solid #ed7c42
     .sidebar
       background-image: linear-gradient(90deg, #21242c, #1f2229)
@@ -145,7 +145,7 @@ html
           margin-top: 1.15rem
           a
             color: inherit
-            &:hover, &.router-link-exact-active
+            &:hover, &.router-link-active
               color: $accentColor
         .nav-item
           .nav-link
@@ -157,9 +157,9 @@ html
               color: inherit
               &.router-link-active::after
                 border-left: 0
-              &.router-link-exact-active
+              &.router-link-active
                 color: $accentColor
-              &.router-link-exact-active::after
+              &.router-link-active::after
                 border-left: 0.3125rem solid $accentColor
             a
               rfs-font-size(1.15625rem)

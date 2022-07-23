@@ -117,11 +117,11 @@ export default {
             border: 0.125rem solid #16181d
             background-image: radial-gradient(circle at center center, #2c303a, #21242c)
             rfs-font-size(1.25rem)
-            color: #e6e6e6
+            color: $textColor
           .vssue-new-comment-input:disabled
             color: #aaaaaa
           .vssue-new-comment-input:enabled::placeholder
-            color: #e6e6e6
+            color: $textColor
           .vssue-new-comment-input:enabled:hover
             box-shadow: 0 0.25rem 0.25rem 0 #16181d
           .vssue-new-comment-input:focus
@@ -149,12 +149,12 @@ export default {
             .vssue-button
               transition: 0.3s ease
               border: 0.125rem solid #16181d
-              color: #e6e6e6
+              color: $textColor
               font-weight: 500
               background-color: #21242c
             .vssue-button:hover
               background-image: radial-gradient(circle at center center, #2c303a, #21242c)
-              color: #eb7132
+              color: $accentColor
             .vssue-button:disabled
               color: #aaaaaa
             .vssue-button:disabled:hover
@@ -176,13 +176,13 @@ export default {
           box-shadow: 0 0.25rem 0.25rem 0 #16181d
       .vssue-comments
         .vssue-pagination
-          color: #e6e6e6
+          color: $textColor
           padding: 0
           margin-top: 1rem
           .vssue-pagination-select
             rfs-font-size(1.0625rem)
             font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
-            color: #e6e6e6
+            color: $textColor
             padding: 0.3125rem 1.5rem 0rem 0.3125rem
             width: auto
             margin: 0
@@ -224,11 +224,11 @@ export default {
             .vssue-comment-header
               border-width: 0.125rem
               .vssue-comment-created-at
-                color: #e6e6e6
+                color: $textColor
             .vssue-comment-main
               border-width: 0.125rem
               .markdown-body
-                color: #e6e6e6
+                color: $textColor
                 blockquote
                   border-color: #586074
                   color: #8b93a7
@@ -242,14 +242,14 @@ export default {
               .vssue-edit-comment-input
                 font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
                 rfs-font-size(1.25rem)
-                color: #e6e6e6
+                color: $textColor
                 padding: 0
             .vssue-comment-footer
               .vssue-comment-hint
-                color: #e6e6e6
+                color: $textColor
               .vssue-comment-operations
                 span[title="Cancel"]
-                  color: #e6e6e6
+                  color: $textColor
                 .vssue-comment-operation-muted
                   .vssue-icon
                     fill: $accentColor
