@@ -47,7 +47,7 @@ export default {
   display: flex
   flex-wrap: wrap
   font-style: italic
-  color: #748E54
+  color: #748e54
   margin-top: 0.625rem
   .author
     rfs-font-size(1.125rem)

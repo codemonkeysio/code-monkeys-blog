@@ -80,8 +80,8 @@ export default {
     .address-wrapper
       display: flex
       flex: 7.75
-      color: $textColor 
-      border: 0.125rem solid #16181d
+      color: $textColor
+      border: 0.125rem solid $darkBorderColor
       user-select: none
       .left-address
         align-self: center
@@ -93,9 +93,9 @@ export default {
         flex-shrink: 0
     button
       flex: 1
-      color: $textColor 
+      color: $textColor
       background-color: inherit
-      border: 0.125rem solid #16181d
+      border: 0.125rem solid $darkBorderColor
       cursor: pointer
       transition: 0.3s ease
     button:hover

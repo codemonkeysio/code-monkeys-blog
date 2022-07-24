@@ -119,9 +119,9 @@ export default {
     align-items: center
     margin-top: 3.5rem
     padding: 0 2rem
-    border: 0.125rem solid #16181d
+    border: 0.125rem solid $darkBorderColor
     border-radius: 1.875rem
-    box-shadow: 0 0.5rem 1rem 0 #16181d
+    box-shadow: 0 0.5rem 1rem 0 $darkBorderColor
     transition: 0.2s
     background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColor)
     cursor: pointer
@@ -146,7 +146,7 @@ export default {
       padding-bottom: 1.125rem
       transition: transform 0.2s;
   .post-card:hover
-    box-shadow: 0.125rem 0.5rem 1rem 0.125rem #0b0c0f
+    box-shadow: 0.125rem 0.5rem 1rem 0.125rem $darkBoxShadowColor
     .post-pic
       transform: scale(1.1);
 

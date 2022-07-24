@@ -114,7 +114,7 @@ export default {
           margin-bottom: 0.375rem
           .vssue-new-comment-input
             margin-left: 0.75rem
-            border: 0.125rem solid #16181d
+            border: 0.125rem solid $darkBorderColor
             background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColorTwo)
             rfs-font-size(1.25rem)
             color: $textColor
@@ -123,9 +123,9 @@ export default {
           .vssue-new-comment-input:enabled::placeholder
             color: $textColor
           .vssue-new-comment-input:enabled:hover
-            box-shadow: 0 0.25rem 0.25rem 0 #16181d
+            box-shadow: 0 0.25rem 0.25rem 0 $darkBorderColor
           .vssue-new-comment-input:focus
-            box-shadow: 0 0.25rem 0.25rem 0 #16181d
+            box-shadow: 0 0.25rem 0.25rem 0 $darkBorderColor
         .vssue-new-comment-footer
           display: flex
           justify-content: center
@@ -148,7 +148,7 @@ export default {
             margin-top: 0.5rem
             .vssue-button
               transition: 0.3s ease
-              border: 0.125rem solid #16181d
+              border: 0.125rem solid $darkBorderColor
               color: $textColor
               font-weight: 500
               background-color: $backgroundColorTwo
@@ -171,9 +171,9 @@ export default {
         .vssue-alert
           rfs-font-size(1.25rem)
           text-align: center
-          border-color: #16181d
+          border-color: $darkBorderColor
           background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColorTwo)
-          box-shadow: 0 0.25rem 0.25rem 0 #16181d
+          box-shadow: 0 0.25rem 0.25rem 0 $darkBorderColor
       .vssue-comments
         .vssue-pagination
           color: $textColor
@@ -186,7 +186,7 @@ export default {
             padding: 0.3125rem 1.5rem 0rem 0.3125rem
             width: auto
             margin: 0
-            border: 0.125rem solid #16181d
+            border: 0.125rem solid $darkBorderColor
             border-radius: 0.3125rem
             -moz-appearance: none
             -webkit-appearance: none
@@ -200,9 +200,9 @@ export default {
           .vssue-pagination-select::-ms-expand
             display: none
           .vssue-pagination-select:hover
-            box-shadow: 0 0 0.125rem 0.125rem #16181d
+            box-shadow: 0 0 0.125rem 0.125rem $darkBorderColor
           .vssue-pagination-select:focus
-            box-shadow: 0 0 0.125rem 0.125rem #16181d
+            box-shadow: 0 0 0.125rem 0.125rem $darkBorderColor
             outline: none
           .vssue-pagination-select:disabled
             box-shadow: none

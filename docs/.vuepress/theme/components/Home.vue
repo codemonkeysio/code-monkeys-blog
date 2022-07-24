@@ -90,7 +90,7 @@ export default {
       color: lighten($textColor, 40%)
     .action-button
       display: inline-block
-      color: #fff
+      color: $textColorTwo
       background-color: $accentColor
       padding: 0.8rem 1.6rem
       border-radius: 0.25rem
