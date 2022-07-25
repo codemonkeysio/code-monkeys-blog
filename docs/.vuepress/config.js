@@ -3,11 +3,25 @@ const topicDetails = require('./data/config/blog/topics-page-details');
 
 module.exports = {
   lang: 'en-US',
+  base: '/',
   title: 'Code Monkeys',
   description:
-    'Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos, tutorials, blog posts, etc. to help others learn about code and other tech related topics! Start Monkeying Around Today!!! 🐵',
-  base: '/',
+    'Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos and tutorials to help others learn about code and other tech related topics! Start Monkeying Around Today!!! 🐵',
   head: [
+    [
+      'meta',
+      {
+        name: 'charset',
+        content: 'utf-8'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1.0'
+      }
+    ],
     [
       'meta',
       {
@@ -373,8 +387,9 @@ module.exports = {
             id: 'post',
             dirname: '_posts',
             path: '/posts/',
-            itemPermalink: '/posts/:year/:month/:day/:slug',
+            title: 'All Posts',
             layout: 'IndexPost',
+            itemPermalink: '/posts/:year/:month/:day/:slug',
             pagination: {
               lengthPerPage: 5, // 5 is the default value
               layout: 'IndexPost' // layout for the index page when page != 1
@@ -389,15 +404,15 @@ module.exports = {
             keys: ['topic'],
             // Path of the `entry page` (or `list page`)
             path: '/topics/',
+            title: 'Topics',
             // Layout of the `entry page` (list of tags)
             layout: 'Topics',
+            // Layout of the `scope page` (list of posts with this tag)
+            scopeLayout: 'IndexPost',
             frontmatter: {
-              title: 'Topics',
               description: 'Start learning & coding',
               topicDetails: topicDetails.topicsPageDetails
             },
-            // Layout of the `scope page` (list of posts with this tag)
-            scopeLayout: 'IndexPost',
             pagination: {
               lengthPerPage: 5,
               layout: 'IndexPost'
