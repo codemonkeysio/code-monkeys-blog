@@ -50,7 +50,7 @@
           <div class="post-pic">
             <v-lazy-image
               :src="$withBase(`/images/${post.frontmatter.img}`)"
-              alt="Post Pic"
+              :alt="post.frontmatter.altText || 'Post Picture'"
             />
           </div>
         </div>

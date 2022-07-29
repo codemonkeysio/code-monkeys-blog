@@ -5,7 +5,8 @@ date: 2021-12-07T22:01:15.000Z
 topic: Node.js
 description: Hey fellow Code Monkeys!!! 🐵 Want to be able to easily install and switch between Node versions, then check out Installing Node Version Manager (nvm)! 🍌🐒
 cardDescription: A Node version manager allows you to easily install and switch between numerous versions of Node.js. This is useful...
-img: nodejs/01-installing-nvm/post.png
+img: nodejs/01-installing-nvm/nodejs-installing-nvm-post.png
+altText: Node.js Installing nvm Post Picture
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -15,7 +16,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/nodejs/01-installing-nvm/link-post.png'
+    content: 'https://codemonkeys.tech/images/nodejs/01-installing-nvm/nodejs-installing-nvm-post-link.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -39,7 +40,7 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/nodejs/01-installing-nvm/link-post.png'
+    content: 'https://codemonkeys.tech/images/nodejs/01-installing-nvm/nodejs-installing-nvm-post-link.png'
   - name: 'twitter:image:alt'
     content: 'Installing Node Version Manager (nvm) Image'
   - name: 'twitter:creator'

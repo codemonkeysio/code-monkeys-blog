@@ -5,7 +5,8 @@ date: 2021-08-11T15:35:00.000Z
 topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Reverse String! 🍌🐒
 cardDescription: Write a function that reverses a string. The input string is given as an array of characters. Ex) 1 Input...
-img: leetcode/07-reverse-string/post.png
+img: leetcode/07-reverse-string/leetcode-reverse-string-post.png
+altText: LeetCode Reverse String Post Picture
 videoURL: 'https://www.youtube-nocookie.com/embed/Ue3XmMvLwsY'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
@@ -16,7 +17,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/leetcode/07-reverse-string/link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/07-reverse-string/leetcode-reverse-string-post-link.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -40,7 +41,7 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/leetcode/07-reverse-string/link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/07-reverse-string/leetcode-reverse-string-post-link.png'
   - name: 'twitter:image:alt'
     content: 'LeetCode - Reverse String Solution Image'
   - name: 'twitter:creator'

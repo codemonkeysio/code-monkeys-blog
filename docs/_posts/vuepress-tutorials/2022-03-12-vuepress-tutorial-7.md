@@ -5,7 +5,8 @@ date: 2022-03-12T17:46:45.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to configure the navbar for VuePress, then check out VuePress Tutorial 7 - Navbar Logo and Links! 🍌🐒
 cardDescription: In this tutorial we'll be discussing how to configure the navbar by using the options exposed by the default theme...
-img: vuepress-tutorials/tutorial-7/post.png
+img: vuepress-tutorials/tutorial-7/vuepress-tutorial-7-navbar-logo-and-links-post.png
+altText: VuePress Tutorial 7 Navbar Logo and Links Post Picture
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -15,7 +16,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-7/link-post.png'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-7/vuepress-tutorial-7-navbar-logo-and-links-post-link.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -39,7 +40,7 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-7/link-post.png'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-7/vuepress-tutorial-7-navbar-logo-and-links-post-link.png'
   - name: 'twitter:image:alt'
     content: 'VuePress Tutorial 7 - Navbar Logo and Links Image'
   - name: 'twitter:creator'
@@ -108,8 +109,8 @@ Here's the Code Monkeys face logo:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/code-monkeys-logos/face.png')"
-      alt="Code Monkeys Face Logo"
+      :src="$withBase('/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo.png')"
+      alt="Code Monkeys Head and Shoulders Logo"
   />
 </div>
 

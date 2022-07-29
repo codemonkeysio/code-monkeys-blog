@@ -7,7 +7,7 @@
         v-if="$site.themeConfig.logo"
         class="logo"
         :src="$withBase($site.themeConfig.logo)"
-        :alt="$siteTitle"
+        :alt="`${$siteTitle} Head and Shoulders Logo`"
       />
       <span
         v-if="$siteTitle"

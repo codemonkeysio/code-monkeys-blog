@@ -5,7 +5,8 @@ date: 2021-11-24T20:50:30.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Wondering if you should use VuePress, then check out VuePress Tutorial 2 - Why Use VuePress? 🍌🐒
 cardDescription: VuePress is a minimalistic static site generator (SSG) with a Vue-powered theming system and Plugin API. Originally...
-img: vuepress-tutorials/tutorial-2/post.png
+img: vuepress-tutorials/tutorial-2/vuepress-tutorial-2-why-use-vuepress-post.png
+altText: VuePress Tutorial 2 Why Use VuePress Post Picture
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -15,7 +16,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-2/link-post.png'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-2/vuepress-tutorial-2-why-use-vuepress-post-link.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -39,7 +40,7 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-2/link-post.png'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-2/vuepress-tutorial-2-why-use-vuepress-post-link.png'
   - name: 'twitter:image:alt'
     content: 'VuePress Tutorial 2 - Why Use VuePress? Image'
   - name: 'twitter:creator'
@@ -79,7 +80,7 @@ Here's a simple diagram illustrating the process:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/vuepress-tutorials/tutorial-2/static-website.png')"
+      :src="$withBase('/images/vuepress-tutorials/tutorial-2/static-website-diagram.png')"
       alt="Static Website Diagram"
   />
 </div>
@@ -104,8 +105,8 @@ Simple diagram illustrating the process:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/vuepress-tutorials/tutorial-2/spa.png')"
-      alt="SPA Website Diagram"
+      :src="$withBase('/images/vuepress-tutorials/tutorial-2/single-page-application-diagram.png')"
+      alt="Single Page Application Diagram"
   />
 </div>
 
@@ -128,8 +129,8 @@ Simple diagram illustrating the process:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/vuepress-tutorials/tutorial-2/ssr.png')"
-      alt="Static Website Diagram"
+      :src="$withBase('/images/vuepress-tutorials/tutorial-2/server-side-rendered-diagram.png')"
+      alt="Server-Side Rendered Diagram"
   />
 </div>
 
@@ -152,8 +153,8 @@ Simple diagram illustrating the process:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/vuepress-tutorials/tutorial-2/ssg.png')"
-      alt="Static Website Diagram"
+      :src="$withBase('/images/vuepress-tutorials/tutorial-2/static-site-generator-diagram.png')"
+      alt="Static Site Generator Diagram"
   />
 </div>
 

@@ -5,7 +5,8 @@ date: 2022-01-22T16:55:00.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to structure your VuePress site, then check out VuePress Tutorial 4 - Directory Structure! 🍌🐒
 cardDescription: We're going to start with an overview of the current directory structure from the previous tutorial. Then we'll describe the...
-img: vuepress-tutorials/tutorial-4/post.png
+img: vuepress-tutorials/tutorial-4/vuepress-tutorial-4-directory-structure-post.png
+altText: VuePress Tutorial 4 Directory Structure Post Picture
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -15,7 +16,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-4/link-post.png'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-4/vuepress-tutorial-4-directory-structure-post-link.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -39,7 +40,7 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-4/link-post.png'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-4/vuepress-tutorial-4-directory-structure-post-link.png'
   - name: 'twitter:image:alt'
     content: 'VuePress Tutorial 4 - Directory Structure Image'
   - name: 'twitter:creator'

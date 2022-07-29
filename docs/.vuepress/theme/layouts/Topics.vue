@@ -32,7 +32,7 @@
           <div class="logo">
             <v-lazy-image
               :src="$withBase(`/images/${topicDetails[index].logo}`)"
-              alt="Logo"
+              :alt="topicDetails[index].altText"
             />
           </div>
         </div>

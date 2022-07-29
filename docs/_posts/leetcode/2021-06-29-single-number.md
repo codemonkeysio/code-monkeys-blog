@@ -5,7 +5,8 @@ date: 2021-06-29T17:23:42.000Z
 topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Single Number! 🍌🐒
 cardDescription: Given a non-empty array of integers nums, every element appears twice excepet for one. Find that single...
-img: leetcode/01-single-number/post.png
+img: leetcode/01-single-number/leetcode-single-number-post.png
+altText: LeetCode Single Number Post Picture
 videoURL: 'https://www.youtube-nocookie.com/embed/K6TuMWpnmqQ'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
@@ -16,7 +17,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/leetcode/01-single-number/link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/01-single-number/leetcode-single-number-post-link.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -40,7 +41,7 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/leetcode/01-single-number/link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/01-single-number/leetcode-single-number-post-link.png'
   - name: 'twitter:image:alt'
     content: 'LeetCode - Single Number Solution Image'
   - name: 'twitter:creator'

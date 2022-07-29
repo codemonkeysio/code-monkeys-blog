@@ -5,7 +5,8 @@ date: 2021-07-01T15:45:32.000Z
 topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the second Solution & Notes for the LeetCode problem Climbing Stairs! 🍌🐒
 cardDescription: You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps...
-img: leetcode/03-climbing-stairs-solution-2/post.png
+img: leetcode/03-climbing-stairs-solution-2/leetcode-climbing-stairs-solution-2-post.png
+altText: LeetCode Climbing Stairs Solution 2 Post Picture
 videoURL: 'https://www.youtube-nocookie.com/embed/_dhZdGNFV-g'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
@@ -16,7 +17,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/leetcode/03-climbing-stairs-solution-2/link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/03-climbing-stairs-solution-2/leetcode-climbing-stairs-solution-2-post-link.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -40,7 +41,7 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/leetcode/03-climbing-stairs-solution-2/link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/03-climbing-stairs-solution-2/leetcode-climbing-stairs-solution-2-post-link.png'
   - name: 'twitter:image:alt'
     content: 'LeetCode - Climbing Stairs Solution 2 Image'
   - name: 'twitter:creator'

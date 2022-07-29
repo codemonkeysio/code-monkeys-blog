@@ -5,7 +5,8 @@ date: 2022-02-03T05:06:00.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn about the default theme homepage layout for VuePress, then check out VuePress Tutorial 6 - Homepage Layout! 🍌🐒
 cardDescription: In this tutorial we'll be discussing how to configure the homepage layout by using the options exposed by the default theme...
-img: vuepress-tutorials/tutorial-6/post.png
+img: vuepress-tutorials/tutorial-6/vuepress-tutorial-6-homepage-layout-post.png
+altText: VuePress Tutorial 6 Homepage Layout Post Picture
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -15,7 +16,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-6/link-post.png'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-6/vuepress-tutorial-6-homepage-layout-post-link.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -39,7 +40,7 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-6/link-post.png'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-6/vuepress-tutorial-6-homepage-layout-post-link.png'
   - name: 'twitter:image:alt'
     content: 'VuePress Tutorial 6 - Homepage Layout Image'
   - name: 'twitter:creator'
@@ -304,8 +305,8 @@ Here's the full Code Monkeys logo:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/code-monkeys-logos/full.png')"
-      alt="Full Code Monkeys Logo"
+      :src="$withBase('/images/code-monkeys-logos/code-monkeys-full-logo.png')"
+      alt="Code Monkeys Full Logo"
   />
 </div>
 

@@ -5,7 +5,8 @@ date: 2022-01-26T17:54:00.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn about the configuration basics for VuePress, then check out VuePress Tutorial 5 - Configuration Basics! 🍌🐒
 cardDescription: Currently, the site consists of a homepage with a title saying "Hello VuePress", and a search box which builds an index from...
-img: vuepress-tutorials/tutorial-5/post.png
+img: vuepress-tutorials/tutorial-5/vuepress-tutorial-5-configuration-basics-post.png
+altText: VuePress Tutorial 5 Configuration Basics Post Picture
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -15,7 +16,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-5/link-post.png'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-5/vuepress-tutorial-5-configuration-basics-post-link.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -39,7 +40,7 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-5/link-post.png'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-5/vuepress-tutorial-5-configuration-basics-post-link.png'
   - name: 'twitter:image:alt'
     content: 'VuePress Tutorial 5 - Configuration Basics Image'
   - name: 'twitter:creator'

@@ -209,7 +209,7 @@ module.exports = {
       {
         property: 'og:image',
         content:
-          'https://codemonkeys.tech/images/code-monkeys-logos/og-website.png'
+          'https://codemonkeys.tech/images/code-monkeys-logos/code-monkeys-blog-open-graph.png'
       }
     ],
     [
@@ -230,7 +230,7 @@ module.exports = {
       'meta',
       {
         property: 'og:image:alt',
-        content: 'Code Monkeys Blog Image'
+        content: 'Code Monkeys Blog Open Graph Image'
       }
     ],
     [
@@ -295,14 +295,14 @@ module.exports = {
       {
         name: 'twitter:image',
         content:
-          'https://codemonkeys.tech/images/code-monkeys-logos/twitter-summary-large-image.png'
+          'https://codemonkeys.tech/images/code-monkeys-logos/code-monkeys-blog-twitter-summary-large.png'
       }
     ],
     [
       'meta',
       {
         name: 'twitter:image:alt',
-        content: 'Code Monkeys Blog Large Twitter Image'
+        content: 'Code Monkeys Blog Twitter Summary Large Image'
       }
     ],
     [
@@ -334,7 +334,7 @@ module.exports = {
   },
 
   themeConfig: {
-    logo: '/images/code-monkeys-logos/face.png',
+    logo: '/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo.png',
     nav: [
       {
         text: 'Topics',

@@ -5,7 +5,8 @@ date: 2021-09-24T16:26:30.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 If you're interested in learning Vuepress, then check out VuePress Tutorial 1 - Introduction! 🍌🐒
 cardDescription: Welcome to our VuePress series! In this series we'll be developing the Code Monkeys Blog starting from the basics...
-img: vuepress-tutorials/tutorial-1/post.png
+img: vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post.png
+altText: VuePress Tutorial 1 Introduction Post Picture
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -15,7 +16,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-1/link-post.png'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post-link.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -39,7 +40,7 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-1/link-post.png'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post-link.png'
   - name: 'twitter:image:alt'
     content: 'VuePress Tutorial 1 - Introduction Image'
   - name: 'twitter:creator'

@@ -5,7 +5,8 @@ date: 2022-01-16T05:40:00.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Ready to set up and install VuePress, then check out VuePress Tutorial 3 - Set Up and Installation! 🍌🐒
 cardDescription: First we'll be going over how to create a repository on GitHub. If you plan on using these tutorials as guides and want to...
-img: vuepress-tutorials/tutorial-3/post.png
+img: vuepress-tutorials/tutorial-3/vuepress-tutorial-3-set-up-and-installation-post.png
+altText: VuePress Tutorial 3 Set Up and Installation Post Picture
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -15,7 +16,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-3/link-post.png'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-3/vuepress-tutorial-3-set-up-and-installation-post-link.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -39,7 +40,7 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-3/link-post.png'
+    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-3/vuepress-tutorial-3-set-up-and-installation-post-link.png'
   - name: 'twitter:image:alt'
     content: 'VuePress Tutorial 3 - Set Up and Installation Image'
   - name: 'twitter:creator'

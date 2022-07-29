@@ -5,7 +5,8 @@ date: 2021-07-02T18:15:23.000Z
 topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Valid Anagram! 🍌🐒
 cardDescription: Given two strings s and t, return true if t is an anagram of s, and false otherwise. Ex 1) Input...
-img: leetcode/04-valid-anagram/post.png
+img: leetcode/04-valid-anagram/leetcode-valid-anagram-post.png
+altText: LeetCode Valid Anagram Post Picture
 videoURL: 'https://www.youtube-nocookie.com/embed/Bh4f8Ui1gOU'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
@@ -16,7 +17,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/leetcode/04-valid-anagram/link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/04-valid-anagram/leetcode-valid-anagram-post-link.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -40,7 +41,7 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/leetcode/04-valid-anagram/link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/04-valid-anagram/leetcode-valid-anagram-post-link.png'
   - name: 'twitter:image:alt'
     content: 'LeetCode - Valid Anagram Solution Image'
   - name: 'twitter:creator'

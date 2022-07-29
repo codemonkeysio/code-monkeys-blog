@@ -5,7 +5,8 @@ date: 2021-07-03T17:25:34.000Z
 topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Remove Duplicates from Sorted Array! 🍌🐒
 cardDescription: Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each...
-img: leetcode/05-remove-duplicates-from-sorted-array/post.png
+img: leetcode/05-remove-duplicates-from-sorted-array/leetcode-remove-duplicates-from-sorted-array-post.png
+altText: LeetCode Remove Duplicates from Sorted Array Post Picture
 videoURL: 'https://www.youtube-nocookie.com/embed/ApBQCp1RfnA'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
@@ -16,7 +17,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/leetcode/05-remove-duplicates-from-sorted-array/link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/05-remove-duplicates-from-sorted-array/leetcode-remove-duplicates-from-sorted-array-post-link.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -40,7 +41,7 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/leetcode/05-remove-duplicates-from-sorted-array/link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/05-remove-duplicates-from-sorted-array/leetcode-remove-duplicates-from-sorted-array-post-link.png'
   - name: 'twitter:image:alt'
     content: 'LeetCode - Remove Duplicates from Sorted Array Solution Image'
   - name: 'twitter:creator'

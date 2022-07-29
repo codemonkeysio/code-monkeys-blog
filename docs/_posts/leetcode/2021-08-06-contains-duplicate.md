@@ -5,7 +5,8 @@ date: 2021-08-06T18:24:00.000Z
 topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Contains Duplicate! 🍌🐒
 cardDescription: Given an integer array nums, return true if any value appears at least twice, and return false if every...
-img: leetcode/06-contains-duplicate/post.png
+img: leetcode/06-contains-duplicate/leetcode-contains-duplicate-post.png
+altText: LeetCode Contains Duplicate Post Picture
 videoURL: 'https://www.youtube-nocookie.com/embed/P_SCtMIgZJs'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
@@ -16,7 +17,7 @@ meta:
   - property: 'og:type'
     content: 'website'
   - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/leetcode/06-contains-duplicate/link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/06-contains-duplicate/leetcode-contains-duplicate-post-link.png'
   - property: 'og:image:width'
     content: '1200'
   - property: 'og:image:height'
@@ -40,7 +41,7 @@ meta:
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/leetcode/06-contains-duplicate/link-post.png'
+    content: 'https://codemonkeys.tech/images/leetcode/06-contains-duplicate/leetcode-contains-duplicate-post-link.png'
   - name: 'twitter:image:alt'
     content: 'LeetCode - Contains Duplicate Solution Image'
   - name: 'twitter:creator'
