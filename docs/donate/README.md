@@ -1,6 +1,6 @@
 ---
 title: Donate
-description: Donations are Appreciated
+description: If you've found our content helpful and would like to support us, then you can donate here! All donations will go towards maintaining an adequate 🍌 supply!
 sidebar: auto
 ---
 

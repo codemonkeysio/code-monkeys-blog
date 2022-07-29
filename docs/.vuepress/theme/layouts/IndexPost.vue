@@ -44,7 +44,7 @@
               :updated="post.lastUpdated"
             />
             <p class="preview">
-              {{ post.frontmatter.description }}
+              {{ post.frontmatter.cardDescription }}
             </p>
           </div>
           <div class="post-pic">

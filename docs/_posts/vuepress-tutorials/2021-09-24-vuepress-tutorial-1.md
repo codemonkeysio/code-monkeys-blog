@@ -3,7 +3,8 @@ title: VuePress Tutorial 1 - Introduction
 author: Jay the Code Monkey
 date: 2021-09-24T16:26:30.000Z
 topic: VuePress
-description: Welcome to our VuePress series! In this series we'll be developing the Code Monkeys Blog starting from the basics...
+description: Hey fellow Code Monkeys!!! 🐵 If you're interested in learning Vuepress, then check out VuePress Tutorial 1 - Introduction! 🍌🐒
+cardDescription: Welcome to our VuePress series! In this series we'll be developing the Code Monkeys Blog starting from the basics...
 img: vuepress-tutorials/tutorial-1/post.png
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'

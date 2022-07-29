@@ -6,7 +6,7 @@ module.exports = {
   base: '/',
   title: 'Code Monkeys',
   description:
-    'Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos and tutorials to help others learn about code and other tech related topics! Start Monkeying Around Today!!! 🐵',
+    'Learn to Code like a Monkey by joining the Code Monkeys Community! Check out the blog for posts and videos about coding! Start Monkeying Around Today! 🐵',
   head: [
     [
       'meta',
@@ -389,6 +389,10 @@ module.exports = {
             path: '/posts/',
             title: 'All Posts',
             layout: 'IndexPost',
+            frontmatter: {
+              description: "Here's all of the posts we've made so far! Find a post that peeks your interest and start monkeying around! 📝🐒"
+            },
+            itemLayout: "Post",
             itemPermalink: '/posts/:year/:month/:day/:slug',
             pagination: {
               lengthPerPage: 5, // 5 is the default value
@@ -410,7 +414,7 @@ module.exports = {
             // Layout of the `scope page` (list of posts with this tag)
             scopeLayout: 'IndexPost',
             frontmatter: {
-              description: 'Start learning & coding',
+              description: "Here you can view the various topics we've covered so far! Find a topic that interests you and start learning and coding today! Be sure to grab a banana! 🍌",
               topicDetails: topicDetails.topicsPageDetails
             },
             pagination: {
@@ -419,6 +423,9 @@ module.exports = {
             }
           }
         ],
+        sitemap: {
+          hostname: 'https://codemonkeys.tech'
+        },
         comment: {
           service: 'vssue',
           platform: 'github-v4',
@@ -442,9 +449,6 @@ module.exports = {
           prefix: '[Post] ',
           admins: ['jchiarulli'],
           perPage: 10 // 10 is the default value
-        },
-        sitemap: {
-          hostname: 'https://codemonkeys.tech'
         }
       }
     ]

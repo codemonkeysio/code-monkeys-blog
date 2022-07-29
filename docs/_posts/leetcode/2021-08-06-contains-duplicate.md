@@ -3,7 +3,8 @@ title: Contains Duplicate
 author: Jay the Code Monkey
 date: 2021-08-06T18:24:00.000Z
 topic: LeetCode
-description: Given an integer array nums, return true if any value appears at least twice, and return false if every...
+description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Contains Duplicate! 🍌🐒
+cardDescription: Given an integer array nums, return true if any value appears at least twice, and return false if every...
 img: leetcode/06-contains-duplicate/post.png
 videoURL: 'https://www.youtube-nocookie.com/embed/P_SCtMIgZJs'
 mathjax:

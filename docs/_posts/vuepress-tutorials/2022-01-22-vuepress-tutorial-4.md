@@ -3,7 +3,8 @@ title: VuePress Tutorial 4 - Directory Structure
 author: Jay the Code Monkey
 date: 2022-01-22T16:55:00.000Z
 topic: VuePress
-description: We're going to start with an overview of the current directory structure from the previous tutorial. Then we'll describe the...
+description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to structure your VuePress site, then check out VuePress Tutorial 4 - Directory Structure! 🍌🐒
+cardDescription: We're going to start with an overview of the current directory structure from the previous tutorial. Then we'll describe the...
 img: vuepress-tutorials/tutorial-4/post.png
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'

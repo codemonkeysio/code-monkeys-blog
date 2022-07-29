@@ -3,7 +3,8 @@ title: Remove Duplicates from Sorted Array
 author: Jay the Code Monkey
 date: 2021-07-03T17:25:34.000Z
 topic: LeetCode
-description: Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each...
+description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Remove Duplicates from Sorted Array! 🍌🐒
+cardDescription: Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each...
 img: leetcode/05-remove-duplicates-from-sorted-array/post.png
 videoURL: 'https://www.youtube-nocookie.com/embed/ApBQCp1RfnA'
 mathjax:

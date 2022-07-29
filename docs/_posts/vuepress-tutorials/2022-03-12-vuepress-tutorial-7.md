@@ -3,7 +3,8 @@ title: VuePress Tutorial 7 - Navbar Logo and Links
 author: Jay the Code Monkey
 date: 2022-03-12T17:46:45.000Z
 topic: VuePress
-description: In this tutorial we'll be discussing how to configure the navbar by using the options exposed by the default theme...
+description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to configure the navbar for VuePress, then check out VuePress Tutorial 7 - Navbar Logo and Links! 🍌🐒
+cardDescription: In this tutorial we'll be discussing how to configure the navbar by using the options exposed by the default theme...
 img: vuepress-tutorials/tutorial-7/post.png
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'

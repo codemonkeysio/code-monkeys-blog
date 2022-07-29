@@ -3,7 +3,8 @@ title: VuePress Tutorial 3 - Set Up and Installation
 author: Jay the Code Monkey
 date: 2022-01-16T05:40:00.000Z
 topic: VuePress
-description: First we'll be going over how to create a repository on GitHub. If you plan on using these tutorials as guides and want to...
+description: Hey fellow Code Monkeys!!! 🐵 Ready to set up and install VuePress, then check out VuePress Tutorial 3 - Set Up and Installation! 🍌🐒
+cardDescription: First we'll be going over how to create a repository on GitHub. If you plan on using these tutorials as guides and want to...
 img: vuepress-tutorials/tutorial-3/post.png
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
