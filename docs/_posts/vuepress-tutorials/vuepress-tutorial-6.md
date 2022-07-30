@@ -7,9 +7,9 @@ description: Hey fellow Code Monkeys!!! 🐵 Want to learn about the default the
 cardDescription: In this tutorial we'll be discussing how to configure the homepage layout by using the options exposed by the default theme...
 img: vuepress-tutorials/tutorial-6/vuepress-tutorial-6-homepage-layout-post.png
 altText: VuePress Tutorial 6 Homepage Layout Post Picture
-mathjax:
-  presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
+permalink: /vuepress-tutorial-6/
+redirectFrom: /posts/2022/02/03/vuepress-tutorial-6/
 meta:
   - property: 'og:title'
     content: 'VuePress Tutorial 6 - Homepage Layout'
@@ -24,7 +24,7 @@ meta:
   - property: 'og:image:alt'
     content: 'VuePress Tutorial 6 - Homepage Layout Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/posts/2022/02/03/vuepress-tutorial-6/'
+    content: 'https://www.codemonkeys.tech/vuepress-tutorial-6/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn about the default theme homepage layout for VuePress, then check out VuePress Tutorial 6 - Homepage Layout! 🍌🐒'
   - property: 'og:site_name'
@@ -36,7 +36,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn about the default theme homepage layout for VuePress, then check out VuePress Tutorial 6 - Homepage Layout! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/posts/2022/02/03/vuepress-tutorial-6/'
+    content: 'https://www.codemonkeys.tech/vuepress-tutorial-6/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
@@ -57,7 +57,7 @@ meta:
 
 In this tutorial we'll be discussing how to configure the homepage layout by using the options exposed by the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html) which comes with the installation of [VuePress](https://vuepress.vuejs.org/) and is designed for technical documentation. Along with the homepage the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html) also allows customization for the navbar, sidebar, search box, etc. We'll discuss those customizations in more detail in future tutorials.
 
-Before moving on to the homepage layout, we're going to first describe what a theme is. If you remember from the [VuePress Tutorial 2 - Why Use VuePress?](/posts/2021/11/24/vuepress-tutorial-2) post, a [VuePress](https://vuepress.vuejs.org/) theme allows you to control how your project is structured. Within a theme you are able to create directories that handle <span class="post-term-one">global components</span>, <span class="post-term-one">components</span>, <span class="post-term-one">layouts</span>, <span class="post-term-one">styles</span>, and <span class="post-term-one">templates</span>. You can also create files for <span class="post-term-one">theme configurations</span> and <span class="post-term-one">app level enhancements</span>. So, a theme handles all of the layout and interactivity details for your site.
+Before moving on to the homepage layout, we're going to first describe what a theme is. If you remember from the [VuePress Tutorial 2 - Why Use VuePress?](/vuepress-tutorial-2) post, a [VuePress](https://vuepress.vuejs.org/) theme allows you to control how your project is structured. Within a theme you are able to create directories that handle <span class="post-term-one">global components</span>, <span class="post-term-one">components</span>, <span class="post-term-one">layouts</span>, <span class="post-term-one">styles</span>, and <span class="post-term-one">templates</span>. You can also create files for <span class="post-term-one">theme configurations</span> and <span class="post-term-one">app level enhancements</span>. So, a theme handles all of the layout and interactivity details for your site.
 
 Now that we have a good understanding of what a theme is, let's move on to configuring the homepage layout.
 

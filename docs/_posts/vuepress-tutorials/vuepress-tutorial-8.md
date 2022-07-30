@@ -7,9 +7,9 @@ description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to create a custo
 cardDescription: Now it's time to start building the custom footer component for the site. Before creating the footer component, we're...
 img: vuepress-tutorials/tutorial-8/vuepress-tutorial-8-custom-footer-post.png
 altText: VuePress Tutorial 8 Custom Footer Post Picture
-mathjax:
-  presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
+permalink: /vuepress-tutorial-8/
+redirectFrom: /posts/2022/04/06/vuepress-tutorial-8/ 
 meta:
   - property: 'og:title'
     content: 'VuePress Tutorial 8 - Custom Footer'
@@ -24,7 +24,7 @@ meta:
   - property: 'og:image:alt'
     content: 'VuePress Tutorial 8 - Custom Footer Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/posts/2022/04/06/vuepress-tutorial-8/'
+    content: 'https://www.codemonkeys.tech/vuepress-tutorial-8/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to create a custom footer for your VuePress site, then check out VuePress Tutorial 8 - Custom Footer! 🍌🐒'
   - property: 'og:site_name'
@@ -36,7 +36,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to create a custom footer for your VuePress site, then check out VuePress Tutorial 8 - Custom Footer! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/posts/2022/04/06/vuepress-tutorial-8/'
+    content: 'https://www.codemonkeys.tech/vuepress-tutorial-8/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
@@ -72,7 +72,7 @@ Make sure you start the local development server which should be running at [htt
 
 ## Homepage Layout Footer
 
-If you remember from the previous post [VuePress Tutorial 6 - Homepage Layout](/posts/2022/02/03/vuepress-tutorial-6/#adding-a-footer), [VuePress](https://vuepress.vuejs.org/) provides a way to add a footer to the homepage by adding the following to the homepage layout which is located in <code class="inline-code-block">docs/README.md</code>:
+If you remember from the previous post [VuePress Tutorial 6 - Homepage Layout](/vuepress-tutorial-6/#adding-a-footer), [VuePress](https://vuepress.vuejs.org/) provides a way to add a footer to the homepage by adding the following to the homepage layout which is located in <code class="inline-code-block">docs/README.md</code>:
 
 <code-group>
 <code-block title="Adding a Homepage Footer">

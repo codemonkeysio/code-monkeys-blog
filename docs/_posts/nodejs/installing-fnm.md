@@ -7,9 +7,9 @@ description: Hey fellow Code Monkeys!!! 🐵 Want to switch between Node version
 cardDescription: Fast Node Manager (fnm) is a fast and simple Node version manager built in Rust. For those of you who haven't read...
 img: nodejs/02-installing-fnm/nodejs-installing-fnm-post.png
 altText: Node.js Installing fnm Post Picture
-mathjax:
-  presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
+permalink: /installing-fnm/
+redirectFrom: /posts/2021/12/08/installing-fnm/
 meta:
   - property: 'og:title'
     content: 'Installing Fast Node Manager (fnm)'
@@ -24,7 +24,7 @@ meta:
   - property: 'og:image:alt'
     content: 'Installing Fast Node Manager (fnm) Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/posts/2021/12/08/installing-fnm/'
+    content: 'https://www.codemonkeys.tech/installing-fnm/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to switch between Node versions extremely fast, then check out Installing Fast Node Manager (fnm)! 🍌🐒'
   - property: 'og:site_name'
@@ -36,7 +36,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to switch between Node versions extremely fast, then check out Installing Fast Node Manager (fnm)! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/posts/2021/12/08/installing-fnm/'
+    content: 'https://www.codemonkeys.tech/installing-fnm/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
@@ -57,7 +57,7 @@ meta:
 
 [Fast Node Manager (fnm)](https://github.com/Schniz/fnm) is a fast and simple Node version manager built in [Rust](https://www.rust-lang.org/).
 
-For those of you who haven't read the post [Installing Node Version Manager (nvm)](/posts/2021/12/07/installing-nvm/), a Node version manager allows you to <span class="post-term-one">easily install and switch</span> between numerous versions of [Node.js](https://nodejs.org/en/). This is useful when a project you’re working on requires a different version of [Node.js](https://nodejs.org/en/) than what you currently have installed.
+For those of you who haven't read the post [Installing Node Version Manager (nvm)](/installing-nvm/), a Node version manager allows you to <span class="post-term-one">easily install and switch</span> between numerous versions of [Node.js](https://nodejs.org/en/). This is useful when a project you’re working on requires a different version of [Node.js](https://nodejs.org/en/) than what you currently have installed.
 
 Here are some features of [fnm](https://github.com/Schniz/fnm):
 

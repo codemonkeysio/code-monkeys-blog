@@ -11,6 +11,8 @@ videoURL: 'https://www.youtube-nocookie.com/embed/P_SCtMIgZJs'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
+permalink: /contains-duplicate/
+redirectFrom: /posts/2021/08/06/contains-duplicate/
 meta:
   - property: 'og:title'
     content: 'LeetCode - Contains Duplicate Solution'
@@ -25,7 +27,7 @@ meta:
   - property: 'og:image:alt'
     content: 'LeetCode - Contains Duplicate Solution Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/posts/2021/08/06/contains-duplicate/'
+    content: 'https://www.codemonkeys.tech/contains-duplicate/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Contains Duplicate! 🍌🐒'
   - property: 'og:site_name'
@@ -37,7 +39,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Contains Duplicate! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/posts/2021/08/06/contains-duplicate/'
+    content: 'https://www.codemonkeys.tech/contains-duplicate/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

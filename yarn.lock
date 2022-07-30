@@ -9531,6 +9531,13 @@ vuepress-plugin-mermaidjs@^1.8.1:
   dependencies:
     mermaid "^8.8.3"
 
+vuepress-plugin-redirect-frontmatter@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-redirect-frontmatter/-/vuepress-plugin-redirect-frontmatter-1.0.0.tgz#74501cf0a4d10b59f1d670844e86f17a4c2f5933"
+  integrity sha512-IReQqFYis7/Q49W9LTYthhO8VVNCOhnH/HymJHsvpLPeRTTreZUlnJ/i75LgdCnDGeHrTWocFej0Y/uBQUgVHw==
+  dependencies:
+    lodash "^4.17.15"
+
 vuepress-plugin-sitemap@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-sitemap/-/vuepress-plugin-sitemap-2.3.1.tgz#51298aca77a5de96396fdbd1103e1637dd61ae6a"

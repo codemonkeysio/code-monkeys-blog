@@ -11,6 +11,8 @@ videoURL: 'https://www.youtube-nocookie.com/embed/ApBQCp1RfnA'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
+permalink: /remove-duplicates-from-sorted-array/
+redirectFrom: /posts/2021/07/03/remove-duplicates-from-sorted-array/
 meta:
   - property: 'og:title'
     content: 'LeetCode - Remove Duplicates from Sorted Array Solution'
@@ -25,7 +27,7 @@ meta:
   - property: 'og:image:alt'
     content: 'LeetCode - Remove Duplicates from Sorted Array Solution Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/posts/2021/07/03/remove-duplicates-from-sorted-array/'
+    content: 'https://www.codemonkeys.tech/remove-duplicates-from-sorted-array/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Remove Duplicates from Sorted Array! 🍌🐒'
   - property: 'og:site_name'
@@ -37,7 +39,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Remove Duplicates from Sorted Array! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/posts/2021/07/03/remove-duplicates-from-sorted-array/'
+    content: 'https://www.codemonkeys.tech/remove-duplicates-from-sorted-array/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

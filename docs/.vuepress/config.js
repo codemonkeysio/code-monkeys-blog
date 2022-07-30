@@ -370,6 +370,7 @@ module.exports = {
     '@goy/svg-icons',
     'vuepress-plugin-mathjax',
     'mermaidjs',
+    'redirect-frontmatter',
     [
       'vuepress-plugin-code-copy',
       {
@@ -393,7 +394,7 @@ module.exports = {
               description: "Here's all of the posts we've made so far! Find a post that peeks your interest and start monkeying around! 📝🐒"
             },
             itemLayout: "Post",
-            itemPermalink: '/posts/:year/:month/:day/:slug',
+            itemPermalink: '/:slug',
             pagination: {
               lengthPerPage: 5, // 5 is the default value
               layout: 'IndexPost' // layout for the index page when page != 1

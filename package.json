@@ -23,7 +23,8 @@
     "@vuepress/plugin-blog": "^1.9.4",
     "vuepress": "^1.8.2",
     "vuepress-plugin-mathjax": "^1.2.8",
-    "vuepress-plugin-mermaidjs": "^1.8.1"
+    "vuepress-plugin-mermaidjs": "^1.8.1",
+    "vuepress-plugin-redirect-frontmatter": "^1.0.0"
   },
   "dependencies": {
     "@vssue/api-github-v4": "^1.4.7",

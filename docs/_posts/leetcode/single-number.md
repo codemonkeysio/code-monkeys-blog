@@ -11,6 +11,8 @@ videoURL: 'https://www.youtube-nocookie.com/embed/K6TuMWpnmqQ'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
+permalink: /single-number/
+redirectFrom: /posts/2021/06/29/single-number/
 meta:
   - property: 'og:title'
     content: 'LeetCode - Single Number Solution'
@@ -25,7 +27,7 @@ meta:
   - property: 'og:image:alt'
     content: 'LeetCode - Single Number Solution Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/posts/2021/06/29/single-number/'
+    content: 'https://www.codemonkeys.tech/single-number/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Single Number! 🍌🐒'
   - property: 'og:site_name'
@@ -37,7 +39,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Single Number! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/posts/2021/06/29/single-number/'
+    content: 'https://www.codemonkeys.tech/single-number/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

@@ -7,9 +7,9 @@ description: Hey fellow Code Monkeys!!! 🐵 Ready to set up and install VuePres
 cardDescription: First we'll be going over how to create a repository on GitHub. If you plan on using these tutorials as guides and want to...
 img: vuepress-tutorials/tutorial-3/vuepress-tutorial-3-set-up-and-installation-post.png
 altText: VuePress Tutorial 3 Set Up and Installation Post Picture
-mathjax:
-  presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
+permalink: /vuepress-tutorial-3/
+redirectFrom: /posts/2022/01/16/vuepress-tutorial-3/
 meta:
   - property: 'og:title'
     content: 'VuePress Tutorial 3 - Set Up and Installation'
@@ -24,7 +24,7 @@ meta:
   - property: 'og:image:alt'
     content: 'VuePress Tutorial 3 - Set Up and Installation Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/posts/2022/01/16/vuepress-tutorial-3/'
+    content: 'https://www.codemonkeys.tech/vuepress-tutorial-3/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Ready to set up and install VuePress, then check out VuePress Tutorial 3 - Set Up and Installation! 🍌🐒'
   - property: 'og:site_name'
@@ -36,7 +36,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Ready to set up and install VuePress, then check out VuePress Tutorial 3 - Set Up and Installation! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/posts/2022/01/16/vuepress-tutorial-3/'
+    content: 'https://www.codemonkeys.tech/vuepress-tutorial-3/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
@@ -239,7 +239,7 @@ If you previously installed a <span class="post-term-one">system version</span> 
 
 If you're a developer that needs to use multiple versions of <code class="inline-code-block">node</code> when working on different projects, then I recommend using a <span class="post-term-one">node version manager</span>. Before installing a <span class="post-term-one">node version manager</span> like [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm), I recommend uninstalling your <span class="post-term-one">system version</span> of <code class="inline-code-block">node</code>, <code class="inline-code-block">npm</code>, and any globally installed <code class="inline-code-block">npm</code> packages to avoid potential issues.
 
-Check out these posts [Installing Node Version Manager (nvm)](/posts/2021/12/07/installing-nvm/) and [Installing Fast Node Manager (fnm)](/posts/2021/12/08/installing-fnm/) to learn how to install and use them.
+Check out these posts [Installing Node Version Manager (nvm)](/installing-nvm/) and [Installing Fast Node Manager (fnm)](/installing-fnm/) to learn how to install and use them.
 
 ::: tip Preferred Node Version Manager
 My <span class="post-term-one">preferred</span> way to manage my node versions is with [fnm](https://github.com/Schniz/fnm) since it's much faster than [nvm](https://github.com/nvm-sh/nvm).
@@ -261,9 +261,9 @@ yarn -v
 
 If you don't see your preferred version of <code class="inline-code-block">yarn</code>, then it's recommended to install or upgrade a <span class="post-term-one">global version</span> of [Yarn 1](https://classic.yarnpkg.com/en/) which can then be used to set a <span class="post-term-one">local version</span> of <code class="inline-code-block">yarn</code> for the project.
 
-To learn more about how to install a <span class="post-term-one">global version</span> of [Yarn 1](https://classic.yarnpkg.com/en/), how to use the <span class="post-term-one">global version</span> to set a <span class="post-term-one">local version</span> of <code class="inline-code-block">yarn</code> for a project, and other commonly used commands check out the [Installing Yarn 1](/posts/2021/12/28/installing-yarn-1/) post.
+To learn more about how to install a <span class="post-term-one">global version</span> of [Yarn 1](https://classic.yarnpkg.com/en/), how to use the <span class="post-term-one">global version</span> to set a <span class="post-term-one">local version</span> of <code class="inline-code-block">yarn</code> for a project, and other commonly used commands check out the [Installing Yarn 1](/installing-yarn-1/) post.
 
-If you created your own repository and are using a <span class="post-term-one">locally set version</span> of <code class="inline-code-block">yarn</code>, then be sure to update your <code class="inline-code-block">.gitignore</code> file and add a <code class="inline-code-block">.gitattributes</code> file as described in the [Installing Yarn 1](/posts/2021/12/28/installing-yarn-1/) post.
+If you created your own repository and are using a <span class="post-term-one">locally set version</span> of <code class="inline-code-block">yarn</code>, then be sure to update your <code class="inline-code-block">.gitignore</code> file and add a <code class="inline-code-block">.gitattributes</code> file as described in the [Installing Yarn 1](/installing-yarn-1/) post.
 
 ::: tip Recommended Version and Repositories Reminder
 Remember the recommended version of <code class="inline-code-block">yarn</code> to use with your project if you're closely following along with these tutorials is <code class="inline-code-block">v1.22.17</code>. Also, if you use the code from the repositories, then there will be a provided <span class="post-term-one">local version</span> of <code class="inline-code-block">yarn</code> which you can use instead of installing the specific <span class="post-term-one">local version</span> yourself.

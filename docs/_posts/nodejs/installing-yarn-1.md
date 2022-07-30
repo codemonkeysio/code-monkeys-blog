@@ -7,9 +7,9 @@ description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to install and us
 cardDescription: Before discussing Yarn in more detail, let's first define what a package manager is and what it handles for us. A pacakage...
 img: nodejs/03-installing-yarn-1/nodejs-installing-yarn-1-post.png
 altText: Node.js Installing Yarn 1 Post Picture
-mathjax:
-  presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
+permalink: /installing-yarn-1/
+redirectFrom: /posts/2021/12/28/installing-yarn-1/
 meta:
   - property: 'og:title'
     content: 'Installing Yarn 1'
@@ -24,7 +24,7 @@ meta:
   - property: 'og:image:alt'
     content: 'Installing Yarn 1 Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/posts/2021/12/28/installing-yarn-1/'
+    content: 'https://www.codemonkeys.tech/installing-yarn-1/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to install and use Yarn 1, then check out this post! 🍌🐒'
   - property: 'og:site_name'
@@ -36,7 +36,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to install and use Yarn 1, then check out this post! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/posts/2021/12/28/installing-yarn-1/'
+    content: 'https://www.codemonkeys.tech/installing-yarn-1/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
@@ -109,7 +109,7 @@ Today, the performance and features of [Yarn](https://yarnpkg.com/) and [npm](ht
 There are multiple ways to install [Yarn 1](https://classic.yarnpkg.com/en/). Currently, the recommended way to install it is with [npm](https://www.npmjs.com/) the default node package manager that comes with [Node.js](https://nodejs.org/en/). When installing [Node.js](https://nodejs.org/en/) you have the option to install a <span class="post-term-one">system version</span> which you can do by downloading and installing a version directly from [Node.js](https://nodejs.org/en/), or you can install multiple node versions with a <span class="post-term-one">node version manager</span>.
 
 ::: tip Using a Node Version Manager
-If you're a developer that needs to use multiple versions of <code class="inline-code-block">node</code> when working on different projects, then I recommend installing either [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm). My <span class="post-term-one">preferred</span> way to manage my node versions is with [fnm](https://github.com/Schniz/fnm). If you're interested in installing a <span class="post-term-one">node version manager</span>, then check out these posts [Installing Node Version Manager (nvm)](/posts/2021/12/07/installing-nvm/) and [Installing Fast Node Manager (fnm)](/posts/2021/12/08/installing-fnm/).
+If you're a developer that needs to use multiple versions of <code class="inline-code-block">node</code> when working on different projects, then I recommend installing either [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm). My <span class="post-term-one">preferred</span> way to manage my node versions is with [fnm](https://github.com/Schniz/fnm). If you're interested in installing a <span class="post-term-one">node version manager</span>, then check out these posts [Installing Node Version Manager (nvm)](/installing-nvm/) and [Installing Fast Node Manager (fnm)](/installing-fnm/).
 :::
 
 After installing a <span class="post-term-one">system version</span> or a version with a <span class="post-term-one">node version manager</span>, you can run the following command to install and upgrade [Yarn 1](https://classic.yarnpkg.com/en/):

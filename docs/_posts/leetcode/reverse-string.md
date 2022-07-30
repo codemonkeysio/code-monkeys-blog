@@ -11,6 +11,8 @@ videoURL: 'https://www.youtube-nocookie.com/embed/Ue3XmMvLwsY'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
+permalink: /reverse-string/
+redirectFrom: /posts/2021/08/11/reverse-string/
 meta:
   - property: 'og:title'
     content: 'LeetCode - Reverse String Solution'
@@ -25,7 +27,7 @@ meta:
   - property: 'og:image:alt'
     content: 'LeetCode - Reverse String Solution Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/posts/2021/08/11/reverse-string/'
+    content: 'https://www.codemonkeys.tech/reverse-string/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Reverse String! 🍌🐒'
   - property: 'og:site_name'
@@ -37,7 +39,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Reverse String! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/posts/2021/08/11/reverse-string/'
+    content: 'https://www.codemonkeys.tech/reverse-string/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

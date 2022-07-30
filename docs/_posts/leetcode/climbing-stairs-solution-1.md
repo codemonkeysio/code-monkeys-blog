@@ -11,6 +11,8 @@ videoURL: 'https://www.youtube-nocookie.com/embed/jUP9BAs2GbE'
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
+permalink: /climbing-stairs-solution-1/
+redirectFrom: /posts/2021/06/30/climbing-stairs-solution-1/
 meta:
   - property: 'og:title'
     content: 'LeetCode - Climbing Stairs Solution 1'
@@ -25,7 +27,7 @@ meta:
   - property: 'og:image:alt'
     content: 'LeetCode - Climbing Stairs Solution 1 Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/posts/2021/06/30/climbing-stairs-solution-1/'
+    content: 'https://www.codemonkeys.tech/climbing-stairs-solution-1/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the first Solution & Notes for the LeetCode problem Climbing Stairs! 🍌🐒'
   - property: 'og:site_name'
@@ -37,7 +39,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the first Solution & Notes for the LeetCode problem Climbing Stairs! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/posts/2021/06/30/climbing-stairs-solution-1/'
+    content: 'https://www.codemonkeys.tech/climbing-stairs-solution-1/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
