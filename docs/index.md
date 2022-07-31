@@ -9,5 +9,6 @@ features:
   - title: Learn
   - title: Code
   - title: Crush
+canonicalUrl: https://codemonkeys.tech/
 ---
 
