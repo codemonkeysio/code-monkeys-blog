@@ -427,7 +427,7 @@ module.exports = {
           }
         ],
         sitemap: {
-          hostname: 'https://codemonkeys.tech'
+          hostname: 'https://codemonkeys.tech/'
         },
         comment: {
           service: 'vssue',
