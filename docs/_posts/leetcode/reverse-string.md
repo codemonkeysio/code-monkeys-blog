@@ -8,6 +8,7 @@ cardDescription: Write a function that reverses a string. The input string is gi
 img: leetcode/07-reverse-string/leetcode-reverse-string-post.png
 altText: LeetCode Reverse String Post Picture
 videoURL: 'https://www.youtube-nocookie.com/embed/Ue3XmMvLwsY'
+canonicalUrl: https://codemonkeys.tech/reverse-string/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -27,7 +28,7 @@ meta:
   - property: 'og:image:alt'
     content: 'LeetCode - Reverse String Solution Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/reverse-string/'
+    content: 'https://codemonkeys.tech/reverse-string/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Reverse String! 🍌🐒'
   - property: 'og:site_name'
@@ -39,7 +40,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Reverse String! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/reverse-string/'
+    content: 'https://codemonkeys.tech/reverse-string/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

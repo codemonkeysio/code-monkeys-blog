@@ -7,6 +7,7 @@ description: Hey fellow Code Monkeys!!! 🐵 Ready to set up and install VuePres
 cardDescription: First we'll be going over how to create a repository on GitHub. If you plan on using these tutorials as guides and want to...
 img: vuepress-tutorials/tutorial-3/vuepress-tutorial-3-set-up-and-installation-post.png
 altText: VuePress Tutorial 3 Set Up and Installation Post Picture
+canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-3/
 sidebar: auto
 permalink: /vuepress-tutorial-3/
 redirectFrom: /posts/2022/01/16/vuepress-tutorial-3/
@@ -24,7 +25,7 @@ meta:
   - property: 'og:image:alt'
     content: 'VuePress Tutorial 3 - Set Up and Installation Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-3/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-3/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Ready to set up and install VuePress, then check out VuePress Tutorial 3 - Set Up and Installation! 🍌🐒'
   - property: 'og:site_name'
@@ -36,7 +37,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Ready to set up and install VuePress, then check out VuePress Tutorial 3 - Set Up and Installation! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-3/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-3/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

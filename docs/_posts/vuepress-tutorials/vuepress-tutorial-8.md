@@ -7,6 +7,7 @@ description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to create a custo
 cardDescription: Now it's time to start building the custom footer component for the site. Before creating the footer component, we're...
 img: vuepress-tutorials/tutorial-8/vuepress-tutorial-8-custom-footer-post.png
 altText: VuePress Tutorial 8 Custom Footer Post Picture
+canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-8/
 sidebar: auto
 permalink: /vuepress-tutorial-8/
 redirectFrom: /posts/2022/04/06/vuepress-tutorial-8/ 
@@ -24,7 +25,7 @@ meta:
   - property: 'og:image:alt'
     content: 'VuePress Tutorial 8 - Custom Footer Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-8/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-8/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to create a custom footer for your VuePress site, then check out VuePress Tutorial 8 - Custom Footer! 🍌🐒'
   - property: 'og:site_name'
@@ -36,7 +37,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to create a custom footer for your VuePress site, then check out VuePress Tutorial 8 - Custom Footer! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-8/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-8/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

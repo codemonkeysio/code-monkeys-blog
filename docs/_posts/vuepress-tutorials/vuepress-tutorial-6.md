@@ -7,6 +7,7 @@ description: Hey fellow Code Monkeys!!! 🐵 Want to learn about the default the
 cardDescription: In this tutorial we'll be discussing how to configure the homepage layout by using the options exposed by the default theme...
 img: vuepress-tutorials/tutorial-6/vuepress-tutorial-6-homepage-layout-post.png
 altText: VuePress Tutorial 6 Homepage Layout Post Picture
+canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-6/
 sidebar: auto
 permalink: /vuepress-tutorial-6/
 redirectFrom: /posts/2022/02/03/vuepress-tutorial-6/
@@ -24,7 +25,7 @@ meta:
   - property: 'og:image:alt'
     content: 'VuePress Tutorial 6 - Homepage Layout Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-6/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-6/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn about the default theme homepage layout for VuePress, then check out VuePress Tutorial 6 - Homepage Layout! 🍌🐒'
   - property: 'og:site_name'
@@ -36,7 +37,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn about the default theme homepage layout for VuePress, then check out VuePress Tutorial 6 - Homepage Layout! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-6/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-6/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

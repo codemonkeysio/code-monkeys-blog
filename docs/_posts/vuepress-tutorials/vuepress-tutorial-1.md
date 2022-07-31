@@ -7,6 +7,7 @@ description: Hey fellow Code Monkeys!!! 🐵 If you're interested in learning Vu
 cardDescription: Welcome to our VuePress series! In this series we'll be developing the Code Monkeys Blog starting from the basics...
 img: vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post.png
 altText: VuePress Tutorial 1 Introduction Post Picture
+canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-1/
 sidebar: auto
 permalink: /vuepress-tutorial-1/
 redirectFrom: /posts/2021/09/24/vuepress-tutorial-1/
@@ -24,7 +25,7 @@ meta:
   - property: 'og:image:alt'
     content: 'VuePress Tutorial 1 - Introduction Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-1/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-1/'
   - property: 'og:description'
     content: "Hey fellow Code Monkeys!!! 🐵 If you're interested in learning Vuepress, then check out VuePress Tutorial 1 - Introduction! 🍌🐒"
   - property: 'og:site_name'
@@ -36,7 +37,7 @@ meta:
   - name: 'twitter:description'
     content: "Hey fellow Code Monkeys!!! 🐵 If you're interested in learning Vuepress, then check out VuePress Tutorial 1 - Introduction! 🍌🐒"
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-1/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-1/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

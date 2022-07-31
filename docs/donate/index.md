@@ -2,6 +2,7 @@
 title: Donate
 description: If you've found our content helpful and would like to support us, then you can donate here! All donations will go towards maintaining an adequate 🍌 supply!
 sidebar: auto
+canonicalUrl: https://codemonkeys.tech/donate/
 ---
 
 ::: slot header

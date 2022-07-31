@@ -8,6 +8,7 @@ cardDescription: Given a non-empty array of integers nums, every element appears
 img: leetcode/01-single-number/leetcode-single-number-post.png
 altText: LeetCode Single Number Post Picture
 videoURL: 'https://www.youtube-nocookie.com/embed/K6TuMWpnmqQ'
+canonicalUrl: https://codemonkeys.tech/single-number/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -27,7 +28,7 @@ meta:
   - property: 'og:image:alt'
     content: 'LeetCode - Single Number Solution Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/single-number/'
+    content: 'https://codemonkeys.tech/single-number/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Single Number! 🍌🐒'
   - property: 'og:site_name'
@@ -39,7 +40,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Single Number! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/single-number/'
+    content: 'https://codemonkeys.tech/single-number/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

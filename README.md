@@ -1,4 +1,4 @@
-# 🐵 <a href="https://www.codemonkeys.tech/">Code Monkeys Blog</a>
+# 🐵 <a href="https://codemonkeys.tech/">Code Monkeys Blog</a>
 
 ### 🐒 Learn How to Code Like a Monkey!!!
 

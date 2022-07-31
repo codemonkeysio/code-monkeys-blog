@@ -8,6 +8,7 @@ cardDescription: Given an integer array nums, return true if any value appears a
 img: leetcode/06-contains-duplicate/leetcode-contains-duplicate-post.png
 altText: LeetCode Contains Duplicate Post Picture
 videoURL: 'https://www.youtube-nocookie.com/embed/P_SCtMIgZJs'
+canonicalUrl: https://codemonkeys.tech/contains-duplicate/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -27,7 +28,7 @@ meta:
   - property: 'og:image:alt'
     content: 'LeetCode - Contains Duplicate Solution Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/contains-duplicate/'
+    content: 'https://codemonkeys.tech/contains-duplicate/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Contains Duplicate! 🍌🐒'
   - property: 'og:site_name'
@@ -39,7 +40,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Contains Duplicate! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/contains-duplicate/'
+    content: 'https://codemonkeys.tech/contains-duplicate/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

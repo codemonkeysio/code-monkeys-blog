@@ -8,6 +8,7 @@ cardDescription: You are climbing a staircase. It takes n steps to reach the top
 img: leetcode/03-climbing-stairs-solution-2/leetcode-climbing-stairs-solution-2-post.png
 altText: LeetCode Climbing Stairs Solution 2 Post Picture
 videoURL: 'https://www.youtube-nocookie.com/embed/_dhZdGNFV-g'
+canonicalUrl: https://codemonkeys.tech/climbing-stairs-solution-2/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -27,7 +28,7 @@ meta:
   - property: 'og:image:alt'
     content: 'LeetCode - Climbing Stairs Solution 2 Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/climbing-stairs-solution-2/'
+    content: 'https://codemonkeys.tech/climbing-stairs-solution-2/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the second Solution & Notes for the LeetCode problem Climbing Stairs! 🍌🐒'
   - property: 'og:site_name'
@@ -39,7 +40,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the second Solution & Notes for the LeetCode problem Climbing Stairs! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/climbing-stairs-solution-2/'
+    content: 'https://codemonkeys.tech/climbing-stairs-solution-2/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

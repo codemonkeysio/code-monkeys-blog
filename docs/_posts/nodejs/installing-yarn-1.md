@@ -7,6 +7,7 @@ description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to install and us
 cardDescription: Before discussing Yarn in more detail, let's first define what a package manager is and what it handles for us. A pacakage...
 img: nodejs/03-installing-yarn-1/nodejs-installing-yarn-1-post.png
 altText: Node.js Installing Yarn 1 Post Picture
+canonicalUrl: https://codemonkeys.tech/installing-yarn-1/
 sidebar: auto
 permalink: /installing-yarn-1/
 redirectFrom: /posts/2021/12/28/installing-yarn-1/
@@ -24,7 +25,7 @@ meta:
   - property: 'og:image:alt'
     content: 'Installing Yarn 1 Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/installing-yarn-1/'
+    content: 'https://codemonkeys.tech/installing-yarn-1/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to install and use Yarn 1, then check out this post! 🍌🐒'
   - property: 'og:site_name'
@@ -36,7 +37,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to install and use Yarn 1, then check out this post! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/installing-yarn-1/'
+    content: 'https://codemonkeys.tech/installing-yarn-1/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

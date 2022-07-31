@@ -7,6 +7,7 @@ description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to structure your
 cardDescription: We're going to start with an overview of the current directory structure from the previous tutorial. Then we'll describe the...
 img: vuepress-tutorials/tutorial-4/vuepress-tutorial-4-directory-structure-post.png
 altText: VuePress Tutorial 4 Directory Structure Post Picture
+canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-4/
 sidebar: auto
 permalink: /vuepress-tutorial-4/
 redirectFrom: /posts/2022/01/22/vuepress-tutorial-4/
@@ -24,7 +25,7 @@ meta:
   - property: 'og:image:alt'
     content: 'VuePress Tutorial 4 - Directory Structure Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-4/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-4/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to structure your VuePress site, then check out VuePress Tutorial 4 - Directory Structure! 🍌🐒'
   - property: 'og:site_name'
@@ -36,7 +37,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to structure your VuePress site, then check out VuePress Tutorial 4 - Directory Structure! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-4/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-4/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
@@ -175,7 +176,7 @@ Here's what the contents of the <code class="inline-code-block">package.json</co
   "author": {
     "name": "Jay the Code Monkey",
     "email": "c0dem0nkeys@pm.me",
-    "url": "https://www.codemonkeys.tech/"
+    "url": "https://codemonkeys.tech/"
   },
   "license": "GPL-3.0-or-later",
   "scripts": {

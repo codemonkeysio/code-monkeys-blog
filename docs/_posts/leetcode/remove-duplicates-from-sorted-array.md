@@ -8,6 +8,7 @@ cardDescription: Given an integer array nums sorted in non-decreasing order, rem
 img: leetcode/05-remove-duplicates-from-sorted-array/leetcode-remove-duplicates-from-sorted-array-post.png
 altText: LeetCode Remove Duplicates from Sorted Array Post Picture
 videoURL: 'https://www.youtube-nocookie.com/embed/ApBQCp1RfnA'
+canonicalUrl: https://codemonkeys.tech/remove-duplicates-from-sorted-array/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -27,7 +28,7 @@ meta:
   - property: 'og:image:alt'
     content: 'LeetCode - Remove Duplicates from Sorted Array Solution Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/remove-duplicates-from-sorted-array/'
+    content: 'https://codemonkeys.tech/remove-duplicates-from-sorted-array/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Remove Duplicates from Sorted Array! 🍌🐒'
   - property: 'og:site_name'
@@ -39,7 +40,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Remove Duplicates from Sorted Array! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/remove-duplicates-from-sorted-array/'
+    content: 'https://codemonkeys.tech/remove-duplicates-from-sorted-array/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

@@ -237,7 +237,7 @@ module.exports = {
       'meta',
       {
         property: 'og:url',
-        content: 'https://www.codemonkeys.tech'
+        content: 'https://codemonkeys.tech'
       }
     ],
     [
@@ -391,7 +391,8 @@ module.exports = {
             title: 'All Posts',
             layout: 'IndexPost',
             frontmatter: {
-              description: "Here's all of the posts we've made so far! Find a post that peeks your interest and start monkeying around! 📝🐒"
+              description: "Here's all of the posts we've made so far! Find a post that peeks your interest and start monkeying around! 📝🐒",
+              canonicalUrl: "https://codemonkeys.tech/posts/"
             },
             itemLayout: "Post",
             itemPermalink: '/:slug',
@@ -416,6 +417,7 @@ module.exports = {
             scopeLayout: 'IndexPost',
             frontmatter: {
               description: "Here you can view the various topics we've covered so far! Find a topic that interests you and start learning and coding today! Be sure to grab a banana! 🍌",
+              canonicalUrl: "https://codemonkeys.tech/topics/",
               topicDetails: topicDetails.topicsPageDetails
             },
             pagination: {

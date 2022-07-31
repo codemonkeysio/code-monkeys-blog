@@ -7,6 +7,7 @@ description: Hey fellow Code Monkeys!!! 🐵 Want to learn about the configurati
 cardDescription: Currently, the site consists of a homepage with a title saying "Hello VuePress", and a search box which builds an index from...
 img: vuepress-tutorials/tutorial-5/vuepress-tutorial-5-configuration-basics-post.png
 altText: VuePress Tutorial 5 Configuration Basics Post Picture
+canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-5/
 sidebar: auto
 permalink: /vuepress-tutorial-5/
 redirectFrom: /posts/2022/01/26/vuepress-tutorial-5/
@@ -24,7 +25,7 @@ meta:
   - property: 'og:image:alt'
     content: 'VuePress Tutorial 5 - Configuration Basics Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-5/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-5/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn about the configuration basics for VuePress, then check out VuePress Tutorial 5 - Configuration Basics! 🍌🐒'
   - property: 'og:site_name'
@@ -36,7 +37,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn about the configuration basics for VuePress, then check out VuePress Tutorial 5 - Configuration Basics! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-5/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-5/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

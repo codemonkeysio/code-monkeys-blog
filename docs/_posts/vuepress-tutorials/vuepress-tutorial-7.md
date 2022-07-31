@@ -7,6 +7,7 @@ description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to configure the 
 cardDescription: In this tutorial we'll be discussing how to configure the navbar by using the options exposed by the default theme...
 img: vuepress-tutorials/tutorial-7/vuepress-tutorial-7-navbar-logo-and-links-post.png
 altText: VuePress Tutorial 7 Navbar Logo and Links Post Picture
+canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-7/
 sidebar: auto
 permalink: /vuepress-tutorial-7/
 redirectFrom: /posts/2022/03/12/vuepress-tutorial-7/
@@ -24,7 +25,7 @@ meta:
   - property: 'og:image:alt'
     content: 'VuePress Tutorial 7 - Navbar Logo and Links Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-7/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-7/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to configure the navbar for VuePress, then check out VuePress Tutorial 7 - Navbar Logo and Links! 🍌🐒'
   - property: 'og:site_name'
@@ -36,7 +37,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to configure the navbar for VuePress, then check out VuePress Tutorial 7 - Navbar Logo and Links! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-7/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-7/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

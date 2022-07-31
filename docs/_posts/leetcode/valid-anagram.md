@@ -8,6 +8,7 @@ cardDescription: Given two strings s and t, return true if t is an anagram of s,
 img: leetcode/04-valid-anagram/leetcode-valid-anagram-post.png
 altText: LeetCode Valid Anagram Post Picture
 videoURL: 'https://www.youtube-nocookie.com/embed/Bh4f8Ui1gOU'
+canonicalUrl: https://codemonkeys.tech/valid-anagram/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
@@ -27,7 +28,7 @@ meta:
   - property: 'og:image:alt'
     content: 'LeetCode - Valid Anagram Solution Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/valid-anagram/'
+    content: 'https://codemonkeys.tech/valid-anagram/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Valid Anagram! 🍌🐒'
   - property: 'og:site_name'
@@ -39,7 +40,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Valid Anagram! 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/valid-anagram/'
+    content: 'https://codemonkeys.tech/valid-anagram/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'

@@ -7,6 +7,7 @@ description: Hey fellow Code Monkeys!!! 🐵 Wondering if you should use VuePres
 cardDescription: VuePress is a minimalistic static site generator (SSG) with a Vue-powered theming system and Plugin API. Originally...
 img: vuepress-tutorials/tutorial-2/vuepress-tutorial-2-why-use-vuepress-post.png
 altText: VuePress Tutorial 2 Why Use VuePress Post Picture
+canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-2/
 sidebar: auto
 permalink: /vuepress-tutorial-2/
 redirectFrom: /posts/2021/11/24/vuepress-tutorial-2/
@@ -24,7 +25,7 @@ meta:
   - property: 'og:image:alt'
     content: 'VuePress Tutorial 2 - Why Use VuePress? Image'
   - property: 'og:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-2/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-2/'
   - property: 'og:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Wondering if you should use VuePress, then check out VuePress Tutorial 2 - Why Use VuePress? 🍌🐒'
   - property: 'og:site_name'
@@ -36,7 +37,7 @@ meta:
   - name: 'twitter:description'
     content: 'Hey fellow Code Monkeys!!! 🐵 Wondering if you should use VuePress, then check out VuePress Tutorial 2 - Why Use VuePress? 🍌🐒'
   - name: 'twitter:url'
-    content: 'https://www.codemonkeys.tech/vuepress-tutorial-2/'
+    content: 'https://codemonkeys.tech/vuepress-tutorial-2/'
   - name: 'twitter:site'
     content: '@codemonkeystech'
   - name: 'twitter:image'
