@@ -18,14 +18,14 @@
         <div
           class="post-card"
           @click="
-            $router.push(`${post.path}`).catch((err) => {
+            $router.push(`${post.path}`).catch(err => {
               if (
                 err.name !== 'NavigationDuplicated' &&
                 !err.message.includes(
                   'Avoided redundant navigation to current location'
                 )
               ) {
-                console.log(err);
+                console.log(err)
               }
             })
           "
@@ -50,7 +50,7 @@
           <div class="post-pic">
             <v-lazy-image
               :src="$withBase(`/images/${post.frontmatter.img}`)"
-              :alt="post.frontmatter.altText || 'Post Picture'"
+              :alt="post.frontmatter.alt || 'Post Picture'"
             />
           </div>
         </div>
@@ -72,9 +72,9 @@
 </template>
 
 <script>
-import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js';
-import Layout from './Layout.vue';
-import byTopicHeaders from '../../data/index-post/by-topic-headers';
+import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js'
+import Layout from './Layout.vue'
+import byTopicHeaders from '../../data/index-post/by-topic-headers'
 
 export default {
   components: {
@@ -85,12 +85,12 @@ export default {
   data: function() {
     return {
       topicHeaders: byTopicHeaders.topicHeaders
-    };
+    }
   },
 
   computed: {
     allPosts() {
-      return this.$route.path.includes('/posts/');
+      return this.$route.path.includes('/posts/')
     }
   },
 
@@ -100,15 +100,15 @@ export default {
       handler() {
         if (typeof window !== `undefined`) {
           if (this.$route.path.includes('/topics/')) {
-            sessionStorage.setItem('allPosts', 'false');
+            sessionStorage.setItem('allPosts', 'false')
           } else {
-            sessionStorage.setItem('allPosts', 'true');
+            sessionStorage.setItem('allPosts', 'true')
           }
         }
       }
     }
   }
-};
+}
 </script>
 
 <style lang="stylus" scoped>

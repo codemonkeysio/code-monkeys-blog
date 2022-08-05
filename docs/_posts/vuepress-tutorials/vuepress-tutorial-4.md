@@ -6,46 +6,13 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to structure your VuePress site, then check out VuePress Tutorial 4 - Directory Structure! 🍌🐒
 cardDescription: We're going to start with an overview of the current directory structure from the previous tutorial. Then we'll describe the...
 img: vuepress-tutorials/tutorial-4/vuepress-tutorial-4-directory-structure-post.png
-altText: VuePress Tutorial 4 Directory Structure Post Picture
+alt: VuePress Tutorial 4 - Directory Structure Post Picture
+linkImg: vuepress-tutorials/tutorial-4/vuepress-tutorial-4-directory-structure-post-link.png
+linkImgAlt: VuePress Tutorial 4 - Directory Structure Image
 canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-4/
 sidebar: auto
 permalink: /vuepress-tutorial-4/
 redirectFrom: /posts/2022/01/22/vuepress-tutorial-4/
-meta:
-  - property: 'og:title'
-    content: 'VuePress Tutorial 4 - Directory Structure'
-  - property: 'og:type'
-    content: 'website'
-  - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-4/vuepress-tutorial-4-directory-structure-post-link.png'
-  - property: 'og:image:width'
-    content: '1200'
-  - property: 'og:image:height'
-    content: '628'
-  - property: 'og:image:alt'
-    content: 'VuePress Tutorial 4 - Directory Structure Image'
-  - property: 'og:url'
-    content: 'https://codemonkeys.tech/vuepress-tutorial-4/'
-  - property: 'og:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to structure your VuePress site, then check out VuePress Tutorial 4 - Directory Structure! 🍌🐒'
-  - property: 'og:site_name'
-    content: 'Code Monkeys'
-  - name: 'twitter:card'
-    content: 'summary_large_image'
-  - name: 'twitter:title'
-    content: 'VuePress Tutorial 4 - Directory Structure'
-  - name: 'twitter:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to structure your VuePress site, then check out VuePress Tutorial 4 - Directory Structure! 🍌🐒'
-  - name: 'twitter:url'
-    content: 'https://codemonkeys.tech/vuepress-tutorial-4/'
-  - name: 'twitter:site'
-    content: '@codemonkeystech'
-  - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-4/vuepress-tutorial-4-directory-structure-post-link.png'
-  - name: 'twitter:image:alt'
-    content: 'VuePress Tutorial 4 - Directory Structure Image'
-  - name: 'twitter:creator'
-    content: '@codemonkeystech'
 ---
 
 ::: slot header

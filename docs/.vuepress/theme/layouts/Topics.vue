@@ -6,14 +6,14 @@
         <div
           class="topic-card"
           @click="
-            $router.push(`${topic.path}`).catch((err) => {
+            $router.push(`${topic.path}`).catch(err => {
               if (
                 err.name !== 'NavigationDuplicated' &&
                 !err.message.includes(
                   'Avoided redundant navigation to current location'
                 )
               ) {
-                console.log(err);
+                console.log(err)
               }
             })
           "
@@ -32,7 +32,7 @@
           <div class="logo">
             <v-lazy-image
               :src="$withBase(`/images/${topicDetails[index].logo}`)"
-              :alt="topicDetails[index].altText"
+              :alt="topicDetails[index].alt"
             />
           </div>
         </div>
@@ -42,8 +42,8 @@
 </template>
 
 <script>
-import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js';
-import Layout from './Layout.vue';
+import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js'
+import Layout from './Layout.vue'
 
 export default {
   components: {
@@ -54,12 +54,12 @@ export default {
   computed: {
     topicDetails() {
       const topicsPage = this.$site.pages.filter(
-        (page) => page.path === '/topics/'
-      );
-      return topicsPage[0].frontmatter.topicDetails;
+        page => page.path === '/topics/'
+      )
+      return topicsPage[0].frontmatter.topicDetails
     }
   }
-};
+}
 </script>
 
 <style lang="stylus" scoped>

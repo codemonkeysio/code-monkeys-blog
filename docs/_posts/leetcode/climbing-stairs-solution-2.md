@@ -6,7 +6,9 @@ topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the second Solution & Notes for the LeetCode problem Climbing Stairs! 🍌🐒
 cardDescription: You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps...
 img: leetcode/03-climbing-stairs-solution-2/leetcode-climbing-stairs-solution-2-post.png
-altText: LeetCode Climbing Stairs Solution 2 Post Picture
+alt: LeetCode - Climbing Stairs Solution 2 Post Picture
+linkImg: leetcode/03-climbing-stairs-solution-2/leetcode-climbing-stairs-solution-2-post-link.png
+linkImgAlt: LeetCode - Climbing Stairs Solution 2 Image
 videoURL: 'https://www.youtube-nocookie.com/embed/_dhZdGNFV-g'
 canonicalUrl: https://codemonkeys.tech/climbing-stairs-solution-2/
 mathjax:
@@ -14,41 +16,6 @@ mathjax:
 sidebar: auto
 permalink: /climbing-stairs-solution-2/ 
 redirectFrom: /posts/2021/07/01/climbing-stairs-solution-2/
-meta:
-  - property: 'og:title'
-    content: 'LeetCode - Climbing Stairs Solution 2'
-  - property: 'og:type'
-    content: 'website'
-  - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/leetcode/03-climbing-stairs-solution-2/leetcode-climbing-stairs-solution-2-post-link.png'
-  - property: 'og:image:width'
-    content: '1200'
-  - property: 'og:image:height'
-    content: '628'
-  - property: 'og:image:alt'
-    content: 'LeetCode - Climbing Stairs Solution 2 Image'
-  - property: 'og:url'
-    content: 'https://codemonkeys.tech/climbing-stairs-solution-2/'
-  - property: 'og:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Check out the second Solution & Notes for the LeetCode problem Climbing Stairs! 🍌🐒'
-  - property: 'og:site_name'
-    content: 'Code Monkeys'
-  - name: 'twitter:card'
-    content: 'summary_large_image'
-  - name: 'twitter:title'
-    content: 'LeetCode - Climbing Stairs Solution 2'
-  - name: 'twitter:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Check out the second Solution & Notes for the LeetCode problem Climbing Stairs! 🍌🐒'
-  - name: 'twitter:url'
-    content: 'https://codemonkeys.tech/climbing-stairs-solution-2/'
-  - name: 'twitter:site'
-    content: '@codemonkeystech'
-  - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/leetcode/03-climbing-stairs-solution-2/leetcode-climbing-stairs-solution-2-post-link.png'
-  - name: 'twitter:image:alt'
-    content: 'LeetCode - Climbing Stairs Solution 2 Image'
-  - name: 'twitter:creator'
-    content: '@codemonkeystech'
 ---
 
 ::: slot header

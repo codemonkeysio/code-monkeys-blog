@@ -6,46 +6,13 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to configure the navbar for VuePress, then check out VuePress Tutorial 7 - Navbar Logo and Links! 🍌🐒
 cardDescription: In this tutorial we'll be discussing how to configure the navbar by using the options exposed by the default theme...
 img: vuepress-tutorials/tutorial-7/vuepress-tutorial-7-navbar-logo-and-links-post.png
-altText: VuePress Tutorial 7 Navbar Logo and Links Post Picture
+alt: VuePress Tutorial 7 - Navbar Logo and Links Post Picture
+linkImg: vuepress-tutorials/tutorial-7/vuepress-tutorial-7-navbar-logo-and-links-post-link.png
+linkImgAlt: VuePress Tutorial 7 - Navbar Logo and Links Image
 canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-7/
 sidebar: auto
 permalink: /vuepress-tutorial-7/
 redirectFrom: /posts/2022/03/12/vuepress-tutorial-7/
-meta:
-  - property: 'og:title'
-    content: 'VuePress Tutorial 7 - Navbar Logo and Links'
-  - property: 'og:type'
-    content: 'website'
-  - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-7/vuepress-tutorial-7-navbar-logo-and-links-post-link.png'
-  - property: 'og:image:width'
-    content: '1200'
-  - property: 'og:image:height'
-    content: '628'
-  - property: 'og:image:alt'
-    content: 'VuePress Tutorial 7 - Navbar Logo and Links Image'
-  - property: 'og:url'
-    content: 'https://codemonkeys.tech/vuepress-tutorial-7/'
-  - property: 'og:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to configure the navbar for VuePress, then check out VuePress Tutorial 7 - Navbar Logo and Links! 🍌🐒'
-  - property: 'og:site_name'
-    content: 'Code Monkeys'
-  - name: 'twitter:card'
-    content: 'summary_large_image'
-  - name: 'twitter:title'
-    content: 'VuePress Tutorial 7 - Navbar Logo and Links'
-  - name: 'twitter:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to configure the navbar for VuePress, then check out VuePress Tutorial 7 - Navbar Logo and Links! 🍌🐒'
-  - name: 'twitter:url'
-    content: 'https://codemonkeys.tech/vuepress-tutorial-7/'
-  - name: 'twitter:site'
-    content: '@codemonkeystech'
-  - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-7/vuepress-tutorial-7-navbar-logo-and-links-post-link.png'
-  - name: 'twitter:image:alt'
-    content: 'VuePress Tutorial 7 - Navbar Logo and Links Image'
-  - name: 'twitter:creator'
-    content: '@codemonkeystech'
 ---
 
 ::: slot header

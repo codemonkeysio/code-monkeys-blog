@@ -6,7 +6,9 @@ topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Single Number! 🍌🐒
 cardDescription: Given a non-empty array of integers nums, every element appears twice excepet for one. Find that single...
 img: leetcode/01-single-number/leetcode-single-number-post.png
-altText: LeetCode Single Number Post Picture
+alt: LeetCode - Single Number Post Picture
+linkImg: leetcode/01-single-number/leetcode-single-number-post-link.png
+linkImgAlt: LeetCode - Single Number Solution Image
 videoURL: 'https://www.youtube-nocookie.com/embed/K6TuMWpnmqQ'
 canonicalUrl: https://codemonkeys.tech/single-number/
 mathjax:
@@ -14,41 +16,6 @@ mathjax:
 sidebar: auto
 permalink: /single-number/
 redirectFrom: /posts/2021/06/29/single-number/
-meta:
-  - property: 'og:title'
-    content: 'LeetCode - Single Number Solution'
-  - property: 'og:type'
-    content: 'website'
-  - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/leetcode/01-single-number/leetcode-single-number-post-link.png'
-  - property: 'og:image:width'
-    content: '1200'
-  - property: 'og:image:height'
-    content: '628'
-  - property: 'og:image:alt'
-    content: 'LeetCode - Single Number Solution Image'
-  - property: 'og:url'
-    content: 'https://codemonkeys.tech/single-number/'
-  - property: 'og:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Single Number! 🍌🐒'
-  - property: 'og:site_name'
-    content: 'Code Monkeys'
-  - name: 'twitter:card'
-    content: 'summary_large_image'
-  - name: 'twitter:title'
-    content: 'LeetCode - Single Number Solution'
-  - name: 'twitter:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Single Number! 🍌🐒'
-  - name: 'twitter:url'
-    content: 'https://codemonkeys.tech/single-number/'
-  - name: 'twitter:site'
-    content: '@codemonkeystech'
-  - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/leetcode/01-single-number/leetcode-single-number-post-link.png'
-  - name: 'twitter:image:alt'
-    content: 'LeetCode - Single Number Solution Image'
-  - name: 'twitter:creator'
-    content: '@codemonkeystech'
 ---
 
 ::: slot header

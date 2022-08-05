@@ -1,5 +1,5 @@
-require('dotenv').config();
-const topicDetails = require('./data/config/blog/topics-page-details');
+require('dotenv').config()
+const topicDetails = require('./data/config/blog/topics-page-details')
 
 module.exports = {
   lang: 'en-US',
@@ -251,7 +251,7 @@ module.exports = {
     [
       'meta',
       {
-        property: 'og:site_name',
+        property: 'og:site:name',
         content: 'Code Monkeys'
       }
     ],
@@ -332,8 +332,8 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-
   themeConfig: {
+    domain: 'https://codemonkeys.tech/',
     logo: '/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo.png',
     nav: [
       {
@@ -391,10 +391,11 @@ module.exports = {
             title: 'All Posts',
             layout: 'IndexPost',
             frontmatter: {
-              description: "Here's all of the posts we've made so far! Find a post that peeks your interest and start monkeying around! 📝🐒",
-              canonicalUrl: "https://codemonkeys.tech/posts/"
+              description:
+                "Here's all of the posts we've made so far! Find a post that peeks your interest and start monkeying around! 📝🐒",
+              canonicalUrl: 'https://codemonkeys.tech/posts/'
             },
-            itemLayout: "Post",
+            itemLayout: 'Post',
             itemPermalink: '/:slug',
             pagination: {
               lengthPerPage: 5, // 5 is the default value
@@ -416,8 +417,9 @@ module.exports = {
             // Layout of the `scope page` (list of posts with this tag)
             scopeLayout: 'IndexPost',
             frontmatter: {
-              description: "Here you can view the various topics we've covered so far! Find a topic that interests you and start learning and coding today! Be sure to grab a banana! 🍌",
-              canonicalUrl: "https://codemonkeys.tech/topics/",
+              description:
+                "Here you can view the various topics we've covered so far! Find a topic that interests you and start learning and coding today! Be sure to grab a banana! 🍌",
+              canonicalUrl: 'https://codemonkeys.tech/topics/',
               topicDetails: topicDetails.topicsPageDetails
             },
             pagination: {
@@ -456,4 +458,4 @@ module.exports = {
       }
     ]
   ]
-};
+}

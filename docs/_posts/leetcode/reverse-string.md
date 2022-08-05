@@ -6,7 +6,9 @@ topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Reverse String! 🍌🐒
 cardDescription: Write a function that reverses a string. The input string is given as an array of characters. Ex) 1 Input...
 img: leetcode/07-reverse-string/leetcode-reverse-string-post.png
-altText: LeetCode Reverse String Post Picture
+alt: LeetCode - Reverse String Post Picture
+linkImg: leetcode/07-reverse-string/leetcode-reverse-string-post-link.png
+linkImgAlt: LeetCode - Reverse String Solution Image
 videoURL: 'https://www.youtube-nocookie.com/embed/Ue3XmMvLwsY'
 canonicalUrl: https://codemonkeys.tech/reverse-string/
 mathjax:
@@ -14,41 +16,6 @@ mathjax:
 sidebar: auto
 permalink: /reverse-string/
 redirectFrom: /posts/2021/08/11/reverse-string/
-meta:
-  - property: 'og:title'
-    content: 'LeetCode - Reverse String Solution'
-  - property: 'og:type'
-    content: 'website'
-  - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/leetcode/07-reverse-string/leetcode-reverse-string-post-link.png'
-  - property: 'og:image:width'
-    content: '1200'
-  - property: 'og:image:height'
-    content: '628'
-  - property: 'og:image:alt'
-    content: 'LeetCode - Reverse String Solution Image'
-  - property: 'og:url'
-    content: 'https://codemonkeys.tech/reverse-string/'
-  - property: 'og:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Reverse String! 🍌🐒'
-  - property: 'og:site_name'
-    content: 'Code Monkeys'
-  - name: 'twitter:card'
-    content: 'summary_large_image'
-  - name: 'twitter:title'
-    content: 'LeetCode - Reverse String Solution'
-  - name: 'twitter:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Reverse String! 🍌🐒'
-  - name: 'twitter:url'
-    content: 'https://codemonkeys.tech/reverse-string/'
-  - name: 'twitter:site'
-    content: '@codemonkeystech'
-  - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/leetcode/07-reverse-string/leetcode-reverse-string-post-link.png'
-  - name: 'twitter:image:alt'
-    content: 'LeetCode - Reverse String Solution Image'
-  - name: 'twitter:creator'
-    content: '@codemonkeystech'
 ---
 
 ::: slot header

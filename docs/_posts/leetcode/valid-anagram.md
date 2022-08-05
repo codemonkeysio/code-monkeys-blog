@@ -6,7 +6,9 @@ topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Valid Anagram! 🍌🐒
 cardDescription: Given two strings s and t, return true if t is an anagram of s, and false otherwise. Ex 1) Input...
 img: leetcode/04-valid-anagram/leetcode-valid-anagram-post.png
-altText: LeetCode Valid Anagram Post Picture
+alt: LeetCode - Valid Anagram Post Picture
+linkImg: leetcode/04-valid-anagram/leetcode-valid-anagram-post-link.png
+linkImgAlt: LeetCode - Valid Anagram Solution Image
 videoURL: 'https://www.youtube-nocookie.com/embed/Bh4f8Ui1gOU'
 canonicalUrl: https://codemonkeys.tech/valid-anagram/
 mathjax:
@@ -14,41 +16,6 @@ mathjax:
 sidebar: auto
 permalink: /valid-anagram/
 redirectFrom: /posts/2021/07/02/valid-anagram/
-meta:
-  - property: 'og:title'
-    content: 'LeetCode - Valid Anagram Solution'
-  - property: 'og:type'
-    content: 'website'
-  - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/leetcode/04-valid-anagram/leetcode-valid-anagram-post-link.png'
-  - property: 'og:image:width'
-    content: '1200'
-  - property: 'og:image:height'
-    content: '628'
-  - property: 'og:image:alt'
-    content: 'LeetCode - Valid Anagram Solution Image'
-  - property: 'og:url'
-    content: 'https://codemonkeys.tech/valid-anagram/'
-  - property: 'og:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Valid Anagram! 🍌🐒'
-  - property: 'og:site_name'
-    content: 'Code Monkeys'
-  - name: 'twitter:card'
-    content: 'summary_large_image'
-  - name: 'twitter:title'
-    content: 'LeetCode - Valid Anagram Solution'
-  - name: 'twitter:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Valid Anagram! 🍌🐒'
-  - name: 'twitter:url'
-    content: 'https://codemonkeys.tech/valid-anagram/'
-  - name: 'twitter:site'
-    content: '@codemonkeystech'
-  - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/leetcode/04-valid-anagram/leetcode-valid-anagram-post-link.png'
-  - name: 'twitter:image:alt'
-    content: 'LeetCode - Valid Anagram Solution Image'
-  - name: 'twitter:creator'
-    content: '@codemonkeystech'
 ---
 
 ::: slot header

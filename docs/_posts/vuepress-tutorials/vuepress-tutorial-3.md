@@ -6,46 +6,13 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Ready to set up and install VuePress, then check out VuePress Tutorial 3 - Set Up and Installation! 🍌🐒
 cardDescription: First we'll be going over how to create a repository on GitHub. If you plan on using these tutorials as guides and want to...
 img: vuepress-tutorials/tutorial-3/vuepress-tutorial-3-set-up-and-installation-post.png
-altText: VuePress Tutorial 3 Set Up and Installation Post Picture
+alt: VuePress Tutorial 3 - Set Up and Installation Post Picture
+linkImg: vuepress-tutorials/tutorial-3/vuepress-tutorial-3-set-up-and-installation-post-link.png
+linkImgAlt: VuePress Tutorial 3 - Set Up and Installation Image
 canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-3/
 sidebar: auto
 permalink: /vuepress-tutorial-3/
 redirectFrom: /posts/2022/01/16/vuepress-tutorial-3/
-meta:
-  - property: 'og:title'
-    content: 'VuePress Tutorial 3 - Set Up and Installation'
-  - property: 'og:type'
-    content: 'website'
-  - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-3/vuepress-tutorial-3-set-up-and-installation-post-link.png'
-  - property: 'og:image:width'
-    content: '1200'
-  - property: 'og:image:height'
-    content: '628'
-  - property: 'og:image:alt'
-    content: 'VuePress Tutorial 3 - Set Up and Installation Image'
-  - property: 'og:url'
-    content: 'https://codemonkeys.tech/vuepress-tutorial-3/'
-  - property: 'og:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Ready to set up and install VuePress, then check out VuePress Tutorial 3 - Set Up and Installation! 🍌🐒'
-  - property: 'og:site_name'
-    content: 'Code Monkeys'
-  - name: 'twitter:card'
-    content: 'summary_large_image'
-  - name: 'twitter:title'
-    content: 'VuePress Tutorial 3 - Set Up and Installation'
-  - name: 'twitter:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Ready to set up and install VuePress, then check out VuePress Tutorial 3 - Set Up and Installation! 🍌🐒'
-  - name: 'twitter:url'
-    content: 'https://codemonkeys.tech/vuepress-tutorial-3/'
-  - name: 'twitter:site'
-    content: '@codemonkeystech'
-  - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-3/vuepress-tutorial-3-set-up-and-installation-post-link.png'
-  - name: 'twitter:image:alt'
-    content: 'VuePress Tutorial 3 - Set Up and Installation Image'
-  - name: 'twitter:creator'
-    content: '@codemonkeystech'
 ---
 
 ::: slot header

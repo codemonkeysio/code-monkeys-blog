@@ -6,46 +6,13 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to create a custom footer for your VuePress site, then check out VuePress Tutorial 8 - Custom Footer! 🍌🐒
 cardDescription: Now it's time to start building the custom footer component for the site. Before creating the footer component, we're...
 img: vuepress-tutorials/tutorial-8/vuepress-tutorial-8-custom-footer-post.png
-altText: VuePress Tutorial 8 Custom Footer Post Picture
+alt: VuePress Tutorial 8 - Custom Footer Post Picture
+linkImg: vuepress-tutorials/tutorial-8/vuepress-tutorial-8-custom-footer-post-link.png
+linkImgAlt: VuePress Tutorial 8 - Custom Footer Image
 canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-8/
 sidebar: auto
 permalink: /vuepress-tutorial-8/
-redirectFrom: /posts/2022/04/06/vuepress-tutorial-8/ 
-meta:
-  - property: 'og:title'
-    content: 'VuePress Tutorial 8 - Custom Footer'
-  - property: 'og:type'
-    content: 'website'
-  - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-8/vuepress-tutorial-8-custom-footer-post-link.png'
-  - property: 'og:image:width'
-    content: '1200'
-  - property: 'og:image:height'
-    content: '628'
-  - property: 'og:image:alt'
-    content: 'VuePress Tutorial 8 - Custom Footer Image'
-  - property: 'og:url'
-    content: 'https://codemonkeys.tech/vuepress-tutorial-8/'
-  - property: 'og:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to create a custom footer for your VuePress site, then check out VuePress Tutorial 8 - Custom Footer! 🍌🐒'
-  - property: 'og:site_name'
-    content: 'Code Monkeys'
-  - name: 'twitter:card'
-    content: 'summary_large_image'
-  - name: 'twitter:title'
-    content: 'VuePress Tutorial 8 - Custom Footer'
-  - name: 'twitter:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to create a custom footer for your VuePress site, then check out VuePress Tutorial 8 - Custom Footer! 🍌🐒'
-  - name: 'twitter:url'
-    content: 'https://codemonkeys.tech/vuepress-tutorial-8/'
-  - name: 'twitter:site'
-    content: '@codemonkeystech'
-  - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-8/vuepress-tutorial-8-custom-footer-post-link.png'
-  - name: 'twitter:image:alt'
-    content: 'VuePress Tutorial 8 - Custom Footer Image'
-  - name: 'twitter:creator'
-    content: '@codemonkeystech'
+redirectFrom: /posts/2022/04/06/vuepress-tutorial-8/
 ---
 
 ::: slot header

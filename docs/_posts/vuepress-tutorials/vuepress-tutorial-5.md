@@ -6,46 +6,13 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn about the configuration basics for VuePress, then check out VuePress Tutorial 5 - Configuration Basics! 🍌🐒
 cardDescription: Currently, the site consists of a homepage with a title saying "Hello VuePress", and a search box which builds an index from...
 img: vuepress-tutorials/tutorial-5/vuepress-tutorial-5-configuration-basics-post.png
-altText: VuePress Tutorial 5 Configuration Basics Post Picture
+alt: VuePress Tutorial 5 - Configuration Basics Post Picture
+linkImg: vuepress-tutorials/tutorial-5/vuepress-tutorial-5-configuration-basics-post-link.png
+linkImgAlt: VuePress Tutorial 5 - Configuration Basics Image
 canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-5/
 sidebar: auto
 permalink: /vuepress-tutorial-5/
 redirectFrom: /posts/2022/01/26/vuepress-tutorial-5/
-meta:
-  - property: 'og:title'
-    content: 'VuePress Tutorial 5 - Configuration Basics'
-  - property: 'og:type'
-    content: 'website'
-  - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-5/vuepress-tutorial-5-configuration-basics-post-link.png'
-  - property: 'og:image:width'
-    content: '1200'
-  - property: 'og:image:height'
-    content: '628'
-  - property: 'og:image:alt'
-    content: 'VuePress Tutorial 5 - Configuration Basics Image'
-  - property: 'og:url'
-    content: 'https://codemonkeys.tech/vuepress-tutorial-5/'
-  - property: 'og:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn about the configuration basics for VuePress, then check out VuePress Tutorial 5 - Configuration Basics! 🍌🐒'
-  - property: 'og:site_name'
-    content: 'Code Monkeys'
-  - name: 'twitter:card'
-    content: 'summary_large_image'
-  - name: 'twitter:title'
-    content: 'VuePress Tutorial 5 - Configuration Basics'
-  - name: 'twitter:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn about the configuration basics for VuePress, then check out VuePress Tutorial 5 - Configuration Basics! 🍌🐒'
-  - name: 'twitter:url'
-    content: 'https://codemonkeys.tech/vuepress-tutorial-5/'
-  - name: 'twitter:site'
-    content: '@codemonkeystech'
-  - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-5/vuepress-tutorial-5-configuration-basics-post-link.png'
-  - name: 'twitter:image:alt'
-    content: 'VuePress Tutorial 5 - Configuration Basics Image'
-  - name: 'twitter:creator'
-    content: '@codemonkeystech'
 ---
 
 ::: slot header

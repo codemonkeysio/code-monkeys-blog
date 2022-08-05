@@ -6,46 +6,13 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 If you're interested in learning Vuepress, then check out VuePress Tutorial 1 - Introduction! 🍌🐒
 cardDescription: Welcome to our VuePress series! In this series we'll be developing the Code Monkeys Blog starting from the basics...
 img: vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post.png
-altText: VuePress Tutorial 1 Introduction Post Picture
+alt: VuePress Tutorial 1 - Introduction Post Picture
+linkImg: vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post-link.png
+linkImgAlt: VuePress Tutorial 1 - Introduction Image
 canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-1/
 sidebar: auto
 permalink: /vuepress-tutorial-1/
 redirectFrom: /posts/2021/09/24/vuepress-tutorial-1/
-meta:
-  - property: 'og:title'
-    content: 'VuePress Tutorial 1 - Introduction'
-  - property: 'og:type'
-    content: 'website'
-  - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post-link.png'
-  - property: 'og:image:width'
-    content: '1200'
-  - property: 'og:image:height'
-    content: '628'
-  - property: 'og:image:alt'
-    content: 'VuePress Tutorial 1 - Introduction Image'
-  - property: 'og:url'
-    content: 'https://codemonkeys.tech/vuepress-tutorial-1/'
-  - property: 'og:description'
-    content: "Hey fellow Code Monkeys!!! 🐵 If you're interested in learning Vuepress, then check out VuePress Tutorial 1 - Introduction! 🍌🐒"
-  - property: 'og:site_name'
-    content: 'Code Monkeys'
-  - name: 'twitter:card'
-    content: 'summary_large_image'
-  - name: 'twitter:title'
-    content: 'VuePress Tutorial 1 - Introduction'
-  - name: 'twitter:description'
-    content: "Hey fellow Code Monkeys!!! 🐵 If you're interested in learning Vuepress, then check out VuePress Tutorial 1 - Introduction! 🍌🐒"
-  - name: 'twitter:url'
-    content: 'https://codemonkeys.tech/vuepress-tutorial-1/'
-  - name: 'twitter:site'
-    content: '@codemonkeystech'
-  - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post-link.png'
-  - name: 'twitter:image:alt'
-    content: 'VuePress Tutorial 1 - Introduction Image'
-  - name: 'twitter:creator'
-    content: '@codemonkeystech'
 ---
 
 ::: slot header

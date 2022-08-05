@@ -6,46 +6,13 @@ topic: Node.js
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to install and use Yarn 1, then check out this post! 🍌🐒
 cardDescription: Before discussing Yarn in more detail, let's first define what a package manager is and what it handles for us. A pacakage...
 img: nodejs/03-installing-yarn-1/nodejs-installing-yarn-1-post.png
-altText: Node.js Installing Yarn 1 Post Picture
+alt: Node.js - Installing Yarn 1 Post Picture
+linkImg: nodejs/03-installing-yarn-1/nodejs-installing-yarn-1-post-link.png
+linkImgAlt: Node.js - Installing Yarn 1 Image
 canonicalUrl: https://codemonkeys.tech/installing-yarn-1/
 sidebar: auto
 permalink: /installing-yarn-1/
 redirectFrom: /posts/2021/12/28/installing-yarn-1/
-meta:
-  - property: 'og:title'
-    content: 'Installing Yarn 1'
-  - property: 'og:type'
-    content: 'website'
-  - property: 'og:image'
-    content: 'https://codemonkeys.tech/images/nodejs/03-installing-yarn-1/nodejs-installing-yarn-1-post-link.png'
-  - property: 'og:image:width'
-    content: '1200'
-  - property: 'og:image:height'
-    content: '628'
-  - property: 'og:image:alt'
-    content: 'Installing Yarn 1 Image'
-  - property: 'og:url'
-    content: 'https://codemonkeys.tech/installing-yarn-1/'
-  - property: 'og:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to install and use Yarn 1, then check out this post! 🍌🐒'
-  - property: 'og:site_name'
-    content: 'Code Monkeys'
-  - name: 'twitter:card'
-    content: 'summary_large_image'
-  - name: 'twitter:title'
-    content: 'Installing Yarn 1'
-  - name: 'twitter:description'
-    content: 'Hey fellow Code Monkeys!!! 🐵 Want to learn how to install and use Yarn 1, then check out this post! 🍌🐒'
-  - name: 'twitter:url'
-    content: 'https://codemonkeys.tech/installing-yarn-1/'
-  - name: 'twitter:site'
-    content: '@codemonkeystech'
-  - name: 'twitter:image'
-    content: 'https://codemonkeys.tech/images/nodejs/03-installing-yarn-1/nodejs-installing-yarn-1-post-link.png'
-  - name: 'twitter:image:alt'
-    content: 'Installing Yarn 1 Image'
-  - name: 'twitter:creator'
-    content: '@codemonkeystech'
 ---
 
 ::: slot header
