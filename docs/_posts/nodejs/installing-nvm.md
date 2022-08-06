@@ -9,7 +9,7 @@ img: nodejs/01-installing-nvm/nodejs-installing-nvm-post.png
 alt: Node.js - Installing Node Version Manager (nvm) Post Picture
 linkImg: nodejs/01-installing-nvm/nodejs-installing-nvm-post-link.png
 linkImgAlt: Node.js - Installing Node Version Manager (nvm) Image
-canonicalUrl: https://codemonkeys.tech/installing-nvm/
+canonicalUrl: installing-nvm/
 sidebar: auto
 permalink: installing-nvm/
 redirectFrom: /posts/2021/12/07/installing-nvm/

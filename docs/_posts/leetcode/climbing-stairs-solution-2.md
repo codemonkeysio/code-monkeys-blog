@@ -10,7 +10,7 @@ alt: LeetCode - Climbing Stairs Solution 2 Post Picture
 linkImg: leetcode/03-climbing-stairs-solution-2/leetcode-climbing-stairs-solution-2-post-link.png
 linkImgAlt: LeetCode - Climbing Stairs Solution 2 Image
 videoURL: 'https://www.youtube-nocookie.com/embed/_dhZdGNFV-g'
-canonicalUrl: https://codemonkeys.tech/climbing-stairs-solution-2/
+canonicalUrl: climbing-stairs-solution-2/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto

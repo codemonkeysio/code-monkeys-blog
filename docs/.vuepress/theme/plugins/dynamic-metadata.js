@@ -10,16 +10,14 @@ module.exports = (options = {}, ctx) => ({
         frontmatter.canonicalUrl && typeof frontmatter.canonicalUrl === 'string'
           ? frontmatter.canonicalUrl.startsWith('https')
             ? frontmatter.canonicalUrl
-            : ctx.siteConfig.themeConfig.domain + frontmatter.canonicalUrl
+            : `${ctx.siteConfig.themeConfig.domain}${frontmatter.canonicalUrl}`
           : null,
 
       linkImg:
         frontmatter.linkImg && typeof frontmatter.linkImg === 'string'
           ? frontmatter.linkImg.startsWith('https')
             ? frontmatter.linkImg
-            : ctx.siteConfig.themeConfig.domain +
-              'images/' +
-              frontmatter.linkImg
+            : `${ctx.siteConfig.themeConfig.domain}images/${frontmatter.linkImg}`
           : null,
 
       linkImgAlt:
@@ -67,11 +65,14 @@ module.exports = (options = {}, ctx) => ({
     meta_dynamicMeta = getUniqueArray(meta_dynamicMeta, [
       'name',
       'content',
-      'itemprop',
       'property'
     ])
 
     frontmatter.meta = meta_dynamicMeta
+
+    if (frontmatter.canonicalUrl) {
+      frontmatter.canonicalUrl = metadata.url
+    }
   }
 })
 

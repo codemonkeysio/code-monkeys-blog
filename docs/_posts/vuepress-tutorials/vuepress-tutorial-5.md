@@ -9,7 +9,7 @@ img: vuepress-tutorials/tutorial-5/vuepress-tutorial-5-configuration-basics-post
 alt: VuePress Tutorial 5 - Configuration Basics Post Picture
 linkImg: vuepress-tutorials/tutorial-5/vuepress-tutorial-5-configuration-basics-post-link.png
 linkImgAlt: VuePress Tutorial 5 - Configuration Basics Image
-canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-5/
+canonicalUrl: vuepress-tutorial-5/
 sidebar: auto
 permalink: /vuepress-tutorial-5/
 redirectFrom: /posts/2022/01/26/vuepress-tutorial-5/

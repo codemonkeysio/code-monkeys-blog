@@ -393,7 +393,7 @@ module.exports = {
             frontmatter: {
               description:
                 "Here's all of the posts we've made so far! Find a post that peeks your interest and start monkeying around! 📝🐒",
-              canonicalUrl: 'https://codemonkeys.tech/posts/'
+              canonicalUrl: 'posts/'
             },
             itemLayout: 'Post',
             itemPermalink: '/:slug',
@@ -419,7 +419,7 @@ module.exports = {
             frontmatter: {
               description:
                 "Here you can view the various topics we've covered so far! Find a topic that interests you and start learning and coding today! Be sure to grab a banana! 🍌",
-              canonicalUrl: 'https://codemonkeys.tech/topics/',
+              canonicalUrl: 'topics/',
               topicDetails: topicDetails.topicsPageDetails
             },
             pagination: {

@@ -9,7 +9,7 @@ img: nodejs/02-installing-fnm/nodejs-installing-fnm-post.png
 alt: Node.js - Installing Fast Node Manager (fnm) Post Picture
 linkImg: nodejs/02-installing-fnm/nodejs-installing-fnm-post-link.png
 linkImgAlt: Node.js - Installing Fast Node Manager (fnm) Image
-canonicalUrl: https://codemonkeys.tech/installing-fnm/
+canonicalUrl: installing-fnm/
 sidebar: auto
 permalink: /installing-fnm/
 redirectFrom: /posts/2021/12/08/installing-fnm/

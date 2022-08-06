@@ -10,7 +10,7 @@ alt: LeetCode - Contains Duplicate Post Picture
 linkImg: leetcode/06-contains-duplicate/leetcode-contains-duplicate-post-link.png
 linkImgAlt: LeetCode - Contains Duplicate Solution Image
 videoURL: 'https://www.youtube-nocookie.com/embed/P_SCtMIgZJs'
-canonicalUrl: https://codemonkeys.tech/contains-duplicate/
+canonicalUrl: contains-duplicate/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto

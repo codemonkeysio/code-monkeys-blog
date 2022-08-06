@@ -10,7 +10,7 @@ alt: LeetCode - Remove Duplicates from Sorted Array Post Picture
 linkImg: leetcode/05-remove-duplicates-from-sorted-array/leetcode-remove-duplicates-from-sorted-array-post-link.png
 linkImgAlt: LeetCode - Remove Duplicates from Sorted Array Solution Image
 videoURL: 'https://www.youtube-nocookie.com/embed/ApBQCp1RfnA'
-canonicalUrl: https://codemonkeys.tech/remove-duplicates-from-sorted-array/
+canonicalUrl: remove-duplicates-from-sorted-array/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto

@@ -9,7 +9,7 @@ img: vuepress-tutorials/tutorial-3/vuepress-tutorial-3-set-up-and-installation-p
 alt: VuePress Tutorial 3 - Set Up and Installation Post Picture
 linkImg: vuepress-tutorials/tutorial-3/vuepress-tutorial-3-set-up-and-installation-post-link.png
 linkImgAlt: VuePress Tutorial 3 - Set Up and Installation Image
-canonicalUrl: https://codemonkeys.tech/vuepress-tutorial-3/
+canonicalUrl: vuepress-tutorial-3/
 sidebar: auto
 permalink: /vuepress-tutorial-3/
 redirectFrom: /posts/2022/01/16/vuepress-tutorial-3/

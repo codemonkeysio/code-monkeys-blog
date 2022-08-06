@@ -10,7 +10,7 @@ alt: LeetCode - Reverse String Post Picture
 linkImg: leetcode/07-reverse-string/leetcode-reverse-string-post-link.png
 linkImgAlt: LeetCode - Reverse String Solution Image
 videoURL: 'https://www.youtube-nocookie.com/embed/Ue3XmMvLwsY'
-canonicalUrl: https://codemonkeys.tech/reverse-string/
+canonicalUrl: reverse-string/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto

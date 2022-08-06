@@ -10,7 +10,7 @@ alt: LeetCode - Single Number Post Picture
 linkImg: leetcode/01-single-number/leetcode-single-number-post-link.png
 linkImgAlt: LeetCode - Single Number Solution Image
 videoURL: 'https://www.youtube-nocookie.com/embed/K6TuMWpnmqQ'
-canonicalUrl: https://codemonkeys.tech/single-number/
+canonicalUrl: single-number/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto

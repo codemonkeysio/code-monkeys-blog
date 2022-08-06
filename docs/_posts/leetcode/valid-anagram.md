@@ -10,7 +10,7 @@ alt: LeetCode - Valid Anagram Post Picture
 linkImg: leetcode/04-valid-anagram/leetcode-valid-anagram-post-link.png
 linkImgAlt: LeetCode - Valid Anagram Solution Image
 videoURL: 'https://www.youtube-nocookie.com/embed/Bh4f8Ui1gOU'
-canonicalUrl: https://codemonkeys.tech/valid-anagram/
+canonicalUrl: valid-anagram/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 sidebar: auto
