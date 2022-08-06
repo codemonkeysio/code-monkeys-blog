@@ -60,15 +60,14 @@ export default {
 
   computed: {
     checkSidebarAuto: function() {
-      let postPattern = /\/posts\/[0-9]/;
       return {
         'is-sidebar-active':
           this.$route.path.includes('/donate/') ||
-          this.$route.path.match(postPattern)
-      };
+          this.$page.regularPath.includes('_posts')
+      }
     }
   }
-};
+}
 </script>
 
 <style lang="stylus" scoped>
