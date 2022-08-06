@@ -1,6 +1,5 @@
 ---
 title: VuePress Tutorial 3 - Set Up and Installation
-author: Jay the Code Monkey
 date: 2022-01-16T05:40:00.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Ready to set up and install VuePress, then check out VuePress Tutorial 3 - Set Up and Installation! 🍌🐒

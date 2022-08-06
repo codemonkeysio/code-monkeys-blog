@@ -1,6 +1,5 @@
 ---
 title: VuePress Tutorial 8 - Custom Footer
-author: Jay the Code Monkey
 date: 2022-04-06T16:58:30.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to create a custom footer for your VuePress site, then check out VuePress Tutorial 8 - Custom Footer! 🍌🐒

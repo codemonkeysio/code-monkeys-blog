@@ -1,6 +1,5 @@
 ---
 title: Valid Anagram
-author: Jay the Code Monkey
 date: 2021-07-02T18:15:23.000Z
 topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Valid Anagram! 🍌🐒

@@ -1,6 +1,5 @@
 ---
 title: VuePress Tutorial 5 - Configuration Basics
-author: Jay the Code Monkey
 date: 2022-01-26T17:54:00.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn about the configuration basics for VuePress, then check out VuePress Tutorial 5 - Configuration Basics! 🍌🐒

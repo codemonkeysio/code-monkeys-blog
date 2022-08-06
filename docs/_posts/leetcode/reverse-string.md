@@ -1,6 +1,5 @@
 ---
 title: Reverse String
-author: Jay the Code Monkey
 date: 2021-08-11T15:35:00.000Z
 topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Reverse String! 🍌🐒

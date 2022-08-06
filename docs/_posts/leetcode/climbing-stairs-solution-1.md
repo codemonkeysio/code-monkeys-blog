@@ -1,6 +1,5 @@
 ---
 title: Climbing Stairs Solution 1
-author: Jay the Code Monkey
 date: 2021-06-30T16:43:32.000Z
 topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the first Solution & Notes for the LeetCode problem Climbing Stairs! 🍌🐒

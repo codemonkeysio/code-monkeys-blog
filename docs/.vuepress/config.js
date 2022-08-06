@@ -334,6 +334,7 @@ module.exports = {
   },
   themeConfig: {
     domain: 'https://codemonkeys.tech/',
+    defaultAuthor: 'Jay the Code Monkey',
     logo: '/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo.png',
     nav: [
       {

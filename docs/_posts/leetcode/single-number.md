@@ -1,6 +1,5 @@
 ---
 title: Single Number
-author: Jay the Code Monkey
 date: 2021-06-29T17:23:42.000Z
 topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Single Number! 🍌🐒

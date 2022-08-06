@@ -1,6 +1,5 @@
 ---
 title: Contains Duplicate
-author: Jay the Code Monkey
 date: 2021-08-06T18:24:00.000Z
 topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Contains Duplicate! 🍌🐒

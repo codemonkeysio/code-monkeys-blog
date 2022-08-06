@@ -1,6 +1,5 @@
 ---
 title: Installing Node Version Manager (nvm)
-author: Jay the Code Monkey
 date: 2021-12-07T22:01:15.000Z
 topic: Node.js
 description: Hey fellow Code Monkeys!!! 🐵 Want to be able to easily install and switch between Node versions, then check out Installing Node Version Manager (nvm)! 🍌🐒

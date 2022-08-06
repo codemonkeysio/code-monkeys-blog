@@ -1,6 +1,5 @@
 ---
 title: VuePress Tutorial 4 - Directory Structure
-author: Jay the Code Monkey
 date: 2022-01-22T16:55:00.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to structure your VuePress site, then check out VuePress Tutorial 4 - Directory Structure! 🍌🐒

@@ -1,6 +1,5 @@
 ---
 title: VuePress Tutorial 1 - Introduction
-author: Jay the Code Monkey
 date: 2021-09-24T16:26:30.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 If you're interested in learning Vuepress, then check out VuePress Tutorial 1 - Introduction! 🍌🐒

@@ -1,6 +1,5 @@
 ---
 title: Installing Yarn 1
-author: Jay the Code Monkey
 date: 2021-12-28T22:56:00.000Z
 topic: Node.js
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to install and use Yarn 1, then check out this post! 🍌🐒

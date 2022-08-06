@@ -1,6 +1,5 @@
 ---
 title: VuePress Tutorial 7 - Navbar Logo and Links
-author: Jay the Code Monkey
 date: 2022-03-12T17:46:45.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to configure the navbar for VuePress, then check out VuePress Tutorial 7 - Navbar Logo and Links! 🍌🐒

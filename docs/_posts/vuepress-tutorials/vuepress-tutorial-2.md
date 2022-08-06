@@ -1,6 +1,5 @@
 ---
 title: VuePress Tutorial 2 - Why Use VuePress?
-author: Jay the Code Monkey
 date: 2021-11-24T20:50:30.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Wondering if you should use VuePress, then check out VuePress Tutorial 2 - Why Use VuePress? 🍌🐒

@@ -4,6 +4,11 @@ module.exports = (options = {}, ctx) => ({
     const metadata = {
       title: frontmatter.title,
 
+      author:
+        frontmatter.author && typeof frontmatter.author === 'string'
+          ? frontmatter.author
+          : `${ctx.siteConfig.themeConfig.defaultAuthor}`,
+
       description: frontmatter.description,
 
       url:
@@ -56,6 +61,14 @@ module.exports = (options = {}, ctx) => ({
       ]
     }
 
+    if ($page.regularPath.includes('_posts')) {
+      meta_dynamicMeta.push({ name: 'author', content: metadata.author })
+      if (!frontmatter.author) {
+        frontmatter.author = metadata.author
+      }
+      frontmatter.sidebar = 'auto'
+    }
+
     meta_dynamicMeta = meta_dynamicMeta.filter(
       meta => meta.content && meta.content !== ''
     )
@@ -72,10 +85,6 @@ module.exports = (options = {}, ctx) => ({
 
     if (frontmatter.canonicalUrl) {
       frontmatter.canonicalUrl = metadata.url
-    }
-
-    if ($page.regularPath.includes('_posts')) {
-      frontmatter.sidebar = 'auto'
     }
   }
 })
