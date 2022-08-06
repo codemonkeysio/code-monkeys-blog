@@ -86,6 +86,24 @@ module.exports = (options = {}, ctx) => ({
     if (frontmatter.canonicalUrl) {
       frontmatter.canonicalUrl = metadata.url
     }
+
+    if (frontmatter.layout === 'IndexPost') {
+      let pagePath = formatPagePath($page.path)
+      if ($page.regularPath.includes('topics')) {
+        if (!frontmatter.title.startsWith('Page')) {
+          frontmatter.title = frontmatter.title.replace(/ Topics/, ' | Topics')
+        }
+        frontmatter.description = ctx.siteConfig.themeConfig.topicsDescription
+
+        frontmatter.canonicalUrl = `${ctx.siteConfig.themeConfig.domain}${pagePath}`
+      } else if ($page.regularPath.includes('posts/page')) {
+        frontmatter.title = frontmatter.title.replace('|', '-')
+
+        frontmatter.description = ctx.siteConfig.themeConfig.allPostsDescription
+
+        frontmatter.canonicalUrl = `${ctx.siteConfig.themeConfig.domain}${pagePath}`
+      }
+    }
   }
 })
 
@@ -97,4 +115,8 @@ function getUniqueArray(arr, keyProps) {
       return uniqueMap
     }, {})
   )
+}
+
+function formatPagePath(pagePath) {
+  return pagePath.substring(1)
 }
