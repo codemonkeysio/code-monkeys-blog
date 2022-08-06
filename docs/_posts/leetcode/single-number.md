@@ -13,7 +13,6 @@ videoURL: 'https://www.youtube-nocookie.com/embed/K6TuMWpnmqQ'
 canonicalUrl: single-number/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
-sidebar: auto
 permalink: /single-number/
 redirectFrom: /posts/2021/06/29/single-number/
 ---

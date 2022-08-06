@@ -10,7 +10,6 @@ alt: VuePress Tutorial 7 - Navbar Logo and Links Post Picture
 linkImg: vuepress-tutorials/tutorial-7/vuepress-tutorial-7-navbar-logo-and-links-post-link.png
 linkImgAlt: VuePress Tutorial 7 - Navbar Logo and Links Image
 canonicalUrl: vuepress-tutorial-7/
-sidebar: auto
 permalink: /vuepress-tutorial-7/
 redirectFrom: /posts/2022/03/12/vuepress-tutorial-7/
 ---

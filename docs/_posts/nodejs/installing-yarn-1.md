@@ -10,7 +10,6 @@ alt: Node.js - Installing Yarn 1 Post Picture
 linkImg: nodejs/03-installing-yarn-1/nodejs-installing-yarn-1-post-link.png
 linkImgAlt: Node.js - Installing Yarn 1 Image
 canonicalUrl: installing-yarn-1/
-sidebar: auto
 permalink: /installing-yarn-1/
 redirectFrom: /posts/2021/12/28/installing-yarn-1/
 ---

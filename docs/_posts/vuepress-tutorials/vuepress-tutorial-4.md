@@ -10,7 +10,6 @@ alt: VuePress Tutorial 4 - Directory Structure Post Picture
 linkImg: vuepress-tutorials/tutorial-4/vuepress-tutorial-4-directory-structure-post-link.png
 linkImgAlt: VuePress Tutorial 4 - Directory Structure Image
 canonicalUrl: vuepress-tutorial-4/
-sidebar: auto
 permalink: /vuepress-tutorial-4/
 redirectFrom: /posts/2022/01/22/vuepress-tutorial-4/
 ---

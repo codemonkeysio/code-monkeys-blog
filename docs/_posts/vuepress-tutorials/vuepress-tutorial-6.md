@@ -10,7 +10,6 @@ alt: VuePress Tutorial 6 - Homepage Layout Post Picture
 linkImg: vuepress-tutorials/tutorial-6/vuepress-tutorial-6-homepage-layout-post-link.png
 linkImgAlt: VuePress Tutorial 6 - Homepage Layout Image
 canonicalUrl: vuepress-tutorial-6/
-sidebar: auto
 permalink: /vuepress-tutorial-6/
 redirectFrom: /posts/2022/02/03/vuepress-tutorial-6/
 ---

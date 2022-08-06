@@ -13,7 +13,6 @@ videoURL: 'https://www.youtube-nocookie.com/embed/jUP9BAs2GbE'
 canonicalUrl: climbing-stairs-solution-1/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
-sidebar: auto
 permalink: /climbing-stairs-solution-1/
 redirectFrom: /posts/2021/06/30/climbing-stairs-solution-1/
 ---

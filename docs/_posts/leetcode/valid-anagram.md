@@ -13,7 +13,6 @@ videoURL: 'https://www.youtube-nocookie.com/embed/Bh4f8Ui1gOU'
 canonicalUrl: valid-anagram/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
-sidebar: auto
 permalink: /valid-anagram/
 redirectFrom: /posts/2021/07/02/valid-anagram/
 ---

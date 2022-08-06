@@ -13,7 +13,6 @@ videoURL: 'https://www.youtube-nocookie.com/embed/ApBQCp1RfnA'
 canonicalUrl: remove-duplicates-from-sorted-array/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
-sidebar: auto
 permalink: /remove-duplicates-from-sorted-array/
 redirectFrom: /posts/2021/07/03/remove-duplicates-from-sorted-array/
 ---

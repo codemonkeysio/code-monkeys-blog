@@ -10,7 +10,6 @@ alt: VuePress Tutorial 8 - Custom Footer Post Picture
 linkImg: vuepress-tutorials/tutorial-8/vuepress-tutorial-8-custom-footer-post-link.png
 linkImgAlt: VuePress Tutorial 8 - Custom Footer Image
 canonicalUrl: vuepress-tutorial-8/
-sidebar: auto
 permalink: /vuepress-tutorial-8/
 redirectFrom: /posts/2022/04/06/vuepress-tutorial-8/
 ---

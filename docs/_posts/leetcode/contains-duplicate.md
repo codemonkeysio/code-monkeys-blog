@@ -13,7 +13,6 @@ videoURL: 'https://www.youtube-nocookie.com/embed/P_SCtMIgZJs'
 canonicalUrl: contains-duplicate/
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
-sidebar: auto
 permalink: /contains-duplicate/
 redirectFrom: /posts/2021/08/06/contains-duplicate/
 ---

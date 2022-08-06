@@ -73,6 +73,10 @@ module.exports = (options = {}, ctx) => ({
     if (frontmatter.canonicalUrl) {
       frontmatter.canonicalUrl = metadata.url
     }
+
+    if ($page.regularPath.includes('_posts')) {
+      frontmatter.sidebar = 'auto'
+    }
   }
 })
 
