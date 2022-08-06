@@ -15,7 +15,8 @@
   "license": "GPL-3.0-or-later",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "svgo": "vuepress svgo docs"
   },
   "devDependencies": {
     "@goy/vuepress-plugin-svg-icons": "^4.2.3",

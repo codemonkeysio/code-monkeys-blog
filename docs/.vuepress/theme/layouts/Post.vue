@@ -36,8 +36,8 @@
 </template>
 
 <script>
-import Layout from './Layout.vue';
-import Comment from '@vuepress/plugin-blog/lib/client/components/Comment.vue';
+import Layout from './Layout.vue'
+import Comment from '@vuepress/plugin-blog/lib/client/components/Comment.vue'
 
 export default {
   name: 'Post',
@@ -46,7 +46,7 @@ export default {
     Layout,
     Comment
   }
-};
+}
 </script>
 
 <style lang="stylus">

@@ -79,16 +79,17 @@ export default {
   align-items: center
   padding: 2.5rem 2.5rem 2rem
   border-top: 0
-  color: lighten($textColor, 25%)
   .icons
     display: flex
     flex-direction: row
     margin-bottom: 1.75rem
     min-width: 12.5rem
-  .no-wrap-icons
-    display: inline-flex
-  .wrap-icons
-    display: inline-flex
+    .no-wrap-icons
+      display: inline-flex
+    .wrap-icons
+      display: inline-flex
+    svg
+      color: lighten($textColor, 25%)
   .made-by
     text-align: center
     margin: 0
