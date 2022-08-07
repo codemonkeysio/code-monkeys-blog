@@ -251,7 +251,7 @@ module.exports = {
     [
       'meta',
       {
-        property: 'og:site:name',
+        property: 'og:site_name',
         content: 'Code Monkeys'
       }
     ],

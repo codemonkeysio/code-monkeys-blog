@@ -45,7 +45,7 @@ module.exports = (options = {}, ctx) => ({
         { property: 'og:image:alt', content: metadata.linkImgAlt },
         { property: 'og:url', content: metadata.url },
         { property: 'og:description', content: metadata.description },
-        { property: 'og:site:name', content: 'Code Monkeys' },
+        { property: 'og:site_name', content: 'Code Monkeys' },
 
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: metadata.title },
