@@ -90,6 +90,8 @@ export default {
       display: inline-flex
     svg
       color: lighten($textColor, 25%)
+    svg:hover
+      fill: $accentColor
   .made-by
     text-align: center
     margin: 0

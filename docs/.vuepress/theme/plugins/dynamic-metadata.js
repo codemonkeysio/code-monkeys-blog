@@ -1,6 +1,7 @@
 module.exports = (options = {}, ctx) => ({
   extendPageData($page) {
-    const { frontmatter, path } = $page
+    const { frontmatter } = $page
+
     const metadata = {
       title: frontmatter.title,
 
