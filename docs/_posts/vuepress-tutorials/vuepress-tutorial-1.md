@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post.png
 alt: VuePress Tutorial 1 - Introduction Post Picture
 linkImg: vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post-link.png
 linkImgAlt: VuePress Tutorial 1 - Introduction Image
+videoURL: 'https://www.youtube-nocookie.com/embed/RvIb2BJAbz8'
 canonicalUrl: vuepress-tutorial-1/
 permalink: /vuepress-tutorial-1/
 redirectFrom: /posts/2021/09/24/vuepress-tutorial-1/
