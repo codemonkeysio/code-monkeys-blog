@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-2/vuepress-tutorial-2-why-use-vuepress-post.png
 alt: VuePress Tutorial 2 - Why Use VuePress? Post Picture
 linkImg: vuepress-tutorials/tutorial-2/vuepress-tutorial-2-why-use-vuepress-post-link.png
 linkImgAlt: VuePress Tutorial 2 - Why Use VuePress? Image
+videoURL: 'https://www.youtube-nocookie.com/embed/6r1OQznmLpA'
 canonicalUrl: vuepress-tutorial-2/
 permalink: /vuepress-tutorial-2/
 redirectFrom: /posts/2021/11/24/vuepress-tutorial-2/
