@@ -15,7 +15,7 @@ redirectFrom: /posts/2022/01/16/vuepress-tutorial-3/
 
 ::: slot header
 
-# VuePress Tutorial 3 - Installation and Set Up
+# VuePress Tutorial 3 - Set Up and Installation
 
 :::
 
