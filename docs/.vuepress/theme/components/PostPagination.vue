@@ -14,8 +14,14 @@
 </template>
 
 <script>
+import PaginationButtons from './PaginationButtons'
+
 export default {
   name: 'Pagination',
+
+  components: {
+    PaginationButtons
+  },
 
   props: {
     pageKey: {
@@ -34,23 +40,23 @@ export default {
     return {
       prevLink: '',
       nextLink: ''
-    };
+    }
   },
 
   mounted() {
-    let links = {};
+    let links = {}
     if (typeof window !== `undefined`) {
       if (sessionStorage.getItem('allPosts') === 'false') {
-        links = this.$postPagination[this.topic][this.pageKey];
+        links = this.$postPagination[this.topic][this.pageKey]
       } else {
-        links = this.$postPagination.allPosts[this.pageKey];
+        links = this.$postPagination.allPosts[this.pageKey]
       }
 
-      this.prevLink = links.prevLink;
-      this.nextLink = links.nextLink;
+      this.prevLink = links.prevLink
+      this.nextLink = links.nextLink
     }
   }
-};
+}
 </script>
 
 <style lang="stylus" scoped>

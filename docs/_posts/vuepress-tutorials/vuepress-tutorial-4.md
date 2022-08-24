@@ -27,26 +27,22 @@ The current directory structure of the project is based off of creating a reposi
 
 Here's the current directory structure of the project:
 
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Current Directory Structure">
-```
+::: vue
 .
-├── .yarn (Optional)
-│   ├── releases
+├── `.yarn` _(**Optional**)_
+│   ├── `releases`
 │   │   └── yarn-1.22.17.cjs
-├── docs
+├── `docs`
 │   └── README.md
-├── node_modules
-├── .gitattributes (Optional)
+├── `node_modules`
+├── .gitattributes _(**Optional**)_
 ├── .gitignore
-├── .yarnrc (Optional)
+├── .yarnrc _(**Optional**)_
 ├── LICENSE
 ├── package.json
 ├── README.md
 └── yarn.lock
-```
-</code-block>
-</code-group>
+:::
 
 - <code class="inline-code-block">.yarn/releases</code>: Stores a <span class="post-term-one">local version</span> of <code class="inline-code-block">yarn</code> for the project which ensures everyone working on the project is using the same version. If you didn't set a <span class="post-term-one">local version</span> of <code class="inline-code-block">yarn</code> for your project, you won't have this directory.
 - <code class="inline-code-block">.yarn/releases/yarn-1.22.17.cjs</code>: Specific <span class="post-term-one">local version</span> of <code class="inline-code-block">yarn</code> used in the [code-monkeys-blog-tutorials](https://github.com/codemonkeysio/code-monkeys-blog-tutorials) and the [code-monkeys-blog](https://github.com/codemonkeysio/code-monkeys-blog) repositories. The file name will be different if you're using a different version.
@@ -59,6 +55,10 @@ Here's the current directory structure of the project:
 - <code class="inline-code-block">package.json</code>: Describes metadata about your site.
 - <code class="inline-code-block">README.md</code>: Used to describe your project in more detail and to document how to install and use your project.
 - <code class="inline-code-block">yarn.lock</code>: Keeps track of the exact versions of packages installed in the project. If you're using <code class="inline-code-block">npm</code> you'll have a <code class="inline-code-block">package-lock.json</code> file instead.
+
+:::tip Reminder to Update the .gitattributes and .gitignore Files
+If you created your own repository and are using a <span class="post-term-one">locally set version</span> of <code class="inline-code-block">yarn</code>, then be sure to update your <code class="inline-code-block">.gitignore</code> file and add a <code class="inline-code-block">.gitattributes</code> file as described in the [Installing Yarn 1](/installing-yarn-1/) post.
+:::
 
 ## Contents of the package.json file
 
@@ -107,7 +107,7 @@ Let's describe each property in a little more detail:
 - <code class="inline-code-block">author</code> describes the creator or owner of the project
   - You can explicitly set the author name, email, and website in the <code class="inline-code-block">package.json</code> file by adding, e.g., <code class="inline-code-block">"author": { "name": "Your Name", "email": "youremail@example.com", "url": "https://your-website.com" }</code>
 - <code class="inline-code-block">license</code> indicates the type of license being used by the project
-- <code class="inline-code-block">scripts</code> are command-line applications that are describe as an object where the property is the name of the script and the value is a command that gets run
+- <code class="inline-code-block">scripts</code> are command-line applications that are described as an object where the property is the name of the script and the value is a command that gets run
 - <code class="inline-code-block">devDependencies</code> are dependencies you need during development only, i.e., not during production
 
 ::: tip Installing the Same VuePress Version
@@ -156,46 +156,42 @@ Here's what the contents of the <code class="inline-code-block">package.json</co
 </code-block>
 </code-group>
 
-Now that we have a good understanding or our current directory structure and the <code class="inline-code-block">package.json</code> file, let's discuss the recommended directory structure.
+Now that we have a good understanding of our current directory structure and the <code class="inline-code-block">package.json</code> file, let's discuss the recommended directory structure.
 
 ## Recommended Directory Structure
 
-Here's the recommended directory structure for a [VuePress](https://vuepress.vuejs.org/) site. Many of the directories and files are optional, and we'll be adding the directories and files we need as we go through the development of the site.
+Here's the recommended directory structure for a standard [VuePress](https://vuepress.vuejs.org/) site:
 
-Be sure to check out the [Directory Structure](https://vuepress.vuejs.org/guide/directory-structure.html) documentation if you have any questions.
-
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Recommended Directory Structure">
-```
+::: vue
 .
 ├── docs
-│ ├── .vuepress (Optional)
-│ │ ├── components (Optional)
-│ │ ├── public (Optional)
-│ │ ├── styles (Optional)
-│ │ │ ├── index.styl
-│ │ │ └── palette.styl
-│ │ ├── templates (Optional, Danger Zone)
-│ │ │ ├── dev.html
-│ │ │ └── ssr.html
-│ │ ├── theme (Optional)
-│ │ │ └── Layout.vue
-│ │ ├── config.js (Optional)
-│ │ └── enhanceApp.js (Optional)
-│ │
-│ └── README.md
+│   ├── .vuepress _(**Optional**)_
+│   │    ├── `components` _(**Optional**)_
+│   │    ├── `public` _(**Optional**)_
+│   │    ├── `styles` _(**Optional**)_
+│   │    │   ├── index.styl
+│   │    │   └── palette.styl
+│   │    ├── `templates` _(**Optional, Danger Zone**)_
+│   │    │   ├── dev.html
+│   │    │   └── ssr.html
+│   │    ├── `theme` _(**Optional**)_
+│   │    │   └── Layout.vue
+│   │    ├── `config.js` _(**Optional**)_
+│   │    └── `enhanceApp.js` _(**Optional**)_
+│   │
+│   ├── README.md
+│   └── example-page
+│       └── README.md
 │
 └── package.json
-```
-</code-block>
-</code-group>
+:::
 
 ::: warning Capitalization
 When creating these directories and files be sure to follow the capitalization to prevent any potential issues.
 :::
 
 - <code class="inline-code-block">docs/.vuepress</code>: Stores the global configuration, components, static resources, etc.
-- <code class="inline-code-block">docs/.vuepress/components</code>: The [Vue components](https://vuejs.org/v2/guide/components.html) in this directory automatically get registered as global components.
+- <code class="inline-code-block">docs/.vuepress/components</code>: The Vue components in this directory automatically get registered as global components.
 - <code class="inline-code-block">docs/.vuepress/public</code>: Static resource directory.
 - <code class="inline-code-block">docs/.vuepress/styles</code>: Stores style related files.
 - <code class="inline-code-block">docs/.vuepress/styles/index.styl</code>: Used to add global styles that can override the default styles.
@@ -204,11 +200,81 @@ When creating these directories and files be sure to follow the capitalization t
 - <code class="inline-code-block">docs/.vuepress/templates/dev.html</code>: HTML template file for development environment.
 - <code class="inline-code-block">docs/.vuepress/templates/ssr.html</code>: HTML template file used in the build time.
 - <code class="inline-code-block">docs/.vuepress/theme</code>: Stores the local theme of the site.
-- <code class="inline-code-block">docs/.vuepress/theme/Layout.vue</code>: Layout component used by the theme
+- <code class="inline-code-block">docs/.vuepress/theme/Layout.vue</code>: Layout component used by the theme.
 - <code class="inline-code-block">docs/.vuepress/config.js</code>: Entry file for configuration, can also be <code class="inline-code-block">yml</code> or <code class="inline-code-block">toml</code>.
 - <code class="inline-code-block">docs/.vuepress/enhanceApp.js</code>: App level enhancement.
 - <code class="inline-code-block">docs/README.md</code>: The first document for the site which will be used as the homepage (same file described in the current directory structure section).
+- <code class="inline-code-block">docs/example-page/README.md</code>: An example document which is used as another page for the site. Here, the route for the page is the directory name, i.e., <code class="inline-code-block">/example-page/</code>.
 - <code class="inline-code-block">package.json</code>: Describes metadata about your site (same file described in the current directory structure section).
+
+::: tip Using the Recommended Directory Structure for Themes
+If you plan on writing your own theme for your site or you plan on closely following along with these tutorials, then be sure to use the recommended directory structure for themes instead of the recommended directory structure for a standard [VuePress](https://vuepress.vuejs.org/) site.
+:::
+
+Be sure to check out the [Directory Structure](https://vuepress.vuejs.org/guide/directory-structure.html) documentation if you have any questions.
+
+## Recommended Directory Structure for Themes
+
+Here's the recommended directory structure if you plan on writing your own theme for your site. Since the [Code Monkeys Blog](/) is a child theme inherited from the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html), we'll be using the recommended directory structure for themes when developing the blog.
+
+We'll be going over child themes and parent themes in more detail in future tutorials, but if you want to learn more now, you can read through the [Theme Inheritance](https://vuepress.vuejs.org/theme/inheritance.html) documentation.
+
+If you're not using a theme when developing your site, you have the option of using the recommended directory structure for a standard [VuePress](https://vuepress.vuejs.org/) site. There should only be minor differences when following along with these tutorials.
+
+Only the <code class="inline-code-block">Layout.vue</code> file is mandatory when writing a theme, but we'll be using the other recommended directories as we continue to develop the blog.
+
+::: vue
+.
+├── docs
+│   ├── .vuepress
+│   │   ├── `public`
+│   │   ├── theme
+│   │   │   ├── `components`
+│   │   │   ├── `global-components`
+│   │   │   ├── `layouts`
+│   │   │   │   └── Layout.vue _(**Mandatory**)_
+│   │   │   ├── `styles`
+│   │   │   │   ├── index.styl
+│   │   │   │   └── palette.styl
+│   │   │   ├── `templates`
+│   │   │   │   ├── dev.html
+│   │   │   │   └── ssr.html
+│   │   │   ├── `enhanceApp.js`
+│   │   │   └── `index.js`
+│   │   └── `config.js`
+│   │
+│   ├── README.md
+│   └── example-page
+│       └── README.md
+│
+└── package.json
+:::
+
+::: warning Capitalization
+When creating these directories and files be sure to follow the capitalization to prevent any potential issues.
+:::
+
+- <code class="inline-code-block">docs/.vuepress</code>: Stores the global configuration, theme, static resources, etc.
+- <code class="inline-code-block">docs/.vuepress/public</code>: Static resource directory.
+- <code class="inline-code-block">docs/.vuepress/theme</code>: Stores the theme of the site.
+- <code class="inline-code-block">theme/components</code>: Stores the Vue components.
+- <code class="inline-code-block">theme/global-components</code>: The Vue components in this directory automatically get registered as global components.
+- <code class="inline-code-block">theme/layouts</code>: Stores the layout components used by the theme.
+- <code class="inline-code-block">theme/layouts/Layout.vue</code>: Mandatory layout component used by the theme.
+- <code class="inline-code-block">theme/styles</code>: Stores style related files.
+- <code class="inline-code-block">theme/styles/index.styl</code>: Used to add global styles that can override the default styles.
+- <code class="inline-code-block">theme/styles/palette.styl</code>: Used to define global styling variables and override the default styling variables.
+- <code class="inline-code-block">theme/templates</code>: Stores HTML template files.
+- <code class="inline-code-block">theme/templates/dev.html</code>: HTML template file for development environment.
+- <code class="inline-code-block">theme/templates/ssr.html</code>: HTML template file used in the build time.
+- <code class="inline-code-block">theme/enhanceApp.js</code>: Theme level enhancement.
+- <code class="inline-code-block">theme/index.js</code>: Entry file for theme configuration.
+- <code class="inline-code-block">docs/.vuepress/config.js</code>: Entry file for configuration, can also be <code class="inline-code-block">yml</code> or <code class="inline-code-block">toml</code>.
+- <code class="inline-code-block">docs/README.md</code>: The first document for the site which will be used as the homepage (same file described in the current directory structure section).
+- <code class="inline-code-block">docs/example-page/README.md</code>: An example document which is used as another page for the site. Here, the route for the page is the directory name, i.e., <code class="inline-code-block">/example-page/</code>.
+- <code class="inline-code-block">package.json</code>: Describes metadata about your site (same file described in the current directory structure section).
+
+We'll be discussing themes in more detail as we continue to develop the blog. If you want to learn more now though or have any questions, then check out the [Theme](https://vuepress.vuejs.org/theme/) documentation.
 
 ## Default Page Routing
 
@@ -227,7 +293,14 @@ To see an example of the <code class="inline-code-block">docs</code> directory b
 </code-block>
 </code-group>
 
-All the relative paths are relative to the <code class="inline-code-block">docs</code> directory. So, for the directory structure above the relative path for the homepage is <code class="inline-code-block">/README.md</code> and the default page routing path for the homepage is <code class="inline-code-block">/</code>.
+All the relative paths are relative to the <code class="inline-code-block">docs</code> directory. Here are the relative paths and the default page routing paths for the directory structure described above:
+
+| Relative Path           | Page Routing   |
+|:-----------------------:|:--------------:|
+| <code class="inline-code-block">/README.md</code>              |       <code class="inline-code-block">/</code>        |
+| <code class="inline-code-block">/example-page/README.md</code> | <code class="inline-code-block">/example-page/</code> |
+
+From the table we can see the relative path for the homepage is <code class="inline-code-block">/README.md</code> and the default page routing path for the homepage is <code class="inline-code-block">/</code>. We can also see the relative path for the example page is <code class="inline-code-block">/example-page/README.md</code>, and the default page routing path for the example page is <code class="inline-code-block">/example-page/</code>.
 
 ## Next Steps
 

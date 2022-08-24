@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import cryptos from '../data/crypto-addresses/crypto-addresses';
+import cryptos from '../../data/crypto-addresses/crypto-addresses'
 
 export default {
   name: 'CryptoAddresses',
@@ -34,32 +34,32 @@ export default {
     return {
       cryptos: cryptos.cryptoAddresses,
       formattedAddresses: []
-    };
+    }
   },
   created() {
-    this.formatAddress(this.cryptos);
+    this.formatAddress(this.cryptos)
   },
   methods: {
     onCopy: function(e) {
-      alert(`Address:\n\n${e.text}\n\ncopied to clipboard!`);
+      alert(`Address:\n\n${e.text}\n\ncopied to clipboard!`)
     },
     onError: function(e) {
-      alert('Failed copying address to clipboard');
+      alert('Failed copying address to clipboard')
     },
     formatAddress(cryptos) {
-      let addressLength;
-      let rightPartStart;
-      cryptos.forEach((crypto) => {
-        addressLength = crypto.address.length;
-        rightPartStart = addressLength - 10;
+      let addressLength
+      let rightPartStart
+      cryptos.forEach(crypto => {
+        addressLength = crypto.address.length
+        rightPartStart = addressLength - 10
         this.formattedAddresses.push({
           leftPart: crypto.address.slice(0, rightPartStart),
           rightPart: crypto.address.slice(rightPartStart, addressLength)
-        });
-      });
+        })
+      })
     }
   }
-};
+}
 </script>
 
 <style lang="stylus" scoped>

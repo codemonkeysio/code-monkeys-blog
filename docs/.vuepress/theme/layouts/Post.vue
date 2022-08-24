@@ -2,7 +2,7 @@
   <Layout>
     <template #post-details>
       <div class="wrapper post-details-in-post">
-        <post-details
+        <PostDetails
           :key="$route.name"
           :pageKey="$page.key"
           :author="$frontmatter.author"
@@ -13,7 +13,7 @@
     </template>
     <template #embedded-video>
       <div v-if="$frontmatter.videoURL" class="wrapper embedded-video">
-        <embedded-video
+        <EmbeddedVideo
           :key="$route.name"
           :pageKey="$page.key"
           :videoURL="$frontmatter.videoURL"
@@ -21,7 +21,7 @@
       </div>
     </template>
     <template #post-pagination>
-      <post-pagination
+      <PostPagination
         :key="$route.name"
         :pageKey="$page.key"
         :topic="$frontmatter.topic"
@@ -37,6 +37,9 @@
 
 <script>
 import Layout from './Layout.vue'
+import PostDetails from '../components/PostDetails'
+import EmbeddedVideo from '../components/EmbeddedVideo'
+import PostPagination from '../components/PostPagination'
 import Comment from '@vuepress/plugin-blog/lib/client/components/Comment.vue'
 
 export default {
@@ -44,6 +47,9 @@ export default {
 
   components: {
     Layout,
+    PostDetails,
+    EmbeddedVideo,
+    PostPagination,
     Comment
   }
 }

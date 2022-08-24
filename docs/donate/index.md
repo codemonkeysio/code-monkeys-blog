@@ -41,6 +41,16 @@ Sponsor Jay the Code Monkey on [GitHub!](https://github.com/sponsors/jchiarulli)
 
 </div>
 
+<script>
+import CryptoAddresses from '../.vuepress/theme/components/CryptoAddresses';
+
+export default {
+  components: {
+    CryptoAddresses
+  }
+}
+</script>
+
 <style lang="stylus" scoped>
 h1
   padding-bottom: 5rem

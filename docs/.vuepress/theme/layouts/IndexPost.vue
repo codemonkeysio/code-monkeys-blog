@@ -72,14 +72,18 @@
 </template>
 
 <script>
-import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js'
 import Layout from './Layout.vue'
+import PostDetails from '../components/PostDetails'
+import PaginationButtons from '../components/PaginationButtons'
+import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js'
 import byTopicHeaders from '../../data/index-post/by-topic-headers'
 
 export default {
   components: {
-    VLazyImage,
-    Layout
+    Layout,
+    PostDetails,
+    PaginationButtons,
+    VLazyImage
   },
 
   data: function() {

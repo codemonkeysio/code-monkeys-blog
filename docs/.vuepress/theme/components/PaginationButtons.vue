@@ -17,7 +17,7 @@ export default {
       default: false
     }
   }
-};
+}
 </script>
 
 <style lang="stylus" scoped>
