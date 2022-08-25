@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-4/vuepress-tutorial-4-directory-structure-post.
 alt: VuePress Tutorial 4 - Directory Structure Post Picture
 linkImg: vuepress-tutorials/tutorial-4/vuepress-tutorial-4-directory-structure-post-link.png
 linkImgAlt: VuePress Tutorial 4 - Directory Structure Image
+videoURL: 'https://www.youtube-nocookie.com/embed/l85a0TgxBgo'
 canonicalUrl: vuepress-tutorial-4/
 permalink: /vuepress-tutorial-4/
 redirectFrom: /posts/2022/01/22/vuepress-tutorial-4/
@@ -60,7 +61,7 @@ Here's the current directory structure of the project:
 If you created your own repository and are using a <span class="post-term-one">locally set version</span> of <code class="inline-code-block">yarn</code>, then be sure to update your <code class="inline-code-block">.gitignore</code> file and add a <code class="inline-code-block">.gitattributes</code> file as described in the [Installing Yarn 1](/installing-yarn-1/) post.
 :::
 
-## Contents of the package.json file
+## Contents of the package.json File
 
 Before moving on to the recommended directory structure, we're going to first go over the contents of the <code class="inline-code-block">package.json</code> file and add some simple updates.
 
