@@ -33,61 +33,53 @@ Before adding the config file, let's first create a <code class="inline-code-blo
 
 The directory structure for your site should now look something like this:
 
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Directory Structure with .vuepress">
-```
+::: vue
 .
-├── .yarn (Optional)
-│   ├── releases
+├── `.yarn` _(**Optional**)_
+│   ├── `releases`
 │   │   └── yarn-1.22.17.cjs
-├── docs
-│   ├── .vuepress
+├── `docs`
+│   ├── `.vuepress`
 │   └── README.md
-├── node_modules
-├── .gitattributes (Optional)
+├── `node_modules`
+├── .gitattributes _(**Optional**)_
 ├── .gitignore
-├── .yarnrc (Optional)
+├── .yarnrc _(**Optional**)_
 ├── LICENSE
 ├── package.json
 ├── README.md
 └── yarn.lock
-```
-</code-block>
-</code-group>
+:::
 
 Now inside of the <code class="inline-code-block">.vuepress</code> directory, let's add a <code class="inline-code-block">config.js</code> file.
 
 After adding the <code class="inline-code-block">config.js</code> file, the directory structure for your site should now look something like this:
 
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Directory Structure with config.js">
-```
+::: vue
 .
-├── .yarn (Optional)
-│   ├── releases
+├── `.yarn` _(**Optional**)_
+│   ├── `releases`
 │   │   └── yarn-1.22.17.cjs
-├── docs
-│   ├── .vuepress
-│   │   └── config.js
+├── `docs`
+│   ├── `.vuepress`
+│   │   └── `config.js`
 │   └── README.md
-├── node_modules
-├── .gitattributes (Optional)
+├── `node_modules`
+├── .gitattributes _(**Optional**)_
 ├── .gitignore
-├── .yarnrc (Optional)
+├── .yarnrc _(**Optional**)_
 ├── LICENSE
 ├── package.json
 ├── README.md
 └── yarn.lock
-```
-</code-block>
-</code-group>
+:::
 
 The <code class="inline-code-block">config.js</code> file should export a JavaScript object like the following:
 
 <code-group>
 <code-block title="config.js File">
 ```js
-module.exports = {};
+module.exports = {}
 ```
 </code-block>
 </code-group>
@@ -115,11 +107,11 @@ The expected type is a <code class="inline-code-block">string</code>, and the de
 Now let's set the <code class="inline-code-block">title</code> of the site:
 
 <code-group>
-<code-block title="Adding a Title">
+<code-block title="Adding a Site Title">
 ```js
 module.exports = {
   title: 'Code Monkeys'
-};
+}
 ```
 </code-block>
 </code-group>
@@ -158,8 +150,8 @@ Now let's set the <code class="inline-code-block">description</code> of the site
 <code-block title="Adding a Description">
 ```js
 module.exports = {
-  description: 'Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos, tutorials, blog posts, etc. to help others learn about code and other tech related topics! Start Monkeying Around Today!!! 🐵'
-};
+  description: 'Learn to Code like a Monkey by joining the Code Monkeys Community! Check out the blog for posts and videos about coding! Start Monkeying Around Today! 🐵'
+}
 ```
 </code-block>
 </code-group>
@@ -171,7 +163,7 @@ After adding the <code class="inline-code-block">description</code> and saving t
 ```html
 <head>
   ...
-  <meta name="description" content="Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos, tutorials, blog posts, etc. to help others learn about code and other tech related topics! Start Monkeying Around Today!!! 🐵">
+  <meta name="description" content="Learn to Code like a Monkey by joining the Code Monkeys Community! Check out the blog for posts and videos about coding! Start Monkeying Around Today! 🐵">
   ...
 </head>
 ```
@@ -196,8 +188,6 @@ Here are some examples of what can be injected into the <code class="inline-code
 - Links to External Style Sheets
 - Client-Side Scripts
 
-We'll be injecting more tags into the <code class="inline-code-block">\<head></code> tag as we develop the site.
-
 To start we'll set an <code class="inline-code-block">author</code> by using a <code class="inline-code-block">\<meta></code> tag in the <code class="inline-code-block">\<head></code> tag:
 
 <code-group>
@@ -213,7 +203,7 @@ module.exports = {
       }
     ]
   ]
-};
+}
 ```
 </code-block>
 </code-group>
@@ -234,6 +224,8 @@ After adding the <code class="inline-code-block">author</code> and saving the fi
 
 To change the <code class="inline-code-block">author</code> for your site you can use a different value for the <code class="inline-code-block">content</code> attribute.
 
+We'll be injecting more tags into the <code class="inline-code-block">\<head></code> tag as we develop the site.
+
 ## Updated Config File
 
 Here's the content of the <code class="inline-code-block">config.js</code> file after adding the <code class="inline-code-block">title</code>, <code class="inline-code-block">description</code>, and <code class="inline-code-block">author</code>:
@@ -244,7 +236,7 @@ Here's the content of the <code class="inline-code-block">config.js</code> file 
 module.exports = {
   title: 'Code Monkeys',
   description:
-    'Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos, tutorials, blog posts, etc. to help others learn about code and other tech related topics! Start Monkeying Around Today!!! 🐵',
+    'Learn to Code like a Monkey by joining the Code Monkeys Community! Check out the blog for posts and videos about coding! Start Monkeying Around Today! 🐵',
   head: [
     [
       'meta',
@@ -254,7 +246,7 @@ module.exports = {
       }
     ]
   ]
-};
+}
 ```
 </code-block>
 </code-group>
@@ -263,4 +255,4 @@ Be sure to substitute the values with the preferred values for your site.
 
 ## Next Steps
 
-In the next tutorial we'll discuss the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html) in more detail, specifically the homepage layout.
+In the next tutorial we'll discuss the homepage layout provided by the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html).
