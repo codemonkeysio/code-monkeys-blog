@@ -110,7 +110,7 @@ Now let's set the <code class="inline-code-block">title</code> of the site:
 <code-block title="Adding a Site Title">
 ```js
 module.exports = {
-  title: 'Code Monkeys'
+  title: 'Code Monkeys',
 }
 ```
 </code-block>
@@ -150,7 +150,8 @@ Now let's set the <code class="inline-code-block">description</code> of the site
 <code-block title="Adding a Description">
 ```js
 module.exports = {
-  description: 'Learn to Code like a Monkey by joining the Code Monkeys Community! Check out the blog for posts and videos about coding! Start Monkeying Around Today! 🐵'
+  description:
+    'Learn to Code like a Monkey by joining the Code Monkeys Community! Check out the blog for posts and videos about coding! Start Monkeying Around Today! 🐵',
 }
 ```
 </code-block>
@@ -199,10 +200,10 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey'
-      }
-    ]
-  ]
+        content: 'Jay the Code Monkey',
+      },
+    ],
+  ],
 }
 ```
 </code-block>
@@ -242,10 +243,10 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey'
-      }
-    ]
-  ]
+        content: 'Jay the Code Monkey',
+      },
+    ],
+  ],
 }
 ```
 </code-block>
