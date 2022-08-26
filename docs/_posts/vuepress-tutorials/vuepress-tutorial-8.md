@@ -32,7 +32,7 @@ A footer is located at the bottom of a page, and it typically contains:
 
 For the [Code Monkeys Blog](/) we'll be building a footer that consists of links to various social media platforms. This gives the user an easy way to interact with various content and the community.
 
-Take a look at the footer on this page to see what we'll be designing for the blog. To see another example you can check out the [VuePress](https://vuepress.vuejs.org/) footer as well.
+Take a look at the footer on this page to see what we'll be designing for the blog. To see another example you can check out the [VuePress](https://vuepress.vuejs.org/) site footer as well.
 
 Make sure you start the local development server which should be running at [http://localhost:8080/](http://localhost:8080/) to see the changes we'll be making to the site. If the changes aren't appearing after you save them, then try restarting your local development server.
 
@@ -45,7 +45,7 @@ If you remember from the previous post [VuePress Tutorial 6 - Homepage Layout](/
 ```md{11}
 ---
 home: true
-heroImage: /images/code-monkeys-logos/full.png
+heroImage: /images/code-monkeys-logos/code-monkeys-full-logo.png
 tagline: Let's get down to Monkey Business
 actionText: Learn to Code like a Monkey →
 actionLink: /topics/
@@ -127,73 +127,68 @@ In [VuePress](https://vuepress.vuejs.org/) you have the ability to make your sit
 
 To write your own theme you need to create a <code class="inline-code-block">theme</code> directory in the <code class="inline-code-block">.vuepress</code> directory. The <code class="inline-code-block">docs</code> directory for your site should now look something like this:
 
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Adding a Theme Directory">
-```{5}
+::: vue
 .
-├── docs
-│   ├── .vuepress
-│   │   ├── public
-│   │   ├── theme
+├── `docs`
+│   ├── `.vuepress`
+│   │   ├── `public`
+│   │   ├── `theme`
 │   │   └── config.js
 │   └── README.md
-```
-</code-block>
-</code-group>
+:::
 
 After creating the <code class="inline-code-block">theme</code> directory, all you need to do is create a <code class="inline-code-block">Layout.vue</code> file inside of it like this:
 
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Adding a Layout.vue File">
-```{6}
+::: vue
 .
-├── docs
-│   ├── .vuepress
-│   │   ├── public
-│   │   ├── theme
+├── `docs`
+│   ├── `.vuepress`
+│   │   ├── `public`
+│   │   ├── `theme`
 │   │   │   └── Layout.vue
 │   │   └── config.js
 │   └── README.md
-```
-</code-block>
-</code-group>
+:::
 
 From here you can develop your site like any other [Vue](https://vuejs.org/) application by organizing your theme however you want. Being able to organize your theme however you want provides a lot of flexibility when creating your site, but it's recommended to use the directory structure below when designing your theme:
 
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Recommended Theme Directory Structure">
-```
-theme
-├── components
+::: vue
+`theme`
+├── `components`
 │   └── xxx.vue
-├── global-components
+├── `global-components`
 │   └── xxx.vue
-├── layouts
-│   ├── Layout.vue (Required)
+├── `layouts`
+│   ├── Layout.vue _(**Mandatory**)_
 │   └── xxx.vue
-├── styles
+├── `styles`
 │   ├── index.styl
 │   └── palette.styl
-├── templates
+├── `templates`
 │   ├── dev.html
 │   └── ssr.html
 ├── enhanceApp.js
 └── index.js
-```
-</code-block>
-</code-group>
+:::
 
 Here's a description for each directory and file in the <code class="inline-code-block">theme</code> directory:
 
 - <code class="inline-code-block">components</code>: Local components used in your theme.
 - <code class="inline-code-block">global-components</code>: Components in this directory automatically get registered as global, so you don't need to explicitly import them in a file when using them.
 - <code class="inline-code-block">layouts</code>: Layout components used in your theme.
-  - <code class="inline-code-block">Layout.vue</code>: A required layout file for every theme.
+  - <code class="inline-code-block">Layout.vue</code>: A mandatory layout file for every theme.
 - <code class="inline-code-block">styles</code>: Stores files related to styling your theme.
   - <code class="inline-code-block">index.styl</code>: Overrides any default styling and allows you to globally style your site.
   - <code class="inline-code-block">palette.styl</code>: Overrides any default styling variables and allows you to add any global styling variables.
+- <code class="inline-code-block">templates</code>: Stores HTML template files.
+  - <code class="inline-code-block">dev.html</code>: HTML template file for development environment.
+  - <code class="inline-code-block">ssr.html</code>: HTML template file used in the build time.
 - <code class="inline-code-block">enhanceApp.js</code>: Enhances the theme of your site by giving you the ability to install Vue plugins, add router hooks, etc.
-- <code class="inline-code-block">index.js</code>: Entry file for for theme configuration
+- <code class="inline-code-block">index.js</code>: Entry file for for theme configuration.
+
+::: tip Reviewing the Recommended Directory Structure for Themes
+You may have recognized this directory structure from the [VuePress Tutorial 4 - Directory Structure](/vuepress-tutorial-4/) post.
+:::
 
 When creating the custom footer component we'll use the <code class="inline-code-block">global-components</code> directory, the <code class="inline-code-block">index.js</code> file, and the <code class="inline-code-block">layouts</code> directory. The <code class="inline-code-block">global-components</code> directory will be where we add the custom footer component since we want the footer to be available globally. The <code class="inline-code-block">index.js</code> file will be used to inherit the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html) using [theme inheritance](https://vuepress.vuejs.org/theme/inheritance.html). Finally, the <code class="inline-code-block">layouts</code> directory will be where we add the <code class="inline-code-block">GlobalLayout.vue</code> file which allows us to add our custom footer component to the global layout of the site.
 
@@ -254,25 +249,21 @@ module.exports = {
   themeConfig: {
     ...
   },
-  plugins: ['@goy/svg-icons']
-};
+  plugins: ['@goy/svg-icons'],
+}
 ```
 </code-block>
 </code-group>
 
 To add the social media icons to the site we need to create an <code class="inline-code-block">icons</code> directory in the <code class="inline-code-block">docs</code> directory. Here's what the <code class="inline-code-block">docs</code> directory should look like after adding the <code class="inline-code-block">icons</code> directory:
 
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Adding an Icons Directory">
-```{4}
+::: vue
 .
-├── docs
-│   ├── .vuepress
-│   ├── icons
+├── `docs`
+│   ├── `.vuepress`
+│   ├── `icons`
 │   └── README.md
-```
-</code-block>
-</code-group>
+:::
 
 The plugin recommends using [iconfont](https://www.iconfont.cn/collections/index) to find [Scalable Vector Graphics (SVGs)](https://developer.mozilla.org/en-US/docs/Web/SVG) for your site. After creating an account, you can search for icons and download them. When downloading the icons you have the option to specify a color and size for the icon. For the blog we'll be using a color of <code class="inline-code-block">#e6e6e6</code> and a size of <code class="inline-code-block">200</code> which is the default size.
 
@@ -294,10 +285,8 @@ We'll be using icons for these social media sites in the footer:
 
 After downloading the icons the <code class="inline-code-block">icons</code> directory should look something like this:
 
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Icons Directory After Downloading SVGs">
-```{2-8}
-├── icons
+::: vue
+├── `icons`
 │   ├── Discord.svg
 │   ├── GitHub.svg
 │   ├── LinkedIn.svg
@@ -305,9 +294,7 @@ After downloading the icons the <code class="inline-code-block">icons</code> dir
 │   ├── Telegram.svg
 │   ├── Twitter.svg
 │   └── YouTube.svg
-```
-</code-block>
-</code-group>
+:::
 
 After adding the icons to <code class="inline-code-block">icons</code> directory, the plugin will automically load the icons and will provide a global component named <code class="inline-code-block">vp-icon</code>. To use the <code class="inline-code-block">vp-icon</code> component you need to pass a <code class="inline-code-block">name</code> attribute to it where the value is the name of the SVG file you want to use.
 
@@ -319,15 +306,11 @@ We're now ready to create the custom footer component.
 
 The custom footer component will be added to the <code class="inline-code-block">global-components</code> directory. Here's what the <code class="inline-code-block">theme</code> directory will look like after adding the <code class="inline-code-block">Footer.vue</code> file:
 
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Adding the Footer.vue File">
-```{2-3}
-├── theme
-│   ├── global-components
+::: vue
+├── `theme`
+│   ├── `global-components`
 │   │   └── Footer.vue
-```
-</code-block>
-</code-group>
+:::
 
 Here we're creating a <code class="inline-code-block">\*.vue</code> file which is known as a [Single-File Component (SFC)](https://v2.vuejs.org/v2/guide/single-file-components.html?redirect=true). This is a special file format that allows you to encapsulate the HTML in a <code class="inline-code-block">template</code> tag, the JavaScript in a <code class="inline-code-block">script</code> tag, and the CSS in a <code class="inline-code-block">style</code> tag for the component.
 
@@ -336,15 +319,11 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file looks lik
 <code-group>
 <code-block title="Main Sections">
 ```vue
-<template>
-</template>
+<template></template>
 
-<script>
-</script>
+<script></script>
 
-<style>
-</style>
-
+<style></style>
 ````
 </code-block>
 </code-group>
@@ -415,11 +394,9 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file looks lik
   </footer>
 </template>
 
-<script>
-</script>
+<script></script>
 
-<style>
-</style>
+<style></style>
 ````
 
 </code-block>
@@ -442,13 +419,12 @@ Next we'll export the JavaScript in the <code class="inline-code-block">script</
 
 <script>
 export default {
-  name: 'Footer'
-};
+  name: 'Footer',
+}
 </script>
 
 <style>
 </style>
-
 ````
 </code-block>
 </code-group>
@@ -573,8 +549,8 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file should lo
 
 <script>
 export default {
-  name: 'Footer'
-};
+  name: 'Footer',
+}
 </script>
 
 <style lang="stylus" scoped>
@@ -592,7 +568,6 @@ export default {
   .made-by
     margin: 0
 </style>
-
 ````
 </code-block>
 </code-group>
@@ -609,16 +584,11 @@ To create the child theme from the [default theme](https://vuepress.vuejs.org/th
 
 First, we need to create the <code class="inline-code-block">index.js</code> file in the <code class="inline-code-block">theme</code> directory which should now look like this:
 
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Adding the index.js File">
-```{3}
-├── theme
-│   ├── global-components
+::: vue
+├── `theme`
+│   ├── `global-components`
 │   └── index.js
-````
-
-</code-block>
-</code-group>
+:::
 
 We can now configure the [extend](https://vuepress.vuejs.org/theme/option-api.html#extend) option:
 
@@ -626,7 +596,7 @@ We can now configure the [extend](https://vuepress.vuejs.org/theme/option-api.ht
 <code-block title="Configuring the Extend Option">
 ```js
 module.exports = {
-  extend: '@vuepress/theme-default'
+  extend: '@vuepress/theme-default',
 };
 ````
 
@@ -636,7 +606,7 @@ module.exports = {
 The inherited [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html) should now be rendering alongside the child theme instead of the blank page.
 
 ::: tip Missing Layout.vue File
-You may have noticed that the <code class="inline-code-block">Layout.vue</code> file is listed as a required file, but we didn't need to create one in the <code class="inline-code-block">theme</code> directory. This is because you don't need to explicitly create the <code class="inline-code-block">Layout.vue</code> file when you're inheriting it from the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html).
+You may have noticed that the <code class="inline-code-block">Layout.vue</code> file is listed as a mandatory file, but we didn't need to create one in the <code class="inline-code-block">theme</code> directory. This is because you don't need to explicitly create the <code class="inline-code-block">Layout.vue</code> file when you're inheriting it from the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html).
 :::
 
 The child theme is also able to override files in the parent theme by creating a file with the same name in the same location. We'll go over how to override parent theme files in more detail in future tutorials. You can also override some parent theme files by just using the same name as the parent theme file in the child theme. For example, we're going to override the <code class="inline-code-block">GlobalLayout.vue</code> file by using the same name for the file in the child theme and the code provided by the documentation.
@@ -647,18 +617,13 @@ Now let's create the <code class="inline-code-block">layouts</code> directory in
 
 Here's what the <code class="inline-code-block">theme</code> directory will look like after creating the <code class="inline-code-block">GlobalLayout.vue</code> file in the <code class="inline-code-block">layouts</code> directory:
 
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Adding the GlobalLayout.vue File">
-```{3-4}
-├── theme
-│   ├── global-components
-│   ├── layouts
+:::vue
+├── `theme`
+│   ├── `global-components`
+│   ├── `layouts`
 │   │   └── GlobalLayout.vue
 │   └── index.js
-````
-
-</code-block>
-</code-group>
+:::
 
 The <code class="inline-code-block">GlobalLayout.vue</code> file is responsible for handling the global layout of the site. Here's the path to the default <code class="inline-code-block">GlobalLayout.vue</code> file provided by [VuePress](https://vuepress.vuejs.org/) <code class="inline-code-block">node_modules/@vuepress/core/lib/client/components</code>. You can also view the code for the default global layout [here](https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/core/lib/client/components/GlobalLayout.vue).
 
@@ -695,7 +660,6 @@ export default {
   }
 }
 </script>
-
 ````
 </code-block>
 </code-group>
@@ -726,11 +690,10 @@ export default {
         return 'Layout'
       }
       return 'NotFound'
-    }
-  }
+    },
+  },
 }
 </script>
-
 ````
 
 </code-block>
