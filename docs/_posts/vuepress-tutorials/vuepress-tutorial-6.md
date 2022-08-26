@@ -23,13 +23,13 @@ redirectFrom: /posts/2022/02/03/vuepress-tutorial-6/
 
 In this tutorial we'll be discussing how to configure the homepage layout by using the options exposed by the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html) which comes with the installation of [VuePress](https://vuepress.vuejs.org/) and is designed for technical documentation. Along with the homepage the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html) also allows customization for the navbar, sidebar, search box, etc. We'll discuss those customizations in more detail in future tutorials.
 
-Before moving on to the homepage layout, we're going to first describe what a theme is. If you remember from the [VuePress Tutorial 2 - Why Use VuePress?](/vuepress-tutorial-2) post, a [VuePress](https://vuepress.vuejs.org/) theme allows you to control how your project is structured. Within a theme you are able to create directories that handle <span class="post-term-one">global components</span>, <span class="post-term-one">components</span>, <span class="post-term-one">layouts</span>, <span class="post-term-one">styles</span>, and <span class="post-term-one">templates</span>. You can also create files for <span class="post-term-one">theme configurations</span> and <span class="post-term-one">app level enhancements</span>. So, a theme handles all of the layout and interactivity details for your site.
+Before moving on to the homepage layout, we're going to first describe what a theme is. If you remember from the [VuePress Tutorial 2 - Why Use VuePress?](/vuepress-tutorial-2) post, a [VuePress](https://vuepress.vuejs.org/) theme allows you to control how your project is structured. Within a theme you are able to create directories that handle <span class="post-term-one">global components</span>, <span class="post-term-one">components</span>, <span class="post-term-one">layouts</span>, <span class="post-term-one">styles</span>, and <span class="post-term-one">templates</span>. You can also create files for <span class="post-term-one">theme configuration</span> and <span class="post-term-one">app level enhancements</span>. So, a theme handles all of the layout and interactivity details for your site.
 
 Now that we have a good understanding of what a theme is, let's move on to configuring the homepage layout.
 
 ## Homepage Layout
 
-To see the homepage layout in action you can take a look at the homepages of [VuePress](https://vuepress.vuejs.org/) and the [Code Monkeys Blog](/).
+To see the homepage layout in action you can take a look at the homepages of  the [VuePress](https://vuepress.vuejs.org/) site and the [Code Monkeys Blog](/).
 
 ::: tip Using a Custom Theme
 Since the options being used for the homepage are provided by the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html), they may be different if you're [using a custom theme](https://vuepress.vuejs.org/theme/using-a-theme.html).
@@ -55,7 +55,7 @@ home: true
 </code-block>
 </code-group>
 
-Before discussing the changes to the site after adding the above changes, let's first describe what [YAML](https://yaml.org/) and frontmatter are.
+Before discussing the changes to the site, let's first describe what [YAML](https://yaml.org/) and frontmatter are.
 
 ### YAML Frontmatter Blocks
 
@@ -114,7 +114,7 @@ Before specifying the homepage layout, the HTML for the homepage consists of the
   <head>
     <title>Hello VuePress | Code Monkeys</title>
     ...
-    <meta name="description" content="Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos, tutorials, blog posts, etc. to help others learn about code and other tech related topics! Start Monkeying Around Today!!! 🐵">
+    <meta name="description" content="Learn to Code like a Monkey by joining the Code Monkeys Community! Check out the blog for posts and videos about coding! Start Monkeying Around Today! 🐵">
     <meta name="author" content="Jay the Code Monkey">
     ...
   </head>
@@ -158,7 +158,7 @@ After specifying the homepage layout, the HTML for the homepage consists of the 
   <head>
     <title>Code Monkeys</title>
     ...
-    <meta name="description" content="Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos, tutorials, blog posts, etc. to help others learn about code and other tech related topics! Start Monkeying Around Today!!! 🐵">
+    <meta name="description" content="Learn to Code like a Monkey by joining the Code Monkeys Community! Check out the blog for posts and videos about coding! Start Monkeying Around Today! 🐵">
     <meta name="author" content="Jay the Code Monkey">
     ...
   </head>
@@ -173,7 +173,7 @@ After specifying the homepage layout, the HTML for the homepage consists of the 
             <!---->
             <h1 id="main-title"> Code Monkeys </h1>
             <p class="description">
-              " Learn to Code like a Monkey by joining the Code Monkeys Community!!! We create videos, tutorials, blog posts, etc. to help others learn about code and other tech related topics! Start Monkeying Around Today!!! 🐵 "
+              " Learn to Code like a Monkey by joining the Code Monkeys Community! Check out the blog for posts and videos about coding! Start Monkeying Around Today! 🐵"
             </p>
             <!---->
           </header>
@@ -204,29 +204,25 @@ Before adding a homepage image, we're going to first create a <code class="inlin
 
 The directory structure for your site should now look something like this:
 
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Directory Structure with public">
-```
+::: vue
 .
-├── .yarn (Optional)
-│   ├── releases
+├── `.yarn` _(**Optional**)_
+│   ├── `releases`
 │   │   └── yarn-1.22.17.cjs
-├── docs
-│   ├── .vuepress
-│   │   ├── public
+├── `docs`
+│   ├── `.vuepress`
+│   │   ├── `public`
 │   │   └── config.js
 │   └── README.md
-├── node_modules
-├── .gitattributes (Optional)
+├── `node_modules`
+├── .gitattributes _(**Optional**)_
 ├── .gitignore
-├── .yarnrc (Optional)
+├── .yarnrc _(**Optional**)_
 ├── LICENSE
 ├── package.json
 ├── README.md
 └── yarn.lock
-```
-</code-block>
-</code-group>
+:::
 
 The <code class="inline-code-block">public</code> directory is a static resource directory which is useful in the following cases:
 
@@ -236,36 +232,32 @@ The <code class="inline-code-block">public</code> directory is a static resource
 
 In a future tutorial we'll discuss what <span class="post-term-one">absolute URLs</span> are in more detail as well as <span class="post-term-one">relative URLs</span>, the <span class="post-term-one">base URL</span>, and how to use <span class="post-term-one">aliases</span>. If you're interested in learning more now, then check out the [Assest Handling](https://vuepress.vuejs.org/guide/assets.html) documentation.
 
-The image we're going to be adding to the homepage is the full Code Monkeys logo. We're going to create an <code class="inline-code-block">images</code> directory in the <code class="inline-code-block">public</code> directory. Then we're going to create a <code class="inline-code-block">code-monkeys-logos</code> directory inside of the <code class="inline-code-block">images</code> directory. These directories are optional, but will be helpful for organizational purposes when we add more images in the future. Now inside of the <code class="inline-code-block">code-monkeys-logos</code> directory, we're going to add the full Code Monkeys logo which is named <code class="inline-code-block">full.png</code>.
+The image we're going to be adding to the homepage is the Code Monkeys full logo. We're going to create an <code class="inline-code-block">images</code> directory in the <code class="inline-code-block">public</code> directory. Then we're going to create a <code class="inline-code-block">code-monkeys-logos</code> directory inside of the <code class="inline-code-block">images</code> directory. These directories are optional, but will be helpful for organizational purposes when we add more images in the future. Now inside of the <code class="inline-code-block">code-monkeys-logos</code> directory, we're going to add the full Code Monkeys logo which is named <code class="inline-code-block">code-monkeys-full-logo.png</code>.
 
 After adding those directories and the image, the directory structure for your site should now look something like this:
 
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Directory Structure with Full Code Monkeys Logo">
-```
+::: vue
 .
-├── .yarn (Optional)
-│   ├── releases
+├── `.yarn` _(**Optional**)_
+│   ├── `releases`
 │   │   └── yarn-1.22.17.cjs
-├── docs
-│   ├── .vuepress
-│   │   ├── public
-│   │   │   ├── images
-│   │   │   │   ├── code-monkeys-logos
-│   │   │   │   │   └── full.png
+├── `docs`
+│   ├── `.vuepress`
+│   │   ├── `public`
+│   │   │   ├── `images`
+│   │   │   │   ├── `code-monkeys-logos`
+│   │   │   │   │   └── code-monkeys-full-logo.png
 │   │   └── config.js
 │   └── README.md
-├── node_modules
-├── .gitattributes (Optional)
+├── `node_modules`
+├── .gitattributes _(**Optional**)_
 ├── .gitignore
-├── .yarnrc (Optional)
+├── .yarnrc _(**Optional**)_
 ├── LICENSE
 ├── package.json
 ├── README.md
 └── yarn.lock
-```
-</code-block>
-</code-group>
+:::
 
 Here's the full Code Monkeys logo:
 
@@ -290,7 +282,6 @@ Here are some other useful online image tools:
 Here are some useful resources for coming up with colors schemes and palettes for your site:
 
 - <span class="external-link-wrap">[Coolors](https://coolors.co/)</span>
-- <span class="external-link-wrap">[Gogh](https://mayccoll.github.io/Gogh/)</span>
 - <span class="external-link-wrap">[Canva Color Palettes](https://www.canva.com/colors/color-palettes/)</span>
 - <span class="external-link-wrap">[Colors Tutorial](https://www.w3schools.com/colors/default.asp)</span>
 
@@ -301,9 +292,9 @@ Here are some other useful online tools for image compression:
 - <span class="external-link-wrap">[TinyPNG](https://tinypng.com/)</span>
 - <span class="external-link-wrap">[Image Compressor](https://imagecompressor.com/)</span>
 
-After adding the logo to the site, we can reference the logo in our homepage by adding <code class="inline-code-block">heroImage: /images/code-monkeys-logos/full.png</code> to the frontmatter.
+After adding the logo to the site, we can reference the logo in our homepage by adding <code class="inline-code-block">heroImage: /images/code-monkeys-logos/code-monkeys-full-logo.png</code> to the frontmatter.
 
-Notice you don't need to include <code class="inline-code-block">.vuepress/public</code> in the path to the logo because whenever you reference assets stored in the <code class="inline-code-block">public</code> directory, it's added automatically.
+Notice you don't need to include <code class="inline-code-block">.vuepress/public</code> in the path to the logo because whenever you reference assets stored in the <code class="inline-code-block">public</code> directory it's added automatically.
 
 The <code class="inline-code-block">README.md</code> file now looks like this:
 
@@ -312,7 +303,7 @@ The <code class="inline-code-block">README.md</code> file now looks like this:
 ```md
 ---
 home: true
-heroImage: /images/code-monkeys-logos/full.png
+heroImage: /images/code-monkeys-logos/code-monkeys-full-logo.png
 ---
 ```
 </code-block>
@@ -327,7 +318,7 @@ Here's what the HTML looks like after adding the homepage image:
 ```html{3}
 <main aria-labelledby="main-title" class="home">
   <header class="hero">
-    <img src="/images/code-monkeys-logos/full.png" alt="hero">
+    <img src="/images/code-monkeys-logos/code-monkeys-full-logo.png" alt="hero">
     <h1 id="main-title"> Code Monkeys </h1>
     <p class="description">...</p>
     <!---->
@@ -353,7 +344,7 @@ The <code class="inline-code-block">README.md</code> file would look like this:
 ```md
 ---
 home: true
-heroImage: /images/code-monkeys-logos/full.png
+heroImage: /images/code-monkeys-logos/code-monkeys-full-logo.png
 heroText: Homepage Title
 ---
 ```
@@ -367,7 +358,7 @@ For the [Code Monkeys Blog](/) we'll be using the value of the site <code class=
 ```md
 ---
 home: true
-heroImage: /images/code-monkeys-logos/full.png
+heroImage: /images/code-monkeys-logos/code-monkeys-full-logo.png
 ---
 ```
 </code-block>
@@ -380,7 +371,7 @@ Here's the HTML with the homepage title highlighted:
 ```html{4}
 <main aria-labelledby="main-title" class="home">
   <header class="hero">
-    <img src="/images/code-monkeys-logos/full.png" alt="hero">
+    <img src="/images/code-monkeys-logos/code-monkeys-full-logo.png" alt="hero">
     <h1 id="main-title"> Code Monkeys </h1>
     <p class="description">...</p>
     <!---->
@@ -408,7 +399,7 @@ The <code class="inline-code-block">README.md</code> file now looks like this:
 ```md
 ---
 home: true
-heroImage: /images/code-monkeys-logos/full.png
+heroImage: /images/code-monkeys-logos/code-monkeys-full-logo.png
 tagline: Let's get down to Monkey Business
 ---
 ```
@@ -422,7 +413,7 @@ Here's the HTML with the homepage tagline highlighted:
 ```html{5}
 <main aria-labelledby="main-title" class="home">
   <header class="hero">
-    <img src="/images/code-monkeys-logos/full.png" alt="hero">
+    <img src="/images/code-monkeys-logos/code-monkeys-full-logo.png" alt="hero">
     <h1 id="main-title"> Code Monkeys </h1>
     <p class="description"> Let's get down to Monkey Business </p>
     <!---->
@@ -450,7 +441,7 @@ The <code class="inline-code-block">README.md</code> file now looks like this:
 ```md
 ---
 home: true
-heroImage: /images/code-monkeys-logos/full.png
+heroImage: /images/code-monkeys-logos/code-monkeys-full-logo.png
 tagline: Let's get down to Monkey Business
 actionText: Learn to Code like a Monkey →
 actionLink: /topics/
@@ -466,7 +457,7 @@ Here's the HTML with the action button highlighted:
 ```html{6-8}
 <main aria-labelledby="main-title" class="home">
   <header class="hero">
-    <img src="/images/code-monkeys-logos/full.png" alt="hero">
+    <img src="/images/code-monkeys-logos/code-monkeys-full-logo.png" alt="hero">
     <h1 id="main-title"> Code Monkeys </h1>
     <p class="description"> Let's get down to Monkey Business </p>
     <p class="action">
@@ -519,7 +510,7 @@ The <code class="inline-code-block">README.md</code> file now looks like this:
 ```md
 ---
 home: true
-heroImage: /images/code-monkeys-logos/full.png
+heroImage: /images/code-monkeys-logos/code-monkeys-full-logo.png
 tagline: Let's get down to Monkey Business
 actionText: Learn to Code like a Monkey →
 actionLink: /topics/
@@ -539,7 +530,7 @@ Here's the HTML with the features highlighted:
 ```html{10-23}
 <main aria-labelledby="main-title" class="home">
   <header class="hero">
-    <img src="/images/code-monkeys-logos/full.png" alt="hero">
+    <img src="/images/code-monkeys-logos/code-monkeys-full-logo.png" alt="hero">
     <h1 id="main-title"> Code Monkeys </h1>
     <p class="description"> Let's get down to Monkey Business </p>
     <p class="action">
@@ -597,8 +588,8 @@ If you do decide to add a footer using the frontmatter in the homepage, then the
 <code-block title="HTML After Adding a Footer">
 ```html{5}
 <main aria-labelledby="main-title" class="home">
-  <header class="hero"></header>
-  <!---->
+  <header class="hero">...</header>
+  <div class="features">...</div>
   <div class="theme-default-content custom content__default"></div>
   <div class="footer"> Your Site's License | Copyright © 2022-present Your Name </div>
 </main>
@@ -615,7 +606,7 @@ Here's the contents of the <code class="inline-code-block">README.md</code> file
 ```md
 ---
 home: true
-heroImage: /images/code-monkeys-logos/full.png
+heroImage: /images/code-monkeys-logos/code-monkeys-full-logo.png
 tagline: Let's get down to Monkey Business
 actionText: Learn to Code like a Monkey →
 actionLink: /topics/
