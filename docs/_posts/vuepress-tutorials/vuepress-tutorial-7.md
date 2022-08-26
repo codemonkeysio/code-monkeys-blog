@@ -23,9 +23,9 @@ redirectFrom: /posts/2022/03/12/vuepress-tutorial-7/
 
 In this tutorial we'll be discussing how to configure the navbar by using the options exposed by the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html). A navbar is used to provide users with a quick and easy way to navigate to the main pages of a site. Most sites display the navbar on most or all of the pages, so it's generally designed to be a global component which allows it to be easily shown on all pages.
 
-The navbar for a site made with [VuePress](https://vuepress.vuejs.org/) can consist of a <span class="post-term-one">logo</span>, a <span class="post-term-one">site title</span>, a <span class="post-term-one">search box</span>, <span class="post-term-one">internal links</span>, <span class="post-term-one">languages the site can be translated to</span>, and <span class="post-term-one">external links</span>. Depending on how you want to configure your navbar your site can have all of or some of these options. We'll be discussing how to configure the <span class="post-term-one">logo</span>, <span class="post-term-one">site title</span>, <span class="post-term-one">internal links</span>, and <span class="post-term-one">external links</span>. We'll also discuss how to disable the navbar globally as well as locally for specific pages.
+The navbar for a site made with [VuePress](https://vuepress.vuejs.org/) can consist of a <span class="post-term-one">logo</span>, a <span class="post-term-one">site title</span>, a <span class="post-term-one">search box</span>, <span class="post-term-one">internal links</span>, <span class="post-term-one">languages the site can be translated to</span>, and <span class="post-term-one">external links</span>. Depending on how you want to configure your navbar your site can have all or some of these options. We'll be discussing how to configure the <span class="post-term-one">logo</span>, <span class="post-term-one">site title</span>, <span class="post-term-one">internal links</span>, and <span class="post-term-one">external links</span>. We'll also discuss how to disable the navbar globally as well as locally for specific pages.
 
-Take a look at the navbar on this page to see what we'll be designing for the [Code Monkeys Blog](/). To see another example you can check out the [VuePress](https://vuepress.vuejs.org/) navbar as well.
+Take a look at the navbar on this page to see what we'll be designing for the [Code Monkeys Blog](/). To see another example you can check out the [VuePress](https://vuepress.vuejs.org/) site navbar as well.
 
 ::: tip Using a Custom Theme
 Since the options being used for the navbar are provided by the [default theme](https://vuepress.vuejs.org/theme/default-theme-config.html), they may be different if you're [using a custom theme](https://vuepress.vuejs.org/theme/using-a-theme.html).
@@ -35,39 +35,35 @@ Make sure you start the local development server which should be running at [htt
 
 ## Navbar Logo and Site Title
 
-The navbar logo is used to brand your site, and it provides a link to the homepage. The image we're going to be using for the navbar is the Code Monkeys face logo. We're going to be adding the image which is named <code class="inline-code-block">face.png</code> to the <code class="inline-code-block">code-monkeys-logos</code> directory.
+The navbar logo is used to brand your site, and it provides a link to the homepage. The image we're going to be using for the navbar is the Code Monkeys head and shoulders logo. We're going to be adding the image which is named <code class="inline-code-block">code-monkeys-head-and-shoulders-logo.png</code> to the <code class="inline-code-block">code-monkeys-logos</code> directory.
 
 The site title in the navbar also provides a link to the homepage, and it's being set by the value of the <code class="inline-code-block">title</code> property in the <code class="inline-code-block">config.js</code> file which we set up in a previous tutorial.
 
 After adding the image, the directory structure for your site should now look something like this:
 
-<code-group class="remove-code-group-line-numbers">
-<code-block title="Directory Structure with Code Monkeys Face Logo">
-```{10}
+::: vue
 .
-├── .yarn (Optional)
-│   ├── releases
+├── `.yarn` _(**Optional**)_
+│   ├── `releases`
 │   │   └── yarn-1.22.17.cjs
-├── docs
-│   ├── .vuepress
-│   │   ├── public
-│   │   │   ├── images
-│   │   │   │   ├── code-monkeys-logos
-│   │   │   │   │   ├── face.png
-│   │   │   │   │   └── full.png
+├── `docs`
+│   ├── `.vuepress`
+│   │   ├── `public`
+│   │   │   ├── `images`
+│   │   │   │   ├── `code-monkeys-logos`
+│   │   │   │   │   ├── code-monkeys-full-logo.png
+│   │   │   │   │   └── code-monkeys-head-and-shoulders-logo.png
 │   │   └── config.js
 │   └── README.md
-├── node_modules
-├── .gitattributes (Optional)
+├── `node_modules`
+├── .gitattributes _(**Optional**)_
 ├── .gitignore
-├── .yarnrc (Optional)
+├── .yarnrc _(**Optional**)_
 ├── LICENSE
 ├── package.json
 ├── README.md
 └── yarn.lock
-```
-</code-block>
-</code-group>
+:::
 
 If the directory structure is confusing you, then be sure to take a look at the [Adding an Image](/vuepress-tutorial-6/#adding-an-image) section from the previous tutorial where it's described in more detail. That section also contains links to resources for creating, editing, and compressing images and for coming up with color schemes and palettes for your site.
 
@@ -80,7 +76,7 @@ Here's the Code Monkeys face logo:
   />
 </div>
 
-You can download the logo right here from your browser, and it will also be in the <code class="inline-code-block">tutorial-7</code> branch of the [code-monkeys-blog-tutorials](https://github.com/codemonkeysio/code-monkeys-blog-tutorials/tree/tutorial-6) repository.
+You can download the logo right here from your browser, and it will also be in the <code class="inline-code-block">tutorial-7</code> branch of the [code-monkeys-blog-tutorials](https://github.com/codemonkeysio/code-monkeys-blog-tutorials/tree/tutorial-7) repository.
 
 After adding the image to the site, we can reference it in the <code class="inline-code-block">config.js</code> file as follows:
 
@@ -94,9 +90,9 @@ module.exports = {
     ...
   ],
   themeConfig: {
-    logo: '/images/code-monkeys-logos/face.png'
-  }
-};
+    logo: '/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo.png',
+  },
+}
 ```
 </code-block>
 </code-group>
@@ -118,10 +114,10 @@ Here's what the HTML looks like after adding the navbar logo:
         <header class="navbar">
             <div class="sidebar-button">...</div>
             <a href="/" aria-current="page" class="home-link router-link-exact-active router-link-active">
-                <img src="/images/code-monkeys-logos/face.png" alt="Code Monkeys" class="logo">
+                <img src="/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo.png" alt="Code Monkeys" class="logo">
                 <span class="site-name can-hide">Code Monkeys</span>
             </a>
-            <div class="links" style="max-width: 1094px;">...</div>
+            <div class="links" style="max-width: 1093px;">...</div>
         </header>
         <div class="sidebar-mask"></div>
         <aside class="sidebar">...</aside>
@@ -162,27 +158,27 @@ module.exports = {
     ...
   ],
   themeConfig: {
-    logo: '/images/code-monkeys-logos/face.png',
+    logo: '/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo.png',
     nav: [
       {
         text: 'Topics',
-        link: '/topics/'
+        link: '/topics/',
       },
       {
         text: 'Posts',
-        link: '/posts/'
+        link: '/posts/',
       },
       {
         text: 'Resources',
-        link: '/resources/'
+        link: '/resources/',
       },
       {
         text: 'Donate',
-        link: '/donate/'
-      }
-    ]
-  }
-};
+        link: '/donate/',
+      },
+    ],
+  },
+}
 ```
 </code-block>
 </code-group>
@@ -200,7 +196,7 @@ Here's what the HTML looks like after adding the internal links:
         <header class="navbar">
             <div class="sidebar-button">...</div>
             <a href="/" aria-current="page" class="home-link router-link-exact-active router-link-active">...</a>
-            <div class="links" style="max-width: 1094px;">
+            <div class="links" style="max-width: 1093px;">
                 <div class="search-box">...</div>
                 <nav class="nav-links can-hide">
                     <div class="nav-item">
@@ -230,7 +226,7 @@ Here's what the HTML looks like after adding the internal links:
 </code-block>
 </code-group>
 
-Your navbar should now have <code class="inline-code-block">Topics</code>, <code class="inline-code-block">Posts</code>, <code class="inline-code-block">Resources</code>, and <code class="inline-code-block">Donate</code> links to the left of the search box.
+Your navbar should now have <code class="inline-code-block">Topics</code>, <code class="inline-code-block">Posts</code>, <code class="inline-code-block">Resources</code>, and <code class="inline-code-block">Donate</code> links to the right of the search box.
 
 ::: tip 404 When Clicking the Links
 If you click the links they will show the 404 layout because we haven't set up the pages for <code class="inline-code-block">Topics</code>, <code class="inline-code-block">Posts</code>, <code class="inline-code-block">Resources</code>, and <code class="inline-code-block">Donate</code> yet. In future tutorials we'll create these pages which will fix these issues.
@@ -262,33 +258,33 @@ module.exports = {
     ...
   ],
   themeConfig: {
-    logo: '/images/code-monkeys-logos/face.png',
+    logo: '/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo.png',
     nav: [
       {
         text: 'Topics',
-        link: '/topics/'
+        link: '/topics/',
       },
       {
         text: 'Posts',
-        link: '/posts/'
+        link: '/posts/',
       },
       {
         text: 'Resources',
-        link: '/resources/'
+        link: '/resources/',
       },
       {
         text: 'Donate',
-        link: '/donate/'
+        link: '/donate/',
       },
       {
         text: 'GitHub',
         link: 'https://github.com/codemonkeysio/code-monkeys-blog',
         target:'_self',
-        rel:false
-      }
-    ]
-  }
-};
+        rel:false,
+      },
+    ],
+  },
+}
 ```
 </code-block>
 </code-group>
@@ -306,7 +302,7 @@ Here's what the HTML looks like after adding the external link:
         <header class="navbar">
             <div class="sidebar-button">...</div>
             <a href="/" aria-current="page" class="home-link router-link-exact-active router-link-active">...</a>
-            <div class="links" style="max-width: 1094px;">
+            <div class="links" style="max-width: 1093px;">
                 <div class="search-box">...</div>
                 <nav class="nav-links can-hide">
                     <div class="nav-item">...</div>
@@ -356,30 +352,33 @@ module.exports = {
     ...
   ],
   themeConfig: {
-    logo: '/images/code-monkeys-logos/face.png',
+    logo: '/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo.png',
     nav: [
       {
         text: 'Topics',
-        link: '/topics/'
+        link: '/topics/',
       },
       {
         text: 'Posts',
         items: [
           { text: 'All Posts', link: '/posts/' },
-          { text: 'By Topic', link: '/topics/' }
-        ]
+          { 
+            text: 'By Topic',
+            link: '/topics/',
+          },
+        ],
       },
       {
         text: 'Resources',
-        link: '/resources/'
+        link: '/resources/',
       },
       {
         text: 'Donate',
-        link: '/donate/'
-      }
-    ]
-  }
-};
+        link: '/donate/',
+      },
+    ],
+  },
+}
 ```
 </code-block>
 </code-group>
@@ -392,7 +391,7 @@ Here's what the HTML looks like after adding a dropdown menu:
 <header class="navbar">
     <div class="sidebar-button">...</div>
     <a href="/" aria-current="page" class="home-link router-link-exact-active router-link-active">...</a>
-    <div class="links" style="max-width: 1094px;">
+    <div class="links" style="max-width: 1093px;">
         <div class="search-box">...</div>
         <nav class="nav-links can-hide">
             <div class="nav-item">...</div>
@@ -448,11 +447,11 @@ module.exports = {
     ...
   ],
   themeConfig: {
-    logo: '/images/code-monkeys-logos/face.png',
+    logo: '/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo.png',
     nav: [
       {
         text: 'Topics',
-        link: '/topics/'
+        link: '/topics/',
       },
       {
         text: 'Posts',
@@ -463,22 +462,22 @@ module.exports = {
             items: [
               { text: 'LeetCode', link: '/topics/LeetCode/' },
               { text: 'Node.js', link: '/topics/Node.js/' },
-              { text: 'VuePress', link: '/topics/VuePress/' }
-            ]
-          }
-        ]
+              { text: 'VuePress', link: '/topics/VuePress/' },
+            ],
+          },
+        ],
       },
       {
         text: 'Resources',
-        link: '/resources/'
+        link: '/resources/',
       },
       {
         text: 'Donate',
-        link: '/donate/'
-      }
-    ]
-  }
-};
+        link: '/donate/',
+      },
+    ],
+  },
+}
 ```
 </code-block>
 </code-group>
@@ -544,12 +543,17 @@ To disable the navbar globally add the following to your <code class="inline-cod
 
 <code-group>
 <code-block title="Disabling the Navbar Globally">
-```js
+```js{8}
 module.exports = {
+  title: 'Code Monkeys',
+  ...
+  head: [
+    ...
+  ],
   themeConfig: {
-    navbar: false
-  }
-};
+    navbar: false,
+  },
+}
 ```
 </code-block>
 </code-group>
@@ -572,7 +576,7 @@ navbar: false
 
 ## Next Steps
 
-In the next tutorial we'll begin creating the Footer component which will stick to the bottom of the page and consist of social media icons and a made by message.
+In the next tutorial we'll begin the development of the <code class="inline-code-block">Footer</code> component which will stick to the bottom of the page and consist of social media icons and a made by message.
 
 <script>
 import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js';
