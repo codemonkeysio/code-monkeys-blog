@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-7/vuepress-tutorial-7-navbar-logo-and-links-pos
 alt: VuePress Tutorial 7 - Navbar Logo and Links Post Picture
 linkImg: vuepress-tutorials/tutorial-7/vuepress-tutorial-7-navbar-logo-and-links-post-link.png
 linkImgAlt: VuePress Tutorial 7 - Navbar Logo and Links Image
+videoURL: 'https://www.youtube-nocookie.com/embed/-lhoODib66o'
 canonicalUrl: vuepress-tutorial-7/
 permalink: /vuepress-tutorial-7/
 redirectFrom: /posts/2022/03/12/vuepress-tutorial-7/
@@ -67,7 +68,7 @@ After adding the image, the directory structure for your site should now look so
 
 If the directory structure is confusing you, then be sure to take a look at the [Adding an Image](/vuepress-tutorial-6/#adding-an-image) section from the previous tutorial where it's described in more detail. That section also contains links to resources for creating, editing, and compressing images and for coming up with color schemes and palettes for your site.
 
-Here's the Code Monkeys face logo:
+Here's the Code Monkeys head and shoulders logo:
 
 <div class="website-diagrams">
   <v-lazy-image
