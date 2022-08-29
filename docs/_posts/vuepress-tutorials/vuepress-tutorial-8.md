@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-8/vuepress-tutorial-8-custom-footer-post.png
 alt: VuePress Tutorial 8 - Custom Footer Post Picture
 linkImg: vuepress-tutorials/tutorial-8/vuepress-tutorial-8-custom-footer-post-link.png
 linkImgAlt: VuePress Tutorial 8 - Custom Footer Image
+videoURL: 'https://www.youtube-nocookie.com/embed/atFFL2mGFks'
 canonicalUrl: vuepress-tutorial-8/
 permalink: /vuepress-tutorial-8/
 redirectFrom: /posts/2022/04/06/vuepress-tutorial-8/
