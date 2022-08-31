@@ -18,7 +18,7 @@ canonicalUrl: vuepress-tutorial-9/
 
 :::
 
-## Styling Files <Badge text="tip"/> <Badge text="warning" type="warning"/> <Badge text="error" type="error"/>
+## Styling Files
 
 The next step we'll be taking in developing the blog is learning how to override the <code class="inline-code-block">palette.styl</code> and <code class="inline-code-block">index.styl</code> files which will allow us to add our own global styling to the blog.
 
