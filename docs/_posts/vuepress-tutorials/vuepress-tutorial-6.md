@@ -280,7 +280,7 @@ Here are some other useful online image tools:
 - <span class="external-link-wrap">[PhotoScissors](https://photoscissors.com/)</span>
 - <span class="external-link-wrap">[iLoveIMG](https://www.iloveimg.com/)</span>
 
-Here are some useful resources for coming up with colors schemes and palettes for your site:
+Here are some useful resources for coming up with color schemes and palettes for your site:
 
 - <span class="external-link-wrap">[Coolors](https://coolors.co/)</span>
 - <span class="external-link-wrap">[Canva Color Palettes](https://www.canva.com/colors/color-palettes/)</span>
