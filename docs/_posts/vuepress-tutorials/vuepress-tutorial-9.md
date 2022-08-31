@@ -18,7 +18,7 @@ canonicalUrl: vuepress-tutorial-9/
 
 :::
 
-## Styling Files
+## Styling Files <Badge text="tip"/> <Badge text="warning" type="warning"/> <Badge text="error" type="error"/>
 
 The next step we'll be taking in developing the blog is learning how to override the <code class="inline-code-block">palette.styl</code> and <code class="inline-code-block">index.styl</code> files which will allow us to add our own global styling to the blog.
 
@@ -36,25 +36,25 @@ Here are some of the predefined styling variables available to use and override 
 <code-block title="Predefined palette.styl File">
 ```stylus
 // colors
-$accentcolor = #3eaf7c
-$textcolor = #2c3e50
-$bordercolor = #eaecef
-$codebgcolor = #282c34
-$arrowbgcolor = #ccc
-$badgetipcolor = #42b983
-$badgewarningcolor = darken(#ffe564, 35%)
-$badgeerrorcolor = #da5961
+$accentColor = #3eaf7c
+$textColor = #2c3e50
+$borderColor = #eaecef
+$codeBgColor = #282c34
+$arrowBgColor = #ccc
+$badgeTipColor = #42b983
+$badgeWarningColor = darken(#ffe564, 35%)
+$badgeErrorColor = #DA5961
 
 // layout
-$navbarheight = 3.6rem
-$sidebarwidth = 20rem
-$contentwidth = 740px
-$homepagewidth = 960px
+$navbarHeight = 3.6rem
+$sidebarWidth = 20rem
+$contentWidth = 740px
+$homePageWidth = 960px
 
 // responsive breakpoints
-$mqnarrow = 959px
-$mqmobile = 719px
-$mqmobilenarrow = 419px
+$MQNarrow = 959px
+$MQMobile = 719px
+$MQMobileNarrow = 419px
 ```
 </code-block>
 </code-group>
@@ -386,7 +386,7 @@ Here's an example of a global styling variable defined in each type of <code cla
 <code-block title="Predefined Variable">
 ```stylus
 // node_modules/@vuepress/core/lib/client/style/config.styl
-$accentcolor = #0099ff
+$accentColor = #0099ff
 ```
 </code-block>
 </code-group>
@@ -395,7 +395,7 @@ $accentcolor = #0099ff
 <code-block title="Theme Variable">
 ```stylus
 // theme/styles/palette.styl
-$accentcolor = #cc99ff
+$accentColor = #cc99ff
 ```
 </code-block>
 </code-group>
@@ -404,7 +404,7 @@ $accentcolor = #cc99ff
 <code-block title="User Variable">
 ```stylus
 // .vuepress/styles/palette.styl
-$accentcolor = #ccff33
+$accentColor = #ccff33
 ```
 </code-block>
 </code-group>
