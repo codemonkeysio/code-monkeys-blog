@@ -598,7 +598,7 @@ html
 
 Here's a resource for the [CSS box-shadow Property](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp) if you are interested in learning more about how it works.
 
-Finally, we're going to update the styles for the <code class="inline-code-block">features</code> class which is given to the <code class="inline-code-block">div</code> tag inside of the <code class="inline-code-block">header</code> tag and contains the Learn, Code, and Crush text.
+Finally, we're going to update the styles for the <code class="inline-code-block">features</code> class which is given to the <code class="inline-code-block">div</code> tag inside of the <code class="inline-code-block">main</code> tag and contains the Learn, Code, and Crush text.
 
 <code-group>
 <code-block title="index.styl">
