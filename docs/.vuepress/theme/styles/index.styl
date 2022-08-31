@@ -173,37 +173,41 @@ html
               rfs-font-size(1.15625rem)
     .home
       padding: 0
-      .hero
-        margin-left: 2rem
-        margin-right: 2rem
-        border: 0.125rem solid $darkBorderColor
-        box-shadow: 0 0.5rem 1rem 0 $darkBorderColor
-        transition: 0.2s
-        border-radius: 5.625rem
-        margin-bottom: 0.625rem
-        background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColor)
-        padding: 2rem
-        img
-          transition: transform 0.2s
-        h1
-          rfs-font-size(3rem)
-        .description
-          rfs-font-size(1.6rem)
-        .action-button
-          rfs-font-size(1.2rem)
-      .hero:hover
-        box-shadow: 0.125rem 0.5rem 1rem 0.125rem $darkBoxShadowColor
-        img
-          transform: scale(1.1)
-      .features
-        margin-left: 2rem
-        margin-right: 2rem
-        border-top: 0.125rem solid $borderColor
-        border-bottom: 0.125rem solid $borderColor
-        .feature
-          text-align: center
-          h2
-            rfs-font-size(1.4rem)
+      .home-content-wrapper
+        min-height: calc(100vh - 10.8125rem)
+        .home-content
+          padding-top: 8rem
+          .hero
+            margin-left: 2rem
+            margin-right: 2rem
+            border: 0.125rem solid $darkBorderColor
+            box-shadow: 0 0.5rem 1rem 0 $darkBorderColor
+            transition: 0.2s
+            border-radius: 5.625rem
+            margin-bottom: 0.625rem
+            background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColor)
+            padding: 2rem
+            img
+              transition: transform 0.2s
+            h1
+              rfs-font-size(3rem)
+            .description
+              rfs-font-size(1.6rem)
+            .action-button
+              rfs-font-size(1.2rem)
+          .hero:hover
+            box-shadow: 0.125rem 0.5rem 1rem 0.125rem $darkBoxShadowColor
+            img
+              transform: scale(1.1)
+          .features
+            margin-left: 2rem
+            margin-right: 2rem
+            border-top: 0.125rem solid $borderColor
+            border-bottom: 0.125rem solid $borderColor
+            .feature
+              text-align: center
+              h2
+                rfs-font-size(1.4rem)
     @media (max-width: 44.9375rem)
       .home
         .hero
