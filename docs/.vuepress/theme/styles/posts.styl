@@ -8,141 +8,139 @@
   margin-top: -3.85rem
 
 main.page
-  .page-content-wrapper
-    min-height: calc(100vh - 10.8125rem)
-    .theme-default-content:not(.custom) > *:first-child
-      margin-top: -5rem
-    .theme-default-content
-      max-width: 69.53125rem
-      padding-bottom: 0
-      h1
-        padding-top: 11rem
-        margin-bottom: -1rem
-      @media (max-width: 54.6875rem)
-        h1, h2, h3, h4, h5
-          text-align: center
-        a.header-anchor
-          float: none
-      div.emoji-wrap
-        text-decoration: inherit
+  .theme-default-content:not(.custom) > *:first-child
+    margin-top: -5rem
+  .theme-default-content
+    max-width: 69.53125rem
+    padding-bottom: 0
+    h1
+      padding-top: 11rem
+      margin-bottom: -1rem
+    @media (max-width: 54.6875rem)
+      h1, h2, h3, h4, h5
+        text-align: center
+      a.header-anchor
+        float: none
+    div.emoji-wrap
+      text-decoration: inherit
+      display: inline-block
+      span
         display: inline-block
-        span
-          display: inline-block
 
-      // Code Groups and Code Blocks
-      .theme-code-group
-        margin-top: 2rem
-        div.line-numbers-mode::before
-          font-size: 1rem
-          top: 0.03125rem
+    // Code Groups and Code Blocks
+    .theme-code-group
+      margin-top: 2rem
+      div.line-numbers-mode::before
+        font-size: 1rem
+        top: 0.03125rem
+      pre
+        margin-bottom: 2rem
+        code
+          span
+            font-size: 1em
+            height: 100%
+      .highlighted
+        background-color: #18191b
+      .highlighted:before
+        background-color: #18191b
+    @media (max-width: 26.1875rem)
+      div[class*="language-"]
+        margin: 0
+    .remove-code-group-line-numbers
+      div[class*="language-"].line-numbers-mode
         pre
-          margin-bottom: 2rem
-          code
-            span
-              font-size: 1em
-              height: 100%
-        .highlighted
-          background-color: #18191b
-        .highlighted:before
-          background-color: #18191b
-      @media (max-width: 26.1875rem)
-        div[class*="language-"]
-          margin: 0
-      .remove-code-group-line-numbers
-        div[class*="language-"].line-numbers-mode
-          pre
-            padding-left: 1.5rem
-          .line-numbers-wrapper
-            display: none
-        div[class*="language-"].line-numbers-mode::after
+          padding-left: 1.5rem
+        .line-numbers-wrapper
           display: none
+      div[class*="language-"].line-numbers-mode::after
+        display: none
 
-      // codefence
-      .codefence
-        color: $textColor
-        margin-top: 2rem
-        margin-bottom: 0
-        border: 0.0625rem solid #0b0c0e
+    // codefence
+    .codefence
+      color: $textColor
+      margin-top: 2rem
+      margin-bottom: 0
+      border: 0.0625rem solid #0b0c0e
+      rfs-font-size(1.625rem)
+      .heading
+        background-color: #21252b
+        font-size: 0.85em
+        padding: 0.75rem
+      .heading:after
+        opacity: 0.95
+        rfs-font-size(2.25rem)
+        margin: 0.375rem 0.75rem 0 0.75rem
+        background-size: 0.85em 0.605em
+        width: 0.85em
+        height: 0.605em
+      .CodeMirror
+        background-color: $codeBgColor
+        .CodeMirror-lines
+          padding: 0.5rem 0
+          .CodeMirror-linenumber
+            rfs-font-size(1.25rem)
+            color: #4e5565
+            padding: 0.125rem 0.25rem 0.125rem 0.375rem
+          .CodeMirror-line
+            padding: 0.125rem 0.375rem
+            .cm-keyword
+              color: #cc99cd
+            .cm-def
+              color: #f08d49
+            .cm-operator
+              color: #67cdcc
+            .cm-number
+              color: #f28779
+            .cm-variable-2
+              color: #99c7ff
+            .cm-property
+              color: #dbd56e
+            .cm-comment
+              color: #999
+            .cm-variable
+              color: $textColor
+            .cm-string
+              color: #7ec699
+            .cm-atom
+              color: #9898cd
+        .CodeMirror-gutters
+          background-color: $codeBgColor
+      .compiler
+        background-color: #21252b
         rfs-font-size(1.625rem)
-        .heading
-          background-color: #21252b
+        code
+          rfs-font-size(1.25rem)
+          color: $textColor
+        .idle
+          border-top: 0.125rem solid #373d48
           font-size: 0.85em
           padding: 0.75rem
-        .heading:after
-          opacity: 0.95
-          rfs-font-size(2.25rem)
-          margin: 0.375rem 0.75rem 0 0.75rem
-          background-size: 0.85em 0.605em
-          width: 0.85em
-          height: 0.605em
-        .CodeMirror
-          background-color: $codeBgColor
-          .CodeMirror-lines
-            padding: 0.5rem 0
-            .CodeMirror-linenumber
-              rfs-font-size(1.25rem)
-              color: #4e5565
-              padding: 0.125rem 0.25rem 0.125rem 0.375rem
-            .CodeMirror-line
-              padding: 0.125rem 0.375rem
-              .cm-keyword
-                color: #cc99cd
-              .cm-def
-                color: #f08d49
-              .cm-operator
-                color: #67cdcc
-              .cm-number
-                color: #f28779
-              .cm-variable-2
-                color: #99c7ff
-              .cm-property
-                color: #dbd56e
-              .cm-comment
-                color: #999
-              .cm-variable
-                color: $textColor
-              .cm-string
-                color: #7ec699
-              .cm-atom
-                color: #9898cd
-          .CodeMirror-gutters
-            background-color: $codeBgColor
-        .compiler
-          background-color: #21252b
-          rfs-font-size(1.625rem)
-          code
-            rfs-font-size(1.25rem)
-            color: $textColor
-          .idle
-            border-top: 0.125rem solid #373d48
-            font-size: 0.85em
-            padding: 0.75rem
-            svg
-              opacity: 0.9
-              width: 1em
-              height: 1em
-          .running
-            font-size: 0.85em
-            border-top-color: #429ab8
-            padding: 0.75rem
-            svg
-              width: 0.85em
-              height: 0.85em
-          .redo
-            font-size: 0.85em
-            svg
-              width: 1em
-              height: 1em
-          .stdout
-            border-top-color: #42b983
-            padding: 0.75rem
-          .stderr
-            border-top-color: #b84242
-            padding: 0.75rem
-          .error
-            font-size: 0.85em
-            border-top-color: #b84242
-            padding: 0.75rem
-            svg
-              width: 0.85em 
-              height: 0.85em
+          svg
+            opacity: 0.9
+            width: 1em
+            height: 1em
+        .running
+          font-size: 0.85em
+          border-top-color: #429ab8
+          padding: 0.75rem
+          svg
+            width: 0.85em
+            height: 0.85em
+        .redo
+          font-size: 0.85em
+          svg
+            width: 1em
+            height: 1em
+        .stdout
+          border-top-color: #42b983
+          padding: 0.75rem
+        .stderr
+          border-top-color: #b84242
+          padding: 0.75rem
+        .error
+          font-size: 0.85em
+          border-top-color: #b84242
+          padding: 0.75rem
+          svg
+            width: 0.85em 
+            height: 0.85em

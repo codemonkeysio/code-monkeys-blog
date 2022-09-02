@@ -1,34 +1,32 @@
 <template>
   <main class="page">
-    <div class="page-content-wrapper">
-      <slot name="top" />
+    <slot name="top" />
 
-      <Content slot-key="header" class="theme-default-content" />
+    <Content slot-key="header" class="theme-default-content" />
 
-      <slot name="post-details" />
+    <slot name="post-details" />
 
-      <slot name="embedded-video" />
+    <slot name="embedded-video" />
 
-      <Content class="theme-default-content" />
+    <Content class="theme-default-content" />
 
-      <PageNav v-bind="{ sidebarItems }" />
+    <PageNav v-bind="{ sidebarItems }" />
 
-      <slot name="post-pagination" />
+    <slot name="post-pagination" />
 
-      <slot name="post-comments" />
+    <slot name="post-comments" />
 
-      <slot name="bottom" />
-    </div>
+    <slot name="bottom" />
   </main>
 </template>
 
 <script>
-import PageNav from '@parent-theme/components/PageNav.vue';
+import PageNav from '@parent-theme/components/PageNav.vue'
 
 export default {
   components: { PageNav },
   props: ['sidebarItems']
-};
+}
 </script>
 
 <style lang="stylus">
