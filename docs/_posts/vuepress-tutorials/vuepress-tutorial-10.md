@@ -35,7 +35,7 @@ When adding the styling updates be sure to add each block of code below one at a
 
 You can view all of the code in this tutorial by going to the <code class="inline-code-block">tutorial-10</code> branch of the [code-monkeys-blog-repository](https://github.com/codemonkeysio/code-monkeys-blog-tutorials/tree/tutorial-10)
 
-### Fixing the Main Card Placement 
+### Fixing the Main Card Placement
 
 We'll start by fixing the issue of the main card being covered by the navbar. To fix this issue we just need to update the <code class="inline-code-block">padding</code> in the <code class="inline-code-block">home</code> class:
 
