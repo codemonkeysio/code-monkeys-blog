@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-10/vuepress-tutorial-10-homepage-styling-part-2
 alt: VuePress Tutorial 10 - Homepage Styling Part 2 Post Picture
 linkImg: vuepress-tutorials/tutorial-10/vuepress-tutorial-10-homepage-styling-part-2-post-link.png
 linkImgAlt: VuePress Tutorial 10 - Homepage Styling Part 2 Image
+videoURL: 'https://www.youtube-nocookie.com/embed/yIrI2BC_UVY'
 canonicalUrl: vuepress-tutorial-10/
 ---
 
