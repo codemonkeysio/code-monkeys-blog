@@ -53,7 +53,7 @@ jobs:
           # deploy the default output dir of VuePress
           build_dir: docs/.vuepress/dist
           # fqdn: https://codemonkeysio.github.io/code-monkeys-blog
-          fqdn: www.codemonkeys.tech
+          fqdn: codemonkeys.tech
         env:
           # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
