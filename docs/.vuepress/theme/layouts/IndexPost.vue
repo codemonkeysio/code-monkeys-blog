@@ -42,6 +42,7 @@
               :author="post.frontmatter.author"
               :posted="post.frontmatter.date"
               :updated="post.lastUpdated"
+              :numberOfCommits="post.numberOfCommits"
             />
             <p class="preview">
               {{ post.frontmatter.cardDescription }}

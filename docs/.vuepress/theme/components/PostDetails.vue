@@ -6,7 +6,7 @@
         <span class="bullet">&#8226;</span
         ><span class="posted">Posted: {{ formatDate(posted) }}</span>
       </span>
-      <span v-if="updated" class="updated-wrapper">
+      <span v-if="numberOfCommits > 1" class="updated-wrapper">
         <span class="bullet">&#8226;</span
         ><span class="updated">Updated: {{ formatDate(updated) }}</span>
       </span>
@@ -30,6 +30,9 @@ export default {
       required: true
     },
     updated: {
+      required: true
+    },
+    numberOfCommits: {
       required: true
     }
   },

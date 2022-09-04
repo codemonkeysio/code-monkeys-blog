@@ -1,3 +1,6 @@
+const path = require('path')
+const spawn = require('cross-spawn')
+
 module.exports = (options = {}, ctx) => ({
   extendPageData($page) {
     const { frontmatter } = $page
@@ -105,6 +108,13 @@ module.exports = (options = {}, ctx) => ({
         frontmatter.canonicalUrl = `${ctx.siteConfig.themeConfig.domain}${pagePath}`
       }
     }
+
+    const filePath = $page._filePath
+    let numberOfCommits
+    if (filePath && filePath.includes('_posts')) {
+      numberOfCommits = getNumberOfGitCommits(filePath)
+      $page.numberOfCommits = numberOfCommits
+    }
   }
 })
 
@@ -120,4 +130,23 @@ function getUniqueArray(arr, keyProps) {
 
 function formatPagePath(pagePath) {
   return pagePath.substring(1)
+}
+
+function getNumberOfGitCommits(filePath) {
+  let numberOfCommits
+  try {
+    numberOfCommits =
+      spawn
+        .sync(
+          'git',
+          ['rev-list', 'master', '--', path.basename(filePath), '| wc -l'],
+          { cwd: path.dirname(filePath) }
+        )
+        .stdout.toString('utf-8')
+        .split('\n').length - 1
+  } catch (e) {
+    /* do not handle for now */
+  }
+
+  return numberOfCommits
 }

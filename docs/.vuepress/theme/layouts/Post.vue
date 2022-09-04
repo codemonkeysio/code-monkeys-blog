@@ -8,6 +8,7 @@
           :author="$frontmatter.author"
           :posted="$frontmatter.date"
           :updated="$page.lastUpdated"
+          :numberOfCommits="$page.numberOfCommits"
         />
       </div>
     </template>
