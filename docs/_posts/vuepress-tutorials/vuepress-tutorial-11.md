@@ -27,11 +27,13 @@ You can view all of the code in this tutorial by going to the <code class="inlin
 
 Now let's get started by discussing what a sticky footer is.
 
-## Sticky Footer
+## What is a Sticky Footer?
 
 A sticky footer adheres or <span class="post-term-one">sticks</span> to the bottom of the browser window assuming there isn't enough content on the page to push the footer lower like on this blog post for example. If the content on the page is short like on the [homepage](/), then the footer will still stick to the bottom of the page instead of appearing directly below the content above it.
 
 There are multiple ways to add a sticky footer to your site, but we're only going to discuss how to use the CSS <code class="inline-code-block">calc()</code> function. If you're interested in learning about the other ways of adding a sticky footer, then check out [Sticky Footer, Five Ways](https://css-tricks.com/couple-takes-sticky-footer/).
+
+## Sticky Footer Styling
 
 Here's what the <code class="inline-code-block">index.styl</code> file looks like after adding the sticky footer styling:
 
