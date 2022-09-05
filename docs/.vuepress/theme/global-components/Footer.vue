@@ -78,10 +78,8 @@ export default {
   flex-direction: column
   align-items: center
   padding: 2.5rem 2.5rem 2rem
-  border-top: 0
   .icons
     display: flex
-    flex-direction: row
     margin-bottom: 1.75rem
     min-width: 12.5rem
     .no-wrap-icons
@@ -89,7 +87,7 @@ export default {
     .wrap-icons
       display: inline-flex
     svg
-      color: lighten($textColor, 25%)
+      color: $textColor
     svg:hover
       fill: $accentColor
   .made-by
