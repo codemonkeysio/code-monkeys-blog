@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-11/vuepress-tutorial-11-sticky-footer-post.png
 alt: VuePress Tutorial 11 - Sticky Footer Post Picture
 linkImg: vuepress-tutorials/tutorial-11/vuepress-tutorial-11-sticky-footer-post-link.png
 linkImgAlt: VuePress Tutorial 11 - Sticky Footer Image
+videoURL: 'https://www.youtube-nocookie.com/embed/_2FFh3ss5VM'
 canonicalUrl: vuepress-tutorial-11/
 ---
 
