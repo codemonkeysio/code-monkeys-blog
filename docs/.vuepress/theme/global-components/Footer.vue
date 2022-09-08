@@ -87,7 +87,7 @@ export default {
     .wrap-icons
       display: inline-flex
     svg
-      color: $textColor
+      fill: $textColor
     svg:hover
       fill: $accentColor
   .made-by

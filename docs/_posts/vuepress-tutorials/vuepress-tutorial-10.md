@@ -119,7 +119,7 @@ html
 </code-block>
 </code-group>
 
-- <code class="inline-code-block">.hero: hover</code> applies the <code class="inline-code-block">hover</code> pseudo-class to the <code class="inline-code-block">.hero</code> selector which will apply the styles defined inside of it when the user hovers their pointer over the <code class="inline-code-block">header</code> tag with a class of <code class="inline-code-block">hero</code>.
+- <code class="inline-code-block">.hero:hover</code> applies the <code class="inline-code-block">hover</code> pseudo-class to the <code class="inline-code-block">.hero</code> selector which will apply the styles defined inside of it when the user hovers their pointer over the <code class="inline-code-block">header</code> tag with a class of <code class="inline-code-block">hero</code>.
 - <code class="inline-code-block">box-shadow: 0.125rem 0.5rem 1rem 0.125rem #0b0c0f</code> changes the box shadow style defined in the <code class="inline-code-block">hero</code> class.
 - <code class="inline-code-block">transform: scale(1.1)</code> applies the <code class="inline-code-block">scale()</code> method to the <code class="inline-code-block">transform</code> property to increase the size of the <code class="inline-code-block">img</code> tag to be <code class="inline-code-block">1.1</code> times the original width and height.
 
