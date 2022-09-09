@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-12/vuepress-tutorial-12-highlight-svgs-on-hover
 alt: VuePress Tutorial 12 - Highlight SVGs on Hover Post Picture
 linkImg: vuepress-tutorials/tutorial-12/vuepress-tutorial-12-highlight-svgs-on-hover-post-link.png
 linkImgAlt: VuePress Tutorial 12 - Highlight SVGs on Hover Image
+videoURL: 'https://www.youtube-nocookie.com/embed/T4ytJl4nA7A'
 canonicalUrl: vuepress-tutorial-12/
 ---
 
