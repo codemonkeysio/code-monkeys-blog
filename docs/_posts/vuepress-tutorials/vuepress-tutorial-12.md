@@ -337,7 +337,7 @@ If you have questions about the CSS discussed above, then check out these resour
 - <span class="external-link-wrap">[SVG Attribute reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute)</span>
 - <span class="external-link-wrap">[fill](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fill)</span>
 
-You can also check out this [CSS-Tricks post](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute) if you're interested in learning about other ways to change the fill on hover.
+You can also check out this [CSS-Tricks post](https://css-tricks.com/the-many-ways-to-change-an-svg-fill-on-hover-and-when-to-use-them/) if you're interested in learning about other ways to change the fill on hover.
 
 Instead of manually editing each file, we can use the CLI command provided by [vuepress-plugin-svg-icons](https://github.com/ntnyq/vuepress-plugin-svg-icons/tree/vuepress-v1) to automate the process.
 
