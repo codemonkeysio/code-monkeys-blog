@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-13/vuepress-tutorial-13-navbar-styling-post.png
 alt: VuePress Tutorial 13 - Navbar Styling Post Picture
 linkImg: vuepress-tutorials/tutorial-13/vuepress-tutorial-13-navbar-styling-post-link.png
 linkImgAlt: VuePress Tutorial 13 - Navbar Styling Image
+videoURL: 'https://www.youtube-nocookie.com/embed/q4CfOgerFuw'
 canonicalUrl: vuepress-tutorial-13/
 ---
 
