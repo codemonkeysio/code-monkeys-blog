@@ -81,30 +81,6 @@ html
           margin-top: 0.375rem
         .site-name
           rfs-font-size(1.5rem)
-        .nav-dropdown
-          text-align: center
-          background-color: $backgroundColor
-          border: 0.125rem solid $borderColor
-          padding: 0.8rem 0
-          .dropdown-item
-            padding-bottom: 0.4rem
-            a:first-child
-              color: inherit
-              &.router-link-active::after
-                border-left: 0
-              &.router-link-active
-                color: $accentColor
-              &.router-link-active::after
-                border-left: 0.3125rem solid $accentColor
-            h4
-              rfs-font-size(1.25rem)
-              border-top: 0.0625rem solid $borderColor
-              cursor: initial
-              margin: 0.45rem 0.375rem 0
-            a:hover
-              color: $accentColor
-            a.router-link-active::after
-              left: 0.75rem
         .links
           background-color: transparent
           height: 3rem
@@ -139,6 +115,30 @@ html
                 border-bottom: 0
               .dropdown-title
                 rfs-font-size(1.25rem)
+              .nav-dropdown
+                text-align: center
+                background-color: $backgroundColor
+                border: 0.125rem solid $borderColor
+                padding: 0.8rem 0
+                .dropdown-item
+                  padding-bottom: 0.4rem
+                  a:first-child
+                    color: inherit
+                    &.router-link-active::after
+                      border-left: 0
+                    &.router-link-active
+                      color: $accentColor
+                    &.router-link-active::after
+                      border-left: 0.3125rem solid $accentColor
+                  h4
+                    rfs-font-size(1.25rem)
+                    border-top: 0.0625rem solid $borderColor
+                    cursor: text
+                    margin: 0.45rem 0.375rem 0
+                  a:hover
+                    color: $accentColor
+                  a.router-link-active::after
+                    left: 0.75rem
             .nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active
               border-bottom: 0.125rem solid #ed7c42
       .sidebar
