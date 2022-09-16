@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-14/vuepress-tutorial-14-dropdown-menu-styling-p
 alt: VuePress Tutorial 14 - Dropdown Menu Styling Post Picture
 linkImg: vuepress-tutorials/tutorial-14/vuepress-tutorial-14-dropdown-menu-styling-post-link.png
 linkImgAlt: VuePress Tutorial 14 - Dropdown Menu Styling Image
+videoURL: 'https://www.youtube-nocookie.com/embed/FMoBn_QVzlk'
 canonicalUrl: vuepress-tutorial-14/
 ---
 
