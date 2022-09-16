@@ -322,7 +322,6 @@ html
                 .dropdown-item
                   padding-bottom: 0.4rem
                   h4
-                    font-size: 1.25rem
                     border-top: 0.0625rem solid $borderColor
                     cursor: text
                     margin: 0.45rem 0.375rem 0
