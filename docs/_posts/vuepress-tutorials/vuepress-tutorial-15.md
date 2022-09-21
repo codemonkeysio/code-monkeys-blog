@@ -6,7 +6,7 @@ description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to install and co
 cardDescription: It's now time to install and begin the process of configuring @vuepress/plugin-blog. We're going to start by describing...
 img: vuepress-tutorials/tutorial-15/vuepress-tutorial-15-blog-plugin-post.png
 alt: VuePress Tutorial 15 - Blog Plugin Post Picture
-linkImg: vuepress-tutorials/tutorial-15/vuepress-tutorial-15-blog-post-link.png
+linkImg: vuepress-tutorials/tutorial-15/vuepress-tutorial-15-blog-plugin-post-link.png
 linkImgAlt: VuePress Tutorial 15 - Blog Plugin Image
 canonicalUrl: vuepress-tutorial-15/
 ---
