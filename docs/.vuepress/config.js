@@ -396,7 +396,7 @@ module.exports = {
       {
         directories: [
           {
-            id: 'post',
+            id: 'posts',
             dirname: '_posts',
             path: '/posts/',
             title: 'All Posts',

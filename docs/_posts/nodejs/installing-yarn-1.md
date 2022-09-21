@@ -602,7 +602,7 @@ After running either one of the commands above, a <code class="inline-code-block
 
 Here's how the <code class="inline-code-block">yarn.lock</code> file is used:
 
-- If the <code class="inline-code-block">yarn.lock</code> file is present and if it contains all of the packages speccified in the <code class="inline-code-block">package.json</code> file, then the exact versions specified in the <code class="inline-code-block">yarn.lock</code> file will be installed.
+- If the <code class="inline-code-block">yarn.lock</code> file is present and if it contains all of the packages specified in the <code class="inline-code-block">package.json</code> file, then the exact versions specified in the <code class="inline-code-block">yarn.lock</code> file will be installed.
 - If there is no <code class="inline-code-block">yarn.lock</code> file or there is one that doesn't contain all of the packages in the <code class="inline-code-block">package.json</code> file, then the newest versions within the version ranges specified in the <code class="inline-code-block">package.json</code> file will be installed. This will then update the <code class="inline-code-block">yarn.lock</code> file.
 
 To ensure the <code class="inline-code-block">yarn.lock</code> file is not updated when installing all of a project's dependencies you can run the following:
