@@ -201,11 +201,33 @@ Since we'll be using the [vuepress-plugin-svg-icons](https://vp-icon.goyfe.com/)
 
 To use a plugin you need to first install it by using either <code class="inline-code-block">yarn</code> or <code class="inline-code-block">npm</code>. We'll be using <code class="inline-code-block">yarn</code> to install all of the plugins for the blog, but the commands for installing the plugins with <code class="inline-code-block">npm</code> will also be provided. After installing a plugin, you can configure it by adding it to the <code class="inline-code-block">config.js</code> file.
 
-Now that we know the basics, we're ready to install and configure [vuepress-plugin-svg-icons](https://vp-icon.goyfe.com/).
-
 ### VuePress Plugin - SVG Icons
 
-To install the plugin run the following command:
+Now that we know the basics, we're ready to install and configure [vuepress-plugin-svg-icons](https://vp-icon.goyfe.com/).
+
+#### Using the Tutorials Repo
+
+If you're following along with the tutorials, then when you switch to the <code class="inline-code-block">tutorial-8</code> branch you can run the following command to install the package instead of running the installation command:
+
+<code-group>
+<code-block title="yarn">
+```sh
+yarn
+```
+</code-block>
+
+<code-block title="npm">
+```sh
+npm install
+```
+</code-block>
+</code-group>
+
+This will ensure you have the same version used in the blog since the command uses the version specified in the <code class="inline-code-block">yarn.lock</code> file during the installation.
+
+#### Using the Installation Command
+
+To install the plugin in your own project you can run the following command:
 
 <code-group>
 <code-block title="yarn">
@@ -220,6 +242,10 @@ npm install @goy/vuepress-plugin-svg-icons -D
 ```
 </code-block>
 </code-group>
+
+:::tip Installing the Same Plugin Version
+If you want to ensure you're installing the same version being used in the tutorials and blog, then run <code class="inline-code-block">yarn upgrade @goy/vuepress-plugin-svg-icons@4.2.3</code>.
+:::
 
 After installing the plugin, the <code class="inline-code-block">package.json</code> file should look something like this:
 
