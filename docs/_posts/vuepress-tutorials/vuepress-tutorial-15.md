@@ -411,7 +411,7 @@ module.exports = {
       },
     ],
   ],
-}]
+}
 ```
 </code-block>
 </code-group>
@@ -484,7 +484,7 @@ module.exports = {
       },
     ],
   ],
-}]
+}
 ```
 </code-block>
 </code-group>
@@ -558,7 +558,7 @@ module.exports = {
       },
     ],
   ],
-}]
+}
 ```
 </code-block>
 </code-group>
@@ -653,7 +653,7 @@ module.exports = {
       },
     ],
   ],
-}]
+}
 ```
 </code-block>
 </code-group>
