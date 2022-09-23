@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-15/vuepress-tutorial-15-blog-plugin-post.png
 alt: VuePress Tutorial 15 - Blog Plugin Post Picture
 linkImg: vuepress-tutorials/tutorial-15/vuepress-tutorial-15-blog-plugin-post-link.png
 linkImgAlt: VuePress Tutorial 15 - Blog Plugin Image
+videoURL: 'https://www.youtube-nocookie.com/embed/tkSN1zC6v2A'
 canonicalUrl: vuepress-tutorial-15/
 ---
 
