@@ -409,8 +409,10 @@ module.exports = {
             itemLayout: 'Post',
             itemPermalink: '/:slug',
             pagination: {
-              lengthPerPage: 5, // 5 is the default value
-              layout: 'IndexPost' // layout for the index page when page != 1
+              lengthPerPage: 5,
+              layout: 'IndexPost',
+              prevText: 'Prev',
+              nextText: 'Next'
             }
           }
         ],

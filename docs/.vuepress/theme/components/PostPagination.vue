@@ -1,5 +1,5 @@
 <template>
-  <div id="pagination">
+  <div class="pagination">
     <div>
       <router-link v-if="prevLink" :to="prevLink">
         <PaginationButtons :prevButton="true" />
@@ -60,7 +60,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-#pagination
+.pagination
   max-width: 69.53125rem
   margin: 0 auto
   padding-left: 2.5rem
@@ -69,12 +69,12 @@ export default {
     text-decoration: underline
 
 @media (max-width: $MQNarrow)
-  #pagination
+  .pagination
     padding-left: 2rem
     padding-right: 2rem
 
 @media (max-width: $MQMobileNarrow)
-  #pagination
+  .pagination
     padding-left: 1.5rem
     padding-right: 1.5rem
 </style>

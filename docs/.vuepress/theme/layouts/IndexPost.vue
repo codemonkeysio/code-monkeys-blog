@@ -55,7 +55,7 @@
             />
           </div>
         </div>
-        <div id="pagination">
+        <div class="pagination">
           <div>
             <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">
               <PaginationButtons :prevButton="true" />
