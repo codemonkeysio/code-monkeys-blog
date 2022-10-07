@@ -3,7 +3,7 @@ title: VuePress Tutorial 2 - Why Use VuePress?
 date: 2021-11-24T20:50:30.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Wondering if you should use VuePress, then check out VuePress Tutorial 2 - Why Use VuePress? 🍌🐒
-cardDescription: VuePress is a minimalistic static site generator (SSG) with a Vue-powered theming system and Plugin API. Originally...
+preview: VuePress is a minimalistic static site generator (SSG) with a Vue-powered theming system and Plugin API. Originally...
 img: vuepress-tutorials/tutorial-2/vuepress-tutorial-2-why-use-vuepress-post.png
 alt: VuePress Tutorial 2 - Why Use VuePress? Post Picture
 linkImg: vuepress-tutorials/tutorial-2/vuepress-tutorial-2-why-use-vuepress-post-link.png

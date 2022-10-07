@@ -3,7 +3,7 @@ title: VuePress Tutorial 9 - Styling the Homepage
 date: 2022-08-31T01:45:30.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to style the homepage for your VuePress site, then check out VuePress Tutorial 9 - Styling the Homepage! 🍌🐒
-cardDescription: The next step we'll be taking in developing the blog is learning how to override the palette.styl and index.styl files...
+preview: The next step we'll be taking in developing the blog is learning how to override the palette.styl and index.styl files...
 img: vuepress-tutorials/tutorial-9/vuepress-tutorial-9-styling-the-homepage-post.png
 alt: VuePress Tutorial 9 - Styling the Homepage Post Picture
 linkImg: vuepress-tutorials/tutorial-9/vuepress-tutorial-9-styling-the-homepage-post-link.png

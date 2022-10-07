@@ -3,7 +3,7 @@ title: Reverse String
 date: 2021-08-11T15:35:00.000Z
 topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Reverse String! 🍌🐒
-cardDescription: Write a function that reverses a string. The input string is given as an array of characters. Ex) 1 Input...
+preview: Write a function that reverses a string. The input string is given as an array of characters. Ex) 1 Input...
 img: leetcode/07-reverse-string/leetcode-reverse-string-post.png
 alt: LeetCode - Reverse String Post Picture
 linkImg: leetcode/07-reverse-string/leetcode-reverse-string-post-link.png

@@ -3,7 +3,7 @@ title: Single Number
 date: 2021-06-29T17:23:42.000Z
 topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Single Number! 🍌🐒
-cardDescription: Given a non-empty array of integers nums, every element appears twice excepet for one. Find that single...
+preview: Given a non-empty array of integers nums, every element appears twice excepet for one. Find that single...
 img: leetcode/01-single-number/leetcode-single-number-post.png
 alt: LeetCode - Single Number Post Picture
 linkImg: leetcode/01-single-number/leetcode-single-number-post-link.png

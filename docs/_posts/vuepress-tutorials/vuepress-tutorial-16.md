@@ -3,7 +3,7 @@ title: VuePress Tutorial 16 - Pagination
 date: 2022-09-30T20:07:00.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Ready to learn about the pagination feature provided by the blog plugin, then check out VuePress Tutorial 16 - Pagination! 🍌🐒
-cardDescription: Now it's time to learn more about the pagination feature and the Client API provided by @vuepress/plugin-blog...
+preview: Now it's time to learn more about the pagination feature and the Client API provided by @vuepress/plugin-blog...
 img: vuepress-tutorials/tutorial-16/vuepress-tutorial-16-pagination-post.png
 alt: VuePress Tutorial 16 - Pagination Post Picture
 linkImg: vuepress-tutorials/tutorial-16/vuepress-tutorial-16-pagination-post-link.png

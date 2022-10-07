@@ -3,7 +3,7 @@ title: VuePress Tutorial 15 - Blog Plugin
 date: 2022-09-21T12:26:00.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to install and configure the blog plugin for your VuePress site, then check out VuePress Tutorial 15 - Blog Plugin! 🍌🐒
-cardDescription: It's now time to install and begin the process of configuring @vuepress/plugin-blog. We're going to start by describing...
+preview: It's now time to install and begin the process of configuring @vuepress/plugin-blog. We're going to start by describing...
 img: vuepress-tutorials/tutorial-15/vuepress-tutorial-15-blog-plugin-post.png
 alt: VuePress Tutorial 15 - Blog Plugin Post Picture
 linkImg: vuepress-tutorials/tutorial-15/vuepress-tutorial-15-blog-plugin-post-link.png

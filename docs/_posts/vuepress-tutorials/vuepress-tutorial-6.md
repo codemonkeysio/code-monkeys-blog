@@ -3,7 +3,7 @@ title: VuePress Tutorial 6 - Homepage Layout
 date: 2022-02-03T05:06:00.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn about the default theme homepage layout for VuePress, then check out VuePress Tutorial 6 - Homepage Layout! 🍌🐒
-cardDescription: In this tutorial we'll be discussing how to configure the homepage layout by using the options exposed by the default theme...
+preview: In this tutorial we'll be discussing how to configure the homepage layout by using the options exposed by the default theme...
 img: vuepress-tutorials/tutorial-6/vuepress-tutorial-6-homepage-layout-post.png
 alt: VuePress Tutorial 6 - Homepage Layout Post Picture
 linkImg: vuepress-tutorials/tutorial-6/vuepress-tutorial-6-homepage-layout-post-link.png

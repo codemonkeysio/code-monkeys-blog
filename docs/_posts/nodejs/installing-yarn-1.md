@@ -3,7 +3,7 @@ title: Installing Yarn 1
 date: 2021-12-28T22:56:00.000Z
 topic: Node.js
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to install and use Yarn 1, then check out this post! 🍌🐒
-cardDescription: Before discussing Yarn in more detail, let's first define what a package manager is and what it handles for us. A pacakage...
+preview: Before discussing Yarn in more detail, let's first define what a package manager is and what it handles for us. A pacakage...
 img: nodejs/03-installing-yarn-1/nodejs-installing-yarn-1-post.png
 alt: Node.js - Installing Yarn 1 Post Picture
 linkImg: nodejs/03-installing-yarn-1/nodejs-installing-yarn-1-post-link.png

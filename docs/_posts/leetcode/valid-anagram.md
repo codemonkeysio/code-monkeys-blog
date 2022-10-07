@@ -3,7 +3,7 @@ title: Valid Anagram
 date: 2021-07-02T18:15:23.000Z
 topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Valid Anagram! 🍌🐒
-cardDescription: Given two strings s and t, return true if t is an anagram of s, and false otherwise. Ex 1) Input...
+preview: Given two strings s and t, return true if t is an anagram of s, and false otherwise. Ex 1) Input...
 img: leetcode/04-valid-anagram/leetcode-valid-anagram-post.png
 alt: LeetCode - Valid Anagram Post Picture
 linkImg: leetcode/04-valid-anagram/leetcode-valid-anagram-post-link.png

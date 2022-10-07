@@ -3,7 +3,7 @@ title: VuePress Tutorial 1 - Introduction
 date: 2021-09-24T16:26:30.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 If you're interested in learning Vuepress, then check out VuePress Tutorial 1 - Introduction! 🍌🐒
-cardDescription: Welcome to our VuePress series! In this series we'll be developing the Code Monkeys Blog starting from the basics...
+preview: Welcome to our VuePress series! In this series we'll be developing the Code Monkeys Blog starting from the basics...
 img: vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post.png
 alt: VuePress Tutorial 1 - Introduction Post Picture
 linkImg: vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post-link.png

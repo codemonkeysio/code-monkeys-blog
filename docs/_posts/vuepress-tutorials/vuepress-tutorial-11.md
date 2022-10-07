@@ -3,7 +3,7 @@ title: VuePress Tutorial 11 - Sticky Footer
 date: 2022-09-05T20:04:00.000Z
 topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to make your footer stick to the bottom of the page, then check out VuePress Tutorial 11 - Sticky Footer! 🍌🐒
-cardDescription: We're going to continue styling the blog by making the Footer component we created in VuePress Tutorial 8 - Custom Footer into...
+preview: We're going to continue styling the blog by making the Footer component we created in VuePress Tutorial 8 - Custom Footer into...
 img: vuepress-tutorials/tutorial-11/vuepress-tutorial-11-sticky-footer-post.png
 alt: VuePress Tutorial 11 - Sticky Footer Post Picture
 linkImg: vuepress-tutorials/tutorial-11/vuepress-tutorial-11-sticky-footer-post-link.png

@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <template #page-top>
-      <div class="theme-default-content content__default">
+      <div class="theme-default-content">
         <h1 v-if="!allPosts">
           {{ topicHeaders[$pagination.pages[0].frontmatter.topic].description }}
           <div class="emoji-wrap">
@@ -45,7 +45,7 @@
               :numberOfCommits="post.numberOfCommits"
             />
             <p class="preview">
-              {{ post.frontmatter.cardDescription }}
+              {{ post.frontmatter.preview }}
             </p>
           </div>
           <div class="post-pic">
@@ -80,6 +80,8 @@ import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js'
 import byTopicHeaders from '../../data/index-post/by-topic-headers'
 
 export default {
+  name: 'IndexPost',
+
   components: {
     Layout,
     PostDetails,

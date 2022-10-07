@@ -3,7 +3,7 @@ title: Installing Fast Node Manager (fnm)
 date: 2021-12-08T21:27:15.000Z
 topic: Node.js
 description: Hey fellow Code Monkeys!!! 🐵 Want to switch between Node versions extremely fast, then check out Installing Fast Node Manager (fnm)! 🍌🐒
-cardDescription: Fast Node Manager (fnm) is a fast and simple Node version manager built in Rust. For those of you who haven't read...
+preview: Fast Node Manager (fnm) is a fast and simple Node version manager built in Rust. For those of you who haven't read...
 img: nodejs/02-installing-fnm/nodejs-installing-fnm-post.png
 alt: Node.js - Installing Fast Node Manager (fnm) Post Picture
 linkImg: nodejs/02-installing-fnm/nodejs-installing-fnm-post-link.png
