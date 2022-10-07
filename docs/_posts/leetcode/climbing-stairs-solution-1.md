@@ -78,31 +78,31 @@ graph TD
 
 - We know we can either add <span class="post-term-one">1</span> step or <span class="post-term-one">2</span> steps each time we climb up the stairs, and we want to hit our target of <span class="post-term-one">n</span> steps.
 
-- So, we need to keep track of how many steps we have taken which we can represent with the variable $\color{#33eb61}{stepsTaken}$.
+- So, we need to keep track of how many steps we have taken which we can represent with the variable $\color{#33eb61}{stepsTaken_c}$, where $\color{#33eb61}{c}$ represents the current choice when climbing the stairs.
 
-- Initially, $\color{#33eb61}{stepsTaken} = 0$
+- Initially, $\color{#33eb61}{stepsTaken_0} = \color{#33eb61}{0}$, here $\color{#33eb61}{c} = \color{#33eb61}{0}$ means we haven't made a choice to take <span class="post-term-one">1</span> step or <span class="post-term-one">2</span> steps yet.
 
-- Each time we climb the stairs:
+- Each time we climb the stairs we make one of the following choices:
 
-$$\color{#33eb61}{stepsTaken} = \color{#33eb61}{stepsTaken} + 1$$
+$$\color{#33eb61}{stepsTaken_c} = \color{#33eb61}{stepsTaken_{c - 1}} + 1, \; \; for \; \; \color{#33eb61}{c} > \color{#33eb61}{0}$$
 
 $$or$$
 
-$$\color{#33eb61}{stepsTaken} = \color{#33eb61}{stepsTaken} + 2$$
+$$\color{#33eb61}{stepsTaken_c} = \color{#33eb61}{stepsTaken_{c - 1}} + 2, \; \; for \; \; \color{#33eb61}{c} > \color{#33eb61}{0}$$
 
 - Now, we'll let $\color{#33ebeb}{wayToClimb}$ denote our function for climbing the stairs.
 
-- Here's how we can represent the different scenarios fo climbing the stairs:
+- Here's how we can represent the different scenarios for climbing the stairs:
 
-$$\color{#33ebeb}{wayToClimb}(\color{#33eb61}{stepsTaken} + 1, \color{#ebeb33}{n}) + \color{#33ebeb}{wayToClimb}(\color{#33eb61}{stepsTaken} + 2, \color{#ebeb33}{n})$$
+$$\color{#33ebeb}{wayToClimb}(\color{#33eb61}{stepsTaken_{c - 1}} + 1, \color{#ebeb33}{n}) + \color{#33ebeb}{wayToClimb}(\color{#33eb61}{stepsTaken_{c - 1}} + 2, \color{#ebeb33}{n}), \; \; for \; \; \color{#33eb61}{c} > \color{#33eb61}{0}$$
 
-- We're passing the $\color{#33eb61}{stepsTaken}$ + $\color{#33eb61}{nextStepSize}$ and our target value of $\color{#ebeb33}{n}$ steps to our function $\color{#33ebeb}{wayToClimb}$.
+- We're passing the $\color{#33eb61}{stepsTaken_{c - 1}}$ + $\color{#cc99ff}{nextStepSize}$ and our target value of $\color{#ebeb33}{n}$ steps to our function $\color{#33ebeb}{wayToClimb}$.
 
 - Now, we need to determine how many times we need to to call $\color{#33ebeb}{wayToClimb}$.
 
-- We know from the diagram if $\color{#33eb61}{stepsTaken} > \color{#ebeb33}{n}$, then we can ignore that way of climbing the stairs
+- We know from the diagram if $\color{#33eb61}{stepsTaken_c} > \color{#ebeb33}{n}$, then we can ignore that way of climbing the stairs
 
-- We also know if $\color{#33eb61}{stepsTaken} = \color{#ebeb33}{n}$, then we have found a valid way to climb the steps.
+- We also know if $\color{#33eb61}{stepsTaken_c} = \color{#ebeb33}{n}$, then we have found a valid way to climb the steps.
 
 - Using this knowledge we can come up with the following:
 
