@@ -16,7 +16,8 @@
           <div class="emoji-wrap">Monkey!!! 📝🐒</div>
         </h1>
         <div
-          class="post-card"
+          v-for="post in $pagination.pages"
+          :key="post.key"
           @click="
             $router.push(`${post.path}`).catch(err => {
               if (
@@ -29,8 +30,7 @@
               }
             })
           "
-          :key="post.key"
-          v-for="post in $pagination.pages"
+          class="post-card"
         >
           <div class="post-title-and-summary">
             <div class="title-wrapper">
