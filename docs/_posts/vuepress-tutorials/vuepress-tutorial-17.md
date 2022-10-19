@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-17/vuepress-tutorial-17-indexpost-layout-post.p
 alt: VuePress Tutorial 17 - IndexPost Layout Post Picture
 linkImg: vuepress-tutorials/tutorial-17/vuepress-tutorial-17-indexpost-layout-post-link.png
 linkImgAlt: VuePress Tutorial 17 - IndexPost Layout Image
+videoURL: https://www.youtube-nocookie.com/embed/mIx_utuexDc
 canonicalUrl: vuepress-tutorial-17/
 ---
 
