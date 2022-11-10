@@ -25,7 +25,7 @@ Make sure you start the local development server which should be running at [htt
 
 Be sure to add each block of code below one at a time to your project, then view the changes in the browser to get a better understanding of what each block is responsible for.
 
-You can view all of the code in this tutorial by going to the <code class="inline-code-block">tutorial-18</code> branch of the [code-monkeys-blog-tutorials](https://github.com/codemonkeysio/code-monkeys-blog-tutorials/tree/tutorial-18:wq) repository.
+You can view all of the code in this tutorial by going to the <code class="inline-code-block">tutorial-18</code> branch of the [code-monkeys-blog-tutorials](https://github.com/codemonkeysio/code-monkeys-blog-tutorials/tree/tutorial-18) repository.
 
 ## Adding Post Images
 
