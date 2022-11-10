@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-18/vuepress-tutorial-18-indexpost-images-post.p
 alt: VuePress Tutorial 18 - IndexPost Images Post Picture
 linkImg: vuepress-tutorials/tutorial-18/vuepress-tutorial-18-indexpost-images-post-link.png
 linkImgAlt: VuePress Tutorial 18 - IndexPost Images Image
+videoURL: https://www.youtube-nocookie.com/embed/bJt3yUymxc4
 canonicalUrl: vuepress-tutorial-18/
 ---
 
