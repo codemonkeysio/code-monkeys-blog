@@ -270,9 +270,9 @@ We also added an alternative value for the post image <code class="inline-code-b
 
 If you have any questions or want to learn more about <code class="inline-code-block">v-bind</code> or the logical OR operator, then check these resources:
 
-- [v-bind](https://v2.vuejs.org/v2/api/#v-bind)
+- <span class="external-link-wrap">[v-bind](https://v2.vuejs.org/v2/api/#v-bind)</span>
 - <span class="external-link-wrap">[Using v-bind in Vue](https://masteringjs.io/tutorials/vue/bind)</span>
-- [logical OR (||)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR)
+- <span class="external-link-wrap">[logical OR (||)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR)</span>
 
 ### Entry Page HTML
 
