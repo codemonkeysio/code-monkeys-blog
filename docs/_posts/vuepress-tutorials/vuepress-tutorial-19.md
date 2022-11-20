@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-19/vuepress-tutorial-19-pagination-links-post.p
 alt: VuePress Tutorial 19 - Pagination Links Post Picture
 linkImg: vuepress-tutorials/tutorial-19/vuepress-tutorial-19-pagination-links-post-link.png
 linkImgAlt: VuePress Tutorial 19 - Pagination Links Image
+videoURL: https://www.youtube-nocookie.com/embed/lnYvXvmFpZo
 canonicalUrl: vuepress-tutorial-19/
 ---
 
