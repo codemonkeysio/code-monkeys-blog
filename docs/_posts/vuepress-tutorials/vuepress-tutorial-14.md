@@ -281,7 +281,7 @@ In the <code class="inline-code-block">index.styl</code> file we can nest the <c
 
 <code-group>
 <code-block title="Adding the dropdown-item Class">
-```stylus{39-45}
+```stylus{39-44}
 html
   background-color: $backgroundColor
   body
