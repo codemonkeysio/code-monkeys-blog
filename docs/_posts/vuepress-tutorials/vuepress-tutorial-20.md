@@ -8,6 +8,7 @@ img: vuepress-tutorials/tutorial-20/vuepress-tutorial-20-pagination-links-stylin
 alt: VuePress Tutorial 20 - Pagination Links Styling Post Picture
 linkImg: vuepress-tutorials/tutorial-20/vuepress-tutorial-20-pagination-links-styling-post-link.png
 linkImgAlt: VuePress Tutorial 20 - Pagination Links Styling Image
+videoURL: https://www.youtube-nocookie.com/embed/Iui9-GBirrU
 canonicalUrl: vuepress-tutorial-20/
 ---
 
