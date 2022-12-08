@@ -1,6 +1,12 @@
 <template>
   <div class="cryptos-wrapper">
     <div class="crypto" v-for="(crypto, index) in cryptos" :key="crypto.name">
+      <div class="logo">
+        <v-lazy-image
+          :src="$withBase(`/images/${crypto.logo}`)"
+          :alt="crypto.alt || 'Donation Logo'"
+        />
+      </div>
       <div class="name-and-abbreviation">
         <span>{{ crypto.name }}</span>
         <span class="abbreviation">{{ crypto.abbr }}</span>
@@ -26,25 +32,33 @@
 </template>
 
 <script>
+import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js'
 import cryptos from '../../data/crypto-addresses/crypto-addresses'
 
 export default {
   name: 'CryptoAddresses',
-  data: function() {
+
+  components: {
+    VLazyImage
+  },
+
+  data() {
     return {
       cryptos: cryptos.cryptoAddresses,
       formattedAddresses: []
     }
   },
+
   created() {
     this.formatAddress(this.cryptos)
   },
+
   methods: {
-    onCopy: function(e) {
+    onCopy(e) {
       alert(`Address:\n\n${e.text}\n\ncopied to clipboard!`)
     },
-    onError: function(e) {
-      alert('Failed copying address to clipboard')
+    onError(e) {
+      alert('Failed copying address to clipboard: ', e)
     },
     formatAddress(cryptos) {
       let addressLength
@@ -66,6 +80,7 @@ export default {
 .cryptos-wrapper
   border-top: 0.0625rem solid #424857
   padding-top: 1.25rem
+  margin-bottom: 1.875rem
   .crypto
     display: flex
     flex-wrap: wrap
@@ -73,14 +88,20 @@ export default {
     padding-bottom: 1.25rem
     margin-bottom: 1.25rem
     border-bottom: 0.0625rem solid #424857
+    .logo
+      max-width: 3.125rem
+      max-height: 3.125rem
     .name-and-abbreviation
       display: flex
       flex-direction: column
+      min-height: 3.125rem
+      margin-left: 1.25rem
       margin-right: 1.25rem
     .address-wrapper
       display: flex
       flex: 7.75
-      color: $textColor
+      min-height: 2.875rem
+      padding: 0 1.25rem
       border: 0.125rem solid $darkBorderColor
       user-select: none
       .left-address
@@ -93,6 +114,8 @@ export default {
         flex-shrink: 0
     button
       flex: 1
+      min-height: 2.875rem
+      padding: 0 0.75rem
       color: $textColor
       background-color: inherit
       border: 0.125rem solid $darkBorderColor
@@ -104,56 +127,47 @@ export default {
 
 @media (max-width: 26.3125rem)
   .cryptos-wrapper
-    margin: 0 0.25rem 1.875rem
     .crypto
       .name-and-abbreviation
-        min-width: 11.5rem
-      .address-wrapper
         min-width: 6.25rem
+      .address-wrapper
+        min-width: 9.5rem
         margin-top: 1.25rem
-        padding: 0.59375rem 0.625rem
         border-radius: 0.625rem
       button
-        min-width: 12.75rem
+        min-width: 9.5rem
         margin-top: 1.25rem
-        padding: 0.59375rem 0.625rem
         border-radius: 0.625rem
 
 @media (min-width: 26.375rem)
   .cryptos-wrapper
-    margin-left: 0.5rem
-    margin-right: 0.5rem
     .crypto
       .name-and-abbreviation
-        min-width: 11.9375rem
+        min-width: 11.3125rem
       .address-wrapper
-        min-width: 15.1875rem
+        min-width: 15rem
         margin-top: 1.25rem
-        padding: 0.59375rem 0.875rem
         border-radius: 0.625rem
       button
-        min-width: 13.125rem
+        min-width: 16.9375rem
         margin-top: 1.25rem
-        padding: 0.59375rem 0.75rem
         border-radius: 0.625rem
 
-@media (min-width: 39.5625rem)
+@media (min-width: 42.9375rem)
   .cryptos-wrapper
     .crypto
       .name-and-abbreviation
-        min-width: 6.125rem
+        min-width: 6.375rem
       .address-wrapper
+        min-width: 15.375rem
         margin-top: 0
         border-top-right-radius: 0
         border-bottom-right-radius: 0
       button
         align-self: stretch
-        min-width: 4.375rem
-        margin-top: 0
-        padding-top: 0.0625rem
-        padding-bottom: 0.0625rem
-        border-left-width: 0.125rem
+        min-width: 4.5625rem
         border-left-width: 0
+        margin-top: 0
         border-top-left-radius: 0
         border-bottom-left-radius: 0
 
@@ -161,35 +175,31 @@ export default {
   .cryptos-wrapper
     .crypto
       .name-and-abbreviation
-        min-width: 13.875rem
+        min-width: 16.625rem
       .address-wrapper
-        min-width: 17.1875rem
+        min-width: 19.8125rem
         margin-top: 1.25rem
         border-top-right-radius: 0.625rem
         border-bottom-right-radius: 0.625rem
       button
-        min-width: 15.125rem
+        min-width: 25.75rem
         margin-top: 1.25rem
-        padding-top: 0.5625rem
-        padding-bottom: 0.5625rem
         border-left-width: 0.125rem
         border-top-left-radius: 0.625rem
         border-bottom-left-radius: 0.625rem
 
-@media (min-width: 64.5625rem)
+@media (min-width: 74.0625rem)
   .cryptos-wrapper
     .crypto
       .name-and-abbreviation
-        min-width: 6.5625rem
+        min-width: 6.6875rem
       .address-wrapper
-        min-width: 16.6875rem
+        min-width: 24rem
         margin-top: 0
         border-top-right-radius: 0
         border-bottom-right-radius: 0
-        padding-left: 1.25rem
-        padding-right: 1.25rem
       button
-        min-width: 4.375rem
+        min-width: 3.0625rem
         margin-top: 0
         border-left-width: 0
         border-top-left-radius: 0

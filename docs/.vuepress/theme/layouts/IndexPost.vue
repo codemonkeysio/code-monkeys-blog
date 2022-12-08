@@ -89,7 +89,7 @@ export default {
     VLazyImage
   },
 
-  data: function() {
+  data() {
     return {
       topicHeaders: byTopicHeaders.topicHeaders
     }

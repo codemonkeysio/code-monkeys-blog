@@ -18,7 +18,7 @@
             })
           "
           :key="topic.name"
-          v-for="(topic, index) in $topics.list"
+          v-for="(topic, index) in topicsList"
         >
           <div class="title-and-summary">
             <div class="title-wrapper">
@@ -49,6 +49,17 @@ export default {
   components: {
     VLazyImage,
     Layout
+  },
+
+  data() {
+    return {
+      topicsList: []
+    }
+  },
+
+  created() {
+    this.topicsList = this.$topics.list
+    this.topicsList.sort((a, b) => (a.name > b.name) ? 1 : -1)
   },
 
   computed: {
