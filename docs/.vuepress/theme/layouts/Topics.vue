@@ -22,7 +22,7 @@
         >
           <div class="title-and-summary">
             <div class="title-wrapper">
-              <h2 class="title">{{ topic.name }}</h2>
+              <h2 class="title">{{ topicDetails[index].title }}</h2>
               <h2 class="number-of-posts">({{ topic.pages.length }})</h2>
             </div>
             <p>
@@ -59,7 +59,7 @@ export default {
 
   created() {
     this.topicsList = this.$topics.list
-    this.topicsList.sort((a, b) => (a.name > b.name) ? 1 : -1)
+    this.topicsList.sort((a, b) => (a.name > b.name ? 1 : -1))
   },
 
   computed: {

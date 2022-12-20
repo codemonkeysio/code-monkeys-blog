@@ -353,6 +353,7 @@ module.exports = {
             items: [
               { text: 'LeetCode', link: '/topics/LeetCode/' },
               { text: 'Node.js', link: '/topics/Node.js/' },
+              { text: 'Raspberry Pi', link: '/topics/Raspberry-Pi/' },
               { text: 'VuePress', link: '/topics/VuePress/' }
             ]
           }

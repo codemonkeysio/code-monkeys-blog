@@ -4,8 +4,12 @@ export default {
       description: 'Solutions for LeetCode Problems',
       descriptionEmoji: 'Enjoy!!! 🍌🐒'
     },
-    "Node.js": {
+    'Node.js': {
       description: 'Node.js Tutorials',
+      descriptionEmoji: 'Enjoy!!! 🍌🐒'
+    },
+    'Raspberry-Pi': {
+      description: 'Raspberry Pi Tutorials',
       descriptionEmoji: 'Enjoy!!! 🍌🐒'
     },
     VuePress: {
@@ -13,4 +17,4 @@ export default {
       descriptionEmoji: 'Enjoy!!! 🍌🐒'
     }
   }
-};
+}
