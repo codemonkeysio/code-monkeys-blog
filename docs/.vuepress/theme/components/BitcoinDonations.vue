@@ -1,15 +1,15 @@
 <template>
-  <div class="cryptos-wrapper">
-    <div class="crypto" v-for="(crypto, index) in cryptos" :key="crypto.name">
+  <div class="bitcoin-addresses-wrapper">
+    <div class="address" v-for="(address, index) in bitcoinAddresses" :key="address.name">
       <div class="logo">
         <v-lazy-image
-          :src="$withBase(`/images/${crypto.logo}`)"
-          :alt="crypto.alt || 'Donation Logo'"
+          :src="$withBase(`/images/${address.logo}`)"
+          :alt="address.alt || 'Donation Logo'"
         />
       </div>
       <div class="name-and-abbreviation">
-        <span>{{ crypto.name }}</span>
-        <span class="abbreviation">{{ crypto.abbr }}</span>
+        <span>{{ address.name }}</span>
+        <span class="abbreviation">{{ address.abbr }}</span>
       </div>
       <div class="address-wrapper">
         <span class="left-address">{{
@@ -21,7 +21,7 @@
       </div>
       <button
         type="button"
-        v-clipboard:copy="crypto.address"
+        v-clipboard:copy="address.address"
         v-clipboard:success="onCopy"
         v-clipboard:error="onError"
       >
@@ -33,10 +33,10 @@
 
 <script>
 import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js'
-import cryptos from '../../data/crypto-addresses/crypto-addresses'
+import bitcoinAddresses from '../../data/donations/bitcoin-addresses'
 
 export default {
-  name: 'CryptoAddresses',
+  name: 'BitcoinDonations',
 
   components: {
     VLazyImage
@@ -44,13 +44,13 @@ export default {
 
   data() {
     return {
-      cryptos: cryptos.cryptoAddresses,
+      bitcoinAddresses: bitcoinAddresses.bitcoinAddresses,
       formattedAddresses: []
     }
   },
 
   created() {
-    this.formatAddress(this.cryptos)
+    this.formatAddress(this.bitcoinAddresses)
   },
 
   methods: {
@@ -60,15 +60,15 @@ export default {
     onError(e) {
       alert('Failed copying address to clipboard: ', e)
     },
-    formatAddress(cryptos) {
+    formatAddress(bitcoinAddresses) {
       let addressLength
       let rightPartStart
-      cryptos.forEach(crypto => {
-        addressLength = crypto.address.length
+      bitcoinAddresses.forEach(address => {
+        addressLength = address.address.length
         rightPartStart = addressLength - 10
         this.formattedAddresses.push({
-          leftPart: crypto.address.slice(0, rightPartStart),
-          rightPart: crypto.address.slice(rightPartStart, addressLength)
+          leftPart: address.address.slice(0, rightPartStart),
+          rightPart: address.address.slice(rightPartStart, addressLength)
         })
       })
     }
@@ -77,11 +77,11 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.cryptos-wrapper
+.bitcoin-addresses-wrapper
   border-top: 0.0625rem solid #424857
   padding-top: 1.25rem
   margin-bottom: 1.875rem
-  .crypto
+  .address
     display: flex
     flex-wrap: wrap
     align-items: center
@@ -126,8 +126,8 @@ export default {
       color: $accentColor
 
 @media (max-width: 26.3125rem)
-  .cryptos-wrapper
-    .crypto
+  .bitcoin-addresses-wrapper
+    .address
       .name-and-abbreviation
         min-width: 6.25rem
       .address-wrapper
@@ -140,8 +140,8 @@ export default {
         border-radius: 0.625rem
 
 @media (min-width: 26.375rem)
-  .cryptos-wrapper
-    .crypto
+  .bitcoin-addresses-wrapper
+    .address
       .name-and-abbreviation
         min-width: 11.3125rem
       .address-wrapper
@@ -154,8 +154,8 @@ export default {
         border-radius: 0.625rem
 
 @media (min-width: 42.9375rem)
-  .cryptos-wrapper
-    .crypto
+  .bitcoin-addresses-wrapper
+    .address
       .name-and-abbreviation
         min-width: 6.375rem
       .address-wrapper
@@ -172,8 +172,8 @@ export default {
         border-bottom-left-radius: 0
 
 @media (min-width: 53.1875rem)
-  .cryptos-wrapper
-    .crypto
+  .bitcoin-addresses-wrapper
+    .address
       .name-and-abbreviation
         min-width: 16.625rem
       .address-wrapper
@@ -189,8 +189,8 @@ export default {
         border-bottom-left-radius: 0.625rem
 
 @media (min-width: 74.0625rem)
-  .cryptos-wrapper
-    .crypto
+  .bitcoin-addresses-wrapper
+    .address
       .name-and-abbreviation
         min-width: 6.6875rem
       .address-wrapper

@@ -1,5 +1,5 @@
 export default {
-  cryptoAddresses: [
+  bitcoinAddresses: [
     {
       name: 'Bitcoin',
       abbr: 'BTC',
