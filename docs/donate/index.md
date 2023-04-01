@@ -23,7 +23,7 @@ canonicalUrl: donate/
 
 <PayNymDonation />
 
-<BitcoinDonations />
+<CryptoDonations />
 
 </div>
 
@@ -47,11 +47,11 @@ Sponsor Jay the Code Monkey on [GitHub!](https://github.com/sponsors/jchiarulli)
 
 <script>
 import PayNymDonation from '../.vuepress/theme/components/PayNymDonation';
-import BitcoinDonations from '../.vuepress/theme/components/BitcoinDonations';
+import CryptoDonations from '../.vuepress/theme/components/CryptoDonations';
 
 export default {
   components: {
-   BitcoinDonations,
+   CryptoDonations,
    PayNymDonation
   }
 }

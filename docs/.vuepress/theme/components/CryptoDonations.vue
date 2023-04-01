@@ -1,15 +1,15 @@
 <template>
-  <div class="bitcoin-addresses-wrapper">
-    <div class="address" v-for="(address, index) in bitcoinAddresses" :key="address.name">
+  <div class="crypto-donations-wrapper">
+    <div class="donation" v-for="(donation, index) in cryptoDonations" :key="donation.name">
       <div class="logo">
         <v-lazy-image
-          :src="$withBase(`/images/${address.logo}`)"
-          :alt="address.alt || 'Donation Logo'"
+          :src="$withBase(`/images/${donation.logo}`)"
+          :alt="donation.alt || 'Donation Logo'"
         />
       </div>
       <div class="name-and-abbreviation">
-        <span>{{ address.name }}</span>
-        <span class="abbreviation">{{ address.abbr }}</span>
+        <span>{{ donation.name }}</span>
+        <span class="abbreviation">{{ donation.abbr }}</span>
       </div>
       <div class="address-wrapper">
         <span class="left-address">{{
@@ -21,7 +21,7 @@
       </div>
       <button
         type="button"
-        v-clipboard:copy="address.address"
+        v-clipboard:copy="donation.address"
         v-clipboard:success="onCopy"
         v-clipboard:error="onError"
       >
@@ -33,10 +33,10 @@
 
 <script>
 import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js'
-import bitcoinAddresses from '../../data/donations/bitcoin-addresses'
+import cryptoDonations from '../../data/donations/crypto-donations'
 
 export default {
-  name: 'BitcoinDonations',
+  name: 'cryptoDonations',
 
   components: {
     VLazyImage
@@ -44,13 +44,13 @@ export default {
 
   data() {
     return {
-      bitcoinAddresses: bitcoinAddresses.bitcoinAddresses,
+      cryptoDonations: cryptoDonations.cryptoDonations,
       formattedAddresses: []
     }
   },
 
   created() {
-    this.formatAddress(this.bitcoinAddresses)
+    this.formatAddress(this.cryptoDonations)
   },
 
   methods: {
@@ -60,15 +60,15 @@ export default {
     onError(e) {
       alert('Failed copying address to clipboard: ', e)
     },
-    formatAddress(bitcoinAddresses) {
+    formatAddress(cryptoDonations) {
       let addressLength
       let rightPartStart
-      bitcoinAddresses.forEach(address => {
-        addressLength = address.address.length
+      cryptoDonations.forEach(donation => {
+        addressLength = donation.address.length
         rightPartStart = addressLength - 10
         this.formattedAddresses.push({
-          leftPart: address.address.slice(0, rightPartStart),
-          rightPart: address.address.slice(rightPartStart, addressLength)
+          leftPart: donation.address.slice(0, rightPartStart),
+          rightPart: donation.address.slice(rightPartStart, addressLength)
         })
       })
     }
@@ -77,10 +77,10 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.bitcoin-addresses-wrapper
+.crypto-donations-wrapper
   padding-top: 1.25rem
   margin-bottom: 1.875rem
-  .address
+  .donation
     display: flex
     flex-wrap: wrap
     align-items: center
@@ -127,8 +127,8 @@ export default {
       color: $accentColor
 
 @media (max-width: 26.3125rem)
-  .bitcoin-addresses-wrapper
-    .address
+  .crypto-donations-wrapper
+    .donation
       .name-and-abbreviation
         min-width: 6.25rem
       .address-wrapper
@@ -141,8 +141,8 @@ export default {
         border-radius: 0.625rem
 
 @media (min-width: 26.375rem)
-  .bitcoin-addresses-wrapper
-    .address
+  .crypto-donations-wrapper
+    .donation
       .name-and-abbreviation
         min-width: 11.3125rem
       .address-wrapper
@@ -155,8 +155,8 @@ export default {
         border-radius: 0.625rem
 
 @media (min-width: 42.9375rem)
-  .bitcoin-addresses-wrapper
-    .address
+  .crypto-donations-wrapper
+    .donation
       .name-and-abbreviation
         min-width: 6.375rem
       .address-wrapper
@@ -173,8 +173,8 @@ export default {
         border-bottom-left-radius: 0
 
 @media (min-width: 53.1875rem)
-  .bitcoin-addresses-wrapper
-    .address
+  .crypto-donations-wrapper
+    .donation
       .name-and-abbreviation
         min-width: 16.625rem
       .address-wrapper
@@ -190,8 +190,8 @@ export default {
         border-bottom-left-radius: 0.625rem
 
 @media (min-width: 74.0625rem)
-  .bitcoin-addresses-wrapper
-    .address
+  .crypto-donations-wrapper
+    .donation
       .name-and-abbreviation
         min-width: 6.6875rem
       .address-wrapper
