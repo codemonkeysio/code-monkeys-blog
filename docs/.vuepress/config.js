@@ -393,6 +393,16 @@ module.exports = {
       }
     ],
     [
+      '@adamdehaven/vuepress-plugin-custom-tooltip',
+      {
+        name: 'VueCustomTooltip',
+        color: '#e6e6e6',
+        background: '#16181d',
+        borderRadius: 100,
+        fontWeight: 500,
+      },
+    ],
+    [
       '@vuepress/blog',
       {
         directories: [
@@ -450,16 +460,16 @@ module.exports = {
           platform: 'github-v4',
           owner: 'codemonkeysio',
           repo: `${process.env.NODE_ENV !== 'development'
-              ? 'code-monkeys-blog-comments'
-              : 'code-monkeys-blog-comments-dev'
+            ? 'code-monkeys-blog-comments'
+            : 'code-monkeys-blog-comments-dev'
             }`,
           clientId: `${process.env.NODE_ENV !== 'development'
-              ? '70480748c9fd241c5495'
-              : process.env.CLIENT_ID_DEV_GITHUB
+            ? '70480748c9fd241c5495'
+            : process.env.CLIENT_ID_DEV_GITHUB
             }`,
           clientSecret: `${process.env.NODE_ENV !== 'development'
-              ? 'c6e9d0221e76f8b0c4604d1a61e05fa72a33758c'
-              : process.env.CLIENT_SECRET_DEV_GITHUB
+            ? 'c6e9d0221e76f8b0c4604d1a61e05fa72a33758c'
+            : process.env.CLIENT_SECRET_DEV_GITHUB
             }`,
           labels: [':monkey_face:comments'],
           prefix: '[Post] ',

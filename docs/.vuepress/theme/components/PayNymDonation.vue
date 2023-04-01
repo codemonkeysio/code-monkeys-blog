@@ -7,7 +7,12 @@
           :alt="'Code Monkeys PayNym Bot'"
         />
       </div>
-      <a class="name" href="https://paynym.is/+blackviolet838" target="_blank" rel="noopener noreferrer">+blackviolet838</a>
+      <a class="name" href="https://paynym.is/+blackviolet838" target="_blank" rel="noopener noreferrer">
+        +blackviolet838
+        <VueCustomTooltip label="Verified owner of this payment code" position="is-bottom">
+          <vp-icon name="verifiedUser"></vp-icon>
+        </VueCustomTooltip>
+      </a>
     </div>
     <div class="payment-code-wrapper">
       <div class="payment-and-code-text">
@@ -91,6 +96,8 @@ export default {
     .name
       rfs-font-size(1.5rem)
       margin-bottom: 1.25rem
+    svg
+      rfs-font-size(1.25rem)
   .payment-code-wrapper
     display: flex
     flex-wrap: wrap

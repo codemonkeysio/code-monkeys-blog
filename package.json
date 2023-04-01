@@ -28,6 +28,7 @@
     "vuepress-plugin-redirect-frontmatter": "^1.0.0"
   },
   "dependencies": {
+    "@adamdehaven/vuepress-plugin-custom-tooltip": "^1.4.3",
     "@vssue/api-github-v4": "^1.4.7",
     "dotenv": "^10.0.0",
     "rfs": "^9.0.4",
