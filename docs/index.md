@@ -8,6 +8,6 @@ actionLink: /topics/
 features:
   - title: Learn
   - title: Code
-  - title: Crush
+  - title: Share
 canonicalUrl: https://codemonkeys.tech/
 ---

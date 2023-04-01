@@ -13,7 +13,7 @@ canonicalUrl: donate/
 
 <div class="topic-card">
 
-## Crypto
+## Crypto 🔗
 
 ⚠️ Sending Crypto to the Wrong Address will Result in Loss of <span class="emoji-wrap">Funds! ⚠️</span>
 
