@@ -13,11 +13,13 @@ canonicalUrl: donate/
 
 <div class="topic-card">
 
-## Bitcoin
+## Crypto
 
-⚠️ Sending Bitcoin to the Wrong Address will Result in Loss of <span class="emoji-wrap">Funds! ⚠️</span>
+⚠️ Sending Crypto to the Wrong Address will Result in Loss of <span class="emoji-wrap">Funds! ⚠️</span>
 
 ✅ Always double check the address & amount before <span class="emoji-wrap">sending! ✅</span>
+
+<PayNymDonation />
 
 <BitcoinDonations />
 
@@ -42,11 +44,13 @@ Sponsor Jay the Code Monkey on [GitHub!](https://github.com/sponsors/jchiarulli)
 </div>
 
 <script>
+import PayNymDonation from '../.vuepress/theme/components/PayNymDonation';
 import BitcoinDonations from '../.vuepress/theme/components/BitcoinDonations';
 
 export default {
   components: {
-   BitcoinDonations 
+   BitcoinDonations,
+   PayNymDonation
   }
 }
 </script>

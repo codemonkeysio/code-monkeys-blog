@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { formatDate } from '../util'
+import { formatDate } from '../util';
 
 export default {
   name: 'PostDetails',
@@ -40,7 +40,7 @@ export default {
   methods: {
     formatDate
   }
-}
+};
 </script>
 
 <style lang="stylus" scoped>
