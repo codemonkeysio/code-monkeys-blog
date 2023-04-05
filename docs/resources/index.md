@@ -83,7 +83,17 @@ The topics and links are presented in alphabetical order.
 
 ### Podcasts
 
+[Bitcoin Fixes This](https://podcasters.spotify.com/pod/show/jimmysong)
+
+[Bitcoin Fundamentals](https://www.theinvestorspodcast.com/bitcoin-fundamentals/)
+
+[Bitcoin Review Podcast](https://bitcoin.review/)
+
 [Citadel Dispatch](https://citadeldispatch.com/)
+
+[The Bitcoin Standard Podcast](https://saifedean.com/podcast)
+
+[What Bitcoin Did](https://www.whatbitcoindid.com/)
 
 ### Products
 
