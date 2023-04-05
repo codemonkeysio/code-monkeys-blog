@@ -19,9 +19,31 @@ The topics and links are presented in alphabetical order.
 
 ## Bitcoin
 
-### Hardware
+### Books
 
-[Coinkite](https://coinkite.com/)
+[Bitcoin: A Work in Progress](https://www.btcwip.com/)
+
+[Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)
+
+[Mastering the Lightning Network](https://github.com/lnbook/lnbook)
+
+[Programming Bitcoin](https://programmingbitcoin.com/programming-bitcoin-book/)
+
+[Thank God for Bitcoin](https://programmingbitcoin.com/thank-god-for-bitcoin/)
+
+[The Bitcoin Standard](https://saifedean.com/tbs)
+
+[The Fiat Standard](https://saifedean.com/tfs)
+
+[The Little Bitcoin Book](https://programmingbitcoin.com/the-little-bitcoin-book/)
+
+### Dashboard
+
+[Clark Moody's Dashboard](https://bitcoin.clarkmoody.com/dashboard/)
+
+### Hardware Wallets
+
+[Coldcard](https://coldcard.com/)
 
 [SeedSigner](https://seedsigner.com/)
 
@@ -39,9 +61,23 @@ The topics and links are presented in alphabetical order.
 
 [Bitcoiner Jobs](https://bitcoinerjobs.com/)
 
+### Media
+
+[Bitcoin Magazine](https://bitcoinmagazine.com/)
+
+[TFTC](https://tftc.io/)
+
 ### Nodes
 
+[myNode](https://mynodebtc.com/)
+
+[Nodl](https://www.nodl.eu/)
+
 [RaspiBolt](https://raspibolt.org/)
+
+[RoninDojo](https://ronindojo.io/)
+
+[Start9](https://start9.com/)
 
 [Umbrel](https://umbrel.com/)
 
@@ -51,7 +87,15 @@ The topics and links are presented in alphabetical order.
 
 ### Products
 
+[Coinkite](https://coinkite.com/)
+
 [Crypto Cloaks](https://www.cryptocloaks.com/)
+
+### Seed Storage
+
+[Metal Bitcoin Seed Storage Reviews](https://jlopp.github.io/metal-bitcoin-storage-reviews/)
+
+[Seedplate](https://bitcoinseedbackup.com/)
 
 </div>
 
