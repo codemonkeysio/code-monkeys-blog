@@ -31,11 +31,11 @@ canonicalUrl: donate/
 
 ## Fiat 💵
 
+Subscribe for more monkey business on [SubscribeStar!](https://www.subscribestar.com/code-monkeys)
+
 Support your fellow Code Monkeys by becoming a [Patron!](https://www.patreon.com/codemonkeys?fan_landing=true)
 
 Buy us a banana using [PayPal!](https://paypal.me/codemonkeystech?locale.x=en_US)
-
-Subscribe for more monkey business on [SubscribeStar!](https://www.subscribestar.com/code-monkeys)
 
 Buy us more bananas using [Venmo!](https://venmo.com/u/codemonkeys)
 

@@ -32,15 +32,25 @@ canonicalUrl: resources/
 
 <div class="resource-card">
 
+## Nostr
+
+[Nostr](https://nostr.com/)
+
+[Protocol](https://github.com/nostr-protocol)
+
+</div>
+
+<div class="resource-card">
+
 ## Privacy
-
-[Privacy Tools](https://www.privacytools.io/private-browser)
-
-[Techlore](https://techlore.tech/index)
 
 [Prism Break](https://prism-break.org/en/)
 
+[Privacy Tools](https://www.privacytools.io/private-browser)
+
 [Seth for Privacy](https://sethforprivacy.com/)
+
+[Techlore](https://techlore.tech/index)
 
 </div>
 
