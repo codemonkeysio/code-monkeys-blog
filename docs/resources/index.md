@@ -11,14 +11,47 @@ canonicalUrl: resources/
 
 :::
 
+Here you'll find a list of topics I'm interested in as well as a lot of links to resources for those topics.
+
+The topics and links are presented in alphabetical order.
 
 <div class="resource-card">
 
 ## Bitcoin
 
+### Hardware
+
+[Coinkite](https://coinkite.com/)
+
+[SeedSigner](https://seedsigner.com/)
+
+[Trezor](https://trezor.io/)
+
+### Hot Wallets
+
+[Electrum](https://electrum.org/#home)
+
+[Samourai](https://samouraiwallet.com/)
+
+[Sparrow](https://sparrowwallet.com/)
+
+### Jobs
+
+[Bitcoiner Jobs](https://bitcoinerjobs.com/)
+
+### Nodes
+
+[RaspiBolt](https://raspibolt.org/)
+
+[Umbrel](https://umbrel.com/)
+
 ### Podcasts
 
 [Citadel Dispatch](https://citadeldispatch.com/)
+
+### Products
+
+[Crypto Cloaks](https://www.cryptocloaks.com/)
 
 </div>
 
