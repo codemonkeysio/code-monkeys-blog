@@ -19,6 +19,16 @@ The topics and links are presented in alphabetical order.
 
 ## Bitcoin
 
+### Block Explorers
+
+[Blockstream](https://blockstream.info/)
+
+[KYCP](https://kycp.org/#/)
+
+[Mempool.space](https://mempool.space/)
+
+[OXT](https://oxt.me/)
+
 ### Books
 
 [Bitcoin: A Work in Progress](https://www.btcwip.com/)
@@ -41,6 +51,20 @@ The topics and links are presented in alphabetical order.
 
 [Clark Moody's Dashboard](https://bitcoin.clarkmoody.com/dashboard/)
 
+### Education
+
+[Bitcoin University](https://www.youtube.com/@Bitcoin_University)
+
+[BTC Sessions](https://www.btcsessions.ca/)
+
+[Odell](https://odell.xyz/)
+
+[We Run BTC](https://werunbtc.com/)
+
+### Entertainment
+
+[Bitcoin Yoda](https://www.youtube.com/@bitcoinyoda8321)
+
 ### Hardware Wallets
 
 [Coldcard](https://coldcard.com/)
@@ -51,11 +75,35 @@ The topics and links are presented in alphabetical order.
 
 ### Hot Wallets
 
+#### Lightning and On-Chain
+
+[Blue Wallet](https://bluewallet.io/)
+
 [Electrum](https://electrum.org/#home)
+
+[Muun](https://muun.com/)
+
+#### Lightning Only
+
+[Alby](https://getalby.com/)
+
+[Breez](https://breez.technology/)
+
+[Phoenix](https://phoenix.acinq.co/)
+
+[Zap](https://zaphq.io/)
+
+[Zeus](https://zeusln.app/)
+
+#### On-Chain Only
+
+[Fully Noded](https://fullynoded.app/)
 
 [Samourai](https://samouraiwallet.com/)
 
 [Sparrow](https://sparrowwallet.com/)
+
+[Specter Desktop](https://specter.solutions/desktop/)
 
 ### Jobs
 
@@ -81,7 +129,21 @@ The topics and links are presented in alphabetical order.
 
 [Umbrel](https://umbrel.com/)
 
+### Peer-to-Peer (P2P) Exchanges
+
+[AgoraDesk](https://agoradesk.com/)
+
+[Bisq](https://bisq.network/)
+
+[Hodl Hodl](https://hodlhodl.com/?filters%5Bcurrency_code%5D=UAH)
+
+[Peach](https://peachbitcoin.com/)
+
+[Robosats](https://learn.robosats.com/)
+
 ### Podcasts
+
+[Bitcoin Explained](https://podcasters.spotify.com/pod/show/bitcoin-explained)
 
 [Bitcoin Fixes This](https://podcasters.spotify.com/pod/show/jimmysong)
 
@@ -90,6 +152,8 @@ The topics and links are presented in alphabetical order.
 [Bitcoin Review Podcast](https://bitcoin.review/)
 
 [Citadel Dispatch](https://citadeldispatch.com/)
+
+[Rabbit Hole Recap](https://rhr.tv/)
 
 [The Bitcoin Standard Podcast](https://saifedean.com/podcast)
 
@@ -103,7 +167,19 @@ The topics and links are presented in alphabetical order.
 
 ### Seed Storage
 
+#### Reviews
+
 [Metal Bitcoin Seed Storage Reviews](https://jlopp.github.io/metal-bitcoin-storage-reviews/)
+
+#### Storage Devices
+
+[Bitplates](https://www.bitplates.com/)
+
+[Blockplate](https://www.blockplate.com/)
+
+[Codl](https://codl.co/)
+
+[Quadrat Register](https://qreg.tech/)
 
 [Seedplate](https://bitcoinseedbackup.com/)
 
