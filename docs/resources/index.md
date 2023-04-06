@@ -47,6 +47,10 @@ The topics and links are presented in alphabetical order.
 
 [The Little Bitcoin Book](https://programmingbitcoin.com/the-little-bitcoin-book/)
 
+### Collaborative Custody
+
+[Unchained Capital](https://unchained.com/)
+
 ### Dashboard
 
 [Clark Moody's Dashboard](https://bitcoin.clarkmoody.com/dashboard/)
@@ -73,38 +77,6 @@ The topics and links are presented in alphabetical order.
 
 [Trezor](https://trezor.io/)
 
-### Hot Wallets
-
-#### Lightning and On-Chain
-
-[Blue Wallet](https://bluewallet.io/)
-
-[Electrum](https://electrum.org/#home)
-
-[Muun](https://muun.com/)
-
-#### Lightning Only
-
-[Alby](https://getalby.com/)
-
-[Breez](https://breez.technology/)
-
-[Phoenix](https://phoenix.acinq.co/)
-
-[Zap](https://zaphq.io/)
-
-[Zeus](https://zeusln.app/)
-
-#### On-Chain Only
-
-[Fully Noded](https://fullynoded.app/)
-
-[Samourai](https://samouraiwallet.com/)
-
-[Sparrow](https://sparrowwallet.com/)
-
-[Specter Desktop](https://specter.solutions/desktop/)
-
 ### Jobs
 
 [Bitcoiner Jobs](https://bitcoinerjobs.com/)
@@ -114,6 +86,14 @@ The topics and links are presented in alphabetical order.
 [Bitcoin Magazine](https://bitcoinmagazine.com/)
 
 [TFTC](https://tftc.io/)
+
+### Meetups
+
+[Bitcoin Park](https://www.meetup.com/bitcoinpark/)
+
+[Bitcoiner Events](https://www.bitcoinerevents.com/)
+
+[Bitcoin Meetup Groups](https://www.meetup.com/topics/bitcoin/)
 
 ### Nodes
 
@@ -129,7 +109,17 @@ The topics and links are presented in alphabetical order.
 
 [Umbrel](https://umbrel.com/)
 
+### Payment Processors
+
+[BTCPay Server](https://btcpayserver.org/)
+
 ### Peer-to-Peer (P2P) Exchanges
+
+#### Reviews
+
+[KYCNOT.ME](https://kycnot.me/)
+
+#### Exchanges
 
 [AgoraDesk](https://agoradesk.com/)
 
@@ -183,11 +173,53 @@ The topics and links are presented in alphabetical order.
 
 [Seedplate](https://bitcoinseedbackup.com/)
 
+### Software Wallets
+
+#### Lightning and On-Chain
+
+[Blue Wallet](https://bluewallet.io/)
+
+[Electrum](https://electrum.org/#home)
+
+[Fully Noded](https://fullynoded.app/)
+
+[Muun](https://muun.com/)
+
+#### Lightning Only
+
+[Alby](https://getalby.com/)
+
+[Breez](https://breez.technology/)
+
+[Phoenix](https://phoenix.acinq.co/)
+
+[RTL](https://github.com/Ride-The-Lightning/RTL)
+
+[Zap](https://zaphq.io/)
+
+[Zeus](https://zeusln.app/)
+
+#### On-Chain Only
+
+[Nunchuk](https://nunchuk.io/)
+
+[Samourai](https://samouraiwallet.com/)
+
+[Sparrow](https://sparrowwallet.com/)
+
+[Specter](https://specter.solutions/desktop/)
+
+### Statistics
+
+[Mempool Observer](https://mempool.observer/)
+
 </div>
 
 <div class="resource-card">
 
 ## Free and Open Source Software (FOSS)
+
+### Education
 
 [Luke Smith](https://lukesmith.xyz/)
 
@@ -197,7 +229,11 @@ The topics and links are presented in alphabetical order.
 
 ## Nostr
 
+### Website
+
 [Nostr](https://nostr.com/)
+
+### Protocol
 
 [Protocol](https://github.com/nostr-protocol)
 
@@ -207,9 +243,13 @@ The topics and links are presented in alphabetical order.
 
 ## Privacy
 
-[Prism Break](https://prism-break.org/en/)
+### Tools
+
+[Prism Break](https://prism-break.org/en/all/)
 
 [Privacy Tools](https://www.privacytools.io/private-browser)
+
+### Education
 
 [Seth for Privacy](https://sethforprivacy.com/)
 
@@ -220,6 +260,8 @@ The topics and links are presented in alphabetical order.
 <div class="resource-card">
 
 ## Web Development
+
+### Tutorials
 
 [Net Ninja](https://netninja.dev/)
 
