@@ -66,7 +66,7 @@ export default {
       margin-top: 0
       margin-bottom: 1.25rem
 
-@media (max-width: 31.1875rem)
+@media (max-width: 21.8125rem)
   .modal-overlay
     .modal
       width: 12.5rem
@@ -75,7 +75,16 @@ export default {
       .qr-code
         width: 8.375rem
 
-@media (min-width: 31.25rem)
+@media (min-width: 21.875rem)
+  .modal-overlay
+    .modal
+      width: 14.0625rem
+      height: 14.0625rem
+      padding: 1rem
+      .qr-code
+        width: 9.875rem
+
+@media (min-width: 23.4375rem)
   .modal-overlay
     .modal
       width: 15.625rem
