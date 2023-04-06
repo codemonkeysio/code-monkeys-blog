@@ -31,6 +31,8 @@ The topics and links are presented in alphabetical order.
 
 ### Books
 
+[21 Lessons](https://21lessons.com/)
+
 [Bitcoin: A Work in Progress](https://www.btcwip.com/)
 
 [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)
@@ -57,9 +59,31 @@ The topics and links are presented in alphabetical order.
 
 ### Education
 
+[6102bitcoin](https://6102bitcoin.com/)
+
+[Bitcoiner.Guide](https://bitcoiner.guide/)
+
+[Bitcoin Only](https://bitcoin-only.com/)
+
+[Bitcoin Optech](https://bitcoinops.org/)
+
+[Bitcoin Resources](https://bitcoin-resources.com/)
+
+[Bitcoin Stack Exchange](https://bitcoin.stackexchange.com/)
+
 [Bitcoin University](https://www.youtube.com/@Bitcoin_University)
 
+[Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
+
 [BTC Sessions](https://www.btcsessions.ca/)
+
+[Diverter](https://diverter.hostyourown.tools/)
+
+[Econoalchemist](https://www.econoalchemist.com/)
+
+[k3tan](https://k3tan.com/)
+
+[Keep it Simple](https://www.keepitsimplebitcoin.com/)
 
 [Odell](https://odell.xyz/)
 
@@ -81,9 +105,15 @@ The topics and links are presented in alphabetical order.
 
 [Bitcoiner Jobs](https://bitcoinerjobs.com/)
 
+[PlebLab](https://www.pleblab.com/)
+
 ### Media
 
 [Bitcoin Magazine](https://bitcoinmagazine.com/)
+
+[BitcoinTV](https://bitcointv.com/)
+
+[No BS Bitcoin](https://www.nobsbitcoin.com/)
 
 [TFTC](https://tftc.io/)
 
@@ -155,6 +185,10 @@ The topics and links are presented in alphabetical order.
 
 [Crypto Cloaks](https://www.cryptocloaks.com/)
 
+### Website
+
+[Bitcoin](https://bitcoin.org/en/)
+
 ### Seed Storage
 
 #### Reviews
@@ -213,6 +247,14 @@ The topics and links are presented in alphabetical order.
 
 [Mempool Observer](https://mempool.observer/)
 
+### Support
+
+[Bitcoin Dev List](https://bitcoindevlist.com/)
+
+[OpenSats](https://opensats.org/)
+
+[Ten31](https://ten31.vc/)
+
 </div>
 
 <div class="resource-card">
@@ -254,6 +296,8 @@ The topics and links are presented in alphabetical order.
 [Seth for Privacy](https://sethforprivacy.com/)
 
 [Techlore](https://techlore.tech/index)
+
+[The The Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide.html)
 
 </div>
 
