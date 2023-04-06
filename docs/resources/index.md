@@ -297,7 +297,7 @@ The topics and links are presented in alphabetical order.
 
 [Techlore](https://techlore.tech/index)
 
-[The The Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide.html)
+[The Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide.html)
 
 </div>
 
