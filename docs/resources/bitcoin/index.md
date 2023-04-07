@@ -157,7 +157,7 @@ The topics and links are presented in alphabetical order.
 
 [Bitcoiner Events](https://www.bitcoinerevents.com/)
 
-[Bitcoin Meetup Groups](https://www.meetup.com/topics/bitcoin/)
+[Bitcoin Meetup Groups](https://www.meetup.com/find/?source=EVENTS&keywords=bitcoin)
 
 </div>
 
