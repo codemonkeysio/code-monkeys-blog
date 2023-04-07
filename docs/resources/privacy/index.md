@@ -107,6 +107,10 @@ The topics and links are presented in alphabetical order.
 
 ## File Sharing
 
+[Keybase](https://keybase.io/)
+
+[OnionShare](https://onionshare.org/)
+
 [Syncthing](https://syncthing.net/)
 
 </div>
@@ -132,6 +136,8 @@ The topics and links are presented in alphabetical order.
 ## Messengers
 
 [Briar](https://briarproject.org/)
+
+[Keybase](https://keybase.io/)
 
 [Matrix](https://matrix.org/)
 

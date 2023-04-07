@@ -19,7 +19,11 @@ The topics and links are presented in alphabetical order.
 
 ## Education
 
+[Free Software vs Open Source vs Freeware](https://dzone.com/articles/free-software-vs-open-source-vs-freeware-whats-the)
+
 [Luke Smith](https://lukesmith.xyz/)
+
+[What is Free Software?](https://www.gnu.org/philosophy/free-sw.html)
 
 </div>
 
