@@ -151,9 +151,6 @@ The topics and links are presented in alphabetical order.
 
 <div class="resource-card">
 
-
-<div class="resource-card">
-
 ## iOS Web Browsers
 
 [Brave](https://brave.com/)
@@ -165,6 +162,8 @@ The topics and links are presented in alphabetical order.
 [Onion Browser](https://onionbrowser.com/)
 
 </div>
+
+<div class="resource-card">
 
 ## Messengers
 
