@@ -21,6 +21,8 @@ The topics and links are presented in alphabetical order.
 
 [Net Ninja](https://netninja.dev/)
 
+[Traversy Media](https://www.traversymedia.com/)
+
 </div>
 
 <style lang="stylus" scoped>

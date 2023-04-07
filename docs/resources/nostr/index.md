@@ -17,11 +17,17 @@ The topics and links are presented in alphabetical order.
 
 <div class="resource-card">
 
-## Applications
+## Clients
 
-[blogstack](https://blogstack.io/)
+[Astral](https://astral.ninja/)
 
-[notebin](https://notebin.org/)
+[Blogstack](https://blogstack.io/)
+
+[Damus](https://github.com/damus-io/damus)
+
+[Hamstr](https://hamstr.to/home)
+
+[Notebin](https://notebin.org/)
 
 </div>
 
