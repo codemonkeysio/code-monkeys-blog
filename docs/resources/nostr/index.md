@@ -1,57 +1,43 @@
 ---
-title: Resources
-description: Ready to take your Code Monkey skills to the next level? Then check out these useful resources which include free and open source software recommendations! 💻🐒
+title: Notes and Other Stuff Transmitted by Relays (Nostr)
+description: Ready to learn about Notes and Other Stuff Transmitted by Relays (Nostr)? These resources will explain what Nostr is, why it's important, and provide you with some useful applications! 🗒️🐒
 sidebar: auto
-canonicalUrl: resources/
+canonicalUrl: resources/nostr/
 ---
 
 ::: slot header
 
-# Giving Credit to the Great <div class="emoji-wrap">Apes!!! 🦍 🍌 🐒</div>
+# Notes and Other Stuff Transmitted by Relays (Nostr) <div class="emoji-wrap">🗒️ 🐒</div>
 
 :::
 
-Here you'll find a list of topics I'm interested in. Click on a topic to view links to resources.
+Here you'll find a list of resources related to Notes and Other Stuff Transmitted by Relays (Nostr).
 
-The topics are presented in alphabetical order.
+The topics and links are presented in alphabetical order.
 
 <div class="resource-card">
 
-## [Bitcoin](/resources/bitcoin)
+## Applications
 
-Cyber Hornets
+[blogstack](https://blogstack.io/)
+
+[notebin](https://notebin.org/)
 
 </div>
 
 <div class="resource-card">
 
-## [Free and Open Source Software (FOSS)](/resources/foss)
+## Website
 
-Richard Stallman
-
-</div>
-
-<div class="resource-card">
-
-## [Notes and Other Stuff Transmitted by Relays (Nostr)](/resources/nostr)
-
-fiatjaf
+[Nostr](https://nostr.com/)
 
 </div>
 
 <div class="resource-card">
 
-## [Privacy](/resources/privacy)
+## Protocol
 
-Edward Snowden
-
-</div>
-
-<div class="resource-card">
-
-## [Web Development](/resources/webdev)
-
-Net Ninja
+[Protocol](https://github.com/nostr-protocol)
 
 </div>
 

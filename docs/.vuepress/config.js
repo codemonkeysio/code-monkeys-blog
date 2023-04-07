@@ -361,7 +361,19 @@ module.exports = {
       },
       {
         text: 'Resources',
-        link: '/resources/'
+        items: [
+          { text: 'Topics', link: '/resources/' },
+          {
+            text: 'By Topic',
+            items: [
+              { text: 'Bitcoin', link: '/resources/bitcoin/' },
+              { text: 'FOSS', link: '/resources/foss/' },
+              { text: 'Nostr', link: '/resources/nostr/' },
+              { text: 'Privacy', link: '/resources/privacy/' },
+              { text: 'Web Dev', link: '/resources/webdev/' },
+            ]
+          }
+        ]
       },
       {
         text: 'Donate',
