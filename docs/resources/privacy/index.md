@@ -17,6 +17,22 @@ The topics and links are presented in alphabetical order.
 
 <div class="resource-card">
 
+## Android Web Browsers
+
+[Brave](https://brave.com/)
+
+[Bromite](https://www.bromite.org/)
+
+[Firefox](https://www.mozilla.org/en-US/firefox/browsers/mobile/android/?v=2)
+
+[Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/)
+
+[Tor](https://www.torproject.org/download/#android)
+
+</div>
+
+<div class="resource-card">
+
 ## App Stores
 
 [F-Droid](https://f-droid.org/)
@@ -65,7 +81,7 @@ The topics and links are presented in alphabetical order.
 
 [Brave](https://brave.com/)
 
-[Firefox](https://www.mozilla.org/)
+[Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 [LibreWolf](https://librewolf.net/)
 
@@ -121,6 +137,8 @@ The topics and links are presented in alphabetical order.
 
 [Prism Break](https://prism-break.org/en/all/)
 
+[Privacy Tests](https://privacytests.org/)
+
 [Privacy Tools](https://www.privacytools.io/private-browser)
 
 [Seth for Privacy](https://sethforprivacy.com/)
@@ -132,6 +150,21 @@ The topics and links are presented in alphabetical order.
 </div>
 
 <div class="resource-card">
+
+
+<div class="resource-card">
+
+## iOS Web Browsers
+
+[Brave](https://brave.com/)
+
+[Firefox](https://www.mozilla.org/en-US/firefox/browsers/mobile/ios/)
+
+[Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/)
+
+[Onion Browser](https://onionbrowser.com/)
+
+</div>
 
 ## Messengers
 
