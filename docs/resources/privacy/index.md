@@ -25,6 +25,42 @@ The topics and links are presented in alphabetical order.
 
 <div class="resource-card">
 
+## Card Aliasing
+
+[Privacy](https://privacy.com/)
+
+</div>
+
+<div class="resource-card">
+
+## Cloud Storage
+
+[Nextcloud](https://nextcloud.com/)
+
+</div>
+
+<div class="resource-card">
+
+## Desktop
+
+[Arch](https://archlinux.org/)
+
+[Debian](https://www.debian.org/)
+
+[Fedora](https://getfedora.org/)
+
+[Pop!_OS](https://pop.system76.com/)
+
+[Qubes OS](https://www.qubes-os.org/)
+
+[Tails](https://tails.boum.org/)
+
+[Whonix](https://www.whonix.org/)
+
+</div>
+
+<div class="resource-card">
+
 ## Desktop Web Browsers
 
 [Brave](https://brave.com/)
@@ -35,6 +71,26 @@ The topics and links are presented in alphabetical order.
 
 [Tor](https://www.torproject.org/)
 
+[UnGoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
+
+</div>
+
+<div class="resource-card">
+
+## Email
+
+[ProtonMail](https://proton.me/mail)
+
+[Tutanota](https://tutanota.com/)
+
+</div>
+
+<div class="resource-card">
+
+## Email Aliasing
+
+[SimpleLogin](https://simplelogin.io/)
+
 </div>
 
 <div class="resource-card">
@@ -44,6 +100,14 @@ The topics and links are presented in alphabetical order.
 [GnuPG](https://gnupg.org/)
 
 [VeraCrypt](https://veracrypt.fr/en/Home.html)
+
+</div>
+
+<div class="resource-card">
+
+## File Sharing
+
+[Syncthing](https://syncthing.net/)
 
 </div>
 
@@ -65,11 +129,70 @@ The topics and links are presented in alphabetical order.
 
 <div class="resource-card">
 
+## Messengers
+
+[Briar](https://briarproject.org/)
+
+[Matrix](https://matrix.org/)
+
+[Session](https://getsession.org/)
+
+[Signal](https://www.signal.org/)
+
+[Threema](https://threema.ch/en)
+
+</div>
+<div class="resource-card">
+
+## Mobile Phone
+
+[Calyx](https://calyxos.org/)
+
+[GrapheneOS](https://grapheneos.org/)
+
+[Librem 5](https://puri.sm/products/librem-5/)
+
+[PinePhone Pro](https://www.pine64.org/pinephonepro/)
+
+</div>
+
+<div class="resource-card">
+
+## Notes
+
+[Standard Notes](https://standardnotes.com/)
+
+</div>
+
+<div class="resource-card">
+
 ## Password Managers
 
 [Bitwarden](https://bitwarden.com/)
 
 [KeePass](https://keepass.info/)
+
+</div>
+
+<div class="resource-card">
+
+## Prebuilt Computers
+
+[Purism](https://puri.sm/)
+
+[System76](https://system76.com/)
+
+</div>
+
+<div class="resource-card">
+
+## Search Engines
+
+[Brave Search](https://search.brave.com/)
+
+[Searx](https://searx.github.io/searx/)
+
+[Startpage](https://www.startpage.com/)
 
 </div>
 
@@ -90,6 +213,18 @@ The topics and links are presented in alphabetical order.
 [SoloKeys](https://solokeys.com/)
 
 [Nitrokey](https://www.nitrokey.com/)
+
+</div>
+
+<div class="resource-card">
+
+## VPNs
+
+[IVPN](https://www.ivpn.net/)
+
+[Mullvad](https://mullvad.net/en)
+
+[ProtonVPN](https://protonvpn.com/)
 
 </div>
 
