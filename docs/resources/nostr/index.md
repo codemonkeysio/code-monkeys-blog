@@ -19,15 +19,15 @@ The topics and links are presented in alphabetical order.
 
 ## Clients
 
-[Astral](https://astral.ninja/) - a Twitter-like client with a global feed
+[Astral](https://astral.ninja/) - A Twitter-like client with a global feed
 
-[Blogstack](https://blogstack.io/) - Decentralized blog posts using Nostr
+[Blogstack](https://blogstack.io/) - Decentralized blog posts
 
-[Damus](https://github.com/damus-io/damus) - A twitter-like nostr client for iPhone, iPad and MacOS
+[Damus](https://github.com/damus-io/damus) - A Twitter-like client for iPhone, iPad, and MacOS
 
 [Hamstr](https://hamstr.to/home) - A Twitter-like web client built with Vue.js
 
-[Notebin](https://notebin.org/) - Decentralized notes using Nostr
+[Notebin](https://notebin.org/) - Decentralized notes
 
 </div>
 
@@ -35,7 +35,7 @@ The topics and links are presented in alphabetical order.
 
 ## Documentation
 
-[Nostr](https://nostr.com/) - documentation about what Nostr is, why we need it, and how to use it
+[Nostr](https://nostr.com/) - Documentation about what Nostr is, why we need it, and how to use it
 
 </div>
 

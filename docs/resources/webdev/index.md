@@ -19,9 +19,10 @@ The topics and links are presented in alphabetical order.
 
 ## Tutorials
 
-[Net Ninja](https://netninja.dev/)
+[Net Ninja](https://netninja.dev/) - Black belt your coding skills
 
-[Traversy Media](https://www.traversymedia.com/)
+[Traversy Media](https://www.traversymedia.com/) - Practical project-based courses that are easy to understand and
+straight to the point with no fluff
 
 </div>
 
