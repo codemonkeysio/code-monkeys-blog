@@ -123,7 +123,7 @@ The topics and links are presented in alphabetical order.
 
 ## File Sharing
 
-[Keybase](https://keybase.io/)
+[Keybase](https://keybase.io/) - End-to-End Encryption (E2EE) for messaging and file sharing
 
 [OnionShare](https://onionshare.org/)
 
@@ -169,7 +169,7 @@ The topics and links are presented in alphabetical order.
 
 [Briar](https://briarproject.org/)
 
-[Keybase](https://keybase.io/)
+[Keybase](https://keybase.io/) - End-to-End Encryption (E2EE) for messaging and file sharing
 
 [Matrix](https://matrix.org/)
 
