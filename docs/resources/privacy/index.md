@@ -43,7 +43,7 @@ The topics and links are presented in alphabetical order.
 
 ## Card Aliasing
 
-[Privacy](https://privacy.com/)
+[Privacy](https://privacy.com/) - A proprietary credit/debit card aliasing solution when making online purchases
 
 </div>
 
@@ -105,7 +105,7 @@ The topics and links are presented in alphabetical order.
 
 ## Email Aliasing
 
-[SimpleLogin](https://simplelogin.io/)
+[SimpleLogin](https://simplelogin.io/) - Open source and self-hostable email aliasing solution built with privacy and security in mind
 
 </div>
 
@@ -127,7 +127,7 @@ The topics and links are presented in alphabetical order.
 
 [OnionShare](https://onionshare.org/)
 
-[Syncthing](https://syncthing.net/)
+[Syncthing](https://syncthing.net/) - Open source continuous file synchronization tool that encrypts all communication and allows users to sync files between authenticated devices
 
 </div>
 
@@ -208,7 +208,7 @@ The topics and links are presented in alphabetical order.
 
 [Bitwarden](https://bitwarden.com/)
 
-[KeePass](https://keepass.info/)
+[KeePass](https://keepass.info/) - Open source password manager that uses industry standard encryption and stores all password databases locally on your device
 
 </div>
 
@@ -228,7 +228,7 @@ The topics and links are presented in alphabetical order.
 
 [Brave Search](https://search.brave.com/)
 
-[Searx](https://searx.github.io/searx/)
+[Searx](https://searx.github.io/searx/) - Open source configurable and self-hostable metasearch engine which aggregates results from numerous search engines and can be used over Tor for online anonymity
 
 [Startpage](https://www.startpage.com/)
 
@@ -258,11 +258,11 @@ The topics and links are presented in alphabetical order.
 
 ## VPNs
 
-[IVPN](https://www.ivpn.net/)
+[IVPN](https://www.ivpn.net/) - Open source, transparent, and secure VPN provider based in Gibraltar
 
-[Mullvad](https://mullvad.net/en)
+[Mullvad](https://mullvad.net/en) - Open source, transparent, and secure VPN provider based in Sweden
 
-[ProtonVPN](https://protonvpn.com/)
+[ProtonVPN](https://protonvpn.com/) - Open source, transparent, and secure VPN provider based in Switzerland
 
 </div>
 
