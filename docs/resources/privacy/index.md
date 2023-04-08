@@ -137,7 +137,7 @@ The topics and links are presented in alphabetical order.
 
 [Prism Break](https://prism-break.org/en/all/)
 
-[Privacy Tests](https://privacytests.org/)
+[Privacy Tests](https://privacytests.org/) - Open source tests of web browser privacy
 
 [Privacy Tools](https://www.privacytools.io/private-browser)
 

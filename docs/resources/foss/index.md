@@ -21,7 +21,7 @@ The topics and links are presented in alphabetical order.
 
 [Free Software vs Open Source vs Freeware](https://dzone.com/articles/free-software-vs-open-source-vs-freeware-whats-the) - Clarifies the differences between free software, open source, and freeware which are often confusingly used interchangeably
 
-[Luke Smith](https://lukesmith.xyz/) - a LandChad that emphasizes the importance of using FOSS as well as self-hosting your own websites and applications
+[Luke Smith](https://lukesmith.xyz/) - A LandChad that emphasizes the importance of using FOSS as well as self-hosting your own websites and applications
 
 [What is Free Software?](https://www.gnu.org/philosophy/free-sw.html) - Description of the philosophy and principles behind free software from the Free Software Foundation (FSF)
 
