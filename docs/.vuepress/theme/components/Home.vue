@@ -39,8 +39,8 @@
 </template>
 
 <script>
-import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js'
-import NavLink from '@parent-theme/components/NavLink.vue'
+import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js';
+import NavLink from './NavLink.vue';
 
 export default {
   name: 'Home',
@@ -49,17 +49,17 @@ export default {
 
   computed: {
     data() {
-      return this.$page.frontmatter
+      return this.$page.frontmatter;
     },
 
     actionLink() {
       return {
         link: this.data.actionLink,
         text: this.data.actionText
-      }
+      };
     }
   }
-}
+};
 </script>
 
 <style lang="stylus">
