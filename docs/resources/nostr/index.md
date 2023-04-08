@@ -19,23 +19,23 @@ The topics and links are presented in alphabetical order.
 
 ## Clients
 
-[Astral](https://astral.ninja/)
+[Astral](https://astral.ninja/) - a Twitter-like client with a global feed
 
-[Blogstack](https://blogstack.io/)
+[Blogstack](https://blogstack.io/) - Decentralized blog posts using Nostr
 
-[Damus](https://github.com/damus-io/damus)
+[Damus](https://github.com/damus-io/damus) - A twitter-like nostr client for iPhone, iPad and MacOS
 
-[Hamstr](https://hamstr.to/home)
+[Hamstr](https://hamstr.to/home) - A Twitter-like web client built with Vue.js
 
-[Notebin](https://notebin.org/)
+[Notebin](https://notebin.org/) - Decentralized notes using Nostr
 
 </div>
 
 <div class="resource-card">
 
-## Website
+## Documentation
 
-[Nostr](https://nostr.com/)
+[Nostr](https://nostr.com/) - documentation about what Nostr is, why we need it, and how to use it
 
 </div>
 
@@ -43,7 +43,9 @@ The topics and links are presented in alphabetical order.
 
 ## Protocol
 
-[Protocol](https://github.com/nostr-protocol)
+[Nostr](https://github.com/nostr-protocol/nostr) - The simplest open protocol that is able to create a censorship-resistant global "social" network once and for all
+
+[NIPs](https://github.com/nostr-protocol/nips) - Nostr Implementation Possibilities
 
 </div>
 
