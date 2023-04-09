@@ -27,7 +27,7 @@ The topics and links are presented in alphabetical order.
 
 [Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/)
 
-[Tor](https://www.torproject.org/download/#android)
+[Tor](https://www.torproject.org/download/#android) - Open source browser that prioritizes privacy, anonymity, and censorship resistance and it comes pre-installed with all the privacy add-ons you should need, encryption, and an advanced proxy
 
 </div>
 
@@ -65,7 +65,7 @@ The topics and links are presented in alphabetical order.
 
 [LibreWolf](https://librewolf.net/)
 
-[Tor](https://www.torproject.org/)
+[Tor](https://www.torproject.org/) - Open source browser that prioritizes privacy, anonymity, and censorship resistance and it comes pre-installed with all the privacy add-ons you should need, encryption, and an advanced proxy
 
 [UnGoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
 
@@ -139,7 +139,7 @@ The topics and links are presented in alphabetical order.
 
 [Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/)
 
-[Onion Browser](https://onionbrowser.com/)
+[Onion Browser](https://onionbrowser.com/) - Open source unofficial Tor browser that prioritizes privacy, anonymity, and censorship resistance, but be aware that iOS limitations means it should not be considered as safe as Tor
 
 </div>
 
