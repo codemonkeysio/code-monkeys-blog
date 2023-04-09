@@ -242,7 +242,7 @@ The topics and links are presented in alphabetical order.
 
 [Aegis](https://getaegis.app/) - Open source time-based one-time passwords (TOTP) service for Android that gives you the ability to encrypt your tokens at rest as well as to export your tokens
 
-[Tofu](https://www.tofuauth.com/)
+[Tofu](https://www.tofuauth.com/) - Open source counter-based and time-based one-time passwords (TOTP) service for iOS that requires no network or cellular connection and account details are stored in the iOS keychain
 
 ### Hardware
 
