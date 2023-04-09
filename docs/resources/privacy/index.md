@@ -57,26 +57,6 @@ The topics and links are presented in alphabetical order.
 
 <div class="resource-card">
 
-## Desktop
-
-[Arch](https://archlinux.org/)
-
-[Debian](https://www.debian.org/)
-
-[Fedora](https://getfedora.org/)
-
-[Pop!_OS](https://pop.system76.com/)
-
-[Qubes OS](https://www.qubes-os.org/)
-
-[Tails](https://tails.boum.org/)
-
-[Whonix](https://www.whonix.org/)
-
-</div>
-
-<div class="resource-card">
-
 ## Desktop Web Browsers
 
 [Brave](https://brave.com/)
@@ -125,7 +105,7 @@ The topics and links are presented in alphabetical order.
 
 [Keybase](https://keybase.io/) - Open source end-to-end encryption (E2EE) for messaging and file sharing
 
-[OnionShare](https://onionshare.org/)
+[OnionShare](https://onionshare.org/) - Open source tool that lets you securely and anonymously share files, host websites, and chat using the Tor network
 
 [Syncthing](https://syncthing.net/) - Open source continuous file synchronization tool that encrypts all communication and allows users to sync files between authenticated devices
 
@@ -173,9 +153,9 @@ The topics and links are presented in alphabetical order.
 
 [Matrix](https://matrix.org/)
 
-[Session](https://getsession.org/)
+[Session](https://getsession.org/) - Open source messenger that uses end-to-end encryption (E2EE), doesn't collect user data, accounts are completely anonymous, i.e., no phone number is required, messages can be sent through an onion routing network, and is more censorship resistant than other messengers
 
-[Signal](https://www.signal.org/) - Open source end-to-end encryption (E2EE) messenger with a simple interface that requires a phone number to use the service
+[Signal](https://www.signal.org/) - Open source messenger that uses end-to-end encryption (E2EE) with a simple interface that requires a phone number to create an account
 
 [Threema](https://threema.ch/en)
 
@@ -199,6 +179,33 @@ The topics and links are presented in alphabetical order.
 ## Notes
 
 [Standard Notes](https://standardnotes.com/)
+
+</div>
+
+<div class="resource-card">
+
+## Operating Systems
+
+[Arch](https://archlinux.org/)
+
+[Debian](https://www.debian.org/)
+
+[Fedora](https://getfedora.org/)
+
+[Pop!_OS](https://pop.system76.com/)
+
+[Qubes OS](https://www.qubes-os.org/)
+
+</div>
+
+
+<div class="resource-card">
+
+## Operating Systems (Live)
+
+[Tails](https://tails.boum.org/) - Open source live operating system that routes all traffic through Tor for privacy and anonymity when online and deletes all of your data when you shutdown your computer
+
+[Whonix](https://www.whonix.org/)
 
 </div>
 
