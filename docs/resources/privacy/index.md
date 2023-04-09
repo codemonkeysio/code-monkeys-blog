@@ -184,9 +184,9 @@ The topics and links are presented in alphabetical order.
 
 ## Mobile Phone
 
-[Calyx](https://calyxos.org/)
+[Calyx](https://calyxos.org/) - Open source Android mobile operating system that focuses on improving privacy and security
 
-[GrapheneOS](https://grapheneos.org/)
+[GrapheneOS](https://grapheneos.org/) - Non-profit open source mobile operating system project with Android app compatibility that focuses on improving privacy and security
 
 [Librem 5](https://puri.sm/products/librem-5/)
 
@@ -206,7 +206,7 @@ The topics and links are presented in alphabetical order.
 
 ## Password Managers
 
-[Bitwarden](https://bitwarden.com/) - Open source, self-hostable, and cloud-based option password manager that uses zero knowledge end-to-end (E2EE) encryption
+[Bitwarden](https://bitwarden.com/) - Open source, self-hostable, and cloud-based option password manager that uses zero knowledge end-to-end encryption (E2EE)
 
 [KeePass](https://keepass.info/) - Open source password manager that uses industry standard encryption and stores all password databases locally on your device
 
