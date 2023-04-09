@@ -240,7 +240,7 @@ The topics and links are presented in alphabetical order.
 
 ### Software
 
-[Aegis](https://getaegis.app/)
+[Aegis](https://getaegis.app/) - Open source TOTP service for Android that gives you the ability to encrypt your tokens at rest as well as to export your tokens
 
 [Tofu](https://www.tofuauth.com/)
 
@@ -248,7 +248,7 @@ The topics and links are presented in alphabetical order.
 
 [Yubico](https://www.yubico.com/)
 
-[SoloKeys](https://solokeys.com/)
+[SoloKeys](https://solokeys.com/) - First open source FIDO2 security key
 
 [Nitrokey](https://www.nitrokey.com/)
 
