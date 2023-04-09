@@ -15,45 +15,100 @@ Here you'll find a list of topics I'm interested in. Click on a topic to view li
 
 The topics are presented in alphabetical order.
 
-<div class="resource-card">
+<div
+  class="resource-card"
+  @click="handleNavigation('/resources/bitcoin', $event)"
+>
 
-## [Bitcoin](/resources/bitcoin)
+<div class="title">
+
+## Bitcoin
+
+</div>
 
 Cyber Hornets
 
 </div>
 
-<div class="resource-card">
+<div
+  class="resource-card"
+  @click="handleNavigation('/resources/foss', $event)"
+>
 
-## [Free and Open Source Software (FOSS)](/resources/foss)
+<div class="title">
+
+## Free and Open Source Software (FOSS)
+
+</div>
 
 Richard Stallman
 
 </div>
 
-<div class="resource-card">
+<div
+  class="resource-card"
+  @click="handleNavigation('/resources/nostr', $event)"
+>
 
-## [Notes and Other Stuff Transmitted by Relays (Nostr)](/resources/nostr)
+<div class="title">
+
+## Notes and Other Stuff Transmitted by Relays (Nostr)
+
+</div>
 
 fiatjaf
 
 </div>
 
-<div class="resource-card">
+<div
+  class="resource-card"
+  @click="handleNavigation('/resources/privacy', $event)"
+>
 
-## [Privacy](/resources/privacy)
+<div class="title">
+
+## Privacy
+
+</div>
 
 Edward Snowden
 
 </div>
 
-<div class="resource-card">
+<div
+  class="resource-card"
+  @click="handleNavigation('/resources/webdev', $event)"
+>
 
-## [Web Development](/resources/webdev)
+<div class="title">
+
+## Web Development
+
+</div>
 
 Net Ninja
 
 </div>
+
+<script>
+export default {
+  methods: {
+    handleNavigation(path, event) {
+      if (!event.target.classList.contains('header-anchor')) {
+        this.$router.push(path).catch(err => {
+          if (
+            !err.message.includes(
+              'Redirected when going from'
+            )
+          ) {
+            console.log(err.name)
+          }
+        })
+      }
+    }
+  }
+}
+</script>
 
 <style lang="stylus" scoped>
 h1
@@ -69,6 +124,10 @@ h2
   transition: 0.2s
   border-radius: 1.875rem
   background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColor)
+  cursor: pointer
+  .title:hover
+    color: $accentColor
+    text-decoration: underline
 
 .resource-card:nth-child(n+2)
   margin-top: 3.5rem

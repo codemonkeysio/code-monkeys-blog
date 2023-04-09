@@ -5,18 +5,7 @@
         <h1>👋 Hey Start Monkeying Around!!!</h1>
         <div
           class="topic-card"
-          @click="
-            $router.push(`${topic.path}`).catch(err => {
-              if (
-                err.name !== 'NavigationDuplicated' &&
-                !err.message.includes(
-                  'Avoided redundant navigation to current location'
-                )
-              ) {
-                console.log(err)
-              }
-            })
-          "
+          @click="handleNavigation(topic)"
           :key="topic.name"
           v-for="(topic, index) in topicsList"
         >
@@ -68,6 +57,20 @@ export default {
         page => page.path === '/topics/'
       )
       return topicsPage[0].frontmatter.topicDetails
+    }
+  },
+  methods: {
+    handleNavigation(topic) {
+      this.$router.push(`${topic.path}`).catch(err => {
+        if (
+          err.name !== 'NavigationDuplicated' &&
+          !err.message.includes(
+            'Avoided redundant navigation to current location'
+          )
+        ) {
+          console.log(err)
+        }
+      })
     }
   }
 }
