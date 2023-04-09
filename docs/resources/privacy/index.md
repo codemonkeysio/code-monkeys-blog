@@ -35,7 +35,7 @@ The topics and links are presented in alphabetical order.
 
 ## App Stores
 
-[F-Droid](https://f-droid.org/) - App store that contains Free and Open Source Software (FOSS) applications for Android
+[F-Droid](https://f-droid.org/) - App store that contains free and open source software (FOSS) applications for Android
 
 </div>
 
@@ -123,7 +123,7 @@ The topics and links are presented in alphabetical order.
 
 ## File Sharing
 
-[Keybase](https://keybase.io/) - Open source End-to-End Encryption (E2EE) for messaging and file sharing
+[Keybase](https://keybase.io/) - Open source end-to-end encryption (E2EE) for messaging and file sharing
 
 [OnionShare](https://onionshare.org/)
 
@@ -169,13 +169,13 @@ The topics and links are presented in alphabetical order.
 
 [Briar](https://briarproject.org/)
 
-[Keybase](https://keybase.io/) - Open source End-to-End Encryption (E2EE) for messaging and file sharing
+[Keybase](https://keybase.io/) - Open source end-to-end encryption (E2EE) for messaging and file sharing
 
 [Matrix](https://matrix.org/)
 
 [Session](https://getsession.org/)
 
-[Signal](https://www.signal.org/) - Open source End-to-End Encryption (E2EE) messenger with a simple interface that requires a phone number to use the service
+[Signal](https://www.signal.org/) - Open source end-to-end encryption (E2EE) messenger with a simple interface that requires a phone number to use the service
 
 [Threema](https://threema.ch/en)
 
@@ -206,7 +206,7 @@ The topics and links are presented in alphabetical order.
 
 ## Password Managers
 
-[Bitwarden](https://bitwarden.com/)
+[Bitwarden](https://bitwarden.com/) - Open source, self-hostable, and cloud-based option password manager that uses zero knowledge end-to-end (E2EE) encryption
 
 [KeePass](https://keepass.info/) - Open source password manager that uses industry standard encryption and stores all password databases locally on your device
 
@@ -240,7 +240,7 @@ The topics and links are presented in alphabetical order.
 
 ### Software
 
-[Aegis](https://getaegis.app/) - Open source TOTP service for Android that gives you the ability to encrypt your tokens at rest as well as to export your tokens
+[Aegis](https://getaegis.app/) - Open source time-based one-time passwords (TOTP) service for Android that gives you the ability to encrypt your tokens at rest as well as to export your tokens
 
 [Tofu](https://www.tofuauth.com/)
 
@@ -248,7 +248,7 @@ The topics and links are presented in alphabetical order.
 
 [Yubico](https://www.yubico.com/)
 
-[SoloKeys](https://solokeys.com/) - First open source FIDO2 security key
+[SoloKeys](https://solokeys.com/) - First open source fast identity online 2 (FIDO2) security key
 
 [Nitrokey](https://www.nitrokey.com/)
 
