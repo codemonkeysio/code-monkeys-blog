@@ -188,9 +188,9 @@ The topics and links are presented in alphabetical order.
 
 [GrapheneOS](https://grapheneos.org/) - Non-profit open source mobile operating system project with Android app compatibility that focuses on improving privacy and security
 
-[Librem 5](https://puri.sm/products/librem-5/)
+[Librem 5](https://puri.sm/products/librem-5/) - Uses PureOS which is a Linux distribution with a focus on privacy and security and it incorporates open hardware specifications when possible
 
-[PinePhone Pro](https://www.pine64.org/pinephonepro/)
+[PinePhone Pro](https://www.pine64.org/pinephonepro/) - Uses an open source Linux based mobile operating system that incorporates open hardware specifications when possible
 
 </div>
 
