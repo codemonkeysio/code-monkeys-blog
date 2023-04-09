@@ -230,7 +230,7 @@ The topics and links are presented in alphabetical order.
 
 [Searx](https://searx.github.io/searx/) - Open source configurable and self-hostable metasearch engine which aggregates results from numerous search engines and can be used over Tor for online anonymity
 
-[Startpage](https://www.startpage.com/)
+[Startpage](https://www.startpage.com/) - Proprietary privacy-focused search engine that consists of privately proxied Google search results without the unwanted tracking, third-party cookies, and targeted ads
 
 </div>
 
