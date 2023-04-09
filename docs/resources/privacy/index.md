@@ -226,7 +226,7 @@ The topics and links are presented in alphabetical order.
 
 ## Search Engines
 
-[Brave Search](https://search.brave.com/)
+[Brave Search](https://search.brave.com/) - Proprietary privacy-focused search engine that uses its own independent search index for search results
 
 [Searx](https://searx.github.io/searx/) - Open source configurable and self-hostable metasearch engine which aggregates results from numerous search engines and can be used over Tor for online anonymity
 
