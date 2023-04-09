@@ -25,7 +25,7 @@ The topics and links are presented in alphabetical order.
 
 [Firefox](https://www.mozilla.org/en-US/firefox/browsers/mobile/android/?v=2)
 
-[Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/)
+[Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/) - Open source privacy-focused mobile browser based on Firefox that comes with automatic tracking protection and ad blocking
 
 [Tor](https://www.torproject.org/download/#android) - Open source browser that prioritizes privacy, anonymity, and censorship resistance and it comes pre-installed with all the privacy add-ons you should need, encryption, and an advanced proxy
 
@@ -137,7 +137,7 @@ The topics and links are presented in alphabetical order.
 
 [Firefox](https://www.mozilla.org/en-US/firefox/browsers/mobile/ios/)
 
-[Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/)
+[Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/) - Open source privacy-focused mobile browser based on Firefox that comes with automatic tracking protection and ad blocking
 
 [Onion Browser](https://onionbrowser.com/) - Open source unofficial Tor browser that prioritizes privacy, anonymity, and censorship resistance, but be aware that iOS limitations means it should not be considered as safe as Tor
 
