@@ -35,7 +35,7 @@ The topics and links are presented in alphabetical order.
 
 ## App Stores
 
-[F-Droid](https://f-droid.org/)
+[F-Droid](https://f-droid.org/) - App store that contains Free and Open Source Software (FOSS) applications for Android
 
 </div>
 
@@ -115,7 +115,7 @@ The topics and links are presented in alphabetical order.
 
 [GnuPG](https://gnupg.org/)
 
-[VeraCrypt](https://veracrypt.fr/en/Home.html)
+[VeraCrypt](https://veracrypt.fr/en/Home.html) - Open source encryption software that allows you to create virtual encrypted disks within files and to encrypt entire partitions or storage devices
 
 </div>
 
@@ -123,7 +123,7 @@ The topics and links are presented in alphabetical order.
 
 ## File Sharing
 
-[Keybase](https://keybase.io/) - End-to-End Encryption (E2EE) for messaging and file sharing
+[Keybase](https://keybase.io/) - Open source End-to-End Encryption (E2EE) for messaging and file sharing
 
 [OnionShare](https://onionshare.org/)
 
@@ -169,13 +169,13 @@ The topics and links are presented in alphabetical order.
 
 [Briar](https://briarproject.org/)
 
-[Keybase](https://keybase.io/) - End-to-End Encryption (E2EE) for messaging and file sharing
+[Keybase](https://keybase.io/) - Open source End-to-End Encryption (E2EE) for messaging and file sharing
 
 [Matrix](https://matrix.org/)
 
 [Session](https://getsession.org/)
 
-[Signal](https://www.signal.org/)
+[Signal](https://www.signal.org/) - Open source End-to-End Encryption (E2EE) messenger with a simple interface that requires a phone number to use the service
 
 [Threema](https://threema.ch/en)
 
