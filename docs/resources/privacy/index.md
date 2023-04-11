@@ -21,9 +21,9 @@ The topics and links are presented in alphabetical order.
 
 [Brave](https://brave.com/)
 
-[Bromite](https://www.bromite.org/)
+[Bromite](https://www.bromite.org/) - Open source Chromium based mobile browser with privacy and security focused enhancements including built-in ad blocking
 
-[Firefox](https://www.mozilla.org/en-US/firefox/browsers/mobile/android/?v=2)
+[Firefox](https://www.mozilla.org/en-US/firefox/browsers/mobile/android/?v=2) - Open source browser that doesn't have the best privacy and security defaults, so it's recommended to harden the browser by adjusting the settings and installing additional browser add-ons which is limited on Android
 
 [Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/) - Open source privacy-focused mobile browser based on Firefox that comes with automatic tracking protection and ad blocking
 
@@ -59,9 +59,11 @@ The topics and links are presented in alphabetical order.
 
 ## Desktop Web Browsers
 
+[]
+
 [Brave](https://brave.com/)
 
-[Firefox](https://www.mozilla.org/en-US/firefox/new/)
+[Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open source browser that doesn't have the best privacy and security defaults, so it's recommended to harden the browser by adjusting the settings and installing additional browser add-ons
 
 [LibreWolf](https://librewolf.net/)
 
@@ -135,7 +137,7 @@ The topics and links are presented in alphabetical order.
 
 [Brave](https://brave.com/)
 
-[Firefox](https://www.mozilla.org/en-US/firefox/browsers/mobile/ios/)
+[Firefox](https://www.mozilla.org/en-US/firefox/browsers/mobile/ios/) - Open source browser that doesn't have the best privacy and security defaults, so it's recommended to harden the browser by adjusting the settings and installing additional browser add-ons which is significantly limited on iOS
 
 [Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/) - Open source privacy-focused mobile browser based on Firefox that comes with automatic tracking protection and ad blocking
 
