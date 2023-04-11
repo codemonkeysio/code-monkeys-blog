@@ -59,13 +59,11 @@ The topics and links are presented in alphabetical order.
 
 ## Desktop Web Browsers
 
-[]
-
 [Brave](https://brave.com/)
 
-[Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open source browser that doesn't have the best privacy and security defaults, so it's recommended to harden the browser by adjusting the settings and installing additional browser add-ons
+[Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open source browser that doesn't have the best privacy and security defaults, so it's recommended to harden the browser by adjusting the settings and installing additional browser add-ons. You can use [Firefox Profilemaker](https://ffprofile.com/) to adjust the settings for your needs or use the [Arkenfox user.js](https://github.com/arkenfox/user.js/) file instead of the default settings. It's also recommended to download the browser releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/) to avoid telemetry tracking on your download
 
-[LibreWolf](https://librewolf.net/)
+[LibreWolf](https://librewolf.net/) - Open source Firefox based browser with a focus on improving privacy and security by handling the majority of Firefox hardening for you and does a good job of maintaining security updates
 
 [Tor](https://www.torproject.org/) - Open source browser that prioritizes privacy, anonymity, and censorship resistance and it comes pre-installed with all the privacy add-ons you should need, encryption, and an advanced proxy
 
