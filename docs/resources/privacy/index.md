@@ -67,7 +67,7 @@ The topics and links are presented in alphabetical order.
 
 [Tor](https://www.torproject.org/) - Open source browser that prioritizes privacy, anonymity, and censorship resistance and it comes pre-installed with all the privacy add-ons you should need, encryption, and an advanced proxy
 
-[UnGoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
+[UnGoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) - Open source Chromium based browser with a focus on removing the remaining Google privacy concerns from the open source Chromium browser. Be aware that security updated tend to be a bit slower
 
 </div>
 
