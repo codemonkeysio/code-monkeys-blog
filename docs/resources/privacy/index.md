@@ -19,7 +19,7 @@ The topics and links are presented in alphabetical order.
 
 ## Android Web Browsers
 
-[Brave](https://brave.com/)
+[Brave](https://brave.com/) - Open source Chromium based browser with good privacy and security defaults, and the cryptocurrency features within the browser can also be disabled if desired
 
 [Bromite](https://www.bromite.org/) - Open source Chromium based mobile browser with privacy and security focused enhancements including built-in ad blocking
 
@@ -59,7 +59,7 @@ The topics and links are presented in alphabetical order.
 
 ## Desktop Web Browsers
 
-[Brave](https://brave.com/)
+[Brave](https://brave.com/) - Open source Chromium based browser with good privacy and security defaults, and the cryptocurrency features within the browser can also be disabled if desired
 
 [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open source browser that doesn't have the best privacy and security defaults, so it's recommended to harden the browser by adjusting the settings and installing additional browser add-ons. You can use [Firefox Profilemaker](https://ffprofile.com/) to adjust the settings for your needs or use the [Arkenfox user.js](https://github.com/arkenfox/user.js/) file instead of the default settings. It's also recommended to download the browser releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/) to avoid telemetry tracking on your download
 
@@ -133,7 +133,7 @@ The topics and links are presented in alphabetical order.
 
 ## iOS Web Browsers
 
-[Brave](https://brave.com/)
+[Brave](https://brave.com/) - Open source Chromium based browser with good privacy and security defaults, and the cryptocurrency features within the browser can also be disabled if desired
 
 [Firefox](https://www.mozilla.org/en-US/firefox/browsers/mobile/ios/) - Open source browser that doesn't have the best privacy and security defaults, so it's recommended to harden the browser by adjusting the settings and installing additional browser add-ons which is significantly limited on iOS
 
