@@ -186,15 +186,15 @@ The topics and links are presented in alphabetical order.
 
 ## Operating Systems
 
-[Arch](https://archlinux.org/)
+[Arch](https://archlinux.org/) - Independently developed open source GNU/Linux distribution that provides the latest stable versions of most software by following a rolling-release model. The default installation is a minimal base system configured by the user to only add what they require and offers the flexibility to harden the OS as the user sees fit
 
-[Debian](https://www.debian.org/)
+[Debian](https://www.debian.org/) - Open source GNU/Linux distribution that offers users security, stability, and reliability
 
-[Fedora](https://getfedora.org/)
+[Fedora](https://getfedora.org/) - Open source GNU/Linux distribution that that focuses on providing users with strong privacy and security by default
 
-[Pop!_OS](https://pop.system76.com/)
+[Pop!_OS](https://pop.system76.com/) - Open source GNU/Linux distribution developed and maintained by System76 with a focus on providing users with privacy, security, and reliability while maintaining ease of use
 
-[Qubes OS](https://www.qubes-os.org/)
+[Qubes OS](https://www.qubes-os.org/) - Open source security focused operating system for single user desktop computing that leverages Xen based virtualization to allow for the creation and management of isolated compartments called qubes which are implemented as virtual machines (VMs). Basically it allows you to separate operating systems and the installed programs on those operating systems into multiple and secure environments
 
 </div>
 
