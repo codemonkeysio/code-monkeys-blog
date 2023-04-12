@@ -147,17 +147,17 @@ The topics and links are presented in alphabetical order.
 
 ## Messengers
 
-[Briar](https://briarproject.org/)
+[Briar](https://briarproject.org/) - Open source, Tor routed, peer-to-peer (P2P), end-to-end encrypted (E2EE) messaging. The messages are stored securely on your device not in the cloud, and it can be used without internet access by connecting directly with nearby contacts using bluetooth or WiFi
 
 [Keybase](https://keybase.io/) - Open source end-to-end encryption (E2EE) for messaging and file sharing
 
-[Matrix](https://matrix.org/)
+[Matrix](https://matrix.org/) - Open standard for interoperable, secure, decentralized, and real-time communication over IP with end-to-end encryption (E2EE) enabled by default for direct messaging and invite-only rooms. You have the option to self host your own server or to use a public server. One of the more popular clients to use when connecting to the Matrix protocol is [Element](https://element.io/)
 
 [Session](https://getsession.org/) - Open source messenger that uses end-to-end encryption (E2EE), doesn't collect user data, accounts are completely anonymous, i.e., no phone number is required, messages can be sent through an onion routing network, and is more censorship resistant than other messengers
 
 [Signal](https://www.signal.org/) - Open source messenger that uses end-to-end encryption (E2EE) with a simple interface that requires a phone number to create an account
 
-[Threema](https://threema.ch/en)
+[Threema](https://threema.ch/en) - Open source messenger that uses end-to-end encryption (E2EE) and can be used without disclosing your phone number or email. Payment is required to use the application which can be paid with Bitcoin
 
 </div>
 <div class="resource-card">
