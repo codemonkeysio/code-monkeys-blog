@@ -123,7 +123,7 @@ The topics and links are presented in alphabetical order.
 
 [Seth for Privacy](https://sethforprivacy.com/) - An individual interested in educating and learning more about privacy and technology. Check out the [Opt Out](https://optoutpod.com/) podcast where he sits down with passionate people within the privacy community to discuss why privacy matters, the tools and techniques they've found and use, and to encourage others towards achieving personal privacy and data sovereignty
 
-[Techlore](https://techlore.tech/index)
+[Techlore](https://techlore.tech/index) - A team dedicated to spreading privacy and security to the masses by producing projects, communities, and content to help individuals achieve personal privacy. A lot of the services and tools listed here were initially found through their website and content, so it's a great site to learn more about them as well as privacy in general
 
 [The Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide.html) - Open source and non-profit guide dedicated to providing an introduction to various online tracking techniques, online ID verification techniques, and detailed guidance to creating and maintaining anonymous online identities
 
