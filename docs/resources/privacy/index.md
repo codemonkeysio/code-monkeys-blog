@@ -51,7 +51,7 @@ The topics and links are presented in alphabetical order.
 
 ## Cloud Storage
 
-[Nextcloud](https://nextcloud.com/)
+[Nextcloud](https://nextcloud.com/) - Open source, self-hostable, and scalable suite for storing photos, documents, files, contacts, and more. It's similar in functionality to Dropbox, Office 365, and Google Drive
 
 </div>
 
@@ -115,17 +115,17 @@ The topics and links are presented in alphabetical order.
 
 ## Guides
 
-[Prism Break](https://prism-break.org/en/all/)
+[Prism Break](https://prism-break.org/en/all/) - Website dedicated to providing information about privacy services, tools, and protocols
 
 [Privacy Tests](https://privacytests.org/) - Open source tests of web browser privacy
 
-[Privacy Tools](https://www.privacytools.io/private-browser)
+[Privacy Tools](https://www.privacytools.io/private-browser) - Website dedicated to providing privacy services, tools, and guides. A lot of the services and tools listed here were initially found through this website, so it's a great site to learn more about them as well as privacy in general
 
-[Seth for Privacy](https://sethforprivacy.com/)
+[Seth for Privacy](https://sethforprivacy.com/) - An individual interested in educating and learning more about privacy and technology. Check out the [Opt Out](https://optoutpod.com/) podcast where he sits down with passionate people within the privacy community to discuss why privacy matters, the tools and techniques they've found and use, and to encourage others towards achieving personal privacy and data sovereignty
 
 [Techlore](https://techlore.tech/index)
 
-[The Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide.html)
+[The Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide.html) - Open source and non-profit guide dedicated to providing an introduction to various online tracking techniques, online ID verification techniques, and detailed guidance to creating and maintaining anonymous online identities
 
 </div>
 
