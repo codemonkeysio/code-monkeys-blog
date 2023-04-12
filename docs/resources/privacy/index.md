@@ -253,11 +253,11 @@ The topics and links are presented in alphabetical order.
 
 ### Hardware
 
-[Yubico](https://www.yubico.com/)
+[Yubico](https://www.yubico.com/) - Proprietary phishing-resistant multi-factor authentication (MFA)
 
 [SoloKeys](https://solokeys.com/) - First open source fast identity online 2 (FIDO2) security key
 
-[Nitrokey](https://www.nitrokey.com/)
+[Nitrokey](https://www.nitrokey.com/) - Open source device that enables secure login, email encryption, encrypted mobile storage, disk and file encryption, key and certificate management, and server administration using secure shell (SSH). The company also provides other devices including phones, personal computers, laptops, and more
 
 </div>
 
