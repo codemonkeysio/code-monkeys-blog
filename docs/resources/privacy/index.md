@@ -75,9 +75,9 @@ The topics and links are presented in alphabetical order.
 
 ## Email
 
-[ProtonMail](https://proton.me/mail)
+[ProtonMail](https://proton.me/mail) - Open source email based in Switzerland with an emphasis on privacy and security by providing users with end-to-end encryption (E2EE), zero-access encryption, anti-phishing, anti-spam, two-factor authentication (2FA), and accessibility via Tor
 
-[Tutanota](https://tutanota.com/)
+[Tutanota](https://tutanota.com/) - Open source email based in Germany with an emphasis on privacy and security by providing users with end-to-end encryption (E2EE), two-factor authentication (2FA), session handling, phishing protection, and more features
 
 </div>
 
@@ -93,7 +93,7 @@ The topics and links are presented in alphabetical order.
 
 ## Encryption
 
-[GnuPG](https://gnupg.org/)
+[GNU Privacy Guard (GnuPG)](https://gnupg.org/) - Open source, complete, and free implementation of the OpenPGP standard. Allows you to encrypt and sign your data and communications
 
 [VeraCrypt](https://veracrypt.fr/en/Home.html) - Open source encryption software that allows you to create virtual encrypted disks within files and to encrypt entire partitions or storage devices
 
@@ -205,7 +205,7 @@ The topics and links are presented in alphabetical order.
 
 [Tails](https://tails.boum.org/) - Open source live operating system that routes all traffic through Tor for privacy and anonymity when online and deletes all of your data when you shutdown your computer
 
-[Whonix](https://www.whonix.org/)
+[Whonix](https://www.whonix.org/) - Open source live and virtual operating system that runs inside your current operating system. All traffic is routed through Tor for privacy and anonymity when online
 
 </div>
 
