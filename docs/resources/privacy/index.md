@@ -178,7 +178,7 @@ The topics and links are presented in alphabetical order.
 
 ## Notes
 
-[Standard Notes](https://standardnotes.com/)
+[Standard Notes](https://standardnotes.com/) - Open source self-hostable note-taking application that uses end-to-end encryption (E2EE)
 
 </div>
 
@@ -223,9 +223,9 @@ The topics and links are presented in alphabetical order.
 
 ## Prebuilt Computers
 
-[Purism](https://puri.sm/)
+[Purism](https://puri.sm/) - Engineer and manufacture personal computing devices with a focus on privacy and security by producing devices that rely on open hardware and open firmware when possible and open source software
 
-[System76](https://system76.com/)
+[System76](https://system76.com/) - Engineer and manufacture premium Linux computers and keyboards that use open hardware and open firmware when possible and open source software with a focus on allowing users to freely upgrade and repair their computers, the freedom to use and alter the software on their computer, and to provide the ability for users to learn how their system works
 
 </div>
 
