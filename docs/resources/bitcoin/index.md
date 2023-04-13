@@ -325,7 +325,7 @@ The topics and links are presented in alphabetical order.
 
 [Bitcoin Dev List](https://bitcoindevlist.com/) - Open source Bitcoin donation portal that lists people working on Bitcoin and related projects with the goal of increasing visibility of contributors to the space that are accepting donations
 
-[OpenSats](https://opensats.org/)
+[OpenSats](https://opensats.org/) - Focused on helping to support and maintain a sustainable ecosystem of funding for free and open source projects and contributors related to Bitcoin
 
 [Ten31](https://ten31.vc/) - Venture capital fund focused exclusively on investing in the Bitcoin ecosystem
 
