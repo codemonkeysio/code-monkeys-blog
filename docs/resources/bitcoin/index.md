@@ -47,9 +47,9 @@ The topics and links are presented in alphabetical order.
 
 [The Bitcoin Standard](https://saifedean.com/tbs)
 
-[The Fiat Standard](https://saifedean.com/tfs)
+[The Fiat Standard](https://saifedean.com/tfs) - Provides an examination of twentieth century monetary technology and explains its benefits, drawbacks, and its many modes of failure written by Saifedean Ammous
 
-[The Little Bitcoin Book](https://programmingbitcoin.com/the-little-bitcoin-book/)
+[The Little Bitcoin Book](https://programmingbitcoin.com/the-little-bitcoin-book/) - Focused on describing in simple terms what Bitcoin is, how it works, why it's valuable, and how it affects individual freedom and opportunities of people everywhere written by the Bitcoin Collective
 
 </div>
 
@@ -235,9 +235,9 @@ The topics and links are presented in alphabetical order.
 
 ## Products
 
-[Coinkite](https://coinkite.com/)
+[Coinkite](https://coinkite.com/) - Company focused on designing and manufacturing bitcoin security and fun devices like the Coldcard, Opendime, Tapsigner, Satscard, Blockclock, and more
 
-[Crypto Cloaks](https://www.cryptocloaks.com/)
+[Crypto Cloaks](https://www.cryptocloaks.com/) - Company focused on designing and manufacturing 3D printed Bitcoin related products like node shells, hardware wallet mounts, home mining devices, and more
 
 </div>
 
@@ -323,7 +323,7 @@ The topics and links are presented in alphabetical order.
 
 ## Support
 
-[Bitcoin Dev List](https://bitcoindevlist.com/)
+[Bitcoin Dev List](https://bitcoindevlist.com/) - Open source Bitcoin donation portal that lists people working on Bitcoin and related projects with the goal of increasing visibility of contributors to the space that are accepting donations
 
 [OpenSats](https://opensats.org/)
 
