@@ -43,7 +43,7 @@ The topics and links are presented in alphabetical order.
 
 [Programming Bitcoin](https://programmingbitcoin.com/programming-bitcoin-book/)
 
-[Thank God for Bitcoin](https://programmingbitcoin.com/thank-god-for-bitcoin/)
+[Thank God for Bitcoin](https://programmingbitcoin.com/thank-god-for-bitcoin/) - Explores the creation of money, its corruption, and its potential redemption by examining the effects Bitcoin is having on transitioning the world to a sound monetary standard
 
 [The Bitcoin Standard](https://saifedean.com/tbs)
 
@@ -183,7 +183,7 @@ The topics and links are presented in alphabetical order.
 
 ## Payment Processors
 
-[BTCPay Server](https://btcpayserver.org/)
+[BTCPay Server](https://btcpayserver.org/) - Open source self-hostable cryptocurrency payment processor focused on providing secure, private, and censorship-resistant payments
 
 </div>
 
