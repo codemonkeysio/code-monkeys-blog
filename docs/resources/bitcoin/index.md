@@ -1,6 +1,6 @@
 ---
 title: Bitcoin
-description: Ready to go down the bitcoin rabbit hole? These resources include free and open source software recommendations that allow you to interact with bitcoin in a sovereign and private way! ₿🐒
+description: Ready to go down the Bitcoin rabbit hole? These resources include free and open source software recommendations that allow you to interact with Bitcoin in a sovereign and private way! ₿🐒
 sidebar: auto
 canonicalUrl: resources/bitcoin/
 ---
@@ -11,7 +11,7 @@ canonicalUrl: resources/bitcoin/
 
 :::
 
-Here you'll find a list of resources related to bitcoin.
+Here you'll find a list of resources related to Bitcoin.
 
 The topics and links are presented in alphabetical order.
 
@@ -57,7 +57,7 @@ The topics and links are presented in alphabetical order.
 
 ## Collaborative Custody
 
-[Unchained Capital](https://unchained.com/)
+[Unchained Capital](https://unchained.com/) - Trusted multisig storage solution where you are making the decision to trust Unchained Capital with your privacy but not with your funds in exchange for better security, redundancy, and support when storing your Bitcoin
 
 </div>
 
@@ -65,7 +65,7 @@ The topics and links are presented in alphabetical order.
 
 ## Dashboard
 
-[Clark Moody's Dashboard](https://bitcoin.clarkmoody.com/dashboard/)
+[Clark Moody's Dashboard](https://bitcoin.clarkmoody.com/dashboard/) - A single page view into the metrics of the Bitcoin ecosystem which includes market data, network data, mining data, and more
 
 </div>
 
@@ -109,7 +109,7 @@ The topics and links are presented in alphabetical order.
 
 ## Entertainment
 
-[Bitcoin Yoda](https://www.youtube.com/@bitcoinyoda8321)
+[Bitcoin Yoda](https://www.youtube.com/@bitcoinyoda8321) - An entertaining YouTube channel that makes funny videos about Bitcoin like The Bitcoin HODL Dance, Money Printer Goes Brrr! (Central Bank's Favorite Song), Michael Saylor's Investment Advice, and more
 
 </div>
 
@@ -129,9 +129,9 @@ The topics and links are presented in alphabetical order.
 
 ## Jobs
 
-[Bitcoiner Jobs](https://bitcoinerjobs.com/)
+[Bitcoiner Jobs](https://bitcoinerjobs.com/) - Leading career site with the goal of helping to build the emerging Bitcoin industry and the careers of Bitcoiners within it
 
-[PlebLab](https://www.pleblab.com/)
+[PlebLab](https://www.pleblab.com/) - Bitcoin hackerspace and community accelerator based in Austin, Texas focused on supporting early stage Bitcoin start-ups and developers building the future of Bitcoin
 
 </div>
 
@@ -153,7 +153,7 @@ The topics and links are presented in alphabetical order.
 
 ## Meetups
 
-[Bitcoin Park](https://www.meetup.com/bitcoinpark/)
+[Bitcoin Park](https://www.meetup.com/bitcoinpark/) - Community supported campus in Nashville, Tennessee focused on grassroots Bitcoin adoption and a home for Bitcoiners to work, learn, collaborate, and build
 
 [Bitcoiner Events](https://www.bitcoinerevents.com/)
 
@@ -193,7 +193,7 @@ The topics and links are presented in alphabetical order.
 
 ### Reviews
 
-[KYCNOT.ME](https://kycnot.me/)
+[KYCNOT.ME](https://kycnot.me/) - Open source privacy focused website with the goal of providing a list of Non KYC exchanges and ranking them based on how well you can use them in an anonymous way. The website may not always be up to date, so be sure to do your own research. Don't trust, verify!
 
 ### Exchanges
 
@@ -213,7 +213,7 @@ The topics and links are presented in alphabetical order.
 
 ## Podcasts
 
-[Bitcoin Explained](https://podcasters.spotify.com/pod/show/bitcoin-explained)
+[Bitcoin Explained](https://podcasters.spotify.com/pod/show/bitcoin-explained) - If you're interested in learning more about the technical side of Bitcoin, then you should check out this podcast with Bitcoin Magazine's Technical editor Aaron van Wirdum and Bitcoin core contributor Sjors Provoost
 
 [Bitcoin Fixes This](https://podcasters.spotify.com/pod/show/jimmysong)
 
@@ -223,7 +223,7 @@ The topics and links are presented in alphabetical order.
 
 [Citadel Dispatch](https://citadeldispatch.com/)
 
-[Rabbit Hole Recap](https://rhr.tv/)
+[Rabbit Hole Recap](https://rhr.tv/) - Recap of the weeks events in the world of Bitcoin hosted by Matt Odell and Marty Bent
 
 [The Bitcoin Standard Podcast](https://saifedean.com/podcast)
 
@@ -255,7 +255,7 @@ The topics and links are presented in alphabetical order.
 
 ### Reviews
 
-[Metal Bitcoin Seed Storage Reviews](https://jlopp.github.io/metal-bitcoin-storage-reviews/)
+[Metal Bitcoin Seed Storage Reviews](https://jlopp.github.io/metal-bitcoin-storage-reviews/) - Stress test and reviews of seed storage devices by Jameson Lopp the grades are based on how well the devices resist heat, corrosion, and being crushed
 
 ### Storage Devices
 
@@ -327,7 +327,7 @@ The topics and links are presented in alphabetical order.
 
 [OpenSats](https://opensats.org/)
 
-[Ten31](https://ten31.vc/)
+[Ten31](https://ten31.vc/) - Venture capital fund focused exclusively on investing in the Bitcoin ecosystem
 
 </div>
 
