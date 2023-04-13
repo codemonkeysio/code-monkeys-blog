@@ -41,7 +41,7 @@ The topics and links are presented in alphabetical order.
 
 [Mastering the Lightning Network](https://github.com/lnbook/lnbook)
 
-[Programming Bitcoin](https://programmingbitcoin.com/programming-bitcoin-book/)
+[Programming Bitcoin](https://programmingbitcoin.com/programming-bitcoin-book/) - Learn how to program a Bitcoin library with this hands-on guide that goes over the math, blocks, network, transactions, proof-of-work, and more written by Jimmy Song a Bitcoin core developer and educator
 
 [Thank God for Bitcoin](https://programmingbitcoin.com/thank-god-for-bitcoin/) - Explores the creation of money, its corruption, and its potential redemption by examining the effects Bitcoin is having on transitioning the world to a sound monetary standard
 
@@ -77,7 +77,7 @@ The topics and links are presented in alphabetical order.
 
 [Bitcoiner.Guide](https://bitcoiner.guide/)
 
-[Bitcoin Only](https://bitcoin-only.com/)
+[Bitcoin Only](https://bitcoin-only.com/) - A collection of high quality Bitcoin resources including meetups, books, wallets, hardware, podcasts, and more
 
 [Bitcoin Optech](https://bitcoinops.org/) - Helping Bitcoin users and businesses integrate scaling technologies by providing workshops, documentation, weekly newsletters, original research, case studies and announcements, analysis of Bitcoin software and services, and a podcast
 
@@ -91,9 +91,9 @@ The topics and links are presented in alphabetical order.
 
 [BTC Sessions](https://www.btcsessions.ca/) - Bitcoin educator focused on helping people gain an understanding of Bitcoin by providing tutorials on wallets, hardware, security, exchanges, and more
 
-[Diverter](https://diverter.hostyourown.tools/)
+[Diverter](https://diverter.hostyourown.tools/) - Focused on Bitcoin, privacy, and censorship-resistance by learning how to use the related tools
 
-[Econoalchemist](https://www.econoalchemist.com/)
+[Econoalchemist](https://www.econoalchemist.com/) - Blog focused on bringing you articles about interacting with Bitcoin in a self-custodial, censorship-resistant, and private way
 
 [k3tan](https://k3tan.com/)
 
@@ -155,9 +155,9 @@ The topics and links are presented in alphabetical order.
 
 [Bitcoin Park](https://www.meetup.com/bitcoinpark/) - Community supported campus in Nashville, Tennessee focused on grassroots Bitcoin adoption and a home for Bitcoiners to work, learn, collaborate, and build
 
-[Bitcoiner Events](https://www.bitcoinerevents.com/)
+[Bitcoiner Events](https://www.bitcoinerevents.com/) - Curated list of all the best Bitcoin-only events, meetups, and conferences around the world
 
-[Bitcoin Meetup Groups](https://www.meetup.com/find/?source=EVENTS&keywords=bitcoin)
+[Bitcoin Meetup Groups](https://www.meetup.com/find/?source=EVENTS&keywords=bitcoin) - Find a local Bitcoin meetup group by searching for upcoming meetups near you. Remember to do your own research to avoid any sketchy meetups, and don't share any personal information that you don't want others to know
 
 </div>
 
@@ -245,7 +245,7 @@ The topics and links are presented in alphabetical order.
 
 ## Website
 
-[Bitcoin](https://bitcoin.org/en/) - Bitcoin Core website that has introductory resources for individuals, businesses, and developers, resources, ways to participate, FAQs, and more
+[Bitcoin](https://bitcoin.org/en/) - Bitcoin core website that has introductory resources for individuals, businesses, and developers, resources, ways to participate, FAQs, and more
 
 </div>
 
