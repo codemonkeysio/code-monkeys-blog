@@ -37,9 +37,9 @@ The topics and links are presented in alphabetical order.
 
 [Bitcoin: A Work in Progress](https://www.btcwip.com/) - Focused on guiding the reader through the latest developments in Bitcoin through the eyes of Sjors Provoost one of the many Bitcoin core developers
 
-[Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)
+[Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) - Focused on providing developers with a technical understanding of Bitcoin written by Andreas M. Antonopoulos
 
-[Mastering the Lightning Network](https://github.com/lnbook/lnbook)
+[Mastering the Lightning Network](https://github.com/lnbook/lnbook) - Focused on providing developers with a technical understanding of the Lightning Network written by Andreas M. Antonopoulos, Olaoluwa Osuntokun, and Rene Pickhardt
 
 [Programming Bitcoin](https://programmingbitcoin.com/programming-bitcoin-book/) - Learn how to program a Bitcoin library with this hands-on guide that goes over the math, blocks, network, transactions, proof-of-work, and more written by Jimmy Song a Bitcoin core developer and educator
 
@@ -83,7 +83,7 @@ The topics and links are presented in alphabetical order.
 
 [Bitcoin Resources](https://bitcoin-resources.com/)
 
-[Bitcoin Stack Exchange](https://bitcoin.stackexchange.com/)
+[Bitcoin Stack Exchange](https://bitcoin.stackexchange.com/) - Question and answer site for Bitcoin cryptocurrency enthusiasts
 
 [Bitcoin University](https://www.youtube.com/@Bitcoin_University)
 
@@ -95,9 +95,9 @@ The topics and links are presented in alphabetical order.
 
 [Econoalchemist](https://www.econoalchemist.com/) - Blog focused on bringing you articles about interacting with Bitcoin in a self-custodial, censorship-resistant, and private way
 
-[k3tan](https://k3tan.com/)
+[k3tan](https://k3tan.com/) - Focused on providing educational content on how to transition to a Bitcoin standard by showing people how to hold their own keys, use their own node, and more
 
-[Keep it Simple](https://www.keepitsimplebitcoin.com/)
+[Keep it Simple](https://www.keepitsimplebitcoin.com/) - Focused on teaching people how to interact with Bitcoin
 
 [Odell](https://odell.xyz/)
 
@@ -227,7 +227,7 @@ The topics and links are presented in alphabetical order.
 
 [The Bitcoin Standard Podcast](https://saifedean.com/podcast)
 
-[What Bitcoin Did](https://www.whatbitcoindid.com/)
+[What Bitcoin Did](https://www.whatbitcoindid.com/) - A tri-weekly Bitcoin podcast where host Peter McCormack interviews experts in the world of Bitcoin development, privacy, investment and adoption
 
 </div>
 
