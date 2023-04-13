@@ -19,7 +19,7 @@ canonicalUrl: donate/
 
 ✅ Always double check the address & amount before <span class="emoji-wrap">sending! ✅</span>
 
-🤖 Instead of using the static Bitcoin address below, improve your privacy by using a <span class="emoji-wrap">[PayNym](https://paynym.is/)! 🤖</span>
+🤖 Instead of using the static Bitcoin address below, improve your privacy by using a <span class="emoji-wrap">[PayNym!](https://paynym.is/) 🤖</span>
 
 <PayNymDonation />
 
