@@ -139,13 +139,13 @@ The topics and links are presented in alphabetical order.
 
 ## Media
 
-[Bitcoin Magazine](https://bitcoinmagazine.com/)
+[Bitcoin Magazine](https://bitcoinmagazine.com/) - Source of news, information and expert commentary on Bitcoin, its underlying blockchain technology and the industry that has been built up around it
 
-[BitcoinTV](https://bitcointv.com/)
+[BitcoinTV](https://bitcointv.com/) - A repository of educational video content for the Bitcoin community, without distractions like advertising, altcoins, or third-party trackers
 
-[No BS Bitcoin](https://www.nobsbitcoin.com/)
+[No BS Bitcoin](https://www.nobsbitcoin.com/) - A news desk for Bitcoiners by Bitcoiners without ads, paywalls, or clickbait includes Bitcoin related news, updates, research, guides, weekly digest, and more
 
-[TFTC](https://tftc.io/)
+[TFTC](https://tftc.io/) - A media company focused on Bitcoin, Beauty, and Freedom in the Digital Age
 
 </div>
 
@@ -245,7 +245,7 @@ The topics and links are presented in alphabetical order.
 
 ## Website
 
-[Bitcoin](https://bitcoin.org/en/)
+[Bitcoin](https://bitcoin.org/en/) - Bitcoin Core website that has introductory resources for individuals, businesses, and developers, resources, ways to participate, FAQs, and more
 
 </div>
 
