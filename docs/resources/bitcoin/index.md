@@ -35,7 +35,7 @@ The topics and links are presented in alphabetical order.
 
 [21 Lessons](https://21lessons.com/)
 
-[Bitcoin: A Work in Progress](https://www.btcwip.com/)
+[Bitcoin: A Work in Progress](https://www.btcwip.com/) - Focused on guiding the reader through the latest developments in Bitcoin through the eyes of Sjors Provoost one of the many Bitcoin core developers
 
 [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)
 
@@ -73,13 +73,13 @@ The topics and links are presented in alphabetical order.
 
 ## Education
 
-[6102bitcoin](https://6102bitcoin.com/)
+[6102bitcoin](https://6102bitcoin.com/) - Pseudonymous bitcoin user and educator with the goal of accelerating bitcoin understanding
 
 [Bitcoiner.Guide](https://bitcoiner.guide/)
 
 [Bitcoin Only](https://bitcoin-only.com/)
 
-[Bitcoin Optech](https://bitcoinops.org/)
+[Bitcoin Optech](https://bitcoinops.org/) - Helping Bitcoin users and businesses integrate scaling technologies by providing workshops, documentation, weekly newsletters, original research, case studies and announcements, analysis of Bitcoin software and services, and a podcast
 
 [Bitcoin Resources](https://bitcoin-resources.com/)
 
@@ -89,7 +89,7 @@ The topics and links are presented in alphabetical order.
 
 [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
 
-[BTC Sessions](https://www.btcsessions.ca/)
+[BTC Sessions](https://www.btcsessions.ca/) - Bitcoin educator focused on helping people gain an understanding of Bitcoin by providing tutorials on wallets, hardware, security, exchanges, and more
 
 [Diverter](https://diverter.hostyourown.tools/)
 
@@ -221,7 +221,7 @@ The topics and links are presented in alphabetical order.
 
 [Bitcoin Review Podcast](https://bitcoin.review/)
 
-[Citadel Dispatch](https://citadeldispatch.com/)
+[Citadel Dispatch](https://citadeldispatch.com/) - An interactive live show about Bitcoin and freedom tech with an emphasis on actionable steps one can take to become more sovereign and private when using Bitcoin
 
 [Rabbit Hole Recap](https://rhr.tv/) - Recap of the weeks events in the world of Bitcoin hosted by Matt Odell and Marty Bent
 
