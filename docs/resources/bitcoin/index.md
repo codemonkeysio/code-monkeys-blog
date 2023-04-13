@@ -33,7 +33,7 @@ The topics and links are presented in alphabetical order.
 
 ## Books
 
-[21 Lessons](https://21lessons.com/)
+[21 Lessons](https://21lessons.com/) - Distillation of the lessons learned after falling down the Bitcoin rabbit hole written by Gigi
 
 [Bitcoin: A Work in Progress](https://www.btcwip.com/) - Focused on guiding the reader through the latest developments in Bitcoin through the eyes of Sjors Provoost one of the many Bitcoin core developers
 
@@ -45,7 +45,7 @@ The topics and links are presented in alphabetical order.
 
 [Thank God for Bitcoin](https://programmingbitcoin.com/thank-god-for-bitcoin/) - Explores the creation of money, its corruption, and its potential redemption by examining the effects Bitcoin is having on transitioning the world to a sound monetary standard
 
-[The Bitcoin Standard](https://saifedean.com/tbs)
+[The Bitcoin Standard](https://saifedean.com/tbs) - Analyzes the historical context of the rise of Bitcoin, the economic properties that have allowed it to grow quickly, and its likely economic, political, and social implications written by Saifedean Ammous
 
 [The Fiat Standard](https://saifedean.com/tfs) - Provides an examination of twentieth century monetary technology and explains its benefits, drawbacks, and its many modes of failure written by Saifedean Ammous
 
@@ -81,13 +81,13 @@ The topics and links are presented in alphabetical order.
 
 [Bitcoin Optech](https://bitcoinops.org/) - Helping Bitcoin users and businesses integrate scaling technologies by providing workshops, documentation, weekly newsletters, original research, case studies and announcements, analysis of Bitcoin software and services, and a podcast
 
-[Bitcoin Resources](https://bitcoin-resources.com/)
+[Bitcoin Resources](https://bitcoin-resources.com/) - Provides numerous Bitcoin related resources including videos, books, articles, podcasts, and more
 
 [Bitcoin Stack Exchange](https://bitcoin.stackexchange.com/) - Question and answer site for Bitcoin cryptocurrency enthusiasts
 
-[Bitcoin University](https://www.youtube.com/@Bitcoin_University)
+[Bitcoin University](https://www.youtube.com/@Bitcoin_University) - Educational content devoted to Bitcoin, financial freedom, self-sovereignty, and relevant macro and financial news
 
-[Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
+[Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page) - Wiki dedicated to providing all of your Bitcoin information needs including how to get started, software, mining, exchanges, technical content, economics, and more
 
 [BTC Sessions](https://www.btcsessions.ca/) - Bitcoin educator focused on helping people gain an understanding of Bitcoin by providing tutorials on wallets, hardware, security, exchanges, and more
 
@@ -99,7 +99,7 @@ The topics and links are presented in alphabetical order.
 
 [Keep it Simple](https://www.keepitsimplebitcoin.com/) - Focused on teaching people how to interact with Bitcoin
 
-[Odell](https://odell.xyz/)
+[Odell](https://odell.xyz/) - A Bitcoin entrepreneur attempting to stay humble and stack sats with a focus on using Bitcoin and free and open source software as sovereignly and privately as possible
 
 [We Run BTC](https://werunbtc.com/) - Focused on providing guides and resources about Bitcoin with an emphasis on how to interact with Bitcoin in a sovereign and private way
 
