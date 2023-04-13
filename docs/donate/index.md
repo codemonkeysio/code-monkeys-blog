@@ -63,7 +63,8 @@ h1
 
 h2
   color: $accentColor
-  margin: 1.875rem 0
+  margin: -2.125rem 0 1.875rem
+  padding-top: 4.6rem
 
 .topic-card
   border: 0.125rem solid $darkBorderColor

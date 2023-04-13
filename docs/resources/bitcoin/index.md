@@ -337,7 +337,12 @@ h1
 
 h2
   color: $accentColor
-  margin: 1.875rem 0
+  margin: -2.125rem 0 1.875rem
+  padding-top: 4.6rem
+
+h3
+  margin: -4.6rem 0 1.875rem
+  padding-top: 4.6rem
 
 .resource-card
   border: 0.125rem solid $darkBorderColor
