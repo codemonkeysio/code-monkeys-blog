@@ -215,17 +215,17 @@ The topics and links are presented in alphabetical order.
 
 [Bitcoin Explained](https://podcasters.spotify.com/pod/show/bitcoin-explained) - If you're interested in learning more about the technical side of Bitcoin, then you should check out this podcast with Bitcoin Magazine's Technical editor Aaron van Wirdum and Bitcoin core contributor Sjors Provoost
 
-[Bitcoin Fixes This](https://podcasters.spotify.com/pod/show/jimmysong)
+[Bitcoin Fixes This](https://podcasters.spotify.com/pod/show/jimmysong) - An exploration of the impact Bitcoin has had and continues to have on multiple aspects of society hosted by Jimmy Song
 
-[Bitcoin Fundamentals](https://www.theinvestorspodcast.com/bitcoin-fundamentals/)
+[Bitcoin Fundamentals](https://www.theinvestorspodcast.com/bitcoin-fundamentals/) - Show focused on discussing Bitcoin fundamentals, investing, and news hosted by Preston Pysh
 
-[Bitcoin Review Podcast](https://bitcoin.review/)
+[Bitcoin Review Podcast](https://bitcoin.review/) - Technical updates and commentary on Bitcoin and related projects hosted by Rodolfo Novak (NVK)
 
-[Citadel Dispatch](https://citadeldispatch.com/) - An interactive live show about Bitcoin and freedom tech with an emphasis on actionable steps one can take to become more sovereign and private when using Bitcoin
+[Citadel Dispatch](https://citadeldispatch.com/) - An interactive live show about Bitcoin and freedom tech with an emphasis on actionable steps one can take to become more sovereign and private when using Bitcoin hosted by Matt Odell
 
 [Rabbit Hole Recap](https://rhr.tv/) - Recap of the weeks events in the world of Bitcoin hosted by Matt Odell and Marty Bent
 
-[The Bitcoin Standard Podcast](https://saifedean.com/podcast)
+[The Bitcoin Standard Podcast](https://saifedean.com/podcast) - Discusses Bitcoin, Austrian economics, and various news and events hosted by Saifedean Ammous
 
 [What Bitcoin Did](https://www.whatbitcoindid.com/) - A tri-weekly Bitcoin podcast where host Peter McCormack interviews experts in the world of Bitcoin development, privacy, investment and adoption
 
@@ -255,7 +255,7 @@ The topics and links are presented in alphabetical order.
 
 ### Reviews
 
-[Metal Bitcoin Seed Storage Reviews](https://jlopp.github.io/metal-bitcoin-storage-reviews/) - Stress test and reviews of seed storage devices by Jameson Lopp the grades are based on how well the devices resist heat, corrosion, and being crushed
+[Metal Bitcoin Seed Storage Reviews](https://jlopp.github.io/metal-bitcoin-storage-reviews/) - Stress tests and reviews of seed storage devices by Jameson Lopp the grades are based on how well the devices resist heat, corrosion, and being crushed
 
 ### Storage Devices
 
@@ -267,7 +267,7 @@ The topics and links are presented in alphabetical order.
 
 [Quadrat Register](https://qreg.tech/)
 
-[Seedplate](https://bitcoinseedbackup.com/)
+[Seedplate](https://bitcoinseedbackup.com/) - Single plate design, 12 words per side, etch marks chemically colored in black for better legibility, designed to be small, compatible with Seed XOR, received an overall grade of A from Jameson Lopp, and made by Coinkite in Canada
 
 </div>
 
@@ -315,7 +315,7 @@ The topics and links are presented in alphabetical order.
 
 ## Statistics
 
-[Mempool Observer](https://mempool.observer/)
+[Mempool Observer](https://mempool.observer/) - Interesting statistics about the Bitcoin mempool including current data, historical data, recent blocks, Segregated Witness (SegWit) data, a transaction monitor, and more
 
 </div>
 
