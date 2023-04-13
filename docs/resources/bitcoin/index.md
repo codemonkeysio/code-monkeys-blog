@@ -75,7 +75,7 @@ The topics and links are presented in alphabetical order.
 
 [6102bitcoin](https://6102bitcoin.com/) - Pseudonymous bitcoin user and educator with the goal of accelerating bitcoin understanding
 
-[Bitcoiner.Guide](https://bitcoiner.guide/)
+[Bitcoiner.Guide](https://bitcoiner.guide/) - A collection of resources from BitcoinQnA focused on providing Bitcoin education with an emphasis on how to use Bitcoin in a sovereign and private way
 
 [Bitcoin Only](https://bitcoin-only.com/) - A collection of high quality Bitcoin resources including meetups, books, wallets, hardware, podcasts, and more
 
@@ -101,7 +101,7 @@ The topics and links are presented in alphabetical order.
 
 [Odell](https://odell.xyz/)
 
-[We Run BTC](https://werunbtc.com/)
+[We Run BTC](https://werunbtc.com/) - Focused on providing guides and resources about Bitcoin with an emphasis on how to interact with Bitcoin in a sovereign and private way
 
 </div>
 
