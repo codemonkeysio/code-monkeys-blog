@@ -171,7 +171,7 @@ The topics and links are presented in alphabetical order.
 
 [RoninDojo](https://ronindojo.io/) - Open source high performance plug and play full node with an emphasis on maintaining strong privacy while interacting with Bitcoin
 
-[Start9](https://start9.com/)
+[Start9](https://start9.com/) - They develop the open source Linux-based Operating System (OS) embassyOS which is built specifically for self-hosting open source software like a Bitcoin full node, a Lightning full node, Mempool.space, and more. You have the option of buying a prebuilt server or you can build your own server and install embassyOS on it
 
 [Umbrel](https://umbrel.com/) - Open source Operating System (OS) for running a personal server in your home that allows you to self-host numerous apps like Nextcloud, a Bitcoin full node, a Lightning node, and more
 
