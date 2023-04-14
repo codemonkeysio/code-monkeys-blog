@@ -289,9 +289,9 @@ The topics and links are presented in alphabetical order.
 
 [Breez](https://breez.technology/) - Open source Android and iOS full-service, non-custodial Lightning client that offers many features like cloud backups, connecting to multiple nodes including your own, built-in next-generation podcast player, and more
 
-[Phoenix](https://phoenix.acinq.co/)
+[Phoenix](https://phoenix.acinq.co/) - Open source Android and iOS non-custodial Lightning wallet and node that offers many features and is powered by Eclair
 
-[RTL](https://github.com/Ride-The-Lightning/RTL)
+[RTL](https://github.com/Ride-The-Lightning/RTL) - Open source full function, device agnostic, web user interface Lightning wallet and node management tool available on Lightning Network Daemon (LND), Core Lightning, and Eclair implementations
 
 [Zap](https://zaphq.io/) - Open source non-custodial Lightning wallet available for Android, iOS, Linux, macOS, and Windows that offers many features including connecting to your own Lightning node
 
