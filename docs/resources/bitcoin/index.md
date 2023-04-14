@@ -165,7 +165,7 @@ The topics and links are presented in alphabetical order.
 
 [myNode](https://mynodebtc.com/)
 
-[Nodl](https://www.nodl.eu/)
+[Nodl](https://www.nodl.eu/) - Open source prebuilt Bitcoin and Lightning full node that comes with many features including BTCPay Server, Whirlpool, Tor support, Electrum Rust Server (Electrs), Ride the Lightning (RTL), BTC RPC Explorer, and more
 
 [RaspiBolt](https://raspibolt.org/) - Set up your own Bitcoin and Lightning node from scratch doing everything yourself. You'll learn about Linux, Bitcoin, and Lightning
 
