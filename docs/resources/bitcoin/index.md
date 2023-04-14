@@ -115,7 +115,7 @@ The topics and links are presented in alphabetical order.
 
 ## Hardware Wallets
 
-[Coldcard](https://coldcard.com/)
+[Coldcard](https://coldcard.com/) - Viewable, editable, and verifiable source code, Bitcoin-only, and has numerous security features including dual secure elements, air-gapped, i.e., can be used without ever connecting it directly to a computer, duress PIN, comes in a tamper-evident numbered bag with the bag number recorded into the device, and more
 
 [SeedSigner](https://seedsigner.com/)
 
