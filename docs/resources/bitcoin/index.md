@@ -169,7 +169,7 @@ The topics and links are presented in alphabetical order.
 
 [RaspiBolt](https://raspibolt.org/) - Set up your own Bitcoin and Lightning node from scratch doing everything yourself. You'll learn about Linux, Bitcoin, and Lightning
 
-[RoninDojo](https://ronindojo.io/)
+[RoninDojo](https://ronindojo.io/) - Open source high performance plug and play full node with an emphasis on maintaining strong privacy while interacting with Bitcoin
 
 [Start9](https://start9.com/)
 
