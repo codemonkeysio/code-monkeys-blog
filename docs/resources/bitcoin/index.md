@@ -275,19 +275,19 @@ The topics and links are presented in alphabetical order.
 
 ### Lightning and On-Chain
 
-[Blue Wallet](https://bluewallet.io/)
+[Blue Wallet](https://bluewallet.io/) - Open source wallet for Android and iOS that supports numerous features including multiple wallets, watch-only wallets, multisig vault, fee and transaction control, plausible deniability, batch transactions, coin control, PayJoin, ability to use your own Bitcoin and Lightning nodes, and more
 
-[Electrum](https://electrum.org/#home)
+[Electrum](https://electrum.org/#home) - Open source wallet for Linux, macOS, Windows, and Android that supports numerous features including multiple wallets, watch-only wallets, multisig, fee and transaction control, passphrases, coin control, ability to use your own Bitcoin node, and more
 
 [Fully Noded](https://fullynoded.app/)
 
-[Muun](https://muun.com/)
+[Muun](https://muun.com/) - Open source wallet for Android and iOS that uses a unique 2 of 2 multisig setup that stores only one private key on your phone and both of the private keys in an emergency kit which allows for a balance between hot and cold storage
 
 ### Lightning Only
 
-[Alby](https://getalby.com/)
+[Alby](https://getalby.com/) - Open source browser extension that allows you to connect one or multiple Lightning wallets and control them in your browser, generate and manage multiple Nostr keys, and interact with numerous Bitcoin applications seamlessly. Note connecting your own Lightning node is an experimental feature, so the extension uses a custodial Lightning node which means you're trusting a third-party with your funds and privacy
 
-[Breez](https://breez.technology/)
+[Breez](https://breez.technology/) - Open source Android and iOS full-service, non-custodial Lightning client that offers many features like cloud backups, connecting to multiple nodes including your own, built-in next-generation podcast player, and more
 
 [Phoenix](https://phoenix.acinq.co/)
 
