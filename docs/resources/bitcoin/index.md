@@ -257,13 +257,13 @@ The topics and links are presented in alphabetical order.
 
 ### Storage Devices
 
-[Bitplates](https://www.bitplates.com/)
+[Bitplates](https://www.bitplates.com/) - Multiple plate sizes available, uses stainless steel (Marine Grade 316L), plates are laser cut for precision and engraved to ensure permanent marking, suitable for use with BIP39 and SLIP39 compatible Bitcoin wallets, up to 24 seed words per plate, and received an overall grade of A from Jameson Lopp
 
-[Blockplate](https://www.blockplate.com/)
+[Blockplate](https://www.blockplate.com/) - Inventor of center punch style seed storage, 12 word, 24 word, and passphrase plates available, uses thick 12 gauge stainless steel, plates are laser cut for precision and engraved to ensure permanent marking, received an overall grade of A from Jameson Lopp, and made in the USA
 
-[Codl](https://codl.co/)
+[Codl](https://codl.co/) - Multiple plate sizes and types of plates available including passphrase plates, uses 304 stainless steel, received an overall grade of A from Jameson Lopp, made in the USA, and they make a really cool stainless steel copy of the Bitcoin white paper
 
-[Quadrat Register](https://qreg.tech/)
+[Quadrat Register](https://qreg.tech/) - Multiple plate sizes and types of plates available, uses AISI 316 Ti stainless steel, received an overall grade of A from Jameson Lopp, made in Germany
 
 [Seedplate](https://bitcoinseedbackup.com/) - Single plate design, 12 words per side, etch marks chemically colored in black for better legibility, designed to be small, compatible with Seed XOR, received an overall grade of A from Jameson Lopp, and made by Coinkite in Canada
 
