@@ -301,9 +301,9 @@ The topics and links are presented in alphabetical order.
 
 [Nunchuk](https://nunchuk.io/)
 
-[Samourai](https://samouraiwallet.com/)
+[Samourai](https://samouraiwallet.com/) - Open source Android wallet focused on interacting with Bitcoin as privately as possible. It supports numerous features including full offline mode, Segregated Witness (SegWit), sending to Taproot addresses, smart miner fees, connecting to your own Bitcoin full node, PayNyms, batch spending, scrambled PIN, stealth mode, whirlpool, multiple types of ways to spend privately, and more
 
-[Sparrow](https://sparrowwallet.com/)
+[Sparrow](https://sparrowwallet.com/) - Open source wallet for Linux, macOS, and Windows that supports numerous features including the ability to use all Hierarchical Deterministic (HD) wallets, strong encryption, detailed wallet history, coin control, connecting to your own Bitcoin full node, using your own blockchain explorer, mixing with whirlpool, and more
 
 [Specter](https://specter.solutions/desktop/)
 
