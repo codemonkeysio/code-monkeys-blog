@@ -167,7 +167,7 @@ The topics and links are presented in alphabetical order.
 
 [Nodl](https://www.nodl.eu/)
 
-[RaspiBolt](https://raspibolt.org/)
+[RaspiBolt](https://raspibolt.org/) - Set up your own Bitcoin and Lightning node from scratch doing everything yourself. You'll learn about Linux, Bitcoin, and Lightning
 
 [RoninDojo](https://ronindojo.io/)
 
@@ -195,15 +195,15 @@ The topics and links are presented in alphabetical order.
 
 ### Exchanges
 
-[AgoraDesk](https://agoradesk.com/)
+[AgoraDesk](https://agoradesk.com/) - Closed source peer-to-peer (P2P) exchange with Tor support, accepts Bitcoin, Monero, and cash, allows you to swap coins, requires an account that doesn't need to use any personally identifiable information, uses a semi-custodial wallet, no JavaScript needed to use the service, the service has an API available, and Android and iOS apps are available
 
-[Bisq](https://bisq.network/)
+[Bisq](https://bisq.network/) - Open source peer-to-peer (P2P) exchange that you run on your own hardware over Tor, accepts Bitcoin, Monero, and cash, allows you to swap coins, doesn't require an account, uses a non-custodial wallet, and no JavaScript needed to use the service
 
-[Hodl Hodl](https://hodlhodl.com/?filters%5Bcurrency_code%5D=UAH)
+[Hodl Hodl](https://hodlhodl.com/?filters%5Bcurrency_code%5D=UAH) - Closed source peer-to-peer (P2P) exchange without Tor support, accepts Bitcoin lightning payments and cash, allows you to swap coins, requires an account that doesn't need to use any personally identifiable information, uses a non-custodial wallet, JavaScript is needed to use the service, the service has an API available, and refunds may require KYC
 
-[Peach](https://peachbitcoin.com/)
+[Peach](https://peachbitcoin.com/) - Closed source peer-to-peer (P2P) exchange without Tor support, accepts Bitcoin and cash, doesn't allow you to swap coins, doesn't require an account, uses a non-custodial wallet, no JavaScript needed to use the service, Android and iOS apps are available, and refunds are handled without the need of a KYC procedure
 
-[Robosats](https://learn.robosats.com/)
+[Robosats](https://learn.robosats.com/) - Open source peer-to-peer (P2P) exchange with Tor support, accepts Bitcoin lightning payments and cash, allows you to swap coins, doesn't require an account, uses a non-custodial wallet, and the service has an API available
 
 </div>
 
