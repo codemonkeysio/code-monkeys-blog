@@ -115,11 +115,11 @@ The topics and links are presented in alphabetical order.
 
 ## Hardware Wallets
 
-[Coldcard](https://coldcard.com/) - Viewable, editable, and verifiable source code, Bitcoin-only, and has numerous security features including dual secure elements, air-gapped, i.e., can be used without ever connecting it directly to a computer, duress PIN, comes in a tamper-evident numbered bag with the bag number recorded into the device, and more
+[Coldcard Mk4](https://coldcard.com/) - Viewable, editable, and verifiable source code, Bitcoin-only, and has numerous security features including dual secure elements to store your private key, air-gapped, i.e., can be used without ever connecting it directly to a computer, duress PIN, comes in a tamper-evident numbered bag with the bag number recorded into the device, and more
 
-[SeedSigner](https://seedsigner.com/)
+[SeedSigner](https://seedsigner.com/) - Build your own air-gapped and stateless hardware wallet using publicly available hardware components. The benefits of creating your own hardware wallet are you're not relying on centralized companies, and you can buy the pieces privately from multiple vendors spaced out over time. Note that there are no secure elements used to store your private key and you're relying on closed source hardware since it uses a Raspberry Pi
 
-[Trezor](https://trezor.io/)
+[Trezor Model T](https://trezor.io/) - Open source hardware and software that has numerous security features including PIN and passphrase entry directly into the device, shamir backup, FIDO2 and U2F authentication standards, transaction anonymization using CoinJoin, and more. Note that there are no secure elements used to store your private key
 
 </div>
 
