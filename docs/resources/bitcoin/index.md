@@ -279,7 +279,7 @@ The topics and links are presented in alphabetical order.
 
 [Electrum](https://electrum.org/#home) - Open source wallet for Linux, macOS, Windows, and Android that supports numerous features including multiple wallets, watch-only wallets, multisig, fee and transaction control, passphrases, coin control, ability to use your own Bitcoin node, and more
 
-[Fully Noded](https://fullynoded.app/)
+[Fully Noded](https://fullynoded.app/) - Open source wallet for iOS and macOS that automatically prompts you to connect your own Bitcoin full node and acts as an offline signer using your node as a watch-only wallet
 
 [Muun](https://muun.com/) - Open source wallet for Android and iOS that uses a unique 2 of 2 multisig setup that stores only one private key on your phone and both of the private keys in an emergency kit which allows for a balance between hot and cold storage
 
