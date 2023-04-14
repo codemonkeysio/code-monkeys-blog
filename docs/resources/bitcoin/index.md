@@ -293,9 +293,9 @@ The topics and links are presented in alphabetical order.
 
 [RTL](https://github.com/Ride-The-Lightning/RTL)
 
-[Zap](https://zaphq.io/)
+[Zap](https://zaphq.io/) - Open source non-custodial Lightning wallet available for Android, iOS, Linux, macOS, and Windows that offers many features including connecting to your own Lightning node
 
-[Zeus](https://zeusln.app/)
+[Zeus](https://zeusln.app/) - Open source Android and iOS non-custodial Lightning wallet that offers many features including connecting to your own Lightning node
 
 ### On-Chain Only
 
