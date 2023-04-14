@@ -17,15 +17,13 @@ The topics and links are presented in alphabetical order.
 
 <div class="resource-card">
 
-## Block Explorers
+## Blockchain Explorers
 
-[Blockstream](https://blockstream.info/)
+[Blockstream Explorer](https://blockstream.info/) - Open source blockchain explorer that supports Bitcoin mainnet, Bitcoin testnet, Liquid mainnet, and Liquid testnet that can be used with Tor to conceal your IP address
 
-[KYCP](https://kycp.org/#/)
+[Mempool.space](https://mempool.space/) - Open source self-hostable mempool explorer and blockchain explorer for Bitcoin that can be used with Tor to conceal your IP address
 
-[Mempool.space](https://mempool.space/)
-
-[OXT](https://oxt.me/)
+[Other eXploration Tool (OXT)](https://oxt.me/) - Blockchain explorer, visualization tool, and analysis platform for the Bitcoin ledger. Be sure to check out the [FAQ](https://oxt.me/faq) page to see how they handle your personal information when using the site
 
 </div>
 
@@ -314,6 +312,8 @@ The topics and links are presented in alphabetical order.
 <div class="resource-card">
 
 ## Statistics
+
+[Know Your Coin Privacy (KYCP)](https://kycp.org/#/) - Open source online tool for users to visualize the degree of privacy in a Bitcon transaction. Their zero log policy states KYCP is a static client for OXT, no backend or third-party service involved other than OXT, queries are directly sent to OXT over HTTPS, and there is no way to see or log your searches
 
 [Mempool Observer](https://mempool.observer/) - Interesting statistics about the Bitcoin mempool including current data, historical data, recent blocks, Segregated Witness (SegWit) data, a transaction monitor, and more
 
