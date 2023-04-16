@@ -26,7 +26,9 @@ The topics are presented in alphabetical order.
 
 </div>
 
-Cyber Hornets
+"The root problem with conventional currency is all the trust that’s required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust." - Satoshi Nakamoto
+
+Bitcoin is a decentralized digital currency that enables instant payments to anyone, anywhere in the world. Bitcoin uses peer-to-peer (P2P) technology to operate with no central authority: transaction management and money issuance are carried out collectively by the network.
 
 </div>
 
@@ -77,7 +79,7 @@ It doesn't rely on any trusted central server, hence it is resilient; it is base
 
 “Privacy is the power to selectively reveal oneself to the world." - Eric Hughes
 
-If you're interested in learning more about why privacy is important especially in our digital age, then be sure to check out these resources which include tools that you can use to increase and maintain your privacy.
+To learn more about why privacy is important especially in our digital age, then be sure to check out these resources which include tools that you can use to increase and maintain your privacy.
 
 </div>
 
@@ -92,7 +94,7 @@ If you're interested in learning more about why privacy is important especially 
 
 </div>
 
-If you're interested in learning about the process of building, programming, and maintaining websites and web applications using HTML, CSS, JavaScript, TypeScript, etc., then be sure to check out these resources.
+To learn about the process of building, programming, and maintaining websites and web applications using HTML, CSS, JavaScript, TypeScript, etc., then be sure to check out these resources.
 
 </div>
 
