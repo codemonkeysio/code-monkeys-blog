@@ -90,7 +90,7 @@ Edward Snowden
 
 </div>
 
-Net Ninja
+If you're interested in learning about the process of building, programming, and maintaining websites and web applications using HTML, CSS, JavaScript, TypeScript, etc., then be sure to check out these resources.
 
 </div>
 
