@@ -75,7 +75,9 @@ It doesn't rely on any trusted central server, hence it is resilient; it is base
 
 </div>
 
-Edward Snowden
+“Privacy is the power to selectively reveal oneself to the world." - Eric Hughes
+
+If you're interested in learning more about why privacy is important especially in our digital age, then be sure to check out these resources which include tools that you can use to increase and maintain your privacy.
 
 </div>
 

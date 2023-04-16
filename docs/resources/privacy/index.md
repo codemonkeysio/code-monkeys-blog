@@ -115,6 +115,8 @@ The topics and links are presented in alphabetical order.
 
 ## Guides
 
+[A Cypherpunk's Manifesto](https://www.activism.net/cypherpunk/manifesto.html) - A summary of the importance of privacy in the digital age written by Eric Hughes
+
 [Prism Break](https://prism-break.org/en/all/) - Website dedicated to providing information about privacy services, tools, and protocols
 
 [Privacy Tests](https://privacytests.org/) - Open source tests of web browser privacy
