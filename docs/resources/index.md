@@ -56,7 +56,9 @@ Richard Stallman
 
 </div>
 
-fiatjaf
+The simplest open protocol that is able to create a censorship-resistant global "social" network once and for all.
+
+It doesn't rely on any trusted central server, hence it is resilient; it is based on cryptographic keys and signatures, so it is tamperproof; it does not rely on peer-to-peer (P2P) techniques, and therefore it works.
 
 </div>
 
