@@ -41,7 +41,9 @@ Cyber Hornets
 
 </div>
 
-Richard Stallman
+“Free software” means software that respects users' freedom and community. Roughly, it means that the users have the freedom to run, copy, distribute, study, change, and improve the software.
+
+"Open source software" also gives the users the ability to run, copy, distribute, study, change, and improve the software; however, it does not share the same goal of making sure the software that is being developed is actually attempting to improve users' freedom.
 
 </div>
 
