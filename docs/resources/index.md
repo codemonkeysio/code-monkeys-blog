@@ -11,9 +11,13 @@ canonicalUrl: resources/
 
 :::
 
-Here you'll find a list of topics I'm interested in. Click on a topic to view links to resources.
+Here you'll find a list of topics I'm interested in presented in alphabetical order. The goal of providing resources for these topics is to help people learn more about programming as well as to provide people with free and open source software that also respects their privacy.
 
-The topics are presented in alphabetical order.
+Moving over to using only free and open source software that also respects users' privacy is a process, so don't feel like you have to switch everything at once. I'm still using proprietary software that doesn't respect users' privacy, and I may continue to do so if I feel the pros outweigh the cons. However, over time if possible I would prefer to phase out all of the proprietary software I'm using.
+
+While I believe these links are to resources that will help you gain a better conceptual and practical understanding of the topics, I haven't personally used and verified all of these resources. Be sure to do your own research and always double check the links are bringing you to the correct sites, especially when dealing with a site related to privacy or finances. Don't trust, verify.
+
+I'll be updating these resources from time to time, so if you have any suggestions on how to improve them let me know.
 
 <div
   class="resource-card"
