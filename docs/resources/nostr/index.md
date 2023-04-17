@@ -11,9 +11,9 @@ canonicalUrl: resources/nostr/
 
 :::
 
-Here you'll find a list of resources related to Notes and Other Stuff Transmitted by Relays (Nostr).
+Here you'll find a list of resources related to Notes and Other Stuff Transmitted by Relays (Nostr) presented in alphabetical order. The way the Nostr protocol works along with the fact that it is still in early development means you may come across inappropriate material on some of the sites.
 
-The topics and links are presented in alphabetical order.
+While I believe these links are to resources that are attempting to remove unrelated and inappropriate content and will help you gain a better conceptual and practical understanding of Nostr, I cannot guarantee that will always be the case. Be sure to do your own research and always double check the links are bringing you to the correct sites. Don't trust, verify.
 
 <div class="resource-card">
 
