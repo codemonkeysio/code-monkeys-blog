@@ -11,7 +11,7 @@ canonicalUrl: resources/foss/
 
 :::
 
-Here you'll find a list of resources related to free and open source software (FOSS) presented in alphabetical order. While I believe these links are to resources that will help you gain a better conceptual and practical understanding of FOSS, I haven't personally used and verified all of the information contained within each site. Be sure to do your own research and always double check the links are bringing you to the correct sites. Don't trust, verify.
+Here you'll find a list of resources related to free and open source software (FOSS) presented in alphabetical order that should help you gain a better conceptual and practical understanding of the topic.
 
 <div class="resource-card">
 

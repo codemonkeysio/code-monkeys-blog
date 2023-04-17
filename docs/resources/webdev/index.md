@@ -11,9 +11,7 @@ canonicalUrl: resources/webdev/
 
 :::
 
-Here you'll find a list of resources related to web development.
-
-The topics and links are presented in alphabetical order.
+Here you'll find a list of resources related to web development presented in alphabetical order that should help you gain a better conceptual and practical understanding of the topic.
 
 <div class="resource-card">
 
