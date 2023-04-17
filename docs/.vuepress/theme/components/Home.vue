@@ -73,7 +73,6 @@ export default {
     cursor: pointer
     .v-lazy-image
       filter: blur(10px)
-      transition: filter 5s
       will-change: filter
     .v-lazy-image-loaded
       filter: blur(0)
