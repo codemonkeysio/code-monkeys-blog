@@ -2,11 +2,11 @@
   <main
     class="home"
     :aria-labelledby="data.heroText !== null ? 'main-title' : null"
-  >
+  > 
     <header class="hero" @click="$router.push(`${data.actionLink}`)">
       <v-lazy-image
-        v-if="data.heroImage"
-        :src="$withBase(data.heroImage)"
+        src="/images/code-monkeys-logos/code-monkeys-full-logo-260w.png"
+        src-placeholder="/images/code-monkeys-logos/code-monkeys-full-logo-175w.png"
         :alt="data.heroAlt || 'hero'"
       />
 
@@ -71,6 +71,12 @@ export default {
   .hero
     text-align: center
     cursor: pointer
+    .v-lazy-image
+      filter: blur(10px)
+      transition: filter 0.7s
+      will-change: filter
+    .v-lazy-image-loaded
+      filter: blur(0)
     img
       max-width: 100%
       max-height: 17.5rem
