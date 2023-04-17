@@ -11,9 +11,7 @@ canonicalUrl: resources/nostr/
 
 :::
 
-Here you'll find a list of resources related to privacy.
-
-The topics and links are presented in alphabetical order.
+Here you'll find a list of resources related to privacy presented in alphabetical order. While I believe these links are to resources that will help you gain better privacy, I haven't personally used and verified all of them. Also, using these recommended resources doesn't guarantee that you'll achieve perfect privacy. Be sure to do your own research and always double check the links are bringing you to the correct sites. Don't trust, verify.
 
 <div class="resource-card">
 
