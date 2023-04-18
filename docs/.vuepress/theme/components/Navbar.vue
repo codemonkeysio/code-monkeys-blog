@@ -6,8 +6,8 @@
       <v-lazy-image
         v-if="$site.themeConfig.logo"
         class="logo"
-        src="/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo-200w.png"
-        src-placeholder="/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo-35w.png"
+        :src="$withBase(`${$site.themeConfig.logo}`)"
+        :src-placeholder="$withBase('/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo-35w.png')"
         :alt="`${$siteTitle} Head and Shoulders Logo`"
       />
       <span
