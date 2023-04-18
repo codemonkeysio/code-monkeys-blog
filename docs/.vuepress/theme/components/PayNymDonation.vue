@@ -122,8 +122,8 @@ export default {
     flex-direction: column
     align-items: center
     .bot
-      max-width: 9.375rem
-      max-height: 9.375rem
+      width: 9.375rem
+      height: 9.375rem
       margin-bottom: 1.25rem
       .v-lazy-image
         filter: blur(0.35625rem)
