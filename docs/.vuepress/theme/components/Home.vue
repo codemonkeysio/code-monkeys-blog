@@ -4,12 +4,13 @@
     :aria-labelledby="data.heroText !== null ? 'main-title' : null"
   > 
     <header class="hero" @click="$router.push(`${data.actionLink}`)">
-      <v-lazy-image
-        src="/images/code-monkeys-logos/code-monkeys-full-logo-260w.png"
-        src-placeholder="/images/code-monkeys-logos/code-monkeys-full-logo-175w.png"
-        :alt="data.heroAlt || 'hero'"
-      />
-
+      <div class="logo-wrapper">
+        <v-lazy-image
+          src="/images/code-monkeys-logos/code-monkeys-full-logo-260w.png"
+          src-placeholder="/images/code-monkeys-logos/code-monkeys-full-logo-150w.png"
+          :alt="data.heroAlt || 'hero'"
+        />
+      </div>
       <h1 v-if="data.heroText !== null" id="main-title">
         {{ data.heroText || $title || 'Hello' }}
       </h1>
@@ -71,16 +72,16 @@ export default {
   .hero
     text-align: center
     cursor: pointer
-    .v-lazy-image
-      filter: blur(10px)
-      will-change: filter
-    .v-lazy-image-loaded
-      filter: blur(0)
-    img
-      max-width: 100%
-      max-height: 17.5rem
-      display: block
+    .logo-wrapper
       margin: 3rem auto 1.5rem
+      .v-lazy-image
+        filter: blur(0.625rem)
+        will-change: filter
+        width: 100%
+      .v-lazy-image-loaded
+        filter: blur(0)
+      img
+        display: block
     h1, .description, .action
       margin: 1.8rem auto
     .description
@@ -123,10 +124,7 @@ export default {
 @media (max-width: 44.9375rem)
   .home
     .hero
-      img
-        width: 45%
-        height: auto
-        min-width: 10.9375rem
+      .logo-wrapper
         margin-top: 1.8rem
     .features
       flex-direction: column
@@ -138,7 +136,7 @@ export default {
 @media (max-width: 32.5rem)
   .home
     .hero
-      img
+      .logo-wrapper
         margin-top: 1.5rem
       h1, .description, .action
         margin: 1.5rem auto
@@ -146,9 +144,9 @@ export default {
 @media (max-width: 26.1875rem)
   .home
     .hero
-      img
-        max-height: 13.125rem
-        margin: 1.2rem auto
+      .logo-wrapper
+        margin-top: 1.2rem
+        margin-bottom: 1.2rem
       h1, .description, .action
         margin: 1.2rem auto
       .action-button
@@ -158,7 +156,25 @@ export default {
 @media (max-width: 19.375rem)
   .home
     .hero
-      img
-        width: 98%
+      .logo-wrapper
+        width: 95%
         min-width: 9.375rem
+
+@media (min-width: 19.4375rem)
+  .home
+    .hero
+      .logo-wrapper
+        width: 10.625rem
+
+@media (min-width: 32.5625rem)
+  .home
+    .hero
+      .logo-wrapper
+        width: 44.2%
+
+@media (min-width: 45rem)
+  .home
+    .hero
+      .logo-wrapper
+        width: 16.25rem
 </style>
