@@ -5,6 +5,7 @@
         <div class="logo">
           <v-lazy-image
             :src="$withBase(`/images/${donation.logo}`)"
+            :src-placeholder="$withBase(`/images/${donation.placeholder}`)"
             :alt="donation.alt || 'Donation Logo'"
           />
         </div>
@@ -112,6 +113,13 @@ export default {
       margin-right: 4.1875rem
       .logo
         min-width: 3.125rem
+        .v-lazy-image
+          filter: blur(0.1125rem)
+          will-change: filter
+          width: 100%
+        .v-lazy-image-loaded
+          transition: filter 0.7s
+          filter: blur(0)
       .name-and-abbreviation
         margin-left: 1.25rem
     .address-break
