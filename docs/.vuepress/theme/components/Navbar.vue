@@ -6,7 +6,8 @@
       <v-lazy-image
         v-if="$site.themeConfig.logo"
         class="logo"
-        :src="$withBase($site.themeConfig.logo)"
+        src="/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo-200w.png"
+        src-placeholder="/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo-35w.png"
         :alt="`${$siteTitle} Head and Shoulders Logo`"
       />
       <span
@@ -126,6 +127,12 @@ $navbar-horizontal-padding = 1.5rem
     min-width $navbarHeight - 1.4rem
     margin-right 0.8rem
     vertical-align top
+  .v-lazy-image
+    filter: blur(0.084375rem)
+    will-change: filter
+  .v-lazy-image-loaded
+    transition: filter 0.7s
+    filter: blur(0)
   .site-name
     font-size 1.3rem
     font-weight 600
