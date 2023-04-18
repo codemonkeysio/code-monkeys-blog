@@ -21,6 +21,7 @@
           <div class="logo">
             <v-lazy-image
               :src="$withBase(`/images/${topicDetails[index].logo}`)"
+              :src-placeholder="$withBase(`/images/${topicDetails[index].placeholder}`)"
               :alt="topicDetails[index].alt"
             />
           </div>
@@ -111,6 +112,13 @@ export default {
       padding-left: 1.125rem
       padding-bottom: 1.125rem
       transition: transform 0.2s
+      .v-lazy-image
+        filter: blur(0.375rem)
+        will-change: filter
+        width: 100%
+      .v-lazy-image-loaded
+        transition: filter 0.7s
+        filter: blur(0)
   .topic-card:hover
     box-shadow: 0.125rem 0.5rem 1rem 0.125rem $darkBoxShadowColor
     .logo
