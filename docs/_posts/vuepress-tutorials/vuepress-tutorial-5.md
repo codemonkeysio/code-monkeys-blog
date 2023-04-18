@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn about the configuration basics for VuePress, then check out VuePress Tutorial 5 - Configuration Basics! 🍌🐒
 preview: Currently, the site consists of a homepage with a title saying "Hello VuePress", and a search box which builds an index from...
 img: vuepress-tutorials/tutorial-5/vuepress-tutorial-5-configuration-basics-post.png
+placeholder: vuepress-tutorials/tutorial-5/vuepress-tutorial-5-configuration-basics-post-90w.png
 alt: VuePress Tutorial 5 - Configuration Basics Post Picture
 linkImg: vuepress-tutorials/tutorial-5/vuepress-tutorial-5-configuration-basics-post-link.png
 linkImgAlt: VuePress Tutorial 5 - Configuration Basics Image

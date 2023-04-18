@@ -5,6 +5,7 @@ topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Remove Duplicates from Sorted Array! 🍌🐒
 preview: Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each...
 img: leetcode/05-remove-duplicates-from-sorted-array/leetcode-remove-duplicates-from-sorted-array-post.png
+placeholder: leetcode/05-remove-duplicates-from-sorted-array/leetcode-remove-duplicates-from-sorted-array-post-90w.png
 alt: LeetCode - Remove Duplicates from Sorted Array Post Picture
 linkImg: leetcode/05-remove-duplicates-from-sorted-array/leetcode-remove-duplicates-from-sorted-array-post-link.png
 linkImgAlt: LeetCode - Remove Duplicates from Sorted Array Solution Image

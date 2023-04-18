@@ -5,6 +5,7 @@ topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Single Number! 🍌🐒
 preview: Given a non-empty array of integers nums, every element appears twice excepet for one. Find that single...
 img: leetcode/01-single-number/leetcode-single-number-post.png
+placeholder: leetcode/01-single-number/leetcode-single-number-post-90w.png
 alt: LeetCode - Single Number Post Picture
 linkImg: leetcode/01-single-number/leetcode-single-number-post-link.png
 linkImgAlt: LeetCode - Single Number Solution Image

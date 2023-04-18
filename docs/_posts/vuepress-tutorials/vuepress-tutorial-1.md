@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 If you're interested in learning Vuepress, then check out VuePress Tutorial 1 - Introduction! 🍌🐒
 preview: Welcome to our VuePress series! In this series we'll be developing the Code Monkeys Blog starting from the basics...
 img: vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post.png
+placeholder: vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post-90w.png
 alt: VuePress Tutorial 1 - Introduction Post Picture
 linkImg: vuepress-tutorials/tutorial-1/vuepress-tutorial-1-introduction-post-link.png
 linkImgAlt: VuePress Tutorial 1 - Introduction Image

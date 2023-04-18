@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Ready to continue the homepage styling for your VuePress site, then check out VuePress Tutorial 10 - Homepage Styling Part 2! 🍌🐒
 preview: In the previous tutorial we began the process of styling the homepage. By the end of the tutorial we overrode the global...
 img: vuepress-tutorials/tutorial-10/vuepress-tutorial-10-homepage-styling-part-2-post.png
+placeholder: vuepress-tutorials/tutorial-10/vuepress-tutorial-10-homepage-styling-part-2-post-90w.png
 alt: VuePress Tutorial 10 - Homepage Styling Part 2 Post Picture
 linkImg: vuepress-tutorials/tutorial-10/vuepress-tutorial-10-homepage-styling-part-2-post-link.png
 linkImgAlt: VuePress Tutorial 10 - Homepage Styling Part 2 Image

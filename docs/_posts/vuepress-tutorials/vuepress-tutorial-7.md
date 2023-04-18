@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to configure the navbar for VuePress, then check out VuePress Tutorial 7 - Navbar Logo and Links! 🍌🐒
 preview: In this tutorial we'll be discussing how to configure the navbar by using the options exposed by the default theme...
 img: vuepress-tutorials/tutorial-7/vuepress-tutorial-7-navbar-logo-and-links-post.png
+placeholder: vuepress-tutorials/tutorial-7/vuepress-tutorial-7-navbar-logo-and-links-post-90w.png
 alt: VuePress Tutorial 7 - Navbar Logo and Links Post Picture
 linkImg: vuepress-tutorials/tutorial-7/vuepress-tutorial-7-navbar-logo-and-links-post-link.png
 linkImgAlt: VuePress Tutorial 7 - Navbar Logo and Links Image
@@ -72,7 +73,7 @@ Here's the Code Monkeys head and shoulders logo:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo.png')"
+      :src="$withBase('/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo-200w.png')"
       alt="Code Monkeys Head and Shoulders Logo"
   />
 </div>

@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Ready to learn how to add images to the IndexPost layout component, then check out VuePress Tutorial 18 - IndexPost Images! 🍌🐒
 preview: In this tutorial we're going to continue the development of the IndexPost layout component by using the globally...
 img: vuepress-tutorials/tutorial-18/vuepress-tutorial-18-indexpost-images-post.png
+placeholder: vuepress-tutorials/tutorial-18/vuepress-tutorial-18-indexpost-images-post-90w.png
 alt: VuePress Tutorial 18 - IndexPost Images Post Picture
 linkImg: vuepress-tutorials/tutorial-18/vuepress-tutorial-18-indexpost-images-post-link.png
 linkImgAlt: VuePress Tutorial 18 - IndexPost Images Image

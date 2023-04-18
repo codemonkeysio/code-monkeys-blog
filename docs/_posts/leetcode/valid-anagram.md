@@ -5,6 +5,7 @@ topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Valid Anagram! 🍌🐒
 preview: Given two strings s and t, return true if t is an anagram of s, and false otherwise. Ex 1) Input...
 img: leetcode/04-valid-anagram/leetcode-valid-anagram-post.png
+placeholder: leetcode/04-valid-anagram/leetcode-valid-anagram-post-90w.png
 alt: LeetCode - Valid Anagram Post Picture
 linkImg: leetcode/04-valid-anagram/leetcode-valid-anagram-post-link.png
 linkImgAlt: LeetCode - Valid Anagram Solution Image

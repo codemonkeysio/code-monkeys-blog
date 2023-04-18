@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to style the dropdown menu for your VuePress site, then check out VuePress Tutorial 14 - Dropdown Menu Styling! 🍌🐒
 preview: If you hover over Posts in the navbar, the dropdown menu will appear. You'll notice the dropdown menu needs some styling...
 img: vuepress-tutorials/tutorial-14/vuepress-tutorial-14-dropdown-menu-styling-post.png
+placeholder: vuepress-tutorials/tutorial-14/vuepress-tutorial-14-dropdown-menu-styling-post-90w.png
 alt: VuePress Tutorial 14 - Dropdown Menu Styling Post Picture
 linkImg: vuepress-tutorials/tutorial-14/vuepress-tutorial-14-dropdown-menu-styling-post-link.png
 linkImgAlt: VuePress Tutorial 14 - Dropdown Menu Styling Image

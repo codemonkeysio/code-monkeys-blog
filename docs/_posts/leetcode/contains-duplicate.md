@@ -5,6 +5,7 @@ topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the Solution & Notes for the LeetCode problem Contains Duplicate! 🍌🐒
 preview: Given an integer array nums, return true if any value appears at least twice, and return false if every...
 img: leetcode/06-contains-duplicate/leetcode-contains-duplicate-post.png
+placeholder: leetcode/06-contains-duplicate/leetcode-contains-duplicate-post-90w.png
 alt: LeetCode - Contains Duplicate Post Picture
 linkImg: leetcode/06-contains-duplicate/leetcode-contains-duplicate-post-link.png
 linkImgAlt: LeetCode - Contains Duplicate Solution Image

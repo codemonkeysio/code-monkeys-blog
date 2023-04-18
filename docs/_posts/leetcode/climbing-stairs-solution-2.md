@@ -5,6 +5,7 @@ topic: LeetCode
 description: Hey fellow Code Monkeys!!! 🐵 Check out the second Solution & Notes for the LeetCode problem Climbing Stairs! 🍌🐒
 preview: You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps...
 img: leetcode/03-climbing-stairs-solution-2/leetcode-climbing-stairs-solution-2-post.png
+placeholder: leetcode/03-climbing-stairs-solution-2/leetcode-climbing-stairs-solution-2-post-90w.png
 alt: LeetCode - Climbing Stairs Solution 2 Post Picture
 linkImg: leetcode/03-climbing-stairs-solution-2/leetcode-climbing-stairs-solution-2-post-link.png
 linkImgAlt: LeetCode - Climbing Stairs Solution 2 Image

@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to style the navbar for your VuePress site, then check out VuePress Tutorial 13 - Navbar Styling! 🍌🐒
 preview: Currently, the navbar is not looking too good, so in this tutorial we're going to begin fixing that by adding some styling...
 img: vuepress-tutorials/tutorial-13/vuepress-tutorial-13-navbar-styling-post.png
+placeholder: vuepress-tutorials/tutorial-13/vuepress-tutorial-13-navbar-styling-post-90w.png
 alt: VuePress Tutorial 13 - Navbar Styling Post Picture
 linkImg: vuepress-tutorials/tutorial-13/vuepress-tutorial-13-navbar-styling-post-link.png
 linkImgAlt: VuePress Tutorial 13 - Navbar Styling Image

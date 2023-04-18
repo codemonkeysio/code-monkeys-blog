@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Ready to set up and install VuePress, then check out VuePress Tutorial 3 - Set Up and Installation! 🍌🐒
 preview: First we'll be going over how to create a repository on GitHub. If you plan on using these tutorials as guides and want to...
 img: vuepress-tutorials/tutorial-3/vuepress-tutorial-3-set-up-and-installation-post.png
+placeholder: vuepress-tutorials/tutorial-3/vuepress-tutorial-3-set-up-and-installation-post-90w.png
 alt: VuePress Tutorial 3 - Set Up and Installation Post Picture
 linkImg: vuepress-tutorials/tutorial-3/vuepress-tutorial-3-set-up-and-installation-post-link.png
 linkImgAlt: VuePress Tutorial 3 - Set Up and Installation Image

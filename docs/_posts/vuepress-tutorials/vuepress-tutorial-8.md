@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to create a custom footer for your VuePress site, then check out VuePress Tutorial 8 - Custom Footer! 🍌🐒
 preview: Now it's time to start building the custom footer component for the site. Before creating the footer component, we're...
 img: vuepress-tutorials/tutorial-8/vuepress-tutorial-8-custom-footer-post.png
+placeholder: vuepress-tutorials/tutorial-8/vuepress-tutorial-8-custom-footer-post-90w.png
 alt: VuePress Tutorial 8 - Custom Footer Post Picture
 linkImg: vuepress-tutorials/tutorial-8/vuepress-tutorial-8-custom-footer-post-link.png
 linkImgAlt: VuePress Tutorial 8 - Custom Footer Image

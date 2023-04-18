@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to structure your VuePress site, then check out VuePress Tutorial 4 - Directory Structure! 🍌🐒
 preview: We're going to start with an overview of the current directory structure from the previous tutorial. Then we'll describe the...
 img: vuepress-tutorials/tutorial-4/vuepress-tutorial-4-directory-structure-post.png
+placeholder: vuepress-tutorials/tutorial-4/vuepress-tutorial-4-directory-structure-post-90w.png
 alt: VuePress Tutorial 4 - Directory Structure Post Picture
 linkImg: vuepress-tutorials/tutorial-4/vuepress-tutorial-4-directory-structure-post-link.png
 linkImgAlt: VuePress Tutorial 4 - Directory Structure Image

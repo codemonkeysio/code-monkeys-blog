@@ -5,6 +5,7 @@ topic: Node.js
 description: Hey fellow Code Monkeys!!! 🐵 Want to be able to easily install and switch between Node versions, then check out Installing Node Version Manager (nvm)! 🍌🐒
 preview: A Node version manager allows you to easily install and switch between numerous versions of Node.js. This is useful...
 img: nodejs/01-installing-nvm/nodejs-installing-nvm-post.png
+placeholder: nodejs/01-installing-nvm/nodejs-installing-nvm-post-90w.png
 alt: Node.js - Installing Node Version Manager (nvm) Post Picture
 linkImg: nodejs/01-installing-nvm/nodejs-installing-nvm-post-link.png
 linkImgAlt: Node.js - Installing Node Version Manager (nvm) Image

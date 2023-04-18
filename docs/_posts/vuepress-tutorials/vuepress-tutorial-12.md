@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn how to add a highlight effect when hovering over SVGs, then check out VuePress Tutorial 12 - Highlight SVGs on Hover! 🍌🐒
 preview: We're now ready to add a highlight effect when hovering over the SVG icons. The method we'll be using doesn't require a lot of...
 img: vuepress-tutorials/tutorial-12/vuepress-tutorial-12-highlight-svgs-on-hover-post.png
+placeholder: vuepress-tutorials/tutorial-12/vuepress-tutorial-12-highlight-svgs-on-hover-post-90w.png
 alt: VuePress Tutorial 12 - Highlight SVGs on Hover Post Picture
 linkImg: vuepress-tutorials/tutorial-12/vuepress-tutorial-12-highlight-svgs-on-hover-post-link.png
 linkImgAlt: VuePress Tutorial 12 - Highlight SVGs on Hover Image

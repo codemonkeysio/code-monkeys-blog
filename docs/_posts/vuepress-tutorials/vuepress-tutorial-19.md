@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Ready to learn how to add the pagination links to the IndexPost layout component, then check out VuePress Tutorial 19 - Pagination Links! 🍌🐒
 preview: Every time we navigate to the entry page or the second page in the list of pagination pages we have to manually...
 img: vuepress-tutorials/tutorial-19/vuepress-tutorial-19-pagination-links-post.png
+placeholder: vuepress-tutorials/tutorial-19/vuepress-tutorial-19-pagination-links-post-90w.png
 alt: VuePress Tutorial 19 - Pagination Links Post Picture
 linkImg: vuepress-tutorials/tutorial-19/vuepress-tutorial-19-pagination-links-post-link.png
 linkImgAlt: VuePress Tutorial 19 - Pagination Links Image

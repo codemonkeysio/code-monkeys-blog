@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Ready to start developing the IndexPost layout component, then check out VuePress Tutorial 17 - IndexPost Layout! 🍌🐒
 preview: We're now ready to begin the development of the IndexPost layout component. We'll be using the globally scoped...
 img: vuepress-tutorials/tutorial-17/vuepress-tutorial-17-indexpost-layout-post.png
+placeholder: vuepress-tutorials/tutorial-17/vuepress-tutorial-17-indexpost-layout-post-90w.png
 alt: VuePress Tutorial 17 - IndexPost Layout Post Picture
 linkImg: vuepress-tutorials/tutorial-17/vuepress-tutorial-17-indexpost-layout-post-link.png
 linkImgAlt: VuePress Tutorial 17 - IndexPost Layout Image

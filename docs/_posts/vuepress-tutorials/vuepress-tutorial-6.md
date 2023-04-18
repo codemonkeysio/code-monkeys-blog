@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Want to learn about the default theme homepage layout for VuePress, then check out VuePress Tutorial 6 - Homepage Layout! 🍌🐒
 preview: In this tutorial we'll be discussing how to configure the homepage layout by using the options exposed by the default theme...
 img: vuepress-tutorials/tutorial-6/vuepress-tutorial-6-homepage-layout-post.png
+placeholder: vuepress-tutorials/tutorial-6/vuepress-tutorial-6-homepage-layout-post-90w.png
 alt: VuePress Tutorial 6 - Homepage Layout Post Picture
 linkImg: vuepress-tutorials/tutorial-6/vuepress-tutorial-6-homepage-layout-post-link.png
 linkImgAlt: VuePress Tutorial 6 - Homepage Layout Image
@@ -264,7 +265,7 @@ Here's the full Code Monkeys logo:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/code-monkeys-logos/code-monkeys-full-logo.png')"
+      :src="$withBase('/images/code-monkeys-logos/code-monkeys-full-logo-260w.png')"
       alt="Code Monkeys Full Logo"
   />
 </div>

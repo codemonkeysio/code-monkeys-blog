@@ -5,6 +5,7 @@ topic: VuePress
 description: Hey fellow Code Monkeys!!! 🐵 Ready to learn how to style the pagination links, then check out VuePress Tutorial 20 - Pagination Links Styling! 🍌🐒
 preview: We're going to begin the process of styling the Prev and Next pagination links that we added to each of the...
 img: vuepress-tutorials/tutorial-20/vuepress-tutorial-20-pagination-links-styling-post.png
+placeholder: vuepress-tutorials/tutorial-20/vuepress-tutorial-20-pagination-links-styling-post-90w.png
 alt: VuePress Tutorial 20 - Pagination Links Styling Post Picture
 linkImg: vuepress-tutorials/tutorial-20/vuepress-tutorial-20-pagination-links-styling-post-link.png
 linkImgAlt: VuePress Tutorial 20 - Pagination Links Styling Image
