@@ -3,7 +3,8 @@
     <div class="paynym-bot-and-name">
       <div class="bot">
         <v-lazy-image
-          :src="$withBase('/images/donate/logos/paynym-bot.png')"
+          :src="$withBase('/images/donate/logos/paynym-bot-300w.png')"
+          :src-placeholder="$withBase('/images/donate/logos/paynym-bot-86w.png')"
           :alt="'Code Monkeys PayNym Bot'"
         />
       </div>
@@ -124,6 +125,13 @@ export default {
       max-width: 9.375rem
       max-height: 9.375rem
       margin-bottom: 1.25rem
+      .v-lazy-image
+        filter: blur(0.35625rem)
+        will-change: filter
+        width: 100%
+      .v-lazy-image-loaded
+        transition: filter 0.7s
+        filter: blur(0)
       img
         border-radius: 50%
     .name
