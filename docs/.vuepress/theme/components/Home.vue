@@ -2,11 +2,12 @@
   <main
     class="home"
     :aria-labelledby="data.heroText !== null ? 'main-title' : null"
-  > 
+  >
     <header class="hero" @click="$router.push(`${data.actionLink}`)">
       <div class="logo-wrapper">
         <v-lazy-image
-          src="/images/code-monkeys-logos/code-monkeys-full-logo-260w.png"
+          v-if="data.heroImage"
+          :src="$withBase(data.heroImage)"
           src-placeholder="/images/code-monkeys-logos/code-monkeys-full-logo-150w.png"
           :alt="data.heroAlt || 'hero'"
         />
