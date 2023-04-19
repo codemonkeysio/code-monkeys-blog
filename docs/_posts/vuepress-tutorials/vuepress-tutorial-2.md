@@ -48,7 +48,8 @@ Here's a simple diagram illustrating the process:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/vuepress-tutorials/tutorial-2/static-website-diagram.png')"
+      :src="$withBase('/images/vuepress-tutorials/tutorial-2/static-website-diagram-760w.png')"
+      :src-placeholder="$withBase('/images/vuepress-tutorials/tutorial-2/static-website-diagram-232w.png')"
       alt="Static Website Diagram"
   />
 </div>
@@ -73,7 +74,8 @@ Simple diagram illustrating the process:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/vuepress-tutorials/tutorial-2/single-page-application-diagram.png')"
+      :src="$withBase('/images/vuepress-tutorials/tutorial-2/single-page-application-diagram-760w.png')"
+      :src-placeholder="$withBase('/images/vuepress-tutorials/tutorial-2/single-page-application-diagram-232w.png')"
       alt="Single Page Application Diagram"
   />
 </div>
@@ -97,7 +99,8 @@ Simple diagram illustrating the process:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/vuepress-tutorials/tutorial-2/server-side-rendered-diagram.png')"
+      :src="$withBase('/images/vuepress-tutorials/tutorial-2/server-side-rendered-diagram-760w.png')"
+      :src-placeholder="$withBase('/images/vuepress-tutorials/tutorial-2/server-side-rendered-diagram-232w.png')"
       alt="Server-Side Rendered Diagram"
   />
 </div>
@@ -121,7 +124,8 @@ Simple diagram illustrating the process:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/vuepress-tutorials/tutorial-2/static-site-generator-diagram.png')"
+      :src="$withBase('/images/vuepress-tutorials/tutorial-2/static-site-generator-diagram-760w.png')"
+      :src-placeholder="$withBase('/images/vuepress-tutorials/tutorial-2/static-site-generator-diagram-232w.png')"
       alt="Static Site Generator Diagram"
   />
 </div>
@@ -254,3 +258,14 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus" scoped>
+.website-diagrams
+  .v-lazy-image
+    filter: blur(0.9375rem)
+    will-change: filter
+    width: 100%
+  .v-lazy-image-loaded
+    transition: filter 0.7s
+    filter: blur(0)
+</style>

@@ -90,7 +90,8 @@ Here's the example post 1 image:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/vuepress-tutorials/tutorial-18/example-post-1.png')"
+      :src="$withBase('/images/vuepress-tutorials/tutorial-18/example-post-1-155w.png')"
+      :src-placeholder="$withBase('/images/vuepress-tutorials/tutorial-18/example-post-1-90w.png')"
       alt="Example Post 1 Image"
   />
 </div>
@@ -113,7 +114,8 @@ Here's the example post 2 image:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/vuepress-tutorials/tutorial-18/example-post-2.png')"
+      :src="$withBase('/images/vuepress-tutorials/tutorial-18/example-post-2-155w.png')"
+      :src-placeholder="$withBase('/images/vuepress-tutorials/tutorial-18/example-post-2-90w.png')"
       alt="Example Post 2 Image"
   />
 </div>
@@ -137,7 +139,8 @@ Here's the example post 3 image:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/vuepress-tutorials/tutorial-18/example-post-3.png')"
+      :src="$withBase('/images/vuepress-tutorials/tutorial-18/example-post-3-155w.png')"
+      :src-placeholder="$withBase('/images/vuepress-tutorials/tutorial-18/example-post-3-90w.png')"
       alt="Example Post 3 Image"
   />
 </div>
@@ -374,3 +377,16 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus" scoped>
+.website-diagrams
+  width: 9.6875rem
+  margin: 0 auto
+  .v-lazy-image
+    filter: blur(0.375rem)
+    will-change: filter
+    width: 100%
+  .v-lazy-image-loaded
+    transition: filter 0.7s
+    filter: blur(0)
+</style>

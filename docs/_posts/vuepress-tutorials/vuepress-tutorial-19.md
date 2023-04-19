@@ -113,7 +113,8 @@ Here's the example post 4 image:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/vuepress-tutorials/tutorial-19/example-post-4.png')"
+      :src="$withBase('/images/vuepress-tutorials/tutorial-19/example-post-4-155w.png')"
+      :src-placeholder="$withBase('/images/vuepress-tutorials/tutorial-19/example-post-4-90w.png')"
       alt="Example Post 4 Image"
   />
 </div>
@@ -140,7 +141,8 @@ Here's the example post 5 image:
 
 <div class="website-diagrams">
   <v-lazy-image
-      :src="$withBase('/images/vuepress-tutorials/tutorial-19/example-post-5.png')"
+      :src="$withBase('/images/vuepress-tutorials/tutorial-19/example-post-5-155w.png')"
+      :src-placeholder="$withBase('/images/vuepress-tutorials/tutorial-19/example-post-5-90w.png')"
       alt="Example Post 5 Image"
   />
 </div>
@@ -423,3 +425,16 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus" scoped>
+.website-diagrams
+  width: 9.6875rem
+  margin: 0 auto
+  .v-lazy-image
+    filter: blur(0.375rem)
+    will-change: filter
+    width: 100%
+  .v-lazy-image-loaded
+    transition: filter 0.7s
+    filter: blur(0)
+</style>
