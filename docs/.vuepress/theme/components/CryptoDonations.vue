@@ -113,6 +113,7 @@ export default {
       margin-right: 4.1875rem
       .logo
         min-width: 3.125rem
+        width: 3.125rem
         .v-lazy-image
           filter: blur(0.1125rem)
           will-change: filter
