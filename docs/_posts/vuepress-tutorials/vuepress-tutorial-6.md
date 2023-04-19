@@ -266,6 +266,7 @@ Here's the full Code Monkeys logo:
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/code-monkeys-logos/code-monkeys-full-logo-260w.png')"
+      :src-placeholder="$withBase('/images/code-monkeys-logos/code-monkeys-full-logo-150w.png')"
       alt="Code Monkeys Full Logo"
   />
 </div>
@@ -644,3 +645,16 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus" scoped>
+.website-diagrams
+  max-width: 16.25rem
+  margin: 0 auto
+  .v-lazy-image
+    filter: blur(0.625rem)
+    will-change: filter
+    width: 100%
+  .v-lazy-image-loaded
+    transition: filter 0.7s
+    filter: blur(0)
+</style>

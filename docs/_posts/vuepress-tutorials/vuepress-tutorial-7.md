@@ -74,6 +74,7 @@ Here's the Code Monkeys head and shoulders logo:
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo-200w.png')"
+      :src-placeholder="$withBase('/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo-115w.png')"
       alt="Code Monkeys Head and Shoulders Logo"
   />
 </div>
@@ -589,3 +590,15 @@ export default {
   }
 }
 </script>
+<style lang="stylus" scoped>
+.website-diagrams
+  max-width: 12.5rem
+  margin: 0 auto
+  .v-lazy-image
+    filter: blur(0.5rem)
+    will-change: filter
+    width: 100%
+  .v-lazy-image-loaded
+    transition: filter 0.7s
+    filter: blur(0)
+</style>
