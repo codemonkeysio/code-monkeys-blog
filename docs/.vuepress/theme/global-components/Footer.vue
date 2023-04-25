@@ -63,6 +63,7 @@ export default {
       return {
         'is-sidebar-active':
           this.$route.path.includes('/donate/') ||
+          this.$route.path.includes('/contact/') ||
           this.$route.path.includes('/resources/') ||
           this.$page.regularPath.includes('_posts')
       };

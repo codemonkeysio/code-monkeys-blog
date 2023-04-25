@@ -1,63 +1,8 @@
----
-title: Contact
-description: Want to contact your fellow Code Monkeys? Then check out these contact methods which include free and open source software with an emphasis on private and secure communication! 📞🐒
-sidebar: auto
-canonicalUrl: contact/
----
-
-::: slot header
-
-# Contact Your Fellow Code <div class="emoji-wrap">Monkeys !!! 📞 🐒</div>
-
-:::
-
-<template>
-
-<div>
-
-<div
-  class="contact-card"
->
-
-## Socials
-
-📨 Join our <span class="emoji-wrap">[Telegram](https://t.me/codemonkeystech)</span> - <code class="inline-code-block">@codemonkeystech</code>
-
-🐸 Let's <span class="emoji-wrap">[Gab](https://gab.com/codemonkeys)</span> - <code class="inline-code-block">@codemonkeys</code>
-
-💡 Speak your mind on <span class="emoji-wrap">[Minds](https://www.minds.com/codemonkeys/)</span> - <code class="inline-code-block">@codemonkeys</code>
-
-🔑 Securely message with <span class="emoji-wrap">[Keybase](https://keybase.io/codemonkeystech)</span> - <code class="inline-code-block">codemonkeystech</code>
-
-🐦 Send a <span class="emoji-wrap">[Tweet](https://twitter.com/codemonkeystech)</span> - <code class="inline-code-block">@codemonkeystech</code>
-
-</div>
-
-<div
-  class="contact-card"
->
-
-## Primary PGP Key 🔐
-
-If you know how to use Pretty Good Privacy (PGP), then you can securely communicate with your fellow Code Monkey by using the PGP public key below to send an encrypted message that only I can decrypt.
-
-<code-group>
-<code-block title="Fingerprint">
-```md
-B7E6 FB94 A589 876C CFC2 1E4B 1E07 E75C 19F1 AE0E
-```
-</code-block>
-</code-group>
-
-:::details PGP Public Key
-<div class="copy-btn-wrapper">
-    <button class="copy" type="button" v-clipboard:copy="publicKey" v-clipboard:success="onCopy" v-clipboard:error="onError">
-      Copy
-    </button>
-</div>
-
-```md
------BEGIN PGP PUBLIC KEY BLOCK-----
+export default {
+  pgp: [
+    {
+      fingerprint: 'B7E6 FB94 A589 876C CFC2 1E4B 1E07 E75C 19F1 AE0E',
+      publicKey: `-----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBGRC03cBEADDn1vVti8bek91JwLh65YNRvF5WRFEAzi8jQaAk55a2JKXvkfW
 S1QnP9jZBg/fVCYyi5fopjZqckDAiSjWaIkgZLyEJ4dVeUhw2AoTt8WVgjjC9BI3
@@ -261,91 +206,7 @@ efxSvudFMzho9C3mZDlXTUSBF2FNC3H0G5n2IoUFhGlWwEDEdTy+Y/B+i52MgU+i
 7zjELMC0njPpVDxbYcnNfGvdSzjw4btsdFo/gMQw6TUzBb4KZGD9aqnkdAaWkBqF
 QpzVHJXiEez9MMf7kh8/4hMcoNVBww==
 =+dEy
------END PGP PUBLIC KEY BLOCK-----
-```
-:::
-
-</div>
-
-</div>
-
-</template>
-
-<script>
-import pgp from '../.vuepress/data/contact/pgp';
-
-export default {
-  data() {
-    return {
-      fingerprint: pgp.pgp[0].fingerprint,
-      publicKey: pgp.pgp[0].publicKey
-    };
-  },
-
-  methods: {
-    onCopy(e) {
-      alert(`PGP public key:\n\n${e.text}\n\ncopied to clipboard!`);
+-----END PGP PUBLIC KEY BLOCK-----`,
     },
-    onError(e) {
-      alert('Failed copying PGP public key to clipboard: ', e);
-    },
-  }
+  ]
 }
-</script>
-
-<style lang="stylus" scoped>
-@import '~rfs/stylus'
-
-h1
-  padding-bottom: 5rem
-
-h2
-  color: $accentColor
-  margin: -2.125rem 0 1.875rem
-  padding-top: 4.6rem
-
-.custom-block.details
-  margin-bottom: 1.25rem
-
-.contact-card
-  border: 0.125rem solid $darkBorderColor
-  box-shadow: 0 0.5rem 1rem 0 $darkBorderColor
-  transition: 0.2s
-  border-radius: 1.875rem
-  background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColor)
-  .copy-btn-wrapper
-    display: flex
-    justify-content: flex-end
-    .copy
-      rfs-font-size(1.125rem)
-      margin-top: 13.6px
-      height: 34px
-      padding: 0 6px
-      color: $textColor
-      background-color: inherit
-      cursor: pointer
-      transition: 0.3s ease
-      border: 0.125rem solid $darkBorderColor
-      border-radius: 8px
-    .copy:hover
-      background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColorTwo)
-      color: $accentColor
-
-.contact-card:nth-child(n+2)
-  margin-top: 3.5rem
-
-.contact-card:hover
-  box-shadow: 0.125rem 0.5rem 1rem 0.125rem $darkBoxShadowColor
-
-@media (max-width: 61.25rem)
-  h1, h2, h3, p
-    text-align: center
-
-@media (max-width: 26.3125rem)
-  .contact-card
-    padding: 0 1rem
-
-@media (min-width: 26.375rem)
-  .contact-card
-    padding: 0 2rem
-</style>
