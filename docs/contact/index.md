@@ -49,6 +49,8 @@ B7E6 FB94 A589 876C CFC2 1E4B 1E07 E75C 19F1 AE0E
 </code-block>
 </code-group>
 
+<div class="pgp-public-key">
+
 :::details PGP Public Key
 <div class="copy-btn-wrapper">
     <button class="copy" type="button" v-clipboard:copy="publicKey" v-clipboard:success="onCopy" v-clipboard:error="onError">
@@ -264,6 +266,8 @@ QpzVHJXiEez9MMf7kh8/4hMcoNVBww==
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 :::
+
+</div>
 
 </div>
 
