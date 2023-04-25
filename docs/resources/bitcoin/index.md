@@ -299,7 +299,6 @@ Here you'll find a list of resources related to Bitcoin presented in alphabetica
 
 [Nunchuk](https://nunchuk.io/) - Open source wallet available for Android, iOS, Linux, macOS, and Windows with an emphasis on combining security and ease of use. It supports numerous features including multisig, collaborative custody, inheritance planning, Tapsigner integration, connecting to your own Bitcoin full node, and more
 
-
 [Samourai](https://samouraiwallet.com/) - Open source Android wallet focused on interacting with Bitcoin as privately as possible. It supports numerous features including full offline mode, Segregated Witness (SegWit), sending to Taproot addresses, smart miner fees, connecting to your own Bitcoin full node, PayNyms, batch spending, scrambled PIN, stealth mode, whirlpool, multiple types of ways to spend privately, and more
 
 [Sparrow](https://sparrowwallet.com/) - Open source wallet for Linux, macOS, and Windows that supports numerous features including the ability to use all Hierarchical Deterministic (HD) wallets, strong encryption, detailed wallet history, coin control, connecting to your own Bitcoin full node, using your own blockchain explorer, mixing with whirlpool, and more
@@ -356,8 +355,8 @@ h3
 .resource-card:hover
   box-shadow: 0.125rem 0.5rem 1rem 0.125rem $darkBoxShadowColor
 
-@media (max-width: 54.6875rem)
-  p
+@media (max-width: 61.25rem)
+  h1, h2, h3, p
     text-align: center
 
 @media (max-width: 26.3125rem)
@@ -368,4 +367,3 @@ h3
   .resource-card
     padding: 0 2rem
 </style>
-

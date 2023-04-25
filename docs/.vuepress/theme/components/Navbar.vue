@@ -7,7 +7,11 @@
         v-if="$site.themeConfig.logo"
         class="logo"
         :src="$withBase(`${$site.themeConfig.logo}`)"
-        :src-placeholder="$withBase('/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo-35w.png')"
+        :src-placeholder="
+          $withBase(
+            '/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo-35w.png'
+          )
+        "
         :alt="`${$siteTitle} Head and Shoulders Logo`"
       />
       <span
@@ -151,7 +155,7 @@ $navbar-horizontal-padding = 1.5rem
       flex: 0 0 auto
       vertical-align top
 
-@media (max-width: 54.6875rem)
+@media (max-width: 61.25rem)
   .navbar
     padding-left 4rem
     .can-hide

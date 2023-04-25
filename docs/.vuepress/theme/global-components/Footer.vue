@@ -101,11 +101,11 @@ export default {
   .is-sidebar-active
     padding-left: 18.9rem
 
-@media (max-width: $MQMobile)
+@media (max-width: 61.25rem)
   .is-sidebar-active
     padding-left: 2.5rem
 
-@media (min-width: 53.1875rem) and (max-width: 62.8125rem)
+@media (min-width: 61.3125rem) and (max-width: 62.8125rem)
   .is-sidebar-active
     .icons
       flex-wrap: wrap

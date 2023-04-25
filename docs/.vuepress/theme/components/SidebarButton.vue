@@ -35,7 +35,7 @@ export default {
     width 1.5rem
     height 1.5rem
 
-@media (max-width: $MQMobile)
+@media (max-width: 61.25rem)
   .sidebar-button
     display block
 </style>

@@ -376,6 +376,10 @@ module.exports = {
         ]
       },
       {
+        text: 'Contact',
+        link: '/contact/'
+      },
+      {
         text: 'Donate',
         link: '/donate/'
       }

@@ -19,14 +19,14 @@
           v-for="post in $pagination.pages"
           :key="post.key"
           @click="
-            $router.push(`${post.path}`).catch(err => {
+            $router.push(`${post.path}`).catch((err) => {
               if (
                 err.name !== 'NavigationDuplicated' &&
                 !err.message.includes(
                   'Avoided redundant navigation to current location'
                 )
               ) {
-                console.log(err)
+                console.log(err);
               }
             })
           "
@@ -51,7 +51,9 @@
           <div class="post-pic">
             <v-lazy-image
               :src="$withBase(`/images/${post.frontmatter.img}`)"
-              :src-placeholder="$withBase(`/images/${post.frontmatter.placeholder}`)"
+              :src-placeholder="
+                $withBase(`/images/${post.frontmatter.placeholder}`)
+              "
               :alt="post.frontmatter.alt || 'Post Picture'"
             />
           </div>
@@ -74,11 +76,11 @@
 </template>
 
 <script>
-import Layout from './Layout.vue'
-import PostDetails from '../components/PostDetails'
-import PaginationButtons from '../components/PaginationButtons'
-import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js'
-import byTopicHeaders from '../../data/index-post/by-topic-headers'
+import Layout from './Layout.vue';
+import PostDetails from '../components/PostDetails';
+import PaginationButtons from '../components/PaginationButtons';
+import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js';
+import byTopicHeaders from '../../data/index-post/by-topic-headers';
 
 export default {
   name: 'IndexPost',
@@ -93,12 +95,12 @@ export default {
   data() {
     return {
       topicHeaders: byTopicHeaders.topicHeaders
-    }
+    };
   },
 
   computed: {
     allPosts() {
-      return this.$route.path.includes('/posts/')
+      return this.$route.path.includes('/posts/');
     }
   },
 
@@ -108,15 +110,15 @@ export default {
       handler() {
         if (typeof window !== `undefined`) {
           if (this.$route.path.includes('/topics/')) {
-            sessionStorage.setItem('allPosts', 'false')
+            sessionStorage.setItem('allPosts', 'false');
           } else {
-            sessionStorage.setItem('allPosts', 'true')
+            sessionStorage.setItem('allPosts', 'true');
           }
         }
       }
     }
   }
-}
+};
 </script>
 
 <style lang="stylus" scoped>
@@ -165,7 +167,7 @@ export default {
     .post-pic
       transform: scale(1.1);
 
-@media (max-width: 54.6875rem)
+@media (max-width: 61.25rem)
   .theme-default-content
     .post-card
       flex-direction: column-reverse

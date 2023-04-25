@@ -79,8 +79,8 @@ h2
 .fiat-card
   margin-top: 3.5rem
 
-@media (max-width: 54.6875rem)
-  p
+@media (max-width: 61.25rem)
+  h1, h2, p
     text-align: center
 
 @media (max-width: 26.3125rem)

@@ -72,7 +72,7 @@ export default {
     .bullet, .posted
       margin-right: 0.375rem
 
-@media (max-width: 54.6875rem)
+@media (max-width: 61.25rem)
   .post-details
     justify-content: center
     .posted-updated-wrapper

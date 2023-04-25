@@ -4,7 +4,9 @@
       <div class="bot">
         <v-lazy-image
           :src="$withBase('/images/donate/logos/paynym-bot-300w.png')"
-          :src-placeholder="$withBase('/images/donate/logos/paynym-bot-86w.png')"
+          :src-placeholder="
+            $withBase('/images/donate/logos/paynym-bot-86w.png')
+          "
           :alt="'Code Monkeys PayNym Bot'"
         />
       </div>
@@ -270,33 +272,18 @@ export default {
         flex-basis: 100%
       .payment-code
         margin-top: 1.25rem
-        border-top-right-radius: 0.625rem
-        border-bottom-right-radius: 0.625rem
-      .copy-and-qr-code-break
-        flex-basis: 100%
-      .copy-and-qr-code-wrapper
-        justify-content: flex-start
-        .copy
-          margin-top: 1.25rem
-          border-left-width: 0.125rem
-          border-top-left-radius: 0.625rem
-          border-bottom-left-radius: 0.625rem
-        .qr-code
-          margin-top: 1.25rem
-
-@media (min-width: 61.25rem)
-  .payment-codes-wrapper
-    .payment-code-wrapper
-      .payment-code
         border-top-right-radius: 0
         border-bottom-right-radius: 0
       .copy-and-qr-code-break
         flex-basis: 0
       .copy-and-qr-code-wrapper
         .copy
+          margin-top: 1.25rem
           border-left-width: 0
           border-top-left-radius: 0
           border-bottom-left-radius: 0
+        .qr-code
+          margin-top: 1.25rem
 
 @media (min-width: 63rem)
   .payment-codes-wrapper

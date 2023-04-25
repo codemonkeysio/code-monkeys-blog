@@ -1,6 +1,10 @@
 <template>
   <div class="crypto-donations-wrapper">
-    <div class="donation" v-for="(donation, index) in cryptoDonations" :key="donation.name">
+    <div
+      class="donation"
+      v-for="(donation, index) in cryptoDonations"
+      :key="donation.name"
+    >
       <div class="logo-name-and-abbreviation-wrapper">
         <div class="logo">
           <v-lazy-image
@@ -31,7 +35,7 @@
           v-clipboard:copy="donation.address"
           v-clipboard:success="onCopy"
           v-clipboard:error="onError"
-      >
+        >
           Copy
         </button>
         <button class="qr-code" type="button" @click="displayQRCode(index)">
@@ -43,15 +47,16 @@
         @close-modal="donation.showQRCode = false"
         :title="donation.name"
         :qrCode="donation.qrCode"
-        :qrCodeAlt="donation.qrCodeAlt" />
+        :qrCodeAlt="donation.qrCodeAlt"
+      />
     </div>
   </div>
 </template>
 
 <script>
-import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js'
-import cryptoDonations from '../../data/donations/crypto-donations'
-import Modal from './Modal.vue'
+import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js';
+import cryptoDonations from '../../data/donations/crypto-donations';
+import Modal from './Modal.vue';
 
 export default {
   name: 'cryptoDonations',
@@ -64,38 +69,38 @@ export default {
   data() {
     return {
       cryptoDonations: cryptoDonations.cryptoDonations,
-      formattedAddresses: [],
-    }
+      formattedAddresses: []
+    };
   },
 
   created() {
-    this.formatAddress(this.cryptoDonations)
+    this.formatAddress(this.cryptoDonations);
   },
 
   methods: {
     onCopy(e) {
-      alert(`Address:\n\n${e.text}\n\ncopied to clipboard!`)
+      alert(`Address:\n\n${e.text}\n\ncopied to clipboard!`);
     },
     onError(e) {
-      alert('Failed copying address to clipboard: ', e)
+      alert('Failed copying address to clipboard: ', e);
     },
     formatAddress(cryptoDonations) {
-      let addressLength
-      let rightPartStart
-      cryptoDonations.forEach(donation => {
-        addressLength = donation.address.length
-        rightPartStart = addressLength - 10
+      let addressLength;
+      let rightPartStart;
+      cryptoDonations.forEach((donation) => {
+        addressLength = donation.address.length;
+        rightPartStart = addressLength - 10;
         this.formattedAddresses.push({
           leftPart: donation.address.slice(0, rightPartStart),
           rightPart: donation.address.slice(rightPartStart, addressLength)
-        })
-      })
+        });
+      });
     },
     displayQRCode(index) {
-      this.cryptoDonations[index].showQRCode = true
+      this.cryptoDonations[index].showQRCode = true;
     }
   }
-}
+};
 </script>
 
 <style lang="stylus" scoped>
@@ -247,33 +252,18 @@ export default {
         flex-basis: 100%
       .address-wrapper
         margin-top: 1.25rem
-        border-top-right-radius: 0.625rem
-        border-bottom-right-radius: 0.625rem
-      .copy-and-qr-code-break
-        flex-basis: 100%
-      .copy-and-qr-code-wrapper
-        justify-content: flex-start
-        .copy
-          margin-top: 1.25rem
-          border-left-width: 0.125rem
-          border-top-left-radius: 0.625rem
-          border-bottom-left-radius: 0.625rem
-        .qr-code
-          margin-top: 1.25rem
-
-@media (min-width: 61.25rem)
-  .crypto-donations-wrapper
-    .donation
-      .address-wrapper
         border-top-right-radius: 0
         border-bottom-right-radius: 0
       .copy-and-qr-code-break
         flex-basis: 0
       .copy-and-qr-code-wrapper
         .copy
+          margin-top: 1.25rem
           border-left-width: 0
           border-top-left-radius: 0
           border-bottom-left-radius: 0
+        .qr-code
+          margin-top: 1.25rem
 
 @media (min-width: 63rem)
   .crypto-donations-wrapper

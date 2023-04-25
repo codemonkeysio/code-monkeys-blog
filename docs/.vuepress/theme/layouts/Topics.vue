@@ -21,7 +21,9 @@
           <div class="logo">
             <v-lazy-image
               :src="$withBase(`/images/${topicDetails[index].logo}`)"
-              :src-placeholder="$withBase(`/images/${topicDetails[index].placeholder}`)"
+              :src-placeholder="
+                $withBase(`/images/${topicDetails[index].placeholder}`)
+              "
               :alt="topicDetails[index].alt"
             />
           </div>
@@ -32,8 +34,8 @@
 </template>
 
 <script>
-import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js'
-import Layout from './Layout.vue'
+import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js';
+import Layout from './Layout.vue';
 
 export default {
   components: {
@@ -44,37 +46,37 @@ export default {
   data() {
     return {
       topicsList: []
-    }
+    };
   },
 
   created() {
-    this.topicsList = this.$topics.list
-    this.topicsList.sort((a, b) => (a.name > b.name ? 1 : -1))
+    this.topicsList = this.$topics.list;
+    this.topicsList.sort((a, b) => (a.name > b.name ? 1 : -1));
   },
 
   computed: {
     topicDetails() {
       const topicsPage = this.$site.pages.filter(
-        page => page.path === '/topics/'
-      )
-      return topicsPage[0].frontmatter.topicDetails
+        (page) => page.path === '/topics/'
+      );
+      return topicsPage[0].frontmatter.topicDetails;
     }
   },
   methods: {
     handleNavigation(topic) {
-      this.$router.push(`${topic.path}`).catch(err => {
+      this.$router.push(`${topic.path}`).catch((err) => {
         if (
           err.name !== 'NavigationDuplicated' &&
           !err.message.includes(
             'Avoided redundant navigation to current location'
           )
         ) {
-          console.log(err)
+          console.log(err);
         }
-      })
+      });
     }
   }
-}
+};
 </script>
 
 <style lang="stylus" scoped>
@@ -124,7 +126,7 @@ export default {
     .logo
       transform: scale(1.1)
 
-@media (max-width: 54.6875rem)
+@media (max-width: 61.25rem)
   .theme-default-content
     .topic-card
       flex-direction: column-reverse

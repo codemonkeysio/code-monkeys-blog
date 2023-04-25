@@ -69,8 +69,29 @@ html
   background-color: $backgroundColor
   body
     background-color: $backgroundColor
+    @media (max-width: 61.25rem)
+      .page
+        padding-left: 0
+    @media (max-width: 61.25rem)
+      .theme-container.sidebar-open
+        .sidebar
+          transform: translateX(0)
+    @media (min-width: 53.1875rem)
+      .theme-container.no-sidebar .sidebar
+        display: block
+    @media (min-width: 61.3125rem)
+      .theme-container.no-sidebar .sidebar
+        display: none
     .theme-container
       min-height: calc(100vh - 10.8125rem)
+      @media (max-width: 61.25rem)
+        .sidebar
+          top: 0
+          padding-top: 3.6rem
+          transform: translateX(-100%)
+          transition: transform .2s ease
+          .nav-links
+            display: block
       .navbar
         display: flex
         align-items: center
@@ -98,13 +119,25 @@ html
               .suggestion
                 &.focused
                   background-color $backgroundColor
-          @media (max-width: $MQMobile)
+          @media (max-width: 61.25rem)
             .search-box
               margin-right: 0
               input
                 left 0
               .suggestions
                 left: initial
+          @media (max-width: 66.5rem)
+           .search-box
+             input
+              cursor: pointer;
+              width: 0;
+              border-color: transparent;
+              position: relative;
+            .search-box input:focus
+              cursor: text
+              left: 0
+              width: 10rem
+              border-color: $accentColor
           .nav-links
             rfs-font-size(1.25rem)
             .nav-item:first-child

@@ -184,7 +184,7 @@ export default {
         padding-top 0
         border-top 0
 
-@media (max-width: $MQMobile)
+@media (max-width: 61.25rem)
   .dropdown-wrapper
     &.open .dropdown-title
       margin-bottom 0.5rem
@@ -207,7 +207,7 @@ export default {
           font-size 14px
           padding-left 1rem
 
-@media (min-width: 851px)
+@media (min-width: 61.3125rem)
   .dropdown-wrapper
     height 1.8rem
     &:hover .nav-dropdown,

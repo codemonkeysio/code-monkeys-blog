@@ -198,7 +198,6 @@ Here you'll find a list of resources related to privacy presented in alphabetica
 
 </div>
 
-
 <div class="resource-card">
 
 ## Operating Systems (Live)
@@ -299,8 +298,8 @@ h3
 .resource-card:hover
   box-shadow: 0.125rem 0.5rem 1rem 0.125rem $darkBoxShadowColor
 
-@media (max-width: 54.6875rem)
-  p
+@media (max-width: 61.25rem)
+  h1, h2, h3, p
     text-align: center
 
 @media (max-width: 26.3125rem)
@@ -311,4 +310,3 @@ h3
   .resource-card
     padding: 0 2rem
 </style>
-

@@ -37,11 +37,11 @@
 </template>
 
 <script>
-import Layout from './Layout.vue'
-import PostDetails from '../components/PostDetails'
-import EmbeddedVideo from '../components/EmbeddedVideo'
-import PostPagination from '../components/PostPagination'
-import Comment from '@vuepress/plugin-blog/lib/client/components/Comment.vue'
+import Layout from './Layout.vue';
+import PostDetails from '../components/PostDetails';
+import EmbeddedVideo from '../components/EmbeddedVideo';
+import PostPagination from '../components/PostPagination';
+import Comment from '@vuepress/plugin-blog/lib/client/components/Comment.vue';
 
 export default {
   name: 'Post',
@@ -53,7 +53,7 @@ export default {
     PostPagination,
     Comment
   }
-}
+};
 </script>
 
 <style lang="stylus">
@@ -276,7 +276,7 @@ export default {
             .vssue-current-user
               text-align: center
 
-@media (max-width: 850px)
+@media (max-width: 980px)
   .vssue
     .vssue-pagination
       flex-direction: row
@@ -307,7 +307,7 @@ export default {
           .vssue-new-comment-footer
             margin-left: 4.8125rem
 
-@media (max-width: $MQMobile)
+@media (max-width: 980px)
   .comments-wrapper
     div.vssue
       .vssue-body
