@@ -147,6 +147,17 @@ html
           @media (max-width: 18rem)
             .search-box input:focus
               width: 5.5rem
+          @media (max-width: $MQNarrow) and (min-width: 61.25rem)
+            .search-box
+              .suggestions
+                left 0
+          @media (max-width: 61.25rem)
+            .search-box
+              margin-right 0
+              input
+                left 1rem
+              .suggestions
+                right 0
           .nav-links
             rfs-font-size(1.25rem)
             .nav-item:first-child
