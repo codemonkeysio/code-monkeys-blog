@@ -19,7 +19,7 @@ canonicalUrl: contact/
   class="contact-card"
 >
 
-## Socials
+## Socials 🐵
 
 📨 Join our <span class="emoji-wrap">[Telegram](https://t.me/codemonkeystech)</span> - <code class="inline-code-block">@codemonkeystech</code>
 
