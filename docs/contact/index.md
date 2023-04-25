@@ -318,15 +318,15 @@ h2
     justify-content: flex-end
     .copy
       rfs-font-size(1.125rem)
-      margin-top: 13.6px
-      height: 34px
-      padding: 0 6px
+      margin-top: 0.85rem
+      height: 2.125rem
+      padding: 0 0.375rem
       color: $textColor
       background-color: inherit
       cursor: pointer
       transition: 0.3s ease
       border: 0.125rem solid $darkBorderColor
-      border-radius: 8px
+      border-radius: 0.5rem
     .copy:hover
       background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColorTwo)
       color: $accentColor
