@@ -326,7 +326,7 @@ h2
   margin-bottom: 1.25rem
 
 .contact-card
-  border: 0.125rem solid $darkBorderColor
+  border: 2px solid $darkBorderColor
   box-shadow: 0 0.5rem 1rem 0 $darkBorderColor
   transition: 0.2s
   border-radius: 1.875rem
