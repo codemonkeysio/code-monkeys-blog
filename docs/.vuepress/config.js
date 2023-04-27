@@ -419,6 +419,13 @@ module.exports = {
       },
     ],
     [
+      'feed1',
+      {
+        hostname: 'https://codemonkeys.tech',
+        rss: true,
+      },
+    ],
+    [
       '@vuepress/blog',
       {
         directories: [

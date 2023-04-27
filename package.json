@@ -23,6 +23,7 @@
     "@vuepress/plugin-back-to-top": "^1.8.2",
     "@vuepress/plugin-blog": "^1.9.4",
     "vuepress": "^1.8.2",
+    "vuepress-plugin-feed1": "^1.31.0-beta.1",
     "vuepress-plugin-mathjax": "^1.2.8",
     "vuepress-plugin-mermaidjs": "^1.8.1",
     "vuepress-plugin-redirect-frontmatter": "^1.0.0"
