@@ -41,6 +41,12 @@
           ><vp-icon name="LinkedIn"></vp-icon
         ></a>
         <a
+          href="https://codemonkeys.tech/rss.xml"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><vp-icon name="rss"></vp-icon
+        ></a>
+        <a
           href="https://www.patreon.com/codemonkeys?fan_landing=true"
           target="_blank"
           rel="noopener noreferrer"
@@ -106,7 +112,7 @@ export default {
   .is-sidebar-active
     padding-left: 2.5rem
 
-@media (min-width: 61.3125rem) and (max-width: 62.8125rem)
+@media (min-width: 61.3125rem) and (max-width: 72.9375rem)
   .is-sidebar-active
     .icons
       flex-wrap: wrap
@@ -123,7 +129,7 @@ export default {
         a:nth-child(2)
           margin-left: 0
 
-@media (max-width: 32.1875rem)
+@media (max-width: 39.0625rem)
   .icons
     flex-wrap: wrap
     .no-wrap-icons
