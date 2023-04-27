@@ -423,6 +423,8 @@ module.exports = {
       {
         hostname: 'https://codemonkeys.tech',
         rss: true,
+        atom: false,
+        json: false,
       },
     ],
     [
