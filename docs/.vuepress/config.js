@@ -425,10 +425,11 @@ module.exports = {
         rss: true,
         atom: true,
         json: false,
-        copyright: 'Made by and for Code Monkeys 🐵',
-        image: 'https://codemonkeys.tech/images/code-monkeys-logos/code-monkeys-rss-image.png',
-        icon: 'https://codemonkeys.tech/images/code-monkeys-logos/code-monkeys-rss-icon.png',
-        customElements: [""],
+        channel: {
+          copyright: 'Made by and for Code Monkeys 🐵',
+          image: 'https://codemonkeys.tech/images/code-monkeys-logos/code-monkeys-rss-image.png',
+          icon: 'https://codemonkeys.tech/images/code-monkeys-logos/code-monkeys-rss-icon.png'
+        }
       },
     ],
     [
