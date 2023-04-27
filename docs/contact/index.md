@@ -21,15 +21,17 @@ canonicalUrl: contact/
 
 ## Socials 🐵
 
-📨 Join our <span class="emoji-wrap">[Telegram](https://t.me/codemonkeystech)</span> - <code class="inline-code-block">@codemonkeystech</code>
+📨 Join our [Telegram](https://t.me/codemonkeystech) - <code class="inline-code-block">@codemonkeystech</code>
 
-🐸 Let's <span class="emoji-wrap">[Gab](https://gab.com/codemonkeys)</span> - <code class="inline-code-block">@codemonkeys</code>
+🐸 Let's [Gab](https://gab.com/codemonkeys) - <code class="inline-code-block">@codemonkeys</code>
 
-💡 Speak your mind on <span class="emoji-wrap">[Minds](https://www.minds.com/codemonkeys/)</span> - <code class="inline-code-block">@codemonkeys</code>
+💡 Speak your mind on [Minds](https://www.minds.com/codemonkeys/) - <code class="inline-code-block">@codemonkeys</code>
 
-🔑 Securely message with <span class="emoji-wrap">[Keybase](https://keybase.io/codemonkeystech)</span> - <code class="inline-code-block">codemonkeystech</code>
+🔑 Securely message with [Keybase](https://keybase.io/codemonkeystech) - <code class="inline-code-block">codemonkeystech</code>
 
-🐦 Send a <span class="emoji-wrap">[Tweet](https://twitter.com/codemonkeystech)</span> - <code class="inline-code-block">@codemonkeystech</code>
+🐦 Send a [Tweet](https://twitter.com/codemonkeystech) - <code class="inline-code-block">@codemonkeystech</code>
+
+<span><vp-icon name="rss"></vp-icon></span>&nbsp;&nbsp;Subscribe to the [RSS feed](https://codemonkeys.tech/rss.xml)
 
 </div>
 
