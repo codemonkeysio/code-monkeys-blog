@@ -425,6 +425,7 @@ module.exports = {
         rss: true,
         atom: false,
         json: false,
+        image: 'https://codemonkeys.tech/images/code-monkeys-logos/code-monkeys-blog-open-graph.png',
       },
     ],
     [
