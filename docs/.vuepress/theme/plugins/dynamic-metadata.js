@@ -32,7 +32,14 @@ module.exports = (options = {}, ctx) => ({
       linkImgAlt:
         frontmatter.linkImgAlt && typeof frontmatter.linkImgAlt === 'string'
           ? frontmatter.linkImgAlt
-          : null
+          : null,
+
+      image:
+        frontmatter.image && typeof frontmatter.image === 'string'
+          ? frontmatter.image.startsWith('https')
+            ? frontmatter.image
+            : `${ctx.siteConfig.themeConfig.domain}images/${frontmatter.image}`
+          : null,
     }
 
     let meta_dynamicMeta = []
@@ -89,6 +96,10 @@ module.exports = (options = {}, ctx) => ({
 
     if (frontmatter.canonicalUrl) {
       frontmatter.canonicalUrl = metadata.url
+    }
+
+    if (frontmatter.image) {
+      frontmatter.image = metadata.image
     }
 
     if (frontmatter.layout === 'IndexPost') {
