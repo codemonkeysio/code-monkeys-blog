@@ -9,8 +9,6 @@ placeholder: raspberry-pi/01-configuring-settings/raspberry-pi-configuring-setti
 alt: Raspberry Pi - Configuring Settings Post Picture
 linkImg: raspberry-pi/01-configuring-settings/raspberry-pi-configuring-settings-post-link.png
 linkImgAlt: Raspberry Pi - Configuring Settings Image
-feed:
-  - image: https://codemonkeys.tech/images/raspberry-pi/01-configuring-settings/raspberry-pi-configuring-settings-post.png
 canonicalUrl: raspberry-pi-configuring-settings/
 ---
 
