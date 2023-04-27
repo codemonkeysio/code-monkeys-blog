@@ -423,9 +423,10 @@ module.exports = {
       {
         hostname: 'https://codemonkeys.tech',
         rss: true,
-        atom: false,
+        atom: true,
         json: false,
         image: 'https://codemonkeys.tech/images/code-monkeys-logos/code-monkeys-blog-open-graph.png',
+        icon: 'https://codemonkeys.tech/apple-touch-icon.png'
       },
     ],
     [
