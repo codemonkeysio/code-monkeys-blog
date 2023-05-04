@@ -41,6 +41,8 @@ Here you'll find a list of resources related to privacy presented in alphabetica
 
 ## Card Aliasing
 
+[MySudo](https://mysudo.com/) - A proprietary Voice over IP (VoIP) US, Canadian, and UK phone number, handle, email, browser, and credit/debit card aliasing solution
+
 [Privacy](https://privacy.com/) - A proprietary credit/debit card aliasing solution when making online purchases
 
 </div>
@@ -119,6 +121,8 @@ Here you'll find a list of resources related to privacy presented in alphabetica
 
 [Privacy Tests](https://privacytests.org/) - Open source tests of web browser privacy
 
+[Privacy Guides](https://www.privacyguides.org/en/) - Website that provides information for protecting your data security and privacy, and their mission is to inform the public about the value of digital privacy and global government initiatives which aim to monitor your online activity
+
 [Privacy Tools](https://www.privacytools.io/private-browser) - Website dedicated to providing privacy services, tools, and guides. A lot of the services and tools listed here were initially found through this website, so it's a great site to learn more about them as well as privacy in general
 
 [Seth for Privacy](https://sethforprivacy.com/) - An individual interested in educating and learning more about privacy and technology. Check out the [Opt Out](https://optoutpod.com/) podcast where he sits down with passionate people within the privacy community to discuss why privacy matters, the tools and techniques they've found and use, and to encourage others towards achieving personal privacy and data sovereignty
@@ -126,6 +130,8 @@ Here you'll find a list of resources related to privacy presented in alphabetica
 [Techlore](https://techlore.tech/index) - A team dedicated to spreading privacy and security to the masses by producing projects, communities, and content to help individuals achieve personal privacy. A lot of the services and tools listed here were initially found through their website and content, so it's a great site to learn more about them as well as privacy in general
 
 [The Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide.html) - Open source and non-profit guide dedicated to providing an introduction to various online tracking techniques, online ID verification techniques, and detailed guidance to creating and maintaining anonymous online identities
+
+[The New Oil](https://thenewoil.org/en/) - Aimed at people who are new to privacy and/or do not consider themselves “tech savvy”, and goes over the basics of various ideas, subjects, and concepts to help you feel educated and capable of making decisions that are right for you without going too in depth to the point that you feel overwhelmed
 
 </div>
 
@@ -215,6 +221,22 @@ Here you'll find a list of resources related to privacy presented in alphabetica
 [Bitwarden](https://bitwarden.com/) - Open source, self-hostable, and cloud-based option password manager that uses zero knowledge end-to-end encryption (E2EE)
 
 [KeePass](https://keepass.info/) - Open source password manager that uses industry standard encryption and stores all password databases locally on your device
+
+</div>
+
+<div class="resource-card">
+
+## Phone Number Aliasing
+
+[Hushed](https://hushed.com/) - A proprietary Voice over IP (VoIP) temporary and secondary US and Canadian phone number aliasing app for data calling and texting that can be used over WiFi
+
+[JMP.chat](https://jmp.chat/) - An open source XMPP based solution that turns your XMPP account into a fully functional US or Canadian phone number that can make and receive calls, texts, and picture messages to standard phone numbers
+
+[MySudo](https://mysudo.com/) - A proprietary Voice over IP (VoIP) US, Canadian, and UK phone number, handle, email, browser, and credit/debit card aliasing solution
+
+[Textverified](https://www.textverified.com/) - A proprietary fully functional US phone number aliasing solution that you can use for phone and SMS verification
+
+[Viber](https://www.viber.com/en/) - A proprietary Voice over IP (VoIP) phone number aliasing solution that supports worldwide numbers
 
 </div>
 
