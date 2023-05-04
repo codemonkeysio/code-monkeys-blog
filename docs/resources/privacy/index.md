@@ -73,6 +73,14 @@ Here you'll find a list of resources related to privacy presented in alphabetica
 
 <div class="resource-card">
 
+## Electronic SIM (eSIM)
+
+[Silent Link](https://silent.link/) - A proprietary anonymous electronic SIM (eSIM) that supports global mobile 4G/5G internet as well as inbound texting and calling for US and UK phone numbers that can be used with any modern eSIM compatible smartphone
+
+</div>
+
+<div class="resource-card">
+
 ## Email
 
 [ProtonMail](https://proton.me/mail) - Open source email based in Switzerland with an emphasis on privacy and security by providing users with end-to-end encryption (E2EE), zero-access encryption, anti-phishing, anti-spam, two-factor authentication (2FA), and accessibility via Tor
