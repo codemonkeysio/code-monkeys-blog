@@ -163,7 +163,7 @@ Here you'll find a list of resources related to Bitcoin presented in alphabetica
 
 [myNode](https://mynodebtc.com/) - Open source prebuilt Bitcoin and Lightning node that comes with many features including Tor support, Bitcoin Explorer, Electrum Server, multisig tools, an easy-to-use web interface, and more
 
-[Nodl](https://www.nodl.eu/) - Open source prebuilt Bitcoin and Lightning full node that comes with many features including BTCPay Server, Whirlpool, Tor support, Electrum Rust Server (Electrs), Ride the Lightning (RTL), BTC RPC Explorer, and more
+[Nodl](https://www.nodl.eu/) - Open source prebuilt Bitcoin and Lightning full node that comes with many features including BTCPay Server, Tor support, Electrum Rust Server (Electrs), Ride the Lightning (RTL), BTC RPC Explorer, and more
 
 [RaspiBolt](https://raspibolt.org/) - Set up your own Bitcoin and Lightning node from scratch doing everything yourself. You'll learn about Linux, Bitcoin, and Lightning
 
@@ -299,9 +299,7 @@ Here you'll find a list of resources related to Bitcoin presented in alphabetica
 
 [Nunchuk](https://nunchuk.io/) - Open source wallet available for Android, iOS, Linux, macOS, and Windows with an emphasis on combining security and ease of use. It supports numerous features including multisig, collaborative custody, inheritance planning, Tapsigner integration, connecting to your own Bitcoin full node, and more
 
-[Samourai](https://samouraiwallet.com/) - Open source Android wallet focused on interacting with Bitcoin as privately as possible. It supports numerous features including full offline mode, Segregated Witness (SegWit), sending to Taproot addresses, smart miner fees, connecting to your own Bitcoin full node, PayNyms, batch spending, scrambled PIN, stealth mode, whirlpool, multiple types of ways to spend privately, and more
-
-[Sparrow](https://sparrowwallet.com/) - Open source wallet for Linux, macOS, and Windows that supports numerous features including the ability to use all Hierarchical Deterministic (HD) wallets, strong encryption, detailed wallet history, coin control, connecting to your own Bitcoin full node, using your own blockchain explorer, mixing with whirlpool, and more
+[Sparrow](https://sparrowwallet.com/) - Open source wallet for Linux, macOS, and Windows that supports numerous features including the ability to use all Hierarchical Deterministic (HD) wallets, strong encryption, detailed wallet history, coin control, connecting to your own Bitcoin full node, using your own blockchain explorer, and more
 
 [Specter](https://specter.solutions/desktop/) - Open source wallet for Linux, macOS, and Windows that supports numerous features including the ability to connect your own Bitcoin full node, support for numerous hardware wallets, multisig, coin control, and more
 
