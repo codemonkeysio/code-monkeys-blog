@@ -35,8 +35,6 @@ Subscribe for more monkey business on [SubscribeStar!](https://www.subscribestar
 
 Support your fellow Code Monkeys by becoming a [Patron!](https://www.patreon.com/codemonkeys?fan_landing=true)
 
-Buy us more bananas using [Venmo!](https://venmo.com/u/codemonkeys)
-
 Become a [Code Monkeys Sponsor!](https://github.com/sponsors/codemonkeysio)
 
 Sponsor Jay the Code Monkey on [GitHub!](https://github.com/sponsors/jchiarulli)
