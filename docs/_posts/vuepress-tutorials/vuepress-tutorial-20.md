@@ -135,7 +135,7 @@ After downloading the left and right arrow icons, we'll need to add them to the 
 │   ├── leftArrow.svg
 │   ├── GitHub.svg
 │   ├── LinkedIn.svg
-│   ├── Patreon.svg
+│   ├── Keybase.svg
 │   ├── rightArrow.svg
 │   ├── Telegram.svg
 │   ├── Twitter.svg

@@ -309,7 +309,7 @@ We'll be using icons for these social media sites in the footer:
 - <span class="external-link-wrap">[Telegram](https://telegram.org/)</span>
 - <span class="external-link-wrap">[Twitter](https://twitter.com/)</span>
 - <span class="external-link-wrap">[LinkedIn](https://www.linkedin.com/)</span>
-- <span class="external-link-wrap">[Patreon](https://www.patreon.com/)</span>
+- <span class="external-link-wrap">[Keybase](https://keybase.io/)</span>
 
 After downloading the icons the <code class="inline-code-block">icons</code> directory should look something like this:
 
@@ -318,7 +318,7 @@ After downloading the icons the <code class="inline-code-block">icons</code> dir
 │   ├── Discord.svg
 │   ├── GitHub.svg
 │   ├── LinkedIn.svg
-│   ├── Patreon.svg
+│   ├── Keybase.svg
 │   ├── Telegram.svg
 │   ├── Twitter.svg
 │   └── YouTube.svg
@@ -411,11 +411,11 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file looks lik
         <vp-icon name="LinkedIn"></vp-icon>
       </a>
       <a
-        href="https://www.patreon.com/codemonkeys?fan_landing=true"
+        href="https://keybase.io/codemonkeystech"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="Patreon"></vp-icon>
+        <vp-icon name="Keybase"></vp-icon>
       </a>
     </div>
     <p>Made by & for Code Monkeys 🐵</p>
@@ -564,11 +564,11 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file should lo
         <vp-icon name="LinkedIn"></vp-icon>
       </a>
       <a
-        href="https://www.patreon.com/codemonkeys?fan_landing=true"
+        href="https://keybase.io/codemonkeystech"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="Patreon"></vp-icon>
+        <vp-icon name="Keybase"></vp-icon>
       </a>
     </div>
     <p class="made-by">Made by & for Code Monkeys 🐵</p>

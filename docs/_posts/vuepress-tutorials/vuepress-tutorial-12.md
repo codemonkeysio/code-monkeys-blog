@@ -189,11 +189,11 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file looks lik
         <vp-icon name="LinkedIn"></vp-icon>
       </a>
       <a
-        href="https://www.patreon.com/codemonkeys?fan_landing=true"
+        href="https://keybase.io/codemonkeystech"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="Patreon"></vp-icon>
+        <vp-icon name="Keybase"></vp-icon>
       </a>
     </div>
     <p class="made-by">Made by & for Code Monkeys 🐵</p>
@@ -285,11 +285,11 @@ To fix this issue we'll add the following styling to the <code class="inline-cod
         <vp-icon name="LinkedIn"></vp-icon>
       </a>
       <a
-        href="https://www.patreon.com/codemonkeys?fan_landing=true"
+        href="https://keybase.io/codemonkeystech"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="Patreon"></vp-icon>
+        <vp-icon name="Keybase"></vp-icon>
       </a>
     </div>
     <p class="made-by">Made by & for Code Monkeys 🐵</p>

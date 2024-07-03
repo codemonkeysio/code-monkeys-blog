@@ -29,6 +29,12 @@
       </div>
       <div class="wrap-icons">
         <a
+          href="https://keybase.io/codemonkeystech"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><vp-icon name="Keybase"></vp-icon
+        ></a>
+        <a
           href="https://twitter.com/codemonkeystech"
           target="_blank"
           rel="noopener noreferrer"
@@ -45,12 +51,6 @@
           target="_blank"
           rel="noopener noreferrer"
           ><vp-icon name="rss"></vp-icon
-        ></a>
-        <a
-          href="https://www.patreon.com/codemonkeys?fan_landing=true"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><vp-icon name="Patreon"></vp-icon
         ></a>
       </div>
     </div>
