@@ -301,23 +301,23 @@ You can download the icons from the <code class="inline-code-block">tutorial-8</
 To easily download the icons used in the footer you can also install the browser extension [SVG Export](https://svgexport.io/). After installing the extension, all you need to do is click the extension icon which will extract all of the SVGs including their inline styles from the current page. A new tab will open containing all of the extracted SVGs which you can then download.
 :::
 
-We'll be using icons for these social media sites in the footer:
+We'll be using icons for these social media sites as well as to an RSS feed for Code Monkeys in the footer:
 
 - <span class="external-link-wrap">[GitHub](https://github.com/)</span>
 - <span class="external-link-wrap">[YouTube](https://www.youtube.com/)</span>
-- <span class="external-link-wrap">[Discord](https://discord.com/)</span>
+- <span class="external-link-wrap">[Gab](https://gab.com/)</span>
 - <span class="external-link-wrap">[Telegram](https://telegram.org/)</span>
 - <span class="external-link-wrap">[Twitter](https://twitter.com/)</span>
-- <span class="external-link-wrap">[LinkedIn](https://www.linkedin.com/)</span>
+- <span class="external-link-wrap">[RSS](https://www.rssboard.org/)</span>
 - <span class="external-link-wrap">[Keybase](https://keybase.io/)</span>
 
 After downloading the icons the <code class="inline-code-block">icons</code> directory should look something like this:
 
 ::: vue
 ├── `icons`
-│   ├── Discord.svg
+│   ├── Gab.svg
 │   ├── GitHub.svg
-│   ├── LinkedIn.svg
+│   ├── RSS.svg
 │   ├── Keybase.svg
 │   ├── Telegram.svg
 │   ├── Twitter.svg
@@ -383,11 +383,11 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file looks lik
         <vp-icon name="YouTube"></vp-icon>
       </a>
       <a
-        href="https://discord.gg/mh9rQmwJ8H"
+        href="https://gab.com/codemonkeys"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="Discord"></vp-icon>
+        <vp-icon name="Gab"></vp-icon>
       </a>
       <a
         href="https://t.me/codemonkeystech"
@@ -404,11 +404,11 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file looks lik
         <vp-icon name="Twitter"></vp-icon>
       </a>
       <a
-        href="https://www.linkedin.com/in/jason-chiarulli/"
+        href="https://codemonkeys.tech/rss.xml"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="LinkedIn"></vp-icon>
+        <vp-icon name="RSS"></vp-icon>
       </a>
       <a
         href="https://keybase.io/codemonkeystech"
@@ -536,11 +536,11 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file should lo
         <vp-icon name="YouTube"></vp-icon>
       </a>
       <a
-        href="https://discord.gg/mh9rQmwJ8H"
+        href="https://gab.com/codemonkeys"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="Discord"></vp-icon>
+        <vp-icon name="Gab"></vp-icon>
       </a>
       <a
         href="https://t.me/codemonkeystech"
@@ -557,11 +557,11 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file should lo
         <vp-icon name="Twitter"></vp-icon>
       </a>
       <a
-        href="https://www.linkedin.com/in/jason-chiarulli/"
+        href="https://codemonkeys.tech/rss.xml"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="LinkedIn"></vp-icon>
+        <vp-icon name="RSS"></vp-icon>
       </a>
       <a
         href="https://keybase.io/codemonkeystech"

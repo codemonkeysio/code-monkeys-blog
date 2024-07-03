@@ -131,10 +131,10 @@ After downloading the left and right arrow icons, we'll need to add them to the 
 
 ::: vue
 ├── `icons`
-│   ├── Discord.svg
+│   ├── Gab.svg
 │   ├── leftArrow.svg
 │   ├── GitHub.svg
-│   ├── LinkedIn.svg
+│   ├── RSS.svg
 │   ├── Keybase.svg
 │   ├── rightArrow.svg
 │   ├── Telegram.svg

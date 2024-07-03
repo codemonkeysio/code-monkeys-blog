@@ -31,7 +31,7 @@ canonicalUrl: contact/
 
 🐦 Send a [Tweet](https://twitter.com/codemonkeystech) - <code class="inline-code-block">@codemonkeystech</code>
 
-<span><vp-icon name="rss"></vp-icon></span>&nbsp;&nbsp;Subscribe to the [RSS feed](https://codemonkeys.tech/rss.xml)
+<span><vp-icon name="RSS"></vp-icon></span>&nbsp;&nbsp;Subscribe to the [RSS feed](https://codemonkeys.tech/rss.xml)
 
 </div>
 
@@ -54,6 +54,7 @@ B7E6 FB94 A589 876C CFC2 1E4B 1E07 E75C 19F1 AE0E
 <div class="pgp-public-key">
 
 :::details PGP Public Key
+
 <div class="copy-btn-wrapper">
     <button class="copy" type="button" v-clipboard:copy="publicKey" v-clipboard:success="onCopy" v-clipboard:error="onError">
       Copy
@@ -328,6 +329,7 @@ RgASIlKD81FGqPYHtfO6qxN3B5CN18dRy2obvzpE1z7U62mj8JK3/w==
 =pysx
 -----END PGP PUBLIC KEY BLOCK-----
 ```
+
 :::
 
 </div>

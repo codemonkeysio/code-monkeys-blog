@@ -27,7 +27,6 @@ redirectFrom: /posts/2021/08/11/reverse-string/
 
 <p><a href="https://leetcode.com/problems/reverse-string/" target="_blank" rel="noopener noreferrer">Reverse String <div class="emoji-wrap">Problem<span>&nbsp;💡</span></div></a></p>
 <p><a href="https://github.com/codemonkeysio/LeetCode" target="_blank" rel="noopener noreferrer">Get the code & notes on <div class="emoji-wrap">GitHub<span>&nbsp;💻</span></div></a></p>
-<p><a href="https://discord.gg/mh9rQmwJ8H" target="_blank" rel="noopener noreferrer">Ask Questions & Share Solutions in <div class="emoji-wrap">Discord<span>&nbsp;🤖</span></div></a></p>
 
 ## Problem Description
 

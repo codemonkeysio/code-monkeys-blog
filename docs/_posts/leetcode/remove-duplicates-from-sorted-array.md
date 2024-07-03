@@ -27,7 +27,6 @@ redirectFrom: /posts/2021/07/03/remove-duplicates-from-sorted-array/
 
 <p><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/" target="_blank" rel="noopener noreferrer">Remove Duplicates from Sorted Array <div class="emoji-wrap">Problem<span>&nbsp;💡</span></div></a></p>
 <p><a href="https://github.com/codemonkeysio/LeetCode" target="_blank" rel="noopener noreferrer">Get the code & notes on <div class="emoji-wrap">GitHub<span>&nbsp;💻</span></div></a></p>
-<p><a href="https://discord.gg/mh9rQmwJ8H" target="_blank" rel="noopener noreferrer">Ask Questions & Share Solutions in <div class="emoji-wrap">Discord<span>&nbsp;🤖</span></div></a></p>
 
 ## Problem Description
 

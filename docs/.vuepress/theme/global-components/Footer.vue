@@ -15,10 +15,10 @@
           ><vp-icon name="YouTube"></vp-icon
         ></a>
         <a
-          href="https://discord.gg/mh9rQmwJ8H"
+          href="https://keybase.io/codemonkeystech"
           target="_blank"
           rel="noopener noreferrer"
-          ><vp-icon name="Discord"></vp-icon
+          ><vp-icon name="Keybase"></vp-icon
         ></a>
         <a
           href="https://t.me/codemonkeystech"
@@ -29,28 +29,28 @@
       </div>
       <div class="wrap-icons">
         <a
-          href="https://keybase.io/codemonkeystech"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><vp-icon name="Keybase"></vp-icon
-        ></a>
-        <a
           href="https://twitter.com/codemonkeystech"
           target="_blank"
           rel="noopener noreferrer"
           ><vp-icon name="Twitter"></vp-icon
         ></a>
         <a
-          href="https://www.linkedin.com/in/jason-chiarulli/"
+          href="https://gab.com/codemonkeys"
           target="_blank"
           rel="noopener noreferrer"
-          ><vp-icon name="LinkedIn"></vp-icon
+          ><vp-icon name="Gab"></vp-icon
+        ></a>
+        <a
+          href="https://codemonkeys.tech/contact/#primary-pgp-key-%F0%9F%94%90"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><vp-icon name="PGP"></vp-icon
         ></a>
         <a
           href="https://codemonkeys.tech/rss.xml"
           target="_blank"
           rel="noopener noreferrer"
-          ><vp-icon name="rss"></vp-icon
+          ><vp-icon name="RSS"></vp-icon
         ></a>
       </div>
     </div>

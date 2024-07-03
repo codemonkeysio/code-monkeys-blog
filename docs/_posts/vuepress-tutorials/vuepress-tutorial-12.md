@@ -161,11 +161,11 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file looks lik
         <vp-icon name="YouTube"></vp-icon>
       </a>
       <a
-        href="https://discord.gg/mh9rQmwJ8H"
+        href="https://gab.com/codemonkeys"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="Discord"></vp-icon>
+        <vp-icon name="Gab"></vp-icon>
       </a>
       <a
         href="https://t.me/codemonkeystech"
@@ -182,11 +182,11 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file looks lik
         <vp-icon name="Twitter"></vp-icon>
       </a>
       <a
-        href="https://www.linkedin.com/in/jason-chiarulli/"
+        href="https://codemonkeys.tech/rss.xml"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="LinkedIn"></vp-icon>
+        <vp-icon name="RSS"></vp-icon>
       </a>
       <a
         href="https://keybase.io/codemonkeystech"
@@ -257,11 +257,11 @@ To fix this issue we'll add the following styling to the <code class="inline-cod
         <vp-icon name="YouTube"></vp-icon>
       </a>
       <a
-        href="https://discord.gg/mh9rQmwJ8H"
+        href="https://gab.com/codemonkeys"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="Discord"></vp-icon>
+        <vp-icon name="Gab"></vp-icon>
       </a>
       <a
         href="https://t.me/codemonkeystech"
@@ -278,11 +278,11 @@ To fix this issue we'll add the following styling to the <code class="inline-cod
         <vp-icon name="Twitter"></vp-icon>
       </a>
       <a
-        href="https://www.linkedin.com/in/jason-chiarulli/"
+        href="https://codemonkeys.tech/rss.xml"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="LinkedIn"></vp-icon>
+        <vp-icon name="RSS"></vp-icon>
       </a>
       <a
         href="https://keybase.io/codemonkeystech"
