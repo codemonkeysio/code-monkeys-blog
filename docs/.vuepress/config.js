@@ -26,7 +26,7 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey'
+        content: 'J the Code Monkey'
       }
     ],
     [
@@ -333,7 +333,7 @@ module.exports = {
   },
   themeConfig: {
     domain: 'https://codemonkeys.tech/',
-    defaultAuthor: 'Jay the Code Monkey',
+    defaultAuthor: 'J the Code Monkey',
     allPostsDescription:
       "Here's all of the posts we've made so far! Find a post that peeks your interest and start monkeying around! 📝🐒",
     topicsDescription:
