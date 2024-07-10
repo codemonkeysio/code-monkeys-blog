@@ -35,7 +35,7 @@ Subscribe for more monkey business on [SubscribeStar!](https://www.subscribestar
 
 Become a [Code Monkeys Sponsor!](https://github.com/sponsors/codemonkeysio)
 
-Sponsor Jay the Code Monkey on [GitHub!](https://github.com/sponsors/jchiarulli)
+Sponsor J the Code Monkey on [GitHub!](https://github.com/sponsors/jchiarulli)
 
 </div>
 

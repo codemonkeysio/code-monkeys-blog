@@ -117,7 +117,7 @@ Before specifying the homepage layout, the HTML for the homepage consists of the
     <title>Hello VuePress | Code Monkeys</title>
     ...
     <meta name="description" content="Learn to Code like a Monkey by joining the Code Monkeys Community! Check out the blog for posts and videos about coding! Start Monkeying Around Today! 🐵">
-    <meta name="author" content="Jay the Code Monkey">
+    <meta name="author" content="J the Code Monkey">
     ...
   </head>
   <body>
@@ -161,7 +161,7 @@ After specifying the homepage layout, the HTML for the homepage consists of the 
     <title>Code Monkeys</title>
     ...
     <meta name="description" content="Learn to Code like a Monkey by joining the Code Monkeys Community! Check out the blog for posts and videos about coding! Start Monkeying Around Today! 🐵">
-    <meta name="author" content="Jay the Code Monkey">
+    <meta name="author" content="J the Code Monkey">
     ...
   </head>
   <body>

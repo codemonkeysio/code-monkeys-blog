@@ -202,7 +202,7 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey',
+        content: 'J the Code Monkey',
       },
     ],
   ],
@@ -218,7 +218,7 @@ After adding the <code class="inline-code-block">author</code> and saving the fi
 ```html
 <head>
   ...
-  <meta name="author" content="Jay the Code Monkey">
+  <meta name="author" content="J the Code Monkey">
   ...
 </head>
 ```
@@ -245,7 +245,7 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey',
+        content: 'J the Code Monkey',
       },
     ],
   ],

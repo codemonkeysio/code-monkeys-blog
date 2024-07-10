@@ -366,7 +366,7 @@ You can add the CLI command to the <code class="inline-code-block">scripts</code
     "url": "https://github.com/codemonkeysio/code-monkeys-blog-tutorials.git"
   },
   "author": {
-    "name": "Jay the Code Monkey",
+    "name": "J the Code Monkey",
     "email": "c0dem0nkeys@pm.me",
     "url": "https://www.codemonkeys.tech/"
   },

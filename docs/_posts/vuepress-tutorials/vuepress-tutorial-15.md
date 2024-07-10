@@ -102,7 +102,7 @@ After installing the plugin, the <code class="inline-code-block">package.json</c
     "url": "https://github.com/codemonkeysio/code-monkeys-blog-tutorials.git"
   },
   "author": {
-    "name": "Jay the Code Monkey",
+    "name": "J the Code Monkey",
     "email": "c0dem0nkeys@pm.me",
     "url": "https://www.codemonkeys.tech/"
   },
@@ -156,7 +156,7 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey',
+        content: 'J the Code Monkey',
       },
     ],
   ],
@@ -369,7 +369,7 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey',
+        content: 'J the Code Monkey',
       },
     ],
   ],
@@ -438,7 +438,7 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey',
+        content: 'J the Code Monkey',
       },
     ],
   ],
@@ -511,7 +511,7 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey',
+        content: 'J the Code Monkey',
       },
     ],
   ],
@@ -605,7 +605,7 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey',
+        content: 'J the Code Monkey',
       },
     ],
   ],
@@ -721,7 +721,7 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey',
+        content: 'J the Code Monkey',
       },
     ],
   ],
@@ -833,7 +833,7 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey',
+        content: 'J the Code Monkey',
       },
     ],
   ],
@@ -912,7 +912,7 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey',
+        content: 'J the Code Monkey',
       },
     ],
   ],

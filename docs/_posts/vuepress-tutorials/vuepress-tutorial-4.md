@@ -81,7 +81,7 @@ Here's what the contents of the <code class="inline-code-block">package.json</co
   "description": "Learn VuePress and how to create the Code Monkeys Blog by following along with these tutorials!",
   "main": "index.js",
   "repository": "https://github.com/codemonkeysio/code-monkeys-blog-tutorials.git",
-  "author": "Jay the Code Monkey",
+  "author": "J the Code Monkey",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "docs:dev": "vuepress dev docs",
@@ -141,7 +141,7 @@ Here's what the contents of the <code class="inline-code-block">package.json</co
     "url": "https://github.com/codemonkeysio/code-monkeys-blog-tutorials.git"
   },
   "author": {
-    "name": "Jay the Code Monkey",
+    "name": "J the Code Monkey",
     "email": "c0dem0nkeys@pm.me",
     "url": "https://codemonkeys.tech/"
   },
