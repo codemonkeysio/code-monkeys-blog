@@ -21,13 +21,13 @@ canonicalUrl: contact/
 
 ## Socials 🐵
 
+🔑 Securely message with [Keybase](https://keybase.io/codemonkeystech) - <code class="inline-code-block">codemonkeystech</code>
+
 📨 Join our [Telegram](https://t.me/codemonkeystech) - <code class="inline-code-block">@codemonkeystech</code>
 
 🐸 Let's [Gab](https://gab.com/codemonkeys) - <code class="inline-code-block">@codemonkeys</code>
 
 💡 Speak your mind on [Minds](https://www.minds.com/codemonkeys/) - <code class="inline-code-block">@codemonkeys</code>
-
-🔑 Securely message with [Keybase](https://keybase.io/codemonkeystech) - <code class="inline-code-block">codemonkeystech</code>
 
 🐦 Send a [Tweet](https://twitter.com/codemonkeystech) - <code class="inline-code-block">@codemonkeystech</code>
 
