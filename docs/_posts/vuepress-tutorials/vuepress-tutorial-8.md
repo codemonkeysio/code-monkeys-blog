@@ -376,7 +376,7 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file looks lik
         <vp-icon name="GitHub"></vp-icon>
       </a>
       <a
-        href="https://www.youtube.com/channel/UCteut5f1PHW8vP29o66z-kg"
+        href="https://www.youtube.com/@codemonkeystech"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -529,7 +529,7 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file should lo
         <vp-icon name="GitHub"></vp-icon>
       </a>
       <a
-        href="https://www.youtube.com/channel/UCteut5f1PHW8vP29o66z-kg"
+        href="https://www.youtube.com/@codemonkeystech"
         target="_blank"
         rel="noopener noreferrer"
       >

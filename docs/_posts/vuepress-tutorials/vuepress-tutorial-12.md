@@ -154,7 +154,7 @@ Here's what the <code class="inline-code-block">Footer.vue</code> file looks lik
         <vp-icon name="GitHub"></vp-icon>
       </a>
       <a
-        href="https://www.youtube.com/channel/UCteut5f1PHW8vP29o66z-kg"
+        href="https://www.youtube.com/@codemonkeystech"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -250,7 +250,7 @@ To fix this issue we'll add the following styling to the <code class="inline-cod
         <vp-icon name="GitHub"></vp-icon>
       </a>
       <a
-        href="https://www.youtube.com/channel/UCteut5f1PHW8vP29o66z-kg"
+        href="https://www.youtube.com/@codemonkeystech"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -367,7 +367,7 @@ You can add the CLI command to the <code class="inline-code-block">scripts</code
   },
   "author": {
     "name": "J the Code Monkey",
-    "email": "c0dem0nkeys@pm.me",
+    "email": "support@codemonkeys.tech",
     "url": "https://www.codemonkeys.tech/"
   },
   "license": "GPL-3.0-or-later",

@@ -142,7 +142,7 @@ Here's what the contents of the <code class="inline-code-block">package.json</co
   },
   "author": {
     "name": "J the Code Monkey",
-    "email": "c0dem0nkeys@pm.me",
+    "email": "support@codemonkeys.tech",
     "url": "https://codemonkeys.tech/"
   },
   "license": "GPL-3.0-or-later",

@@ -12,7 +12,7 @@
 
 - More tutorials for creating the blog may be created, but I'm currently focused on other projects.
 
-- 🎥 Subscribe to the <a href="https://www.youtube.com/channel/UCteut5f1PHW8vP29o66z-kg">YouTube Channel</a>
+- 🎥 Subscribe to the <a href="https://www.youtube.com/@codemonkeystech">YouTube Channel</a>
 
 - 📨 Join our <a href="https://t.me/codemonkeystech">Telegram</a>
 

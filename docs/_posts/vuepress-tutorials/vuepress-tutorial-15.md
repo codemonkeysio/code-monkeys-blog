@@ -103,7 +103,7 @@ After installing the plugin, the <code class="inline-code-block">package.json</c
   },
   "author": {
     "name": "J the Code Monkey",
-    "email": "c0dem0nkeys@pm.me",
+    "email": "support@codemonkeys.tech",
     "url": "https://www.codemonkeys.tech/"
   },
   "license": "GPL-3.0-or-later",
