@@ -14,15 +14,15 @@
 
 - 🎥 Subscribe to the <a href="https://www.youtube.com/@codemonkeystech">YouTube Channel</a>
 
-- 📨 Join our <a href="https://t.me/codemonkeystech">Telegram</a>
-
 - 🔑 Securely message with <a href="https://keybase.io/codemonkeystech">Keybase</a>
 
-- 🐦 Follow Code Monkeys on <a href="https://twitter.com/codemonkeystech">Twitter</a>
+- 📨 Join our <a href="https://t.me/codemonkeystech">Telegram</a>
 
 - 🐸 Let's <a href="https://gab.com/codemonkeys">Gab</a>
 
 - 💡 Speak your mind on <a href="https://www.minds.com/codemonkeys/">Minds</a>
+
+- 🐦 Follow Code Monkeys on <a href="https://twitter.com/codemonkeystech">Twitter</a>
 
 - 📯 Subscribe to the <a href="https://codemonkeys.tech/rss.xml">RSS feed</a>
 
