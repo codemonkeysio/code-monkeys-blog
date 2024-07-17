@@ -31,6 +31,8 @@ canonicalUrl: contact/
 
 🐦 Send a [Tweet](https://twitter.com/codemonkeystech) - <code class="inline-code-block">@codemonkeystech</code>
 
+📧 Reach out via [Email](mailto:support@codemonkeys.tech)
+
 <span><vp-icon name="RSS"></vp-icon></span>&nbsp;&nbsp;Subscribe to the [RSS feed](https://codemonkeys.tech/rss.xml)
 
 </div>
