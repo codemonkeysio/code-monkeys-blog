@@ -29,16 +29,14 @@
       </div>
       <div class="wrap-icons">
         <a
-          href="https://twitter.com/codemonkeystech"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><vp-icon name="Twitter"></vp-icon
-        ></a>
-        <a
           href="https://gab.com/codemonkeys"
           target="_blank"
           rel="noopener noreferrer"
           ><vp-icon name="Gab"></vp-icon
+        ></a>
+        <a
+          href="mailto:support@codemonkeys.tech"
+          ><vp-icon name="Email"></vp-icon
         ></a>
         <a
           href="https://codemonkeys.tech/contact/#primary-pgp-key-%F0%9F%94%90"
