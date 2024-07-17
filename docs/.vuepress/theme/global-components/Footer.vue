@@ -9,7 +9,7 @@
           ><vp-icon name="GitHub"></vp-icon
         ></a>
         <a
-          href="https://www.youtube.com/channel/UCteut5f1PHW8vP29o66z-kg"
+          href="https://www.youtube.com/@codemonkeystech"
           target="_blank"
           rel="noopener noreferrer"
           ><vp-icon name="YouTube"></vp-icon
