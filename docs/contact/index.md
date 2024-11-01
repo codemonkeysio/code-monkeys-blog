@@ -35,6 +35,8 @@ canonicalUrl: contact/
 
 <span><vp-icon name="RSS"></vp-icon></span>&nbsp;&nbsp;Subscribe to the [RSS feed](https://codemonkeys.tech/rss.xml)
 
+🦩 J the Code Monkey's npub - <code class="inline-code-block">npub1zn559gr2vwyex2s2mt2s7x5r5ryjeyy0zwy2zx3ckp6ktwpe4p4spgt84e</code>
+
 </div>
 
 <div

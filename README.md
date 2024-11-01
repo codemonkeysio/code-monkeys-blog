@@ -26,4 +26,14 @@
 
 - 📯 Subscribe to the <a href="https://codemonkeys.tech/rss.xml">RSS feed</a>
 
-- 🔐 PGP Fingerprint: B7E6 FB94 A589 876C CFC2 1E4B 1E07 E75C 19F1 AE0E
+- 🦩 J the Code Monkey's npub:
+
+```bash
+npub1zn559gr2vwyex2s2mt2s7x5r5ryjeyy0zwy2zx3ckp6ktwpe4p4spgt84e
+```
+
+- 🔐 PGP Fingerprint:
+
+```bash
+B7E6 FB94 A589 876C CFC2 1E4B 1E07 E75C 19F1 AE0E
+```
