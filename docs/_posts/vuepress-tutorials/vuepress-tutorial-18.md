@@ -52,6 +52,7 @@ Here are some other useful online tools for image compression:
 
 - <span class="external-link-wrap">[TinyPNG](https://tinypng.com/)</span>
 - <span class="external-link-wrap">[Image Compressor](https://imagecompressor.com/)</span>
+- <span class="external-link-wrap">[Website Planet Image Compressor](https://www.websiteplanet.com/webtools/imagecompressor/)</span>
 
 ### Adding an Examples Directory
 
