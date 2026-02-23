@@ -137,7 +137,7 @@ Here you'll find a list of resources related to privacy presented in alphabetica
 
 [Techlore](https://techlore.tech/index) - A team dedicated to spreading privacy and security to the masses by producing projects, communities, and content to help individuals achieve personal privacy. A lot of the services and tools listed here were initially found through their website and content, so it's a great site to learn more about them as well as privacy in general
 
-[The Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide.html) - Open source and non-profit guide dedicated to providing an introduction to various online tracking techniques, online ID verification techniques, and detailed guidance to creating and maintaining anonymous online identities
+[The Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide) - Open source and non-profit guide dedicated to providing an introduction to various online tracking techniques, online ID verification techniques, and detailed guidance to creating and maintaining anonymous online identities
 
 [The New Oil](https://thenewoil.org/en/) - Aimed at people who are new to privacy and/or do not consider themselves “tech savvy”, and goes over the basics of various ideas, subjects, and concepts to help you feel educated and capable of making decisions that are right for you without going too in depth to the point that you feel overwhelmed
 
