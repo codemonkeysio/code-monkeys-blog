@@ -19,15 +19,7 @@ While I believe these links are to resources that are attempting to remove unrel
 
 ## Clients
 
-[Astral](https://astral.ninja/) - A Twitter-like client with a global feed
-
-[Blogstack](https://blogstack.io/) - Decentralized blog posts
-
 [Damus](https://github.com/damus-io/damus) - A Twitter-like client for iPhone, iPad, and MacOS
-
-[Hamstr](https://hamstr.to/home) - A Twitter-like web client built with Vue.js
-
-[Notebin](https://notebin.org/) - Decentralized notes
 
 </div>
 
