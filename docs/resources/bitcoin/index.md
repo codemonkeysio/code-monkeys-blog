@@ -21,8 +21,6 @@ Here you'll find a list of resources related to Bitcoin presented in alphabetica
 
 [Mempool.space](https://mempool.space/) - Open source self-hostable mempool explorer and blockchain explorer for Bitcoin that can be used with Tor to conceal your IP address
 
-[Other eXploration Tool (OXT)](https://oxt.me/) - Blockchain explorer, visualization tool, and analysis platform for the Bitcoin ledger. Be sure to check out the [FAQ](https://oxt.me/faq) page to see how they handle your personal information when using the site
-
 </div>
 
 <div class="resource-card">
@@ -69,8 +67,6 @@ Here you'll find a list of resources related to Bitcoin presented in alphabetica
 
 ## Education
 
-[6102bitcoin](https://6102bitcoin.com/) - Pseudonymous bitcoin user and educator with the goal of accelerating bitcoin understanding
-
 [Bitcoiner.Guide](https://bitcoiner.guide/) - A collection of resources from BitcoinQnA focused on providing Bitcoin education with an emphasis on how to use Bitcoin in a sovereign and private way
 
 [Bitcoin Only](https://bitcoin-only.com/) - A collection of high quality Bitcoin resources including meetups, books, wallets, hardware, podcasts, and more
@@ -87,13 +83,9 @@ Here you'll find a list of resources related to Bitcoin presented in alphabetica
 
 [BTC Sessions](https://www.btcsessions.ca/) - Bitcoin educator focused on helping people gain an understanding of Bitcoin by providing tutorials on wallets, hardware, security, exchanges, and more
 
-[Diverter](https://diverter.hostyourown.tools/) - Focused on Bitcoin, privacy, and censorship-resistance by learning how to use the related tools
-
 [Econoalchemist](https://www.econoalchemist.com/) - Blog focused on bringing you articles about interacting with Bitcoin in a self-custodial, censorship-resistant, and private way
 
 [k3tan](https://k3tan.com/) - Focused on providing educational content on how to transition to a Bitcoin standard by showing people how to hold their own keys, use their own node, and more
-
-[Keep it Simple](https://www.keepitsimplebitcoin.com/) - Focused on teaching people how to interact with Bitcoin
 
 [Odell](https://odell.xyz/) - A Bitcoin entrepreneur attempting to stay humble and stack sats with a focus on using Bitcoin and free and open source software as sovereignly and privately as possible
 
@@ -151,8 +143,6 @@ Here you'll find a list of resources related to Bitcoin presented in alphabetica
 
 [Bitcoin Park](https://www.meetup.com/bitcoinpark/) - Community supported campus in Nashville, Tennessee focused on grassroots Bitcoin adoption and a home for Bitcoiners to work, learn, collaborate, and build
 
-[Bitcoiner Events](https://www.bitcoinerevents.com/) - Curated list of all the best Bitcoin-only events, meetups, and conferences around the world
-
 [Bitcoin Meetup Groups](https://www.meetup.com/find/?source=EVENTS&keywords=bitcoin) - Find a local Bitcoin meetup group by searching for upcoming meetups near you. Remember to do your own research to avoid any sketchy meetups, and don't share any personal information that you don't want others to know
 
 </div>
@@ -192,8 +182,6 @@ Here you'll find a list of resources related to Bitcoin presented in alphabetica
 [KYCNOT.ME](https://kycnot.me/) - Open source privacy focused website with the goal of providing a list of Non KYC exchanges and ranking them based on how well you can use them in an anonymous way. The website may not always be up to date, so be sure to do your own research. Don't trust, verify!
 
 ### Exchanges
-
-[AgoraDesk](https://agoradesk.com/) - Closed source peer-to-peer (P2P) exchange with Tor support, accepts Bitcoin, Monero, and cash, allows you to swap coins, requires an account that doesn't need to use any personally identifiable information, uses a semi-custodial wallet, no JavaScript needed to use the service, the service has an API available, and Android and iOS apps are available
 
 [Bisq](https://bisq.network/) - Open source peer-to-peer (P2P) exchange that you run on your own hardware over Tor, accepts Bitcoin, Monero, and cash, allows you to swap coins, doesn't require an account, uses a non-custodial wallet, and no JavaScript needed to use the service
 
@@ -291,8 +279,6 @@ Here you'll find a list of resources related to Bitcoin presented in alphabetica
 
 [RTL](https://github.com/Ride-The-Lightning/RTL) - Open source full function, device agnostic, web user interface Lightning wallet and node management tool available on Lightning Network Daemon (LND), Core Lightning, and Eclair implementations
 
-[Zap](https://zaphq.io/) - Open source non-custodial Lightning wallet available for Android, iOS, Linux, macOS, and Windows that offers many features including connecting to your own Lightning node
-
 [Zeus](https://zeusln.app/) - Open source Android and iOS non-custodial Lightning wallet that offers many features including connecting to your own Lightning node
 
 ### On-Chain Only
@@ -302,16 +288,6 @@ Here you'll find a list of resources related to Bitcoin presented in alphabetica
 [Sparrow](https://sparrowwallet.com/) - Open source wallet for Linux, macOS, and Windows that supports numerous features including the ability to use all Hierarchical Deterministic (HD) wallets, strong encryption, detailed wallet history, coin control, connecting to your own Bitcoin full node, using your own blockchain explorer, and more
 
 [Specter](https://specter.solutions/desktop/) - Open source wallet for Linux, macOS, and Windows that supports numerous features including the ability to connect your own Bitcoin full node, support for numerous hardware wallets, multisig, coin control, and more
-
-</div>
-
-<div class="resource-card">
-
-## Statistics
-
-[Know Your Coin Privacy (KYCP)](https://kycp.org/#/) - Open source online tool for users to visualize the degree of privacy in a Bitcon transaction. Their zero log policy states KYCP is a static client for OXT, no backend or third-party service involved other than OXT, queries are directly sent to OXT over HTTPS, and there is no way to see or log your searches
-
-[Mempool Observer](https://mempool.observer/) - Interesting statistics about the Bitcoin mempool including current data, historical data, recent blocks, Segregated Witness (SegWit) data, a transaction monitor, and more
 
 </div>
 
