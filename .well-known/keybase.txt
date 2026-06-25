@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/codemonkeystech
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://codemonkeys.tech
+  * I am codemonkeystech (https://keybase.io/codemonkeystech) on keybase.
+  * I have a public key with fingerprint B7E6 FB94 A589 876C CFC2  1E4B 1E07 E75C 19F1 AE0E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101f45f3b18314b9168ac70f29f2f38db58a7ec070880ac6960716b31bc33d7179b0a",
+      "fingerprint": "b7e6fb94a589876ccfc21e4b1e07e75c19f1ae0e",
+      "host": "keybase.io",
+      "key_id": "1e07e75c19f1ae0e",
+      "kid": "0101f45f3b18314b9168ac70f29f2f38db58a7ec070880ac6960716b31bc33d7179b0a",
+      "uid": "029f675a227bfdd3462830dbcde10619",
+      "username": "codemonkeystech"
+    },
+    "service": {
+      "hostname": "codemonkeys.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1682369338,
+  "expire_in": 157680000,
+  "prev": "534f1b580c6468d479a691012b703fbf43c7fdce683e014e2ea24fa256d9a5ff",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owNCWmg2MUFZJlNZ1nn6iAAB0H///n/79/73f/9/1nv7////7v/v2///29/7f/+/
+/fu/b6/AAvOOLsxWAdT1MTamTyeknpomTI09J6h6RgmmgxDTaaR5JpsoxNNPTTQm
+jZJ6Gk0wCGTTGU9NI0aPU0PIQBnpCaPJMmaGTFPEyHqNqm8o9UOI0Gho0aGgAAGh
+oHqaGmhoA0AAABoNAaAaAAAAADRoABoBoAB6gAAAAA1T1E2p4U02qn4qbTU0yAAB
+o0GjQZNAAAyaAANABkZAADQAAAAAAAAAAAAAABqaTUmxTT0E9InqeCnk1GnqaHqD
+INAA0BoAAGg9T1AAG1NqD1BpoAB6gAAAAD1GmgyPUAABoAAcOz/J8NTn0WIXrfQP
+QlB5IaQMgAJ00aCjROIsoLSli34NAl/4ELWAkCpg6FYe+6AbwapJjjsSuI7G6poz
+9b0Ax0FSXYUKBNQkiCiceRBlHbAz1aWp6hKTBA4DFtcvlM8C76cmX0usKf06Gkee
+MI4E1sFBTnlkqgiZbNIlNoQiHIxHI5yMCIwJDM/6mdvRap1Ix5upJtfnk3ylzQEE
+glhCObvYuzzetkUcrJmmFRFTIHjHtQowwCBDDEzVAQOXZJcIJgCfhAlgEwoqIRkw
+hzMpCcEevukDKUDrdaHikJlxTDoeiiWzbr8QCfZCF7yZMw2+nOuPwMGc78izCejE
+I7DwaxV17rggNGfQpZBtS4YhA0aHFSDAg+IGwaNESHkoDgVMRYiQplCQytIbYaYh
+ifzXHrEnplHpQIiCy7czANDVNyz7sA0EgKojdLYxXNRA6N2i/3U+SHV9CxVmGVPn
+a2U+PIDApLssOeAXKZDo9D/P6CBBVVC+VsQi1Ln3sEmnESrqLFomCnLKDC6OUhHn
+Eaxr1DO0JZew9SYldj25aeE8m0PX4XkGBC8B3MBZU+5fZAwAVOBM0L5d2wvyvUw4
+O3O9BH73EqkRweQEfDAP/mBvprKcUHRUyZbOYBmUSFZ+kQFmcYllhDfHurqgUFSO
+4SndpG1eFdDd+kxfGJOczKBBCHigZDJU5wkiqMHEEM1wcLCAIDYI7bF/NN101Fuf
+WPXE2evxqZkFA+KI5DgXiE7enmXjxrEYzmOSWMuFTzvXhPaDeuQ5YD/HTXa2FBkD
+vnDtFDkxIk3WxqQqyzVLaJC9vKJkmihEQCUtQIOUclPoOy9TQaSO2Jg0WmGMAkFR
+eZRJYR+S6RlzWPDr1pTpBYh7J6mNKq+s7t5mdCQvszVSDbADAuykvN1jF5ujVGhQ
+ttc6HQ9W+AjRZSAyiCe0khWxwHGpz4dr/Ot+q/p1DhUnck+4+s1f9aiH3+q8QVuy
+rHPt4xL02gKzL4I7nj9l2uLxZGJ1rhQ6CZN9o9o22ojKmEHAc7402+2mb8hlSIVc
+BVdWuaahw6ZfpWYR+gMX8iSW2MnIdYwUN0pOn89hlQQx2/C8vjX9smNXjcetiQLe
+YMEaGKSN5kpj7CpSwvdY2/fB272OXkKwCr5pEinK3rpAZH5lk9oiKHGIH46cW3Vj
++2UG9bgUu+Awz2LjkGt4lZ/jETsdUtZjNEdIwejfsHcQ8I+7WWMXJJR/Y5qJQ8X7
+hMRaQyWaJrfnwotJpr7k0bqclJ6xmX/F3JFOFCQ1nn6iAA==
+=Rrdl
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/codemonkeystech
+
+==================================================================
